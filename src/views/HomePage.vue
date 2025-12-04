@@ -14,6 +14,12 @@ const lessons = [
 const goToLesson = (path) => {
   router.push(path)
 }
+const goLessonReader = ()=>{
+  router.push('/lessonReader')
+}
+const goWordList = ()=>{
+  router.push('/wordList')
+}
 </script>
 
 <template>
@@ -34,18 +40,21 @@ const goToLesson = (path) => {
         
         <div class="lessons-section">
           <h3>课程列表</h3>
-          <ul class="lessons-list">
-            <li 
+          <div class="lessons-list">
+            <div 
               v-for="lesson in lessons" 
               :key="lesson.id"
               class="lesson-item"
-              @click="goToLesson(lesson.path)"
+              
             >
-              <span class="lesson-number">第 {{ lesson.id }} 课</span>
+              <span class="lesson-number" @click="goToLesson(lesson.path)">第 {{ lesson.id }} 课</span>
               <span class="lesson-title">{{ lesson.title }}</span>
               <span class="lesson-arrow">→</span>
-            </li>
-          </ul>
+              <button @click="goLessonReader">看课文</button>
+              <button @click="goWordList">背单词</button>
+            </div>
+          
+        </div>
         </div>
       </div>
 
