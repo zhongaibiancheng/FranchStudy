@@ -16,6 +16,17 @@
       </div>
 
       <div class="right">
+        <!-- ✅ 单卡中文显示/隐藏 -->
+        <button
+          class="mini-btn"
+          @click.stop="toggleLocalChinese"
+          :disabled="effectiveShowGap"
+          :title="effectiveShowGap ? '填空模式下中文自动显示' : (localShowChinese ? '隐藏本句中文' : '显示本句中文')"
+        >
+          <span v-if="effectiveShowGap">中文自动显示</span>
+          <span v-else>{{ localShowChinese ? '隐藏中文' : '显示中文' }}</span>
+        </button>
+
         <!-- ✅ 单句切换原文/挖空 -->
         <button
           class="mini-btn"
@@ -37,40 +48,24 @@
       </div>
     </div>
 
-    <!-- ✅ 中文（受全局 showChinese 控制） -->
-    <div v-if="showChinese" class="chinese">
+    <!-- ✅ 中文（单卡开关控制） -->
+    <div v-if="chineseVisible" class="chinese">
       <div class="label">中文</div>
       <div class="text">
         {{ item.chinese || '（暂无中文）' }}
       </div>
     </div>
 
-    <!-- 可选：讲解 -->
-    <details class="detail">
+    <!-- ✅ 查看讲解：只显示语法 -->
+    <details
+      v-if="item.explain?.grammar"
+      class="detail"
+    >
       <summary>查看讲解</summary>
       <div class="explain">
-        <div v-if="item.explain?.meaning" class="block">
-          <div class="label">句意</div>
-          <div class="text">{{ item.explain.meaning }}</div>
-        </div>
-
-        <div v-if="item.explain?.vocab?.length" class="block">
-          <div class="label">词汇提示</div>
-          <ul class="vocab-list">
-            <li v-for="(v, i) in item.explain.vocab" :key="i">
-              <strong>{{ v.item }}</strong>：{{ v.note }}
-            </li>
-          </ul>
-        </div>
-
-        <div v-if="item.explain?.grammar" class="block">
+        <div class="block">
           <div class="label">语法</div>
           <div class="text">{{ item.explain.grammar }}</div>
-        </div>
-
-        <div v-if="item.explain?.usage" class="block">
-          <div class="label">使用场景</div>
-          <div class="text">{{ item.explain.usage }}</div>
         </div>
       </div>
     </details>
@@ -78,15 +73,34 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 
 const props = defineProps({
   item: { type: Object, required: true },
+
+  // ✅ 全局中文状态（由 LessonReader 传入）
   showChinese: { type: Boolean, default: false },
-  // ✅ 全局挖空模式开关
+
+  // ✅ 全局挖空模式（由 LessonReader 传入）
   forceGap: { type: Boolean, default: false }
 })
 
+// ✅ 单卡中文开关（默认跟随全局）
+const localShowChinese = ref(props.showChinese)
+
+// ✅ 当全局按钮变化时，单卡状态同步
+watch(
+  () => props.showChinese,
+  (val) => {
+    localShowChinese.value = val
+  }
+)
+
+const toggleLocalChinese = () => {
+  localShowChinese.value = !localShowChinese.value
+}
+
+// ✅ 单句挖空开关
 const localShowGap = ref(false)
 
 const toggleGap = () => {
@@ -94,7 +108,13 @@ const toggleGap = () => {
   localShowGap.value = !localShowGap.value
 }
 
-// ✅ 有全局挖空时，全句强制挖空
+// ✅ 中文显示规则：
+// - 只要是挖空模式（全局或单句），中文自动显示
+// - 否则才遵循本句 localShowChinese
+const chineseVisible = computed(() => {
+  return effectiveShowGap.value ? true : localShowChinese.value
+})
+// ✅ 有全局挖空时强制挖空
 const effectiveShowGap = computed(() => {
   return props.forceGap || localShowGap.value
 })
@@ -135,7 +155,11 @@ const displayedFrench = computed(() => {
   gap: 6px;
   flex-wrap: wrap;
 }
-.right{ display: flex; gap: 6px; }
+.right{
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
 
 .id{
   font-weight: 700;
@@ -196,19 +220,14 @@ const displayedFrench = computed(() => {
   font-size: 12px;
   color: #666;
 }
+
 .explain{
   margin-top: 8px;
-  display: grid;
-  gap: 8px;
 }
 .block{
   background: #fafafa;
   border: 1px solid #eee;
   padding: 8px 10px;
   border-radius: 8px;
-}
-.vocab-list{
-  margin: 0;
-  padding-left: 16px;
 }
 </style>
