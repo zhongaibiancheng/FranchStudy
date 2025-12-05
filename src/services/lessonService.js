@@ -21,39 +21,4 @@ function getLessonDataByLesson(lesson) {
   return data
 }
 
-// export class LessonService {
-//   // 获取某一课所有单词（打平成数组）
-//   static getAllWords(lesson) {
-//     const words = []
-//     const wordData = getWordDataByLesson(lesson)
-
-//     Object.keys(wordData).forEach(level => {
-//       wordData[level].forEach(word => {
-//         words.push({
-//           ...word,
-//           level, // 确保 level 字段有
-//           flipped: false,
-//           id: `${word.lemma}-${level}-${Date.now()}-${Math.random()}`
-//         })
-//       })
-//     })
-//     return words
-//   }
-
-//   // 获取某一课某个 level 的单词
-//   static getWordsByLevel(lesson, level) {
-//     const wordData = getWordDataByLesson(lesson)
-//     if (level === 'all') {
-//       return this.getAllWords(lesson)
-//     }
-//     return wordData[level] || []
-//   }
-
-//   // 获取某一课有哪些 level（P0 / P1 / P2…）
-//   static getLevels(lesson) {
-//     const wordData = getWordDataByLesson(lesson)
-//     return Object.keys(wordData)
-//   }
-// }
-
 export default getLessonDataByLesson
