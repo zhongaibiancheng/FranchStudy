@@ -18,7 +18,12 @@ const goLessonReader = ()=>{
   router.push('/lessonReader')
 }
 const goWordList = ()=>{
-  router.push('/wordList')
+  router.push({
+    path:'/wordList',
+    query: {
+        lesson: 1
+      }
+  })
 }
 </script>
 
