@@ -1,0 +1,252 @@
+{
+  "title": "Rester ou partir ?",
+  "text": [
+    {
+      "id": "D01",
+      "source": "dialogue",
+      "french_full": "Vendredi soir, à la table, M. et Mme Dupré discutent avec leurs trois enfants, Paul, Lina et Jeanne.",
+      "french_gap": "Vendredi soir, à la table, M. et Mme Dupré _________________________ leurs trois enfants, Paul, Lina et Jeanne.",
+      "chinese": "周五晚上，Dupré先生和妻子在饭桌上和他们的三个孩子，Paul, Lina和Jeanne讨论。",
+      "answers": ["discutent avec"],
+      "tags": ["词汇", "现在时", "家庭场景", "对话开场"],
+      "level": "B"
+    },
+    {
+      "id": "D02",
+      "source": "dialogue",
+      "french_full": "Lina : Dis, papa, on sort ce soir ?",
+      "french_gap": "Lina : _____________, papa, _____________ ce soir ?",
+      "chinese": "Lina : 哎，爸爸，我们今晚出去吗？",
+      "answers": ["Dis", "on sort"],
+      "tags": ["词汇", "固定表达", "现在时"],
+      "level": "B"
+    },
+    {
+      "id": "D03",
+      "source": "dialogue",
+      "french_full": "Le père : Ce soir, je vais regarder le match de foot à la télé : c’est la finale de la Coupe du Monde 2006 ! Vous savez, la Coupe du Monde, ce n’est pas tous les jours !",
+      "french_gap": "Le père : Ce soir, je vais regarder ___________________ _____________ : c'est __________________________ 2006 ! Vous savez, la Coupe du Monde, ce n'est pas ____________________________ !",
+      "chinese": "爸爸：今晚我要看足球比赛，2006年的世界杯决赛！你们知道，世界杯不是每天都有的！",
+      "answers": [
+        "le match de foot",
+        "à la télé",
+        "la finale de la Coupe du Monde",
+        "tous les jours"
+      ],
+      "tags": ["词汇", "足球主题", "tout固定表达"],
+      "level": "A"
+    },
+    {
+      "id": "D04",
+      "source": "dialogue",
+      "french_full": "La mère : Quel sportif ! Tu aimes tout : le football, le rugby, le volley-ball, le tennis... Tout ! mais... à la télévision et dans un bon fauteuil... Sportif en chambre, quoi !",
+      "french_gap": "La mère : __________________________! Tu aimes _____________ : le football, le rugby, le volley-ball, le tennis… Tout ! mais. . . à la télévision et __________________________. . . _______________________________________, _____________ !",
+      "chinese": "妈妈：多有运动精神啊！你喜欢所有的运动：足球，橄榄球，排球，网球...所有！但是...是坐在扶手椅中看电视...说来说去也就是个只说不练的运动员！",
+      "answers": [
+        "Quel sportif",
+        "tout",
+        "dans un bon fauteuil",
+        "Sportif en chambre",
+        "quoi"
+      ],
+      "tags": ["tout用法", "固定表达", "幽默语气"],
+      "level": "B"
+    },
+    {
+      "id": "D05",
+      "source": "dialogue",
+      "french_full": "Le père : Arrête, Jeanne ! Chérie, tu exagères un peu. Mais tu oublies le ski. Je fais du ski, moi !",
+      "french_gap": "Le père : _____________, Jeanne ! Chérie, tu __________________________. Mais tu _____________ le ski. Je fais du ski, moi !",
+      "chinese": "爸爸：停，Jeanne！亲爱的，你有点夸张了。但是你忘了滑雪。我还滑雪！",
+      "answers": ["Arrête", "exagères un peu", "oublies"],
+      "tags": ["词汇", "现在时"],
+      "level": "B"
+    },
+    {
+      "id": "D06",
+      "source": "dialogue",
+      "french_full": "La mère : Oui, c’est vrai. Tu en fais beaucoup : huit jours par an !",
+      "french_gap": "La mère : Oui, c'est vrai. Tu __________________________: huit jours par an!",
+      "chinese": "妈妈：是的，这是真的。你雪滑得很多：每年做8天！",
+      "answers": ["en fais beaucoup"],
+      "tags": ["词汇", "固定表达"],
+      "level": "B"
+    },
+    {
+      "id": "D07",
+      "source": "dialogue",
+      "french_full": "Paul : Qu’est-ce que nous ferons pendant les vacances de Noël ?",
+      "french_gap": "Paul : Qu'est-ce que nous ferons _______________________________________ ?",
+      "chinese": "Paul : 我们在圣诞节做什么？",
+      "answers": ["pendant les vacances de Noël"],
+      "tags": ["词汇", "时间表达", "假期场景"],
+      "level": "B"
+    },
+    {
+      "id": "D08",
+      "source": "dialogue",
+      "french_full": "Le père : Heu... Je ne sais pas, ta mère et moi, nous irons peut-être faire du ski à Grenoble, comme l’année dernière.",
+      "french_gap": "Le père : Heu… Je ne sais pas, ta mère et moi, _________________________________________________________________, _______________________________________.",
+      "chinese": "爸爸：呃...我不知道，你们妈妈和我，我们可能回去格勒诺布尔滑雪，就像去年那样。",
+      "answers": [
+        "nous irons peut-être faire du ski à Grenoble",
+        "comme l’année dernière"
+      ],
+      "tags": ["将来时", "假期场景", "滑雪"],
+      "level": "A"
+    },
+    {
+      "id": "D09",
+      "source": "dialogue",
+      "french_full": "Le père : Oh vous ! Vous êtes encore un peu jeunes... non ? Toi, Paul, tu ne préfères pas passer les fêtes chez tes grands-parents ?",
+      "french_gap": "Le père : Oh vous ! Vous êtes __________________________. . . non ? Toi, Paul, tu _________________________________________________________________ ?",
+      "chinese": "爸爸：啊，你们！你们还小...不是吗？Paul, 你不是更喜欢在祖父母家过节吗？",
+      "answers": [
+        "encore un peu jeunes",
+        "ne préfères pas passer les fêtes chez tes grands-parents"
+      ],
+      "tags": ["词汇", "固定表达"],
+      "level": "B"
+    },
+    {
+      "id": "D10",
+      "source": "dialogue",
+      "french_full": "Paul : Non, pas cette année ! Si vous faites du ski, j’en ferai aussi. Je suis assez grand maintenant !",
+      "french_gap": "Paul : Non, pas cette année ! Si __________________________, __________________________ aussi. Je suis __________________________ maintenant !",
+      "chinese": "Paul : 不，今年不想！如果你们去滑雪，我也要去。我现在年纪已经够大了！",
+      "answers": [
+        "vous faites du ski",
+        "j’en ferai",
+        "assez grand"
+      ],
+      "tags": ["si句型", "将来时"],
+      "level": "A"
+    },
+    {
+      "id": "D11",
+      "source": "dialogue",
+      "french_full": "Lina : Et ce soir, papa ? On sort ou on reste ? De toute façon, le foot à la télé, ça ne manque pas !",
+      "french_gap": "Lina : Et ce soir, papa ? __________________________________? _____________________, le foot à la télé, _______________________________________!",
+      "chinese": "Lina : 今晚呢，爸爸？我们出门还是呆在家里？不管怎样，足球比赛，什么时间都有！",
+      "answers": [
+        "On sort ou on reste",
+        "De toute façon",
+        "ça ne manque pas"
+      ],
+      "tags": ["固定表达", "tout固定表达"],
+      "level": "B"
+    },
+    {
+      "id": "D12",
+      "source": "dialogue",
+      "french_full": "La mère : Bon, d’accord. Mais qu’est-ce qu’on fera ? Au cinéma, alors ?",
+      "french_gap": "La mère : Bon, d'accord. Mais __________________________ ? _______________________, alors ?",
+      "chinese": "妈妈：好吧，我同意。但是我们做什么？看电影？",
+      "answers": [
+        "qu’est-ce qu’on fera",
+        "Au cinéma"
+      ],
+      "tags": ["将来时", "疑问句"],
+      "level": "A"
+    },
+    {
+      "id": "D13",
+      "source": "dialogue",
+      "french_full": "Le père : O.K., on y va tous ensemble. T’es contente cette fois-ci, Lina ?",
+      "french_gap": "Le père : O. K. , _____________________________. T'es contente cette fois-ci, Lina ?",
+      "chinese": "爸爸：好，我们一起去看电影。这回你高兴了吧，Lina ?",
+      "answers": ["on y va tous ensemble"],
+      "tags": ["固定表达", "tout用法"],
+      "level": "B"
+    },
+    {
+      "id": "D14",
+      "source": "dialogue",
+      "french_full": "Jeanne : Oui, elle est toute contente. Mais papa, y a encore mieux ! Et demain, c’est samedi, j’espère qu’on ne restera plus chez nous.",
+      "french_gap": "Jeanne : Oui, elle est__________________________. Mais papa, y a encore moi ! Et demain, c'est samedi, _______________________________________.",
+      "chinese": "Jeanne : 恩，她很高兴。但是爸爸，还有我呢！明天是周六，我希望我们别再老呆在家里了。",
+      "answers": [
+        "toute contente",
+        "j’espère qu’on ne restera plus chez nous"
+      ],
+      "tags": ["tout用法", "将来时"],
+      "level": "A"
+    },
+    {
+      "id": "D15",
+      "source": "dialogue",
+      "french_full": "La mère : Non, chérie. Demain, nous irons à la campagne dans notre maison tous les cinq.",
+      "french_gap": "La mère : Non, chérie. Demain, nous ______________________________________________________________________________.",
+      "chinese": "妈妈：不，亲爱的。明天我们五个都要去乡下的房子呆呆。",
+      "answers": ["irons à la campagne dans notre maison tous les cinq"],
+      "tags": ["将来时", "tout用法", "假期场景"],
+      "level": "A"
+    },
+    {
+      "id": "D16",
+      "source": "dialogue",
+      "french_full": "Le père : Oui, nous partirons de bonne heure, comme ça, avant midi, nous aurons le temps de faire une petite promenade à pied.",
+      "french_gap": "Le père : Oui, nous ____________________________, _____________, avant midi, nous ______________________________________________________________________________.",
+      "chinese": "爸爸：是的，我们很早就出发，这样一来，中午之前，我们就有时间去散步了。",
+      "answers": [
+        "partirons",
+        "de bonne heure",
+        "aurons le temps de faire une petite promenade à pied"
+      ],
+      "tags": ["将来时", "固定表达"],
+      "level": "A"
+    },
+    {
+      "id": "D17",
+      "source": "dialogue",
+      "french_full": "Paul : Et nous mangerons au restaurant à côté ?",
+      "french_gap": "Paul : Et nous ____________________________ ?",
+      "chinese": "Paul : 我们在隔壁的餐馆吃饭？",
+      "answers": ["mangerons au restaurant à côté"],
+      "tags": ["将来时", "词汇"],
+      "level": "A"
+    },
+    {
+      "id": "D18",
+      "source": "dialogue",
+      "french_full": "Le père : Non, je ne pense pas. Ta mère va préparer des sandwiches, et nous pique-niquerons sur l’herbe de notre jardin ; il fera beau, ce sera plus agréable.",
+      "french_gap": "Le père : Non, je ne pense pas. Ta mère va _____________ des sandwiches, et nous _____________________________________________; il fera beau, ce ____________________________.",
+      "chinese": "爸爸：不，我不想。你妈妈会准备一些三明治，我们在公园的草地上野餐，天气好的话，真是太棒了。",
+      "answers": [
+        "préparer",
+        "pique-niquerons sur l’herbe de notre jardin",
+        "sera plus agréable"
+      ],
+      "tags": ["将来时", "词汇"],
+      "level": "A"
+    },
+    {
+      "id": "D19",
+      "source": "dialogue",
+      "french_full": "La mère : Et quand je serai toute seule, je reprendrai mon livre. Heureusement pour moi, il y a la lecture... Et vite, partons tout de suite ! Sinon, on va rater la séance de 22 heures.",
+      "french_gap": "La mère : Et quand je ____________________________, je _____________ mon livre. _______________________________________, il y a la lecture… Et _____________, ___________________________________ ! _____________, on va _______________________ 22 heures.",
+      "chinese": "妈妈：当我独自一人的时候，我会重拾书本。对我来说，幸运的是还能阅读...快点，现在出发！不然的话，我们就要错过22点那场了。",
+      "answers": [
+        "serai toute seule",
+        "reprendrai",
+        "Heureusement pour moi",
+        "vite",
+        "partons tout de suite",
+        "Sinon",
+        "rater la séance de"
+      ],
+      "tags": ["将来时", "tout固定表达", "固定表达"],
+      "level": "B"
+    },
+    {
+      "id": "D20",
+      "source": "dialogue",
+      "french_full": "Les enfants : On y va ! Youpi !",
+      "french_gap": "Les enfants : ____________________________! Youpi !",
+      "chinese": "孩子们：我们去吧！噢！",
+      "answers": ["On y va"],
+      "tags": ["固定表达"],
+      "level": "B"
+    }
+  ]
+}
