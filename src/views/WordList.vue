@@ -198,11 +198,14 @@ export default {
     const exFr = escapeHtml(w.example_fr || '（暂无法语例句）')
     const grammar = escapeHtml(w.grammar_note_zh || '（语法解释可选记忆）')
 
+    const indexNo = idx + 1   // ✅ 序号
+
     return `
       <div class="card-row">
         <!-- 左半边：提示面（先看这边） -->
         <div class="card-half card-left">
           <div class="card-header">
+            <span class="word-index">${indexNo}.</span>
             <span class="lemma">${lemma}</span>
             <span class="pos">${pos}</span>
             <span class="level-badge level-${level.toLowerCase()}">${level}</span>
