@@ -49,6 +49,17 @@
           </button>
         </div>
 
+        <!-- ✅ 打印乱序开关 -->
+        <label class="print-toggle">
+          <input type="checkbox" v-model="printShuffle" />
+          <span>打印乱序</span>
+        </label>
+
+        <!-- ✅ 打印填空练习 -->
+        <button class="action-btn print" @click="printGapExercise">
+          🖨️ 打印填空练习
+        </button>
+
         <!-- ✅ 一键重置 -->
         <button class="action-btn ghost" @click="resetAll">
           重置视图
@@ -67,6 +78,7 @@
       />
     </div>
 
+    <!-- ✅ 空提示 -->
     <div v-if="!filteredSentences.length" class="empty">
       当前筛选条件下没有句子
     </div>
@@ -81,7 +93,6 @@ import getLessonDataByLesson from '@/services/lessonService'
 
 const route = useRoute()
 
-
 const lessonNo = computed(() => Number(route.query.lesson || 1))
 
 const lessonData = computed(() => {
@@ -91,6 +102,9 @@ const lessonData = computed(() => {
 const showChinese = ref(true)
 const globalGapMode = ref(false)
 const filterSource = ref('all') // all | dialogue | texte
+
+// ✅ 新增：打印顺序控制
+const printShuffle = ref(false)
 
 const filteredSentences = computed(() => {
   const list = lessonData.value?.text || []
@@ -110,6 +124,219 @@ const resetAll = () => {
   showChinese.value = true
   globalGapMode.value = false
   filterSource.value = 'all'
+  printShuffle.value = false
+}
+
+/** ✅ 小工具：数组乱序（不改原数组） */
+const shuffleArray = (arr) => {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+/** ✅ 打印填空练习（把 french_gap + 中文写到 HTML，再打印） */
+const printGapExercise = () => {
+  const base = filteredSentences.value || []
+  if (!base.length) {
+    alert('当前筛选条件下没有可打印的句子。')
+    return
+  }
+
+  const list = printShuffle.value ? shuffleArray(base) : base
+
+  // 做一份只用于打印的“填空练习数据”
+  const printable = list.map((x, idx) => ({
+    index: idx + 1,
+    source: x.source,
+    french_gap: x.french_gap || x.french_full || '',
+    chinese: x.chinese || ''
+  }))
+
+  const title = lessonData.value?.title || `Leçon ${lessonNo.value}`
+  const dateStr = new Date().toLocaleDateString()
+
+  const html = buildGapPrintHtml({
+    title,
+    dateStr,
+    filterSource: filterSource.value,
+    isShuffled: printShuffle.value,
+    items: printable
+  })
+
+  // ✅ 新窗口打印（更干净、不污染当前页面）
+  const w = window.open('', '_blank')
+  if (!w) {
+    alert('浏览器拦截了弹窗。请允许弹窗后重试打印。')
+    return
+  }
+
+  w.document.open()
+  w.document.write(html)
+  w.document.close()
+}
+
+/** ✅ 生成打印 HTML（A4，含序号、中文提示） */
+const buildGapPrintHtml = ({ title, dateStr, filterSource, isShuffled, items }) => {
+  const sourceLabel =
+    filterSource === 'all' ? '全部' :
+    filterSource === 'dialogue' ? 'Dialogue' : 'Texte'
+
+  const headerNote = `
+    <div class="meta">
+      <span>来源：${sourceLabel}</span>
+      <span>顺序：${isShuffled ? '乱序' : '按课文顺序'}</span>
+      <span>日期：${dateStr}</span>
+      <span>数量：${items.length} 句</span>
+    </div>
+  `
+
+  const body = items.map(it => `
+    <div class="item">
+      <div class="idx">${it.index}</div>
+      <div class="content">
+        <div class="fr">${escapeHtml(it.french_gap)}</div>
+        <div class="zh">${escapeHtml(it.chinese)}</div>
+      </div>
+    </div>
+  `).join('')
+
+  return `
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>${escapeHtml(title)} - 填空练习</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 14mm 12mm 16mm 12mm;
+    }
+
+    body {
+      font-family: "Microsoft YaHei", Arial, sans-serif;
+      color: #111;
+      font-size: 12.5px;
+      line-height: 1.45;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin: 0 0 6px 0;
+      text-align: center;
+      letter-spacing: .5px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      font-size: 11px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .hint {
+      text-align: center;
+      font-size: 11px;
+      color: #666;
+      margin-bottom: 12px;
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .item {
+      display: flex;
+      gap: 10px;
+      border: 1px solid #e6e6e6;
+      border-radius: 10px;
+      padding: 10px 12px;
+      page-break-inside: avoid;
+    }
+
+    .idx {
+      width: 26px;
+      height: 26px;
+      border-radius: 999px;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 12px;
+      color: #333;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .fr {
+      font-size: 13.5px;
+      font-weight: 500;
+      margin-bottom: 4px;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .zh {
+      font-size: 12px;
+      color: #666;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    /* ✅ 简单页码（多数浏览器支持） */
+    .page-number {
+      position: fixed;
+      bottom: 6mm;
+      right: 10mm;
+      font-size: 10px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>${escapeHtml(title)} · 填空练习</h1>
+  ${headerNote}
+  <div class="hint">
+    说明：请根据中文提示填写法语空格。建议先不翻课本，再对照原文检查。
+  </div>
+
+  <div class="list">
+    ${body}
+  </div>
+
+  <div class="page-number">
+    （如需页码可在浏览器打印设置中开启“页眉页脚”）
+  </div>
+
+  <script>
+    window.onload = function () {
+      window.print();
+    }
+  <\/script>
+</body>
+</html>`
+}
+
+/** ✅ 打印 HTML 安全转义 */
+const escapeHtml = (str) => {
+  return String(str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
 }
 </script>
 
@@ -178,6 +405,16 @@ const resetAll = () => {
   background: #fff;
 }
 
+/* ✅ 打印按钮稍微突出一点 */
+.action-btn.print{
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+.action-btn.print:hover{
+  background: #222;
+}
+
 .segmented{
   display: inline-flex;
   border: 1px solid #ddd;
@@ -198,6 +435,23 @@ const resetAll = () => {
   background: #f3f6ff;
   color: #1b4d8f;
   font-weight: 600;
+}
+
+/* ✅ 打印乱序开关 */
+.print-toggle{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border: 1px dashed #ddd;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #444;
+  background: #fafafa;
+}
+.print-toggle input{
+  transform: translateY(1px);
+  cursor: pointer;
 }
 
 .cards{
