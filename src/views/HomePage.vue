@@ -15,7 +15,12 @@ const goToLesson = (path) => {
   router.push(path)
 }
 const goLessonReader = ()=>{
-  router.push('/lessonReader')
+  router.push({
+    path:'/lessonReader',
+    query: {
+        lesson: 1
+      }
+  })
 }
 const goWordList = ()=>{
   router.push({
@@ -50,13 +55,15 @@ const goWordList = ()=>{
               v-for="lesson in lessons" 
               :key="lesson.id"
               class="lesson-item"
-              
             >
               <span class="lesson-number" @click="goToLesson(lesson.path)">第 {{ lesson.id }} 课</span>
               <span class="lesson-title">{{ lesson.title }}</span>
               <span class="lesson-arrow">→</span>
-              <button @click="goLessonReader">看课文</button>
-              <button @click="goWordList">背单词</button>
+              <div>
+                <button @click="goLessonReader">看课文</button>
+                <button @click="goWordList">背单词</button>
+              </div>
+
             </div>
           
         </div>
@@ -87,7 +94,7 @@ const goWordList = ()=>{
 
 <style scoped>
 .home-page {
-  max-width: 800px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
   min-height: 100vh;

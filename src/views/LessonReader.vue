@@ -168,14 +168,22 @@
 </template>
 
 <script setup>
+import {onMounted} from 'vue'
+import { useRouter,useRoute} from 'vue-router'
 import { ref } from "vue";
-import lesson from "@/data/lecon1_rester_ou_partir.json";
+
+import getLessonDataByLesson from '@/services/lessonService'
 
 const selected = ref(null);
 const aiData = ref(null);
 const loading = ref(false);
 const error = ref("");
 const lastAnsweredId = ref(null);
+
+const router = useRouter()
+const route = useRoute()
+const lesson_id = ref(1)
+const lesson = ref({})
 
 // 后端地址按你的实际情况修改
 const API_BASE = "http://localhost:5000";
@@ -227,6 +235,24 @@ const askAI = async (item) => {
     loading.value = false;
   }
 };
+  // 初始化数据
+  const initializeData = async () => {
+    try {
+      loading.value = true
+      lesson_id.value = route.query.lesson
+
+      lesson.value = getLessonDataByLesson(lesson_id.value)
+    } catch (error) {
+      console.error('加载单词数据失败:', error)
+    } finally {
+      loading.value = false
+    }
+  }
+  // 生命周期
+  onMounted(() => {
+    initializeData()
+  })
+
 </script>
 
 <style scoped>

@@ -45,7 +45,9 @@
       <button @click="downloadWordCards" class="export-btn">
         ⬇️ 下载
       </button>
-
+      <button @click="goBack" class="export-btn">
+        ⬅️ 返回
+      </button>
     </div>
 
     <!-- 加载状态 -->
@@ -182,191 +184,194 @@ export default {
         .replace(/'/g, '&#39;')
     }
 
+    const goBack=()=>{
+      router.push('/')
+    }
     const downloadWordCards = () => {
-  if (!filteredWords.value.length) {
-    alert('当前没有单词可导出，请先取消筛选或检查搜索条件。')
-    return
-  }
+      if (!filteredWords.value.length) {
+        alert('当前没有单词可导出，请先取消筛选或检查搜索条件。')
+        return
+      }
 
-  // 1. 生成每一行“可对折的卡片”
-  const cardsHtml = filteredWords.value.map((w, idx) => {
-    const lemma = escapeHtml(w.lemma)
-    const pos = escapeHtml(w.pos)
-    const level = escapeHtml(w.level)
-    const zh = escapeHtml(w.chinese)
-    const exZh = escapeHtml(w.example_zh || '（暂无中文例句）')
-    const exFr = escapeHtml(w.example_fr || '（暂无法语例句）')
-    const grammar = escapeHtml(w.grammar_note_zh || '（语法解释可选记忆）')
+      // 1. 生成每一行“可对折的卡片”
+      const cardsHtml = filteredWords.value.map((w, idx) => {
+        const lemma = escapeHtml(w.lemma)
+        const pos = escapeHtml(w.pos)
+        const level = escapeHtml(w.level)
+        const zh = escapeHtml(w.chinese)
+        const exZh = escapeHtml(w.example_zh || '（暂无中文例句）')
+        const exFr = escapeHtml(w.example_fr || '（暂无法语例句）')
+        const grammar = escapeHtml(w.grammar_note_zh || '（语法解释可选记忆）')
 
-    const indexNo = idx + 1   // ✅ 序号
+        const indexNo = idx + 1   // ✅ 序号
 
-    return `
-      <div class="card-row">
-        <!-- 左半边：提示面（先看这边） -->
-        <div class="card-half card-left">
-          <div class="card-header">
-            <span class="word-index">${indexNo}.</span>
-            <span class="lemma">${lemma}</span>
-            <span class="pos">${pos}</span>
-            <span class="level-badge level-${level.toLowerCase()}">${level}</span>
+        return `
+          <div class="card-row">
+            <!-- 左半边：提示面（先看这边） -->
+            <div class="card-half card-left">
+              <div class="card-header">
+                <span class="word-index">${indexNo}.</span>
+                <span class="lemma">${lemma}</span>
+                <span class="pos">${pos}</span>
+                <span class="level-badge level-${level.toLowerCase()}">${level}</span>
+              </div>
+              <div class="section">
+                <div class="label">释义</div>
+                <div class="text">${zh}</div>
+              </div>
+              <div class="section">
+                <div class="label">例句</div>
+                <div class="text">${exZh}</div>
+              </div>
+            </div>
+
+            <!-- 右半边：答案面（对折后藏在里面） -->
+            <div class="card-half card-right">
+              <div class="section">
+                <div class="label">例句</div>
+                <div class="text fr">${exFr}</div>
+              </div>
+              <div class="section">
+                <div class="label">语法要点</div>
+                <div class="text grammar">${grammar}</div>
+              </div>
+            </div>
           </div>
-          <div class="section">
-            <div class="label">释义</div>
-            <div class="text">${zh}</div>
-          </div>
-          <div class="section">
-            <div class="label">例句</div>
-            <div class="text">${exZh}</div>
-          </div>
-        </div>
+        `
+      }).join('\n')
 
-        <!-- 右半边：答案面（对折后藏在里面） -->
-        <div class="card-half card-right">
-          <div class="section">
-            <div class="label">例句</div>
-            <div class="text fr">${exFr}</div>
-          </div>
-          <div class="section">
-            <div class="label">语法要点</div>
-            <div class="text grammar">${grammar}</div>
-          </div>
-        </div>
-      </div>
-    `
-  }).join('\n')
+      // 2. 整个 HTML 文档（A4 横向，两栏，对折）
+      const html = `
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+      <meta charset="utf-8" />
+      <title>第 ${lesson.value} 课法语单词</title>
+      <style>
+        @page {
+          size: A4 landscape;   /* A4 横向 */
+          margin: 10mm;
+        }
+        body {
+          font-family: "Microsoft YaHei", Arial, sans-serif;
+          font-size: 12px;
+          line-height: 1.4;
+          counter-reset: page;
+        }
+        .page-footer {
+          position: fixed;
+          bottom: 4mm;
+          right: 10mm;
+          font-size: 10px;
+          color: #888;
+        }
 
-  // 2. 整个 HTML 文档（A4 横向，两栏，对折）
-  const html = `
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <title>第 ${lesson.value} 课法语单词</title>
-  <style>
-    @page {
-      size: A4 landscape;   /* A4 横向 */
-      margin: 10mm;
-    }
-    body {
-      font-family: "Microsoft YaHei", Arial, sans-serif;
-      font-size: 12px;
-      line-height: 1.4;
-      counter-reset: page;
-    }
-    .page-footer {
-      position: fixed;
-      bottom: 4mm;
-      right: 10mm;
-      font-size: 10px;
-      color: #888;
-    }
+        h1 {
+          text-align: center;
+          margin: 0 0 4mm 0;
+        }
+        p.tip {
+          text-align: center;
+          margin: 0 0 8mm 0;
+          color: #555;
+          font-size: 11px;
+        }
+        .card-row {
+          display: flex;
+          border: 1px solid #333;
+          margin-bottom: 6mm;
+          page-break-inside: avoid;
+        }
+        .card-half {
+          flex: 1;
+          padding: 8px 10px;
+          box-sizing: border-box;
+        }
+        .card-left {
+          border-right: 1px dashed #999; /* 中间虚线，折叠线 */
+          background: #ffffff;
+        }
+        .card-right {
+          background: #f8f9fa;
+        }
+        .card-header {
+          display: flex;
+          align-items: baseline;
+          gap: 6px;
+          margin-bottom: 4px;
+        }
+        .lemma {
+          font-size: 18px;
+          font-weight: bold;
+          color: #2c3e50;
+        }
+        .pos {
+          font-size: 12px;
+          color: #7f8c8d;
+        }
+        .level-badge {
+          font-size: 11px;
+          padding: 1px 6px;
+          border-radius: 10px;
+          border: 1px solid #999;
+        }
+        .level-p0 { background: #fdecea; }
+        .level-p1 { background: #fff4e5; }
+        .level-p2 { background: #e6f4ea; }
 
-    h1 {
-      text-align: center;
-      margin: 0 0 4mm 0;
-    }
-    p.tip {
-      text-align: center;
-      margin: 0 0 8mm 0;
-      color: #555;
-      font-size: 11px;
-    }
-    .card-row {
-      display: flex;
-      border: 1px solid #333;
-      margin-bottom: 6mm;
-      page-break-inside: avoid;
-    }
-    .card-half {
-      flex: 1;
-      padding: 8px 10px;
-      box-sizing: border-box;
-    }
-    .card-left {
-      border-right: 1px dashed #999; /* 中间虚线，折叠线 */
-      background: #ffffff;
-    }
-    .card-right {
-      background: #f8f9fa;
-    }
-    .card-header {
-      display: flex;
-      align-items: baseline;
-      gap: 6px;
-      margin-bottom: 4px;
-    }
-    .lemma {
-      font-size: 18px;
-      font-weight: bold;
-      color: #2c3e50;
-    }
-    .pos {
-      font-size: 12px;
-      color: #7f8c8d;
-    }
-    .level-badge {
-      font-size: 11px;
-      padding: 1px 6px;
-      border-radius: 10px;
-      border: 1px solid #999;
-    }
-    .level-p0 { background: #fdecea; }
-    .level-p1 { background: #fff4e5; }
-    .level-p2 { background: #e6f4ea; }
+        .section {
+          margin-top: 4px;
+        }
+        .label {
+          font-weight: bold;
+          margin-bottom: 2px;
+          color: #2c3e50;
+          font-size: 11px;
+        }
+        .text {
+          white-space: pre-wrap;
+          word-wrap: break-word;
+        }
+        .text.fr {
+          font-style: italic;
+          color: #34495e;
+        }
+        .text.grammar {
+          font-size: 11px;
+          color: #555;
+        }
 
-    .section {
-      margin-top: 4px;
-    }
-    .label {
-      font-weight: bold;
-      margin-bottom: 2px;
-      color: #2c3e50;
-      font-size: 11px;
-    }
-    .text {
-      white-space: pre-wrap;
-      word-wrap: break-word;
-    }
-    .text.fr {
-      font-style: italic;
-      color: #34495e;
-    }
-    .text.grammar {
-      font-size: 11px;
-      color: #555;
-    }
+        .card-row:nth-child(odd) .card-left {
+          background: #fafafa;
+        }
+      </style>
+    </head>
+    <body>
+    <h1>第 ${lesson.value} 课 法语单词</h1>
+      <p class="tip">
+        打印时请选择“A4 横向”。打印出来后沿中间虚线对折：
+        先看左边（单词 + 中文 + 中文例句），不会再翻开右边的法语例句和语法解释。
+      </p>
+      ${cardsHtml}
+    </body>
+    </html>
+      `
 
-    .card-row:nth-child(odd) .card-left {
-      background: #fafafa;
+      // 3. 生成 Blob，触发浏览器下载 .html 文件
+      const blob = new Blob([html], {
+        type: 'text/html;charset=utf-8;'
+      })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      const dateStr = new Date().toISOString().split('T')[0]
+
+      a.href = url
+      a.download = `lecon1_cards_fold_${dateStr}.html`  // 文件名
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+      URL.revokeObjectURL(url)
     }
-  </style>
-</head>
-<body>
-<h1>第 ${lesson.value} 课 法语单词</h1>
-  <p class="tip">
-    打印时请选择“A4 横向”。打印出来后沿中间虚线对折：
-    先看左边（单词 + 中文 + 中文例句），不会再翻开右边的法语例句和语法解释。
-  </p>
-  ${cardsHtml}
-</body>
-</html>
-  `
-
-  // 3. 生成 Blob，触发浏览器下载 .html 文件
-  const blob = new Blob([html], {
-    type: 'text/html;charset=utf-8;'
-  })
-  const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  const dateStr = new Date().toISOString().split('T')[0]
-
-  a.href = url
-  a.download = `lecon1_cards_fold_${dateStr}.html`  // 文件名
-  document.body.appendChild(a)
-  a.click()
-  document.body.removeChild(a)
-  URL.revokeObjectURL(url)
-}
 
 
     // 初始化数据
@@ -476,6 +481,7 @@ export default {
       filteredWords,
       paginatedWords,
       totalPages,
+      goBack,
       setActiveLevel,
       flipCard,
       toggleShowChinese,
@@ -493,7 +499,7 @@ export default {
 <style scoped>
 /* 样式保持不变，与之前相同 */
 .flashcard-app {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -833,7 +839,7 @@ export default {
   font-size: 14px;
   font-weight: 500;
   transition: all 0.3s ease;
-  color: white;
+  /* color: white; */
 }
 
 .export-btn:hover {

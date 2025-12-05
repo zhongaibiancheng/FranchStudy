@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 // 导入页面组件
-const FrenchLesson1 = () => import('@/views/FrenchLesson1.vue')
+const FrenchLesson = () => import('@/views/FrenchLesson.vue')
 const LessonReader = () =>import('@/views/LessonReader.vue')
 const WordList = () =>import('@/views/WordList.vue')
 const routes = [
@@ -11,9 +11,9 @@ const routes = [
     component: () => import('@/views/HomePage.vue')
   },
   {
-    path: '/book2/lesson1',
-    name: 'FrenchLesson1',
-    component: FrenchLesson1
+    path: '/book2/lesson',
+    name: 'FrenchLesson',
+    component: FrenchLesson
   },
   {
     path: '/lessonReader',
