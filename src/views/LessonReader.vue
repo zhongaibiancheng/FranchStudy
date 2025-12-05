@@ -149,7 +149,8 @@ const printGapExercise = () => {
 
   // 做一份只用于打印的“填空练习数据”
   const printable = list.map((x, idx) => ({
-    index: idx + 1,
+    // index: idx + 1,
+    index:x.id,
     source: x.source,
     french_gap: x.french_gap || x.french_full || '',
     chinese: x.chinese || ''
