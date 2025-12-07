@@ -4,6 +4,12 @@
     <div class="toolbar">
       <div class="title">
         <h2>{{ lessonData.title }}</h2>
+        <select v-model="part" class="select">
+          <option disabled value="">请选择...</option>
+          <option v-for="opt in options" :key="opt.value" :value="opt.id">
+            {{ opt.label }}
+          </option>
+        </select>
         <span class="count">
           当前显示 {{ filteredSentences.length }} / 共 {{ lessonData.text.length }} 句
           · 已选 {{ selectedCountInFiltered }} 句
@@ -133,12 +139,26 @@ const router = useRouter()
 const lessonNo = computed(() => Number(route.query.lesson || 1))
 
 const lessonData = computed(() => {
-  return getLessonDataByLesson(lessonNo.value)
+  return getLessonDataByLesson(lessonNo.value,part.value)
 })
 
 const goBack = () => {
   router.push('/')
 }
+const options= [
+  {
+  id:1,
+  value:'对话',
+  label:'对话'
+},
+  {
+  id:2,
+  value:'文章1',
+  label:'文章1'
+}
+]
+
+const part = ref(1)
 
 const showChinese = ref(true)
 const globalGapMode = ref(false)
