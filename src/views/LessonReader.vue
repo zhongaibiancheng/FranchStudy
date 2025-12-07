@@ -6,6 +6,7 @@
         <h2>{{ lessonData.title }}</h2>
         <span class="count">
           当前显示 {{ filteredSentences.length }} / 共 {{ lessonData.text.length }} 句
+          · 已选 {{ selectedCountInFiltered }} 句
         </span>
       </div>
 
@@ -49,6 +50,19 @@
           </button>
         </div>
 
+        <!-- ✅ 选择快捷操作（仅作用于当前筛选列表） -->
+        <div class="segmented">
+          <button class="seg-btn" @click="selectAllFiltered">
+            全选当前
+          </button>
+          <button class="seg-btn" @click="selectNoneFiltered">
+            全不选当前
+          </button>
+          <button class="seg-btn" @click="invertFiltered">
+            反选当前
+          </button>
+        </div>
+
         <!-- ✅ 打印乱序开关 -->
         <label class="print-toggle">
           <input type="checkbox" v-model="printShuffle" />
@@ -64,18 +78,39 @@
         <button class="action-btn ghost" @click="resetAll">
           重置视图
         </button>
+
+        <button @click="goBack" class="export-btn">
+          ⬅️ 返回
+        </button>
       </div>
     </div>
 
-    <!-- ✅ 卡片区 -->
+    <!-- ✅ 卡片区（带选择框） -->
     <div class="cards">
-      <SentenceCard
+      <div
         v-for="item in filteredSentences"
         :key="item.id"
-        :item="item"
-        :showChinese="showChinese"
-        :forceGap="globalGapMode"
-      />
+        class="sentence-row"
+        :class="{ checked: isSelected(item.id) }"
+      >
+        <label class="sentence-check" @click.stop>
+          <input
+            type="checkbox"
+            :checked="isSelected(item.id)"
+            @change="toggleSelect(item.id)"
+          />
+        </label>
+
+        <div class="sentence-card-wrap">
+          <SentenceCard
+            :item="item"
+            :showChinese="showChinese"
+            :forceGap="globalGapMode"
+            :playing="playingId === item.id"
+            :onPlay="handlePlaySentence"
+          />
+        </div>
+      </div>
     </div>
 
     <!-- ✅ 空提示 -->
@@ -86,18 +121,24 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { ref, computed, watch } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import SentenceCard from '@/components/SentenceCard.vue'
 import getLessonDataByLesson from '@/services/lessonService'
+import { useSegmentAudio } from '@/composables/useSegmentAudio'
 
 const route = useRoute()
+const router = useRouter()
 
 const lessonNo = computed(() => Number(route.query.lesson || 1))
 
 const lessonData = computed(() => {
   return getLessonDataByLesson(lessonNo.value)
 })
+
+const goBack = () => {
+  router.push('/')
+}
 
 const showChinese = ref(true)
 const globalGapMode = ref(false)
@@ -106,10 +147,73 @@ const filterSource = ref('all') // all | dialogue | texte
 // ✅ 新增：打印顺序控制
 const printShuffle = ref(false)
 
+// ✅ 新增：选择状态（Set 更适合）
+const selectedIds = ref(new Set())
+
+// ✅ 整课音频 src getter
+const getLessonSrc = () => lessonData.value?.audio?.src
+
+// ✅ 片段播放控制
+const { playingId, playSegment } = useSegmentAudio(getLessonSrc)
+
 const filteredSentences = computed(() => {
   const list = lessonData.value?.text || []
   if (filterSource.value === 'all') return list
   return list.filter(x => x.source === filterSource.value)
+})
+
+/**
+ * ✅ 默认全选：当课次变化/数据变化时，重新把整课句子加入选中
+ *   如果你希望“默认不选”，把这里改成：selectedIds.value = new Set()
+ */
+watch(
+  () => lessonData.value?.text,
+  (text) => {
+    if (!text) return
+    selectedIds.value = new Set(text.map(x => x.id))
+  },
+  { immediate: true }
+)
+
+// ✅ 选择相关工具函数
+const isSelected = (id) => selectedIds.value.has(id)
+
+const toggleSelect = (id) => {
+  const s = new Set(selectedIds.value)
+  if (s.has(id)) s.delete(id)
+  else s.add(id)
+  selectedIds.value = s
+}
+
+// ✅ 仅对“当前筛选列表”做全选/全不选/反选
+const selectAllFiltered = () => {
+  const s = new Set(selectedIds.value)
+  for (const it of filteredSentences.value) s.add(it.id)
+  selectedIds.value = s
+}
+
+const selectNoneFiltered = () => {
+  const s = new Set(selectedIds.value)
+  for (const it of filteredSentences.value) s.delete(it.id)
+  selectedIds.value = s
+}
+
+const invertFiltered = () => {
+  const s = new Set(selectedIds.value)
+  for (const it of filteredSentences.value) {
+    if (s.has(it.id)) s.delete(it.id)
+    else s.add(it.id)
+  }
+  selectedIds.value = s
+}
+
+const selectedCountInFiltered = computed(() => {
+  const list = filteredSentences.value || []
+  let c = 0
+  for (const it of list) {
+    if (selectedIds.value.has(it.id)) c++
+  }
+  return c
 })
 
 const toggleChinese = () => {
@@ -120,11 +224,20 @@ const toggleGlobalGap = () => {
   globalGapMode.value = !globalGapMode.value
 }
 
+// ✅ 给卡片用的播放方法
+const handlePlaySentence = (item) => {
+  playSegment(item, lessonData.value?.audio?.src)
+}
+
 const resetAll = () => {
   showChinese.value = true
   globalGapMode.value = false
   filterSource.value = 'all'
   printShuffle.value = false
+
+  // ✅ 重置选择：恢复整课全选
+  const text = lessonData.value?.text || []
+  selectedIds.value = new Set(text.map(x => x.id))
 }
 
 /** ✅ 小工具：数组乱序（不改原数组） */
@@ -137,20 +250,23 @@ const shuffleArray = (arr) => {
   return a
 }
 
-/** ✅ 打印填空练习（把 french_gap + 中文写到 HTML，再打印） */
+/** ✅ 打印填空练习（只打印选中的句子） */
 const printGapExercise = () => {
   const base = filteredSentences.value || []
-  if (!base.length) {
-    alert('当前筛选条件下没有可打印的句子。')
+
+  // ✅ 关键改动：只取“当前筛选范围内 + 被选中”
+  const selectedBase = base.filter(x => selectedIds.value.has(x.id))
+
+  if (!selectedBase.length) {
+    alert('请先勾选要打印的句子。')
     return
   }
 
-  const list = printShuffle.value ? shuffleArray(base) : base
+  const list = printShuffle.value ? shuffleArray(selectedBase) : selectedBase
 
   // 做一份只用于打印的“填空练习数据”
-  const printable = list.map((x, idx) => ({
-    // index: idx + 1,
-    index:x.id,
+  const printable = list.map((x) => ({
+    index: x.id, // 你原来就是用 id
     source: x.source,
     french_gap: x.french_gap || x.french_full || '',
     chinese: x.chinese || ''
@@ -296,7 +412,6 @@ const buildGapPrintHtml = ({ title, dateStr, filterSource, isShuffled, items }) 
       word-break: break-word;
     }
 
-    /* ✅ 简单页码（多数浏览器支持） */
     .page-number {
       position: fixed;
       bottom: 6mm;
@@ -455,9 +570,41 @@ const escapeHtml = (str) => {
   cursor: pointer;
 }
 
+/* ✅ 句子列表 */
 .cards{
   display: grid;
   gap: 12px;
+}
+
+/* ✅ 新增：每行 = checkbox + card */
+.sentence-row{
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 8px;
+  align-items: start;
+}
+
+.sentence-check{
+  display: grid;
+  place-items: center;
+  padding-top: 10px;
+}
+
+.sentence-check input{
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #111;
+}
+
+.sentence-row.checked .sentence-card-wrap{
+  outline: 2px solid rgba(17,17,17,0.08);
+  border-radius: 12px;
+}
+
+/* 让 SentenceCard 外部包一层，不影响它内部布局 */
+.sentence-card-wrap{
+  border-radius: 12px;
 }
 
 .empty{

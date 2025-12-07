@@ -1,5 +1,5 @@
 // LessonService.js
-import lesson_01 from "@/data/lecon1_rester_ou_partir.json";
+import lesson_01 from "@/data/lesson_01.json";
 
 // 将来有第二课、第三课可以继续加：
 // import wordData_02 from '@/data/words_02.json'

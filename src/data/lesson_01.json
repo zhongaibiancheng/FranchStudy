@@ -1,0 +1,828 @@
+{
+  "title": "Rester ou partir ?",
+  "audio": {
+    "src": "/audio/lesson_01/lesson_01_dialogue.m4a"
+  },
+  "text": [
+    {
+      "id": "D01",
+      "source": "dialogue",
+      "french_full": "Vendredi soir, à la table, M. et Mme Dupré discutent avec leurs trois enfants, Paul, Lina et Jeanne.",
+      "french_gap": "Vendredi soir, à la table, M. et Mme Dupré _________________________ leurs trois enfants, Paul, Lina et Jeanne.",
+      "chinese": "周五晚上，Dupré先生和妻子在饭桌上和他们的三个孩子，Paul, Lina和Jeanne讨论。",
+      "answers": [
+        "discutent avec"
+      ],
+      "tags": [
+        "词汇",
+        "现在时",
+        "家庭场景",
+        "对话开场"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "星期五晚上，在饭桌上，Dupré 夫妇正和他们的三个孩子 Paul、Lina 和 Jeanne 聊天。",
+        "vocab": [
+          {
+            "item": "Vendredi soir",
+            "note": "星期五晚上，表示时间的短语。"
+          },
+          {
+            "item": "à la table",
+            "note": "字面是“在桌子旁”，这里就是吃饭时在餐桌边。"
+          },
+          {
+            "item": "discuter avec qn",
+            "note": "和某人讨论、聊天。这里用现在时 discutent 表示正在发生。"
+          }
+        ],
+        "grammar": "主语是“M. et Mme Dupré”，两个人，所以动词用第三人称复数形式 discutent。句子前面两个时间/地点状语（Vendredi soir, à la table）放在句首，用逗号隔开，是很常见的法语语序。",
+        "usage": "这种句子常用于开场，说明时间、地点和人物，是叙事类对话的开头。孩子只要看到类似结构，就知道是在交代场景。"
+      },
+      "audio_start": 0.13,
+      "audio_end": 8.69
+    },
+    {
+      "id": "D02",
+      "source": "dialogue",
+      "french_full": "Lina : Dis, papa, on sort ce soir ?",
+      "french_gap": "Lina : _____________, papa, _____________ ce soir ?",
+      "chinese": "Lina : 哎，爸爸，我们今晚出去吗？",
+      "answers": [
+        "Dis",
+        "on sort"
+      ],
+      "tags": [
+        "词汇",
+        "固定表达",
+        "现在时"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "Lina：喂，爸爸，咱们今晚出去吗？",
+        "vocab": [
+          {
+            "item": "Dis",
+            "note": "来自动词 dire（说），这里是祈使式，相当于“喂、你看、说说看”，用来引起对方注意。"
+          },
+          {
+            "item": "on",
+            "note": "口语里经常用 on 代替 nous 表示“我们”，更随意、更口语化。"
+          },
+          {
+            "item": "sortir",
+            "note": "出去、出门，on sort ? = 我们出去吗？"
+          },
+          {
+            "item": "ce soir",
+            "note": "今天晚上、今晚。"
+          }
+        ],
+        "grammar": "“Dis, papa”是一个小插入语，使用第二人称单数祈使式，孩子跟爸爸说话。主句是“on sort ce soir ?”，语法上是陈述句结构，通过升调变成疑问句，不用倒装。",
+        "usage": "非常日常的口语句型，孩子可以照着套用：Dis, maman, on va au cinéma ? = 妈妈，我们去看电影吗？"
+      },
+      "audio_start": 8.69,
+      "audio_end": 11.33
+    },
+    {
+      "id": "D03",
+      "source": "dialogue",
+      "french_full": "Le père : Ce soir, je vais regarder le match de foot à la télé : c’est la finale de la Coupe du Monde 2006 ! Vous savez, la Coupe du Monde, ce n’est pas tous les jours !",
+      "french_gap": "Le père : Ce soir, je vais regarder ___________________ _____________ : c'est __________________________ 2006 ! Vous savez, la Coupe du Monde, ce n'est pas ____________________________ !",
+      "chinese": "爸爸：今晚我要看足球比赛，2006年的世界杯决赛！你们知道，世界杯不是每天都有的！",
+      "answers": [
+        "le match de foot",
+        "à la télé",
+        "la finale de la Coupe du Monde",
+        "tous les jours"
+      ],
+      "tags": [
+        "词汇",
+        "足球主题",
+        "tout固定表达"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "爸爸：今晚我要在电视上看足球比赛，这是 2006 年世界杯的决赛！你们知道，世界杯可不是天天都有的！",
+        "vocab": [
+          {
+            "item": "je vais regarder",
+            "note": "aller + 动词原形，表示将要做某事，相当于“我要看”。"
+          },
+          {
+            "item": "le match de foot",
+            "note": "足球比赛（foot 是 football 的口语缩写）。"
+          },
+          {
+            "item": "à la télé",
+            "note": "在电视上（看）。"
+          },
+          {
+            "item": "la finale de la Coupe du Monde",
+            "note": "世界杯决赛，Coupe du Monde = 世界杯。"
+          },
+          {
+            "item": "ce n’est pas tous les jours",
+            "note": "字面是“这不是每天都有的”，固定表达，表示很少见、很难得的机会。"
+          }
+        ],
+        "grammar": "使用最近将来时：je vais regarder = 我马上/等会儿要看。后面“c’est la finale de ...”是典型的 c’est + 名词结构，用来说明这是什么东西。“ce n’est pas tous les jours”里，ce 指代前面的“世界杯决赛”这一事件。",
+        "usage": "这一句体现爸爸对足球的兴趣，也展示了最近将来时的口语用法。孩子可以仿造：Ce soir, je vais regarder un film à la télé.（今晚我要在电视上看电影。）"
+      },
+      "audio_start": 11.33,
+      "audio_end": 27.940001
+    },
+    {
+      "id": "D04",
+      "source": "dialogue",
+      "french_full": "La mère : Quel sportif ! Tu aimes tout : le football, le rugby, le volley-ball, le tennis... Tout ! mais... à la télévision et dans un bon fauteuil... Sportif en chambre, quoi !",
+      "french_gap": "La mère : __________________________! Tu aimes _____________ : le football, le rugby, le volley-ball, le tennis… Tout ! mais. . . à la télévision et __________________________. . . _______________________________________, _____________ !",
+      "chinese": "妈妈：多有运动精神啊！你喜欢所有的运动：足球，橄榄球，排球，网球...所有！但是...是坐在扶手椅中看电视...说来说去也就是个只说不练的运动员！",
+      "answers": [
+        "Quel sportif",
+        "tout",
+        "dans un bon fauteuil",
+        "Sportif en chambre",
+        "quoi"
+      ],
+      "tags": [
+        "tout用法",
+        "固定表达",
+        "幽默语气"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "妈妈：真是个“运动员”啊！你什么都爱：足球、橄榄球、排球、网球……全都爱！不过嘛……都是在电视上、躺在舒服的椅子里看……说白了，就是个“房间里的运动员”嘛！",
+        "vocab": [
+          {
+            "item": "Quel sportif !",
+            "note": "感叹句，用 quel 开头，表示“多么爱运动的人啊！”。"
+          },
+          {
+            "item": "tout",
+            "note": "这里表示“所有的一切、什么都”，Tu aimes tout = 你什么运动都爱。"
+          },
+          {
+            "item": "dans un bon fauteuil",
+            "note": "坐在一把舒服的扶手椅里。"
+          },
+          {
+            "item": "Sportif en chambre",
+            "note": "字面“卧室里的运动员”，引申为“嘴上爱运动、实际只在家看电视”的人，带一点调侃。"
+          },
+          {
+            "item": "quoi",
+            "note": "放在句尾的口语语气词，类似“嘛、你知道的”这种语气。"
+          }
+        ],
+        "grammar": "“Quel sportif !”是 quel + 名词的感叹句结构。“Tu aimes tout : ...”里，冒号后面是具体的列举。“Sportif en chambre, quoi !”省略了动词，是口语中的省略句，语法上不完整，但会话里很自然。",
+        "usage": "这一句体现了家庭内部开玩笑的语气。孩子只要理解：这里的 tout 表示“什么都”，quoi 在句尾是一种口语强调，就已经够用。"
+      },
+      "audio_start": 28.84,
+      "audio_end": 39.459999
+    },
+    {
+      "id": "D05",
+      "source": "dialogue",
+      "french_full": "Le père : Arrête, Jeanne ! Chérie, tu exagères un peu. Mais tu oublies le ski. Je fais du ski, moi !",
+      "french_gap": "Le père : _____________, Jeanne ! Chérie, tu __________________________. Mais tu _____________ le ski. Je fais du ski, moi !",
+      "chinese": "爸爸：停，Jeanne！亲爱的，你有点夸张了。但是你忘了滑雪。我还滑雪！",
+      "answers": [
+        "Arrête",
+        "exagères un peu",
+        "oublies"
+      ],
+      "tags": [
+        "词汇",
+        "现在时"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "爸爸：别说了，Jeanne！亲爱的，你有点夸张。不过你忘了滑雪这件事。我可是会滑雪的！",
+        "vocab": [
+          {
+            "item": "Arrête",
+            "note": "动词 arrêter 的祈使式“你停下、别说了”。"
+          },
+          {
+            "item": "exagérer",
+            "note": "夸张、说过头。tu exagères un peu = 你有点夸张了。"
+          },
+          {
+            "item": "oublier",
+            "note": "忘记。tu oublies le ski = 你把滑雪给忘了。"
+          },
+          {
+            "item": "Je fais du ski",
+            "note": "我滑雪。faire du + 运动 项目，是常见结构，如 faire du foot（踢足球）。"
+          }
+        ],
+        "grammar": "动词都用直陈式现在时：tu exagères, tu oublies, je fais，表示现在的一般事实。句子“Je fais du ski, moi !”结尾加上“moi”起到强调作用：“我可是（真的）滑雪的！”",
+        "usage": "是典型家庭争论时的小插曲，用来反驳“你只会看电视”的说法。孩子可以学会祈使句 Arrête! 用于叫别人停一下。"
+      },
+      "audio_start": 39.459999,
+      "audio_end": 47.599998
+    },
+    {
+      "id": "D06",
+      "source": "dialogue",
+      "french_full": "La mère : Oui, c’est vrai. Tu en fais beaucoup : huit jours par an !",
+      "french_gap": "La mère : Oui, c'est vrai. Tu __________________________: huit jours par an!",
+      "chinese": "妈妈：是的，这是真的。你雪滑得很多：每年做8天！",
+      "answers": [
+        "en fais beaucoup"
+      ],
+      "tags": [
+        "词汇",
+        "固定表达"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "妈妈：是啊，没错。你确实滑了很多——一年有足足八天呢！",
+        "vocab": [
+          {
+            "item": "en faire",
+            "note": "代词 en 替代前文提到的“滑雪”这件事，en faire = 做这件事（这里指滑雪）。"
+          },
+          {
+            "item": "beaucoup",
+            "note": "很多。en fais beaucoup = 做得很多（滑雪滑很多）。"
+          },
+          {
+            "item": "huit jours par an",
+            "note": "一年 8 天，表面是“很多”，其实带讽刺意味：一年才 8 天也叫很多。"
+          }
+        ],
+        "grammar": "“Tu en fais beaucoup”中，en 代替“du ski”，避免重复。“: huit jours par an !”是补充说明，用冒号引出具体数字。",
+        "usage": "这一句是典型的“嘴上说很多，其实是挖苦”的家庭幽默。孩子最重要是认出 en 这个代词可以替代前面的名词短语。"
+      },
+      "audio_start": 47.599998,
+      "audio_end": 51.889999
+    },
+    {
+      "id": "D07",
+      "source": "dialogue",
+      "french_full": "Paul : Qu’est-ce que nous ferons pendant les vacances de Noël ?",
+      "french_gap": "Paul : Qu'est-ce que nous ferons _______________________________________ ?",
+      "chinese": "Paul : 我们在圣诞节做什么？",
+      "answers": [
+        "pendant les vacances de Noël"
+      ],
+      "tags": [
+        "词汇",
+        "时间表达",
+        "假期场景"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "Paul：圣诞假期我们要做什么？",
+        "vocab": [
+          {
+            "item": "pendant",
+            "note": "在……期间。pendant les vacances = 假期期间。"
+          },
+          {
+            "item": "les vacances de Noël",
+            "note": "圣诞假期。"
+          },
+          {
+            "item": "nous ferons",
+            "note": "动词 faire 的将来时第一人称复数：我们将会做……。"
+          }
+        ],
+        "grammar": "这里用的是 Qu’est-ce que 引导的疑问句，后面主语 nous 在前、动词 ferons 在后，是普通语序。时态用 futur simple：nous ferons，表示将来要做的计划。",
+        "usage": "这是孩子经常会问父母的问题类型：假期要做什么？可以仿造：Qu’est-ce que nous ferons pendant les vacances d’été ?（暑假我们要做什么？）"
+      },
+      "audio_start": 52.610001,
+      "audio_end": 54.599998
+    },
+    {
+      "id": "D08",
+      "source": "dialogue",
+      "french_full": "Le père : Heu... Je ne sais pas, ta mère et moi, nous irons peut-être faire du ski à Grenoble, comme l’année dernière.",
+      "french_gap": "Le père : Heu… Je ne sais pas, ta mère et moi, _________________________________________________________________, _______________________________________.",
+      "chinese": "爸爸：呃...我不知道，你们妈妈和我，我们可能回去格勒诺布尔滑雪，就像去年那样。",
+      "answers": [
+        "nous irons peut-être faire du ski à Grenoble",
+        "comme l’année dernière"
+      ],
+      "tags": [
+        "将来时",
+        "假期场景",
+        "滑雪"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "爸爸：呃……我也还不清楚，你妈妈和我，也许会去格勒诺布尔滑雪，就像去年那样。",
+        "vocab": [
+          {
+            "item": "nous irons",
+            "note": "动词 aller 的将来时第一人称复数：我们将会去……。"
+          },
+          {
+            "item": "peut-être",
+            "note": "也许、可能，表示不确定。"
+          },
+          {
+            "item": "faire du ski",
+            "note": "去滑雪，faire du + 运动项目。"
+          },
+          {
+            "item": "comme l’année dernière",
+            "note": "和去年一样。comme = 像……一样。"
+          }
+        ],
+        "grammar": "主句用 futur simple：“nous irons ... faire du ski”，表达假期计划；“peut-être”通常放在动词前后都可以，这里在动词后。“comme l’année dernière”是方式/比较状语，从属于整句。",
+        "usage": "这一句既是给出计划，也暗示父母有可能只自己去滑雪，不带孩子。孩子可以模仿“nous irons + 地点”来表达旅行计划。"
+      },
+      "audio_start": 55.349998,
+      "audio_end": 64.699997
+    },
+    {
+      "id": "D09",
+      "source": "dialogue",
+      "french_full": "Le père : Oh vous ! Vous êtes encore un peu jeunes... non ? Toi, Paul, tu ne préfères pas passer les fêtes chez tes grands-parents ?",
+      "french_gap": "Le père : Oh vous ! Vous êtes __________________________. . . non ? Toi, Paul, tu _________________________________________________________________ ?",
+      "chinese": "爸爸：啊，你们！你们还小...不是吗？Paul, 你不是更喜欢在祖父母家过节吗？",
+      "answers": [
+        "encore un peu jeunes",
+        "ne préfères pas passer les fêtes chez tes grands-parents"
+      ],
+      "tags": [
+        "词汇",
+        "固定表达"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "爸爸：哎呀，你们几个！你们还有点小，不是吗？你呢，Paul，你难道不是更愿意在爷爷奶奶家过节吗？",
+        "vocab": [
+          {
+            "item": "encore un peu jeunes",
+            "note": "还稍微有点小（年轻）。"
+          },
+          {
+            "item": "préférer",
+            "note": "更喜欢。tu ne préfères pas ... ? = 你不是更喜欢……吗？（反问语气）。"
+          },
+          {
+            "item": "passer les fêtes",
+            "note": "过节（把节日“度过”在某处）。"
+          },
+          {
+            "item": "chez tes grands-parents",
+            "note": "在你祖父母家，chez + 人称代词 表示在某人家里。"
+          }
+        ],
+        "grammar": "“Vous êtes encore un peu jeunes”用的是现在时，形容一般情况。后面“tu ne préfères pas ... ?”语法上是否定问句，实际上是反问式，带有“你应该是更喜欢吧？”的含义。",
+        "usage": "家长常用这种语气说服孩子，“你不是更喜欢……吗？”孩子可以学会这种结构，用在表达自己的偏好。"
+      },
+      "audio_start": 64.940002,
+      "audio_end": 75.900002
+    },
+    {
+      "id": "D10",
+      "source": "dialogue",
+      "french_full": "Paul : Non, pas cette année ! Si vous faites du ski, j’en ferai aussi. Je suis assez grand maintenant !",
+      "french_gap": "Paul : Non, pas cette année ! Si __________________________, __________________________ aussi. Je suis __________________________ maintenant !",
+      "chinese": "Paul : 不，今年不想！如果你们去滑雪，我也要去。我现在年纪已经够大了！",
+      "answers": [
+        "vous faites du ski",
+        "j’en ferai",
+        "assez grand"
+      ],
+      "tags": [
+        "si句型",
+        "将来时"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "Paul：不，今年不去（爷爷奶奶家）！如果你们去滑雪，我也要去。我现在已经够大了！",
+        "vocab": [
+          {
+            "item": "Si vous faites du ski",
+            "note": "如果你们滑雪。si + 直陈式现在时，表示真实条件。“做滑雪这件事”的现在式。"
+          },
+          {
+            "item": "j’en ferai",
+            "note": "我也会做（这件事）。en 代指滑雪；ferai 是 faire 的将来时第一人称单数。"
+          },
+          {
+            "item": "assez grand",
+            "note": "相当大、够大了，表示自己已经长大。Je suis assez grand = 我已经够大了。"
+          }
+        ],
+        "grammar": "典型的条件句结构：Si + 现在时，主句用将来时，表示“如果将来发生这个条件，将来会发生那件事”。这里是：si vous faites（现在时）... j’en ferai（将来时）。最后一句“Je suis assez grand maintenant”是一般现在时，表达事实。",
+        "usage": "这是本课非常重要的句型。孩子可以仿造：Si tu viens demain, nous jouerons ensemble.（如果你明天来，我们就一起玩。）"
+      },
+      "audio_start": 76.150002,
+      "audio_end": 83.559998
+    },
+    {
+      "id": "D11",
+      "source": "dialogue",
+      "french_full": "Lina : Et ce soir, papa ? On sort ou on reste ? De toute façon, le foot à la télé, ça ne manque pas !",
+      "french_gap": "Lina : Et ce soir, papa ? __________________________________? _____________________, le foot à la télé, _______________________________________!",
+      "chinese": "Lina : 今晚呢，爸爸？我们出门还是呆在家里？不管怎样，足球比赛，什么时间都有！",
+      "answers": [
+        "On sort ou on reste",
+        "De toute façon",
+        "ça ne manque pas"
+      ],
+      "tags": [
+        "固定表达",
+        "tout固定表达"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "Lina：那今晚呢，爸爸？我们是出去还是待在家里？反正啊，电视里的足球比赛又不少！",
+        "vocab": [
+          {
+            "item": "On sort ou on reste ?",
+            "note": "我们是出去还是留下？on 口语中表示“我们”。"
+          },
+          {
+            "item": "De toute façon",
+            "note": "无论如何、反正。常用固定搭配。"
+          },
+          {
+            "item": "ça ne manque pas",
+            "note": "字面“这东西一点都不缺”，意思是“多得很、常有的是”。这里指足球比赛很多。"
+          }
+        ],
+        "grammar": "这几句话都是口语表达，没有复杂语法。疑问句直接用陈述语序 + 语调来表示。“De toute façon”放在句首或句中都行，用来引出自己的观点。",
+        "usage": "这是一种“劝爸爸放弃看球、出去陪家人”的说话方式。孩子可以记住 De toute façon 和 ça ne manque pas 这两个高频口语表达。"
+      },
+      "audio_start": 83.690002,
+      "audio_end": 93.0
+    },
+    {
+      "id": "D12",
+      "source": "dialogue",
+      "french_full": "La mère : Bon, d’accord. Mais qu’est-ce qu’on fera ? Au cinéma, alors ?",
+      "french_gap": "La mère : Bon, d'accord. Mais __________________________ ? _______________________, alors ?",
+      "chinese": "妈妈：好吧，我同意。但是我们做什么？看电影？",
+      "answers": [
+        "qu’est-ce qu’on fera",
+        "Au cinéma"
+      ],
+      "tags": [
+        "将来时",
+        "疑问句"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "妈妈：好，那就同意了。不过我们要做什么呢？去看电影吗？",
+        "vocab": [
+          {
+            "item": "qu’est-ce qu’on fera ?",
+            "note": "我们将要做什么？用 futur simple（fera 来自 faire）来表示未来安排。"
+          },
+          {
+            "item": "Au cinéma",
+            "note": "去电影院，前面省略了动词 aller：“On va au cinéma ?”"
+          },
+          {
+            "item": "Bon, d’accord",
+            "note": "好吧，就这样；表示同意对方建议。"
+          }
+        ],
+        "grammar": "“Qu’est-ce qu’on fera ?”是用 qu’est-ce que 构成的疑问句，主语 on 在中间，动词 fera 在后，时态是将来时。“Au cinéma, alors ?”省略主语和动词，只保留地点和语气词 alors，属于口语省略句。",
+        "usage": "家庭讨论活动时，经常“先同意，再细问”，这句就体现了这个流程。孩子可以仿造：Mais qu’est-ce qu’on fera demain ?（那我们明天要做什么？）"
+      },
+      "audio_start": 93.5,
+      "audio_end": 97.690002
+    },
+    {
+      "id": "D13",
+      "source": "dialogue",
+      "french_full": "Le père : O.K., on y va tous ensemble. T’es contente cette fois-ci, Lina ?",
+      "french_gap": "Le père : O. K. , _____________________________. T'es contente cette fois-ci, Lina ?",
+      "chinese": "爸爸：好，我们一起去看电影。这回你高兴了吧，Lina ?",
+      "answers": [
+        "on y va tous ensemble"
+      ],
+      "tags": [
+        "固定表达",
+        "tout用法"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "爸爸：好，那我们就一起去吧。这回你满意了吧，Lina？",
+        "vocab": [
+          {
+            "item": "on y va",
+            "note": "走吧、我们去那儿。常用口语固定表达。"
+          },
+          {
+            "item": "tous ensemble",
+            "note": "大家一起，所有人一起。"
+          },
+          {
+            "item": "T’es contente",
+            "note": "口语缩略，Tu es contente → T’es contente，你开心吗？"
+          }
+        ],
+        "grammar": "“on y va”里的 y 代指之前提到的地点（比如电影院）。“tous ensemble”放在句末，修饰“on”（我们大家）。动词 être 用现在时：T’es contente ... ? 表示现在的感受。",
+        "usage": "非常典型的家庭口语，孩子完全可以套用：On y va tous ensemble.（我们一起去。）"
+      },
+      "audio_start": 97.800003,
+      "audio_end": 106.93
+    },
+    {
+      "id": "D14",
+      "source": "dialogue",
+      "french_full": "Jeanne : Oui, elle est toute contente. Mais papa, y a encore mieux ! Et demain, c’est samedi, j’espère qu’on ne restera plus chez nous.",
+      "french_gap": "Jeanne : Oui, elle est__________________________. Mais papa, y a encore moi ! Et demain, c'est samedi, _______________________________________.",
+      "chinese": "Jeanne : 恩，她很高兴。但是爸爸，还有我呢！明天是周六，我希望我们别再老呆在家里了。",
+      "answers": [
+        "toute contente",
+        "j’espère qu’on ne restera plus chez nous"
+      ],
+      "tags": [
+        "tout用法",
+        "将来时"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "Jeanne：嗯，她可开心了。不过爸爸，还有我呢！而且明天是星期六，我希望我们不要再一直待在家里了。",
+        "vocab": [
+          {
+            "item": "toute contente",
+            "note": "特别高兴。toute 在这里起强调作用，修饰阴性单数形容词 contente。"
+          },
+          {
+            "item": "y a",
+            "note": "口语缩略，本来是 il y a（有……），这里省略 il。"
+          },
+          {
+            "item": "j’espère que...",
+            "note": "我希望……，常用表达。"
+          },
+          {
+            "item": "rester chez nous",
+            "note": "待在我们家里、呆在家。"
+          }
+        ],
+        "grammar": "“elle est toute contente”中，toute + 形容词，强调程度。“j’espère qu’on ne restera plus chez nous”用 futur simple（restera），表达将来不想再继续“待在家”的状态，ne ... plus 表示“不再”。",
+        "usage": "这一句体现了孩子对周末活动的期待。重要的是识别 tout 在这里不是“全部”，而是强调“很、特别”。"
+      },
+      "audio_start": 106.93,
+      "audio_end": 113.989998
+    },
+    {
+      "id": "D15",
+      "source": "dialogue",
+      "french_full": "La mère : Non, chérie. Demain, nous irons à la campagne dans notre maison tous les cinq.",
+      "french_gap": "La mère : Non, chérie. Demain, nous ______________________________________________________________________________.",
+      "chinese": "妈妈：不，亲爱的。明天我们五个都要去乡下的房子呆呆。",
+      "answers": [
+        "irons à la campagne dans notre maison tous les cinq"
+      ],
+      "tags": [
+        "将来时",
+        "tout用法",
+        "假期场景"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "妈妈：不，亲爱的。明天我们五个人要一起去乡下的那栋房子。",
+        "vocab": [
+          {
+            "item": "nous irons",
+            "note": "aller 的将来时“我们将会去”。"
+          },
+          {
+            "item": "à la campagne",
+            "note": "到乡下、农村。"
+          },
+          {
+            "item": "dans notre maison",
+            "note": "在/到我们的房子里（乡下的小房子）。"
+          },
+          {
+            "item": "tous les cinq",
+            "note": "五个人全都、我们五个。"
+          }
+        ],
+        "grammar": "时态用 futur simple：nous irons，表示确定的将来安排。“tous les cinq”相当于“我们五个全都”，放在句末起补充说明作用。",
+        "usage": "这是本课的将来时高频句型之一：Demain, nous irons ... 孩子可以模仿说：Demain, nous irons au parc.（明天我们去公园。）"
+      },
+      "audio_start": 114.269997,
+      "audio_end": 121.379997
+    },
+    {
+      "id": "D16",
+      "source": "dialogue",
+      "french_full": "Le père : Oui, nous partirons de bonne heure, comme ça, avant midi, nous aurons le temps de faire une petite promenade à pied.",
+      "french_gap": "Le père : Oui, nous ____________________________, _____________, avant midi, nous ______________________________________________________________________________.",
+      "chinese": "爸爸：是的，我们很早就出发，这样一来，中午之前，我们就有时间去散步了。",
+      "answers": [
+        "partirons",
+        "de bonne heure",
+        "aurons le temps de faire une petite promenade à pied"
+      ],
+      "tags": [
+        "将来时",
+        "固定表达"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "爸爸：是啊，我们会很早出发，这样，中午之前就会有时间去走一小段路散散步。",
+        "vocab": [
+          {
+            "item": "nous partirons",
+            "note": "partir 的将来时第一人称复数：我们将出发。"
+          },
+          {
+            "item": "de bonne heure",
+            "note": "很早地，一大早。"
+          },
+          {
+            "item": "nous aurons le temps de ...",
+            "note": "我们会有时间去……（avoir le temps de + 动词原形）。"
+          },
+          {
+            "item": "une petite promenade à pied",
+            "note": "小小的步行散步。"
+          }
+        ],
+        "grammar": "两个将来时：nous partirons 和 nous aurons。结构是：先表达原因（我们会很早出发），然后用“comme ça（这样一来）”引出结果（我们就会有时间……）。这是典型的因果表达方式。",
+        "usage": "在安排旅行时很常见的说法。孩子可以学：“On partira de bonne heure, comme ça on aura le temps de ...”（我们早点出发，这样就有时间……）。"
+      },
+      "audio_start": 121.379997,
+      "audio_end": 134.029999
+    },
+    {
+      "id": "D17",
+      "source": "dialogue",
+      "french_full": "Paul : Et nous mangerons au restaurant à côté ?",
+      "french_gap": "Paul : Et nous ____________________________ ?",
+      "chinese": "Paul : 我们在隔壁的餐馆吃饭？",
+      "answers": [
+        "mangerons au restaurant à côté"
+      ],
+      "tags": [
+        "将来时",
+        "词汇"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "Paul：那我们会在旁边那家餐馆吃饭吗？",
+        "vocab": [
+          {
+            "item": "mangerons",
+            "note": "manger 的将来时第一人称复数：我们将会吃/吃饭。"
+          },
+          {
+            "item": "au restaurant",
+            "note": "在餐馆里。"
+          },
+          {
+            "item": "à côté",
+            "note": "在旁边、隔壁的。"
+          }
+        ],
+        "grammar": "将来时“nous mangerons ... ?”通过尾升调构成疑问句。Et nous ... ? 表示继续追问我们这边的安排。",
+        "usage": "孩子可以模仿这个句型，问父母：Et nous mangerons où ?（那我们会在哪吃饭？）"
+      },
+      "audio_start": 134.559998,
+      "audio_end": 137.460007
+    },
+    {
+      "id": "D18",
+      "source": "dialogue",
+      "french_full": "Le père : Non, je ne pense pas. Ta mère va préparer des sandwiches, et nous pique-niquerons sur l’herbe de notre jardin ; il fera beau, ce sera plus agréable.",
+      "french_gap": "Le père : Non, je ne pense pas. Ta mère va _____________ des sandwiches, et nous _____________________________________________; il fera beau, ce ____________________________.",
+      "chinese": "爸爸：不，我不想。你妈妈会准备一些三明治，我们在公园的草地上野餐，天气好的话，真是太棒了。",
+      "answers": [
+        "préparer",
+        "pique-niquerons sur l’herbe de notre jardin",
+        "sera plus agréable"
+      ],
+      "tags": [
+        "将来时",
+        "词汇"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "爸爸：不，我觉得不会。你妈妈会准备三明治，我们会在自家花园的草地上野餐；天气会很不错，这样会更舒服。",
+        "vocab": [
+          {
+            "item": "va préparer",
+            "note": "aller + 动词原形：她将要准备（最近将来时）。"
+          },
+          {
+            "item": "pique-niquerons",
+            "note": "pique-niquer 的将来时“我们会去野餐”。"
+          },
+          {
+            "item": "sur l’herbe de notre jardin",
+            "note": "在我们花园的草地上。"
+          },
+          {
+            "item": "il fera beau",
+            "note": "天气会很好，faire beau 是描述天气的固定表达。"
+          },
+          {
+            "item": "ce sera plus agréable",
+            "note": "这样会更舒服/更惬意，être 的将来时 sera。"
+          }
+        ],
+        "grammar": "这句混合使用最近将来时（Ta mère va préparer）和将来时（nous pique-niquerons, il fera, ce sera），都在描述将来的安排。分号前后是两个相关的分句：前面讲具体行动，后面补充原因（天气好所以更舒服）。",
+        "usage": "这是本课中很完整的一句“将来安排 + 理由”的句子。孩子掌握这个句型，以后可以表达自己的理想周末。"
+      },
+      "audio_start": 137.759995,
+      "audio_end": 153.300003
+    },
+    {
+      "id": "D19",
+      "source": "dialogue",
+      "french_full": "La mère : Et quand je serai toute seule, je reprendrai mon livre. Heureusement pour moi, il y a la lecture... Et vite, partons tout de suite ! Sinon, on va rater la séance de 22 heures.",
+      "french_gap": "La mère : Et quand je ____________________________, je _____________ mon livre. _______________________________________, il y a la lecture… Et _____________, ___________________________________ ! _____________, on va _______________________ 22 heures.",
+      "chinese": "妈妈：当我独自一人的时候，我会重拾书本。对我来说，幸运的是还能阅读...快点，现在出发！不然的话，我们就要错过22点那场了。",
+      "answers": [
+        "serai toute seule",
+        "reprendrai",
+        "Heureusement pour moi",
+        "vite",
+        "partons tout de suite",
+        "Sinon",
+        "rater la séance de"
+      ],
+      "tags": [
+        "将来时",
+        "tout固定表达",
+        "固定表达"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "妈妈：等到我一个人的时候，我就会继续看我的书。幸运的是，我还有阅读可以做……赶紧的，我们马上出发！要不然就要错过 22 点那场电影了。",
+        "vocab": [
+          {
+            "item": "quand je serai toute seule",
+            "note": "当我一个人的时候。serai 是 être 的将来时；toute seule = 一个（人）独处，toute 起强调作用。"
+          },
+          {
+            "item": "je reprendrai mon livre",
+            "note": "我会再拿起我的书看。reprendre = 再次拿起、重新开始。"
+          },
+          {
+            "item": "Heureusement pour moi",
+            "note": "对我来说很幸运的是……"
+          },
+          {
+            "item": "vite",
+            "note": "快点、赶紧。"
+          },
+          {
+            "item": "partons tout de suite",
+            "note": "我们马上出发吧。partir 的第一人称复数祈使式，用来提议一起做某事。"
+          },
+          {
+            "item": "Sinon",
+            "note": "否则，不然的话。"
+          },
+          {
+            "item": "rater la séance de 22 heures",
+            "note": "错过 22 点那一场（电影）。rater = 错过。"
+          }
+        ],
+        "grammar": "“quand je serai ... je reprendrai...”是 Quand + 将来时, 主句也用将来时，表示将来某个时间点发生的动作。“partons tout de suite”是祈使句，主语“nous”省略，用来号召大家一起出发。“Sinon, on va rater ...”中的 on va rater 是最近将来时，用来强调“马上要错过了”的紧迫感。",
+        "usage": "这一大段语气很口语：既有对自己的小感叹（Heureusement pour moi...），也有催促家人快走（Vite, partons tout de suite !）。孩子可以重点记住“Sinon, on va rater ...”这个很实用的日常提醒句。"
+      },
+      "audio_start": 153.300003,
+      "audio_end": 173.660004
+    },
+    {
+      "id": "D20",
+      "source": "dialogue",
+      "french_full": "Les enfants : On y va ! Youpi !",
+      "french_gap": "Les enfants : ____________________________! Youpi !",
+      "chinese": "孩子们：我们去吧！噢！",
+      "answers": [
+        "On y va"
+      ],
+      "tags": [
+        "固定表达"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "孩子们：我们走啦！耶！",
+        "vocab": [
+          {
+            "item": "On y va",
+            "note": "我们走吧/我们出发吧。极常见口语表达。"
+          },
+          {
+            "item": "Youpi",
+            "note": "耶！表示高兴、兴奋的感叹。相当于“太好了！”。"
+          }
+        ],
+        "grammar": "“On y va”结构中，on 表示“我们”，y 指之前提到的去看的电影或要去的地方。va 是 aller 的现在时第三人称单数，整个短语已经固定化，不必逐字分析。",
+        "usage": "这是一句非常口语化的结束语，表示大家已经决定好、马上就走。孩子平时也可以在生活中直接用 On y va ! 来喊家人出发。"
+      },
+      "audio_start": 173.770004,
+      "audio_end": 175.449997
+    }
+  ]
+}

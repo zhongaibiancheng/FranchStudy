@@ -22,6 +22,15 @@ const goLessonReader = ()=>{
       }
   })
 }
+const goGrammarQuotes = ()=>{
+  router.push({
+    path:'/grammarQuotes',
+    query: {
+        lesson: 1
+      }
+  })
+}
+
 const goWordList = ()=>{
   router.push({
     path:'/wordList',
@@ -61,7 +70,9 @@ const goWordList = ()=>{
               <span class="lesson-arrow">→</span>
               <div>
                 <button @click="goLessonReader">看课文</button>
+                <button @click="goGrammarQuotes">背例句</button>
                 <button @click="goWordList">背单词</button>
+
               </div>
 
             </div>

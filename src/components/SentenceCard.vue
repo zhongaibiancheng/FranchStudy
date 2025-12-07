@@ -1,5 +1,23 @@
 <template>
   <div class="sentence-card">
+    <div class="header">
+      <div class="left">
+        <span class="badge">{{ item.source }}</span>
+        <span class="id">{{ item.id }}</span>
+      </div>
+
+      <div class="right" v-if="true==false">
+        <button
+          class="audio-btn"
+          :class="{ playing }"
+          @click="onPlay && onPlay(item)"
+          title="朗读本句"
+        >
+          <span class="icon">{{ playing ? '⏸️' : '▶️' }}</span>
+          <span>朗读</span>
+        </button>
+      </div>
+    </div>
     <div class="card-header">
       <div class="left">
         <span class="id">{{ item.id }}</span>
@@ -80,6 +98,9 @@ const props = defineProps({
 
   // ✅ 全局中文状态（由 LessonReader 传入）
   showChinese: { type: Boolean, default: false },
+  // ✅ 新增
+  playing: { type: Boolean, default: false },
+  onPlay: { type: Function, default: null },
 
   // ✅ 全局挖空模式（由 LessonReader 传入）
   forceGap: { type: Boolean, default: false }
@@ -230,4 +251,32 @@ const displayedFrench = computed(() => {
   padding: 8px 10px;
   border-radius: 8px;
 }
+.sentence-card .header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+}
+
+.audio-btn{
+  border:1px solid #ddd;
+  background:#fff;
+  padding:6px 10px;
+  border-radius:10px;
+  font-size:12px;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  transition:.2s;
+}
+.audio-btn:hover{
+  background:#f6f6f6;
+}
+.audio-btn.playing{
+  background:#111;
+  color:#fff;
+  border-color:#111;
+}
+
 </style>

@@ -4,6 +4,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 const FrenchLesson = () => import('@/views/FrenchLesson.vue')
 const LessonReader = () =>import('@/views/LessonReader.vue')
 const WordList = () =>import('@/views/WordList.vue')
+const GrammarQuotes = () =>import('@/views/GrammarQuotes.vue')
+
 const routes = [
   {
     path: '/',
@@ -20,10 +22,15 @@ const routes = [
     name: 'LessonReader',
     component: LessonReader
   },
-    {
+  {
     path: '/wordList',
     name: 'WordList',
     component: WordList
+  },
+  {
+    path: '/grammarQuotes',
+    name: 'GrammarQuotes',
+    component: GrammarQuotes
   }
 ]
 
