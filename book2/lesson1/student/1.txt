@@ -1,0 +1,501 @@
+# 语法 2：si 引导的假设句 学习清单（初二版）
+
+## 一、这条语法到底在说什么？
+
+就是一句话：
+
+> **Si + 现在时，主句用 现在时 / 将来时 / 命令式
+> = “如果……，就……”（而且是“真的有可能发生”的那种）**
+
+书上的 “proposition de supposition”、“条件/假设区别”
+—— 初二阶段都不用管，当成 **最普通的“如果句”** 就好。
+
+---
+
+## A 级任务：基础必修（一定要会）
+
+> 目标：看见 si 句能懂，自己能说/写几句简单的“如果……，就……”句子。
+
+### A1. 记住唯一的核心公式
+
+- [ ]  我知道结构是：
+
+> **Si + 主语 + 动词直陈式现在时，主句（现在/将来/命令）**
+
+- [ ]  我记住一条非常重要的规则：
+  **si 后面只用现在时，不用将来时**。
+  （主句里才用将来时）
+
+### A2. 认识三种最常用的句型
+
+1. **si + 现在，主句现在：说明“总是这样”的规律**
+
+   - *Si vous lui pardonnez, vous êtes généreux.*
+     您如果能原谅他，您就是很宽宏大量的人。
+2. **si + 现在，主句将来：说“以后会发生的事”**
+
+   - *S’il fait beau demain, nous irons à la Grande Muraille.*
+     如果明天天气好，我们就去长城。
+   - *Si elle continue ainsi, elle réussira tôt ou tard.*
+     她要是一直这样下去，迟早会成功。
+3. **si + 现在，主句用命令式：说“请你这样做”**
+
+   - *Si tu passes par le magasin, achète-moi du pain.*
+     如果你路过商店，帮我买个面包。
+
+> A 级只需要大致分清这三种，并能看懂意思。
+
+### A3. 必背或熟读的 4 句例句
+
+- [ ]  下面 4 句我能读顺、听得懂意思（最好能背）：
+
+1. *On va au cinéma si tu es libre ce soir.*
+   要是你今晚有空，我们就去看电影。
+2. *S’il fait beau demain, nous irons à la Grande Muraille.*
+   如果明天天气好，我们就去长城。
+3. *Si vous êtes d’accord, on commencera tout de suite.*
+   如果您同意，我们马上开始。
+4. *Si tu passes par le magasin, achète-moi du pain.*
+   如果你路过商店，给我买个面包。
+
+### A4. 自己造句（最少 3 句）
+
+- [ ]  我自己写出至少 **3 句** “si + 现在时” 的句子，比如：
+
+  - *Si j’ai le temps, je ferai mes devoirs.*
+  - **如果我有时间，我会做我的作业。**
+  - *Si je finis mes devoirs, je jouerai aux jeux vidéo.*
+  - **如果我完成我的作业，我会玩电子游戏。**
+  - *Si tu es malade, tu restes à la maison.*
+  - **如果你生病了，你就待在家里。**
+
+> 只要结构对、动词会用现在时+将来时，就算 A 级达标 ✅
+
+---
+
+## B 级任务：巩固提高（有精力再做）
+
+> 目标：不仅能看懂，还能熟练改写、和课文配合使用。
+
+### B1. 和课文合在一起玩
+
+- [ ]  在课文和语法页里，用彩笔 **圈出所有以 si 开头的从句**。
+- [ ]  每句下面写中文大意（大概意思即可）。
+
+例如：
+
+- *Si elle continue ainsi, elle réussira tôt ou tard.*
+  → “如果她继续这样下去，她迟早会成功。”
+
+### B2. 改写练习（顺序互换）
+
+- [ ]  会把句子顺序互换，但意思不变：
+
+  - *On va au cinéma si tu es libre ce soir.*
+    ↔ *Si tu es libre ce soir, on va au cinéma.*
+  - *Nous irons à la montagne si tu as de bonnes notes.*
+    ↔ *Si tu as de bonnes notes, nous irons à la montagne.*
+
+> 只要知道：**si 句可以放前面，也可以放后面，中间加逗号**。
+
+### B3. 和将来时结合
+
+- [ ]  我能用 **将来时** 写 2～3 句带 si 的句子：
+
+  - *Si j’ai de l’argent, j’achèterai un nouveau portable.*
+  - *Si nous avons des vacances, nous irons à la mer.*
+
+（可以把上一课将来时的动词都拿来用：irai, ferai, viendrai…）
+
+---
+
+## C 级任务：先知道就好（以后再慢慢学）
+
+> 这部分现在不考，只是给“好奇宝宝”和以后学高级法语留个印象。
+
+- [ ]  我知道，其实还有别的 “si 句型”，比如：
+
+  - **si + 未完成过去时（imparfait） + 条件式（conditionnel）**
+    → 表示“不太可能实现的假设”（如果我有一百万就好了那种）
+  - 但这一套要等后面学新时态时再说，现在不用管。
+- [ ]  我也知道，书上把这一类叫：
+
+  - *proposition de supposition*, 有时跟 *proposition conditionnelle* 放在一起讲。
+  - 这些只是名字，对现在做题没有影响。
+
+---
+
+## 给家长的使用建议
+
+1. **当前只要求孩子完成 A 级**：
+
+   - 会说出公式：*Si + 现在时，主句 现在/将来/命令*；
+   - 熟悉 4 个课本例句；
+   - 能自己造出 3～5 句简单的 si 句。
+2. 如果孩子状态还不错，可以再做 **B 级**：
+
+   - 和课文合在一起圈句子、改顺序、改成将来时等。
+3. C 级只当“提前知道”即可，不要变成孩子的心理负担。
+
+---
+# TOUT 一词学习清单（A / B / C 分级）
+
+> 核心记一句话：  
+> **tout / toute / tous / toutes** 大致都带有  
+> “全、都、整个、每、很” 这样的意思。
+
+| 阳单 | 阴单  | 阳复 | 阴复   |
+|------|-------|------|--------|
+| tout | toute | tous | toutes |
+
+---
+
+## A 级任务：这一课必须会的
+
+> 目标：能看懂、能自己造简单句子，不被 tout 吓到。
+
+### A1. “全 / 每 / 整个” —— 修饰名词（形容词用法）
+
+结构：**tout + 名词**（中间可能有冠词：tout le / toute la / tous les / toutes les）
+
+- 阳单：**tout le jour** 一整天  
+- 阴单：**toute la journée** 整个一天  
+- 阳复：**tous les jours** 每一天  
+- 阴复：**toutes les semaines** 每个星期  
+
+**需要掌握：**
+
+- [ ] 会根据名词，选对形式：
+
+  1. ___ le jour  → **tout**  
+  2. ___ la journée → **toute**  
+  3. ___ les élèves  → **tous**（所有学生）  
+  4. ___ les filles   → **toutes**（所有女生）
+
+- [ ] 能看懂并最好背下来两句：
+
+  - *Il a dormi **toute la journée***.  
+    他睡了一整天。  
+
+  - *On y va **tous les ans***.  
+    我们每年都去那儿。
+
+---
+
+### A2. “全部 / 一切 / 都” —— 不带名词（代词用法）
+
+不用名词、直接用 **tout / tous**，表示“全部、一切、所有人”。
+
+- *Tout va bien.* 一切都好。  
+- *Je comprends tout.* 我全都懂。  
+- *Ils sont tous là.* 他们都在这儿。
+
+**需要掌握：**
+
+- [ ] 看中文能写出含 tout / tous 的法语句子：
+
+  1. 一切都好。→ **Tout va bien.**  
+  2. 我全都懂了。→ Je comprends **tout**.  
+  3. 他们都在这儿。→ Ils sont **tous** là.
+
+---
+
+### A3. “很、非常” —— 修饰形容词（副词用法，最简单版）
+
+相当于 very，只用最基本两句：
+
+- *Il est **tout** content.*  
+  他很高兴。（男的）
+
+- *Elle est **toute** contente.*  
+  她很高兴。（女的）
+
+**需要掌握：**
+
+- [ ] 能根据主语性别，选 tout / toute：
+
+  1. Paul est ___ content. → **tout**  
+  2. Marie est ___ contente. → **toute**
+
+---
+
+### ✔ A 级小结（自检）
+
+- [ ] 我知道 tout 系列大概表示 “全 / 都 / 整个 / 每 / 很”。  
+- [ ] 我会用 tout / toute / tous / toutes + 名词 说“整天、每年、所有人……”。  
+- [ ] 我会用 tout / tous 表示 “一切 / 都”。  
+- [ ] 我会说：*Il est tout content.* / *Elle est toute contente.*  
+
+以上都能打勾 = 本课关于 **tout 的基础 OK ✅**。
+
+---
+
+## B 级任务：巩固 + 和课文结合（有精力再做）
+
+> 目标：用 tout 更自然，句子更多一点。
+
+### B1. 在课文里“找 tout”
+
+- [ ] 拿出课文，用彩笔圈出所有 **tout / toute / tous / toutes**。  
+- [ ] 每圈到一个，在旁边标注一下中文大意，比如：  
+  - tout le monde → 所有人  
+  - tout cela → 这一切  
+  - toutes les vacances → 整个假期  
+
+### B2. 造句练习（综合运用）
+
+用下列提示，自己造句（每种至少 1 句）：
+
+1. **形容词用法（+ 名词）**  
+   - 提示：toute la soirée（整个晚上）、tous les élèves、toutes les vacances  
+   - 例：*J’ai travaillé **toute la soirée**.*  
+
+2. **代词用法（= 一切 / 都）**  
+   - 提示：tout va… / je fais tout / ils ont tous…  
+   - 例：*Nous avons tout vu.*  
+
+3. **副词用法（= 很）**  
+   - 提示：tout triste, toute heureuse  
+   - 例：*Il est tout triste aujourd’hui.*  
+
+- [ ] 写完以后，读给家长听，让家长能大致听懂意思。
+
+---
+
+## C 级任务：了解即可，不必现在死记
+
+> 给以后学更高级法语打个“预告”，现在只要知道有这回事。
+
+- [ ] 知道在 **否定句** 里，有时是否定 “全部”：  
+  - *Tout le monde n’est pas d’accord.*  
+    → 不是所有人都同意。（不是每个人都同意）
+
+- [ ] 知道有一些 **固定短语** 里有 tout：  
+  - *tout le monde*（所有人）  
+  - *pas du tout*（一点也不）  
+  - *tout de suite*（马上）  
+  现在只要见到能认出来，大致懂意思即可。
+
+- [ ] 知道当 **tout** 做副词修饰阴性形容词时，  
+      有时会变成 **toute / toutes**，比如：  
+  - *Elle est toute contente.*  
+  - *Elles sont toutes contentes.*  
+  以后有时间再系统总结，现在只记几个例句足够。
+
+---
+
+## 给家长的小提示
+
+1. **先让孩子只做 A 级**（上面打勾），够应付听课和考试大部分题。  
+2. 如果 A 级比较轻松，再慢慢做 B 级：  
+   - 在课文里找 tout，自己造几句综合句子。  
+3. C 级只是“提前见见”这些用法名字和例句，**不要求会写、会背**，避免增加压力。
+```
+
+如果你愿意，下一步我可以把
+**“将来时 + si 句 + tout”** 三个语法点合并成一张「本课语法总复习单」，一页 A4 打印就够用。
+
+# 将来时 *le futur simple* 学习清单（A + B）
+
+> 给某位初二小朋友的小任务本：
+> 先完成 **A 级任务**，再慢慢挑战 **B 级任务**。
+> 每做完一条，打一个 ✅。
+
+---
+
+## 一、A级任务：基础必修清单
+
+### 1. 概念 & 用法（先知道在干嘛）
+
+- [ ]  我能用自己的话解释：
+  **“将来时就是——现在说：以后会发生的事。”**
+- [ ]  我知道将来时最常用的两种情况：
+
+  1. **普通未来**
+
+     - 表示以后会发生的事情
+     - 例：
+       - Demain, nous **irons** au cinéma.
+         明天，我们将去电影院。
+       - Je **serai** médecin.
+         我将成为医生。/ 我将来要当医生。
+  2. **如果……就……（现实条件句）**
+
+     - 结构：**Si + 现在时，主句用将来时**
+     - 例：
+       - S’il fait beau demain, nous **irons** à la campagne.
+         如果明天天气好，我们就去乡下。
+       - Si j’ai le temps, je **ferai** mes devoirs.
+         如果我有时间，我就做作业。
+
+---
+
+### 2. 词尾 & 规则动词（将来时长什么样）
+
+#### 2.1 背将来时 6 个词尾
+
+- [ ]  我能在纸上写出：
+  je **-ai** 我
+  tu **-as** 你
+  il/elle **-a** 她/他
+  nous **-ons** 我们
+  vous **-ez** 你们/您们/您
+  ils/elles **-ont** 他们/她们
+- [ ]  老妈 / 老爸遮住书本，我还能默写出来 ✅
+
+#### 2.2 会用规则动词变将来时
+
+以 **parler（说）** 为例：
+
+- [ ]  我能写出完整六个形式：
+  je parlerai
+  tu parleras
+  il/elle parlera
+  nous parlerons
+  vous parlerez
+  ils/elles parleront
+
+再用一个 **-ir 动词**（finir 或 choisir）练习：
+
+- [ ]  我能写出：
+  je finirai / choisirai
+  nous finirons / choisirons
+  ils finiront / choisiront
+
+> 小口诀：
+> 大部分 **-er, -ir** 动词：
+> **不定式 + 将来时词尾** 就搞定。
+
+---
+
+### 3. 10 个常用不规则动词（只要 je + nous）
+
+> 目标：看中文能写出 **je 的将来时**，最好也能说出 **nous 形式**。
+
+- [ ]  我抄过下面这张表一次，并读过一遍：
+
+
+| 动词          | je（我将会……） | nous（我们将会……） |
+| ------------- | ---------------- | -------------------- |
+| aller(去)     | j’irai          | nous irons           |
+| avoir(有)     | j’aurai         | nous aurons          |
+| être(是)     | je serai         | nous serons          |
+| faire(做)     | je ferai         | nous ferons          |
+| venir(来)     | je viendrai      | nous viendrons       |
+| voir(看)      | je verrai        | nous verrons         |
+| vouloir(想要) | je voudrai       | nous voudrons        |
+| pouvoir(能)   | je pourrai       | nous pourrons        |
+| devoir(必须)  | je devrai        | nous devrons         |
+| savoir(知道)  | je saurai        | nous saurons         |
+
+- [ ]  老妈 / 老爸说中文：“去、是、有、做、来、看、想要、能、必须、知道”，
+  我能写出对应的 **je 将来时**（比如：j’irai, je serai…）。
+
+---
+
+### 4. 造句练习（确保能用出来）
+
+#### 4.1 普通将来句
+
+- [ ]  我自己写出至少 **3 句**“以后会怎么样”的句子，例如：
+
+  - Demain, je **ferai** mes devoirs.
+    明天，我将做我的作业。
+  - La semaine prochaine, nous **irons** au cinéma.
+    下周，我们将去看电影。
+  - Plus tard, je **vivrai** à l’étranger.
+    以后，我将住在国外。
+
+（写好后读给家长听一遍 ✅）
+
+#### 4.2 “如果……就……”句型（si + 现在时，主句将来）
+
+- [ ]  我自己写出 **2 句**“si + 现在时，主句将来”的句子，例如：
+
+  - Si j’ai le temps, je **jouerai** au foot.
+    如果我有时间，我就去踢足球。
+  - S’il fait beau demain, nous **irons** faire du ski.
+    如果明天天气好，我们就去滑雪。
+
+A级任务全部打勾 ✅ =
+**说明：我已经会用将来时说简单的未来计划和“如果……就……”了。**
+
+---
+
+## 二、B级任务：提升巩固清单
+
+> 在 A 级基础上，多走一步，让将来时“更熟、更自然”。
+
+### 1. 和课文结合（在书上动笔）
+
+- [ ]  在课文里，用彩笔 **圈出所有将来时动词**（比如 *irons, découvrirez, ferez…*）。
+- [ ]  对每一句含将来时的句子，用中文在旁边写一句大意。
+  （大意对就行，不要追求逐字翻译）
+
+例子：
+
+- Vous découvrirez la Bretagne en vélo.
+  → 你们会骑车游览布列塔尼。
+
+---
+
+### 2. 句型转换（现在时 ↔ 将来时）
+
+- [ ]  把老师给的 / 课本上的 **2～3 句现在时**，改写成将来时，例如：
+
+  - Aujourd’hui, nous allons au cinéma.
+    → Demain, nous **irons** au cinéma.
+  - Aujourd’hui, je fais mes devoirs.
+    → Ce soir, je **ferai** mes devoirs.
+- [ ]  反过来：把自己写的 1～2 句将来时，改成现在时，检查自己有没有真正看懂。
+
+---
+
+### 3. 小短文（3～5 句）
+
+任选一个主题写一小段话：
+
+- 题目 1：**Demain, je…**（明天我会做什么）
+- 题目 2：**Plus tard, je serai…**（将来我会成为什么）
+
+要求：
+
+- [ ]  至少写 **3～5 句**，里面至少用 **3 次将来时**（可以重复同一个动词）。
+- [ ]  写完后，大声读一遍给家长听，让家长大概能听懂中文意思。
+
+---
+
+### 4. 拼写小变化（只管课文里遇到的几个）
+
+只要求对这类变化“有印象”，看见不害怕：
+
+- acheter → j’achèterai
+- se lever → je me lèverai
+- essayer → j’essaierai
+- envoyer → j’enverrai
+
+- [ ]  我能看懂上面这几句的意思，并知道：
+  “哦，这些是为了发音好听，所以拼写有一点点变。”
+
+> 不要求全部背，只要课文里遇到的那几个看见能认出来就好。
+
+---
+
+## 三、小结（给自己看的激励）
+
+- [ ]  我已经完成 **A级任务**：
+  ✔ 记住了将来时词尾
+  ✔ 会变规则动词 + 10 个常用不规则动词
+  ✔ 会写 3～5 句自己的将来时句子
+  ✔ 会用 “Si + 现在时，主句将来时” 造句
+- [ ]  我开始挑战 **B级任务**：
+  ✔ 在课文里圈出将来时并写中文大意
+  ✔ 能把现在时句子改成将来时
+  ✔ 写过一段小短文说“我的明天 / 我的将来”
+
+> 如果上面大部分都能打勾，你的将来时就已经比绝大多数同学稳得多啦 💪
+> 后面我们可以再慢慢玩更难一点的用法（礼貌将来、委婉命令）——不着急。
+
+```
+
+```

@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "total_sentences": 16,
+    "total_duration": 67.3,
+    "audio_range": {
+      "start": 0.38,
+      "end": 67.68
+    }
+  },
+  "sentences": [
+    {
+      "sentence_id": "J_00:00:00.38",
+      "sentence_number": "1.1",
+      "audio_start": 0.38,
+      "audio_end": 4.4,
+      "duration": 4.02,
+      "text": "Leçon1Lesvacances",
+      "time_format": {
+        "start": "00:00:00.38",
+        "end": "00:00:04.40"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:04.40",
+      "sentence_number": "2.1",
+      "audio_start": 4.4,
+      "audio_end": 9.15,
+      "duration": 4.75,
+      "text": "DialogueResteroupartir?",
+      "time_format": {
+        "start": "00:00:04.40",
+        "end": "00:00:09.15"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:09.15",
+      "sentence_number": "3.1",
+      "audio_start": 9.15,
+      "audio_end": 14.99,
+      "duration": 5.84,
+      "text": "Vendredisoir,àlatable,M.etMmeDupré",
+      "time_format": {
+        "start": "00:00:09.15",
+        "end": "00:00:14.99"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:14.99",
+      "sentence_number": "3.2",
+      "audio_start": 14.99,
+      "audio_end": 19.6,
+      "duration": 4.61,
+      "text": "discutentavecleurstroisenfants,Paul,LinaetJeanne.",
+      "time_format": {
+        "start": "00:00:14.99",
+        "end": "00:00:19.60"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:19.60",
+      "sentence_number": "4.1",
+      "audio_start": 19.6,
+      "audio_end": 22.72,
+      "duration": 3.12,
+      "text": "Lina:Dis,papa,onsortcesoir?",
+      "time_format": {
+        "start": "00:00:19.60",
+        "end": "00:00:22.72"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:22.72",
+      "sentence_number": "5.1",
+      "audio_start": 22.72,
+      "audio_end": 27.52,
+      "duration": 4.8,
+      "text": "Lepère:Cesoir,jevaisregarderlematchdefootàlatélé:",
+      "time_format": {
+        "start": "00:00:22.72",
+        "end": "00:00:27.52"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:27.52",
+      "sentence_number": "5.2",
+      "audio_start": 27.52,
+      "audio_end": 30.83,
+      "duration": 3.31,
+      "text": "c'estlafinaledelaCoupeduMonde2006!",
+      "time_format": {
+        "start": "00:00:27.52",
+        "end": "00:00:30.83"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:30.83",
+      "sentence_number": "5.3",
+      "audio_start": 30.83,
+      "audio_end": 34.84,
+      "duration": 4.01,
+      "text": "Voussavez,laCoupeduMonde,cen'estpastouslesjours!",
+      "time_format": {
+        "start": "00:00:30.83",
+        "end": "00:00:34.84"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:34.84",
+      "sentence_number": "6.1",
+      "audio_start": 34.84,
+      "audio_end": 42.29,
+      "duration": 7.45,
+      "text": "Lamère:Quelsportif!Tuaimestout:lefootball,lerugby,levolley-ball,letennis…",
+      "time_format": {
+        "start": "00:00:34.84",
+        "end": "00:00:42.29"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:42.29",
+      "sentence_number": "6.2",
+      "audio_start": 42.29,
+      "audio_end": 47.13,
+      "duration": 4.84,
+      "text": "Tout!mais. . .àlatélévisionetdansunbonfauteuil. . .",
+      "time_format": {
+        "start": "00:00:42.29",
+        "end": "00:00:47.13"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:47.13",
+      "sentence_number": "6.3",
+      "audio_start": 47.13,
+      "audio_end": 49.43,
+      "duration": 2.3,
+      "text": "Sportifenchambre,quoi!",
+      "time_format": {
+        "start": "00:00:47.13",
+        "end": "00:00:49.43"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:49.43",
+      "sentence_number": "7.1",
+      "audio_start": 49.43,
+      "audio_end": 52.09,
+      "duration": 2.66,
+      "text": "Jeanne:Etpapaaimeaussilegolf!",
+      "time_format": {
+        "start": "00:00:49.43",
+        "end": "00:00:52.09"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:52.09",
+      "sentence_number": "8.1",
+      "audio_start": 52.09,
+      "audio_end": 56.21,
+      "duration": 4.12,
+      "text": "Lepère:Arrête,Jeanne!Chérie,tuexagèresunpeu.",
+      "time_format": {
+        "start": "00:00:52.09",
+        "end": "00:00:56.21"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:56.21",
+      "sentence_number": "8.2",
+      "audio_start": 56.21,
+      "audio_end": 59.69,
+      "duration": 3.48,
+      "text": "Maistuoubliesleski.Jefaisduski,moi!",
+      "time_format": {
+        "start": "00:00:56.21",
+        "end": "00:00:59.69"
+      }
+    },
+    {
+      "sentence_id": "J_00:00:59.69",
+      "sentence_number": "9.1",
+      "audio_start": 59.69,
+      "audio_end": 64.03,
+      "duration": 4.34,
+      "text": "Lamère:Oui,c'estvrai.Tuenfaisbeaucoup:huitjoursparan!",
+      "time_format": {
+        "start": "00:00:59.69",
+        "end": "00:01:04.03"
+      }
+    },
+    {
+      "sentence_id": "J_00:01:04.03",
+      "sentence_number": "10.1",
+      "audio_start": 64.03,
+      "audio_end": 67.68,
+      "duration": 3.65,
+      "text": "Paul:Qu'est-cequenousferonspendantlesvacancesdeNoël?",
+      "time_format": {
+        "start": "00:01:04.03",
+        "end": "00:01:07.68"
+      }
+    }
+  ]
+}

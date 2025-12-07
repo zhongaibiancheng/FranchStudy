@@ -63,8 +63,11 @@
 - [ ]  我自己写出至少 **3 句** “si + 现在时” 的句子，比如：
 
   - *Si j’ai le temps, je ferai mes devoirs.*
+  - **如果我有时间，我会做我的作业。**
   - *Si je finis mes devoirs, je jouerai aux jeux vidéo.*
+  - **如果我完成我的作业，我会玩电子游戏。**
   - *Si tu es malade, tu restes à la maison.*
+  - **如果你生病了，你就待在家里。**
 
 > 只要结构对、动词会用现在时+将来时，就算 A 级达标 ✅
 

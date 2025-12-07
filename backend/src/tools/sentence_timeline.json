@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Vendredi soir, à la table, M. et Mme Dupré discutent avec leurs trois enfants, Paul, Lina et Jeanne.",
+    "start": 1.06,
+    "end": 7.39,
+    "score": 4.255319148936167
+  },
+  {
+    "text": "Dis, papa, on sort ce soir ?",
+    "start": 7.94,
+    "end": 8.69,
+    "score": 7.407407407407405
+  },
+  {
+    "text": "Ce soir, je vais regarder le match de foot à la télé : c’est la finale de la Coupe du Monde 2006 ! Vous savez, la Coupe du Monde, ce n’est pas tous les jours !",
+    "start": 10.1,
+    "end": 18.41,
+    "score": 3.3898305084745743
+  },
+  {
+    "text": "Quel sportif ! Tu aimes tout : le football, le rugby, le volley-ball, le tennis... Tout ! mais... à la télévision et dans un bon fauteuil... Sportif en chambre, quoi !",
+    "start": 18.68,
+    "end": 26.879999,
+    "score": 3.149606299212593
+  },
+  {
+    "text": "Arrête, Jeanne ! Chérie, tu exagères un peu. Mais tu oublies le ski. Je fais du ski, moi !",
+    "start": 26.879999,
+    "end": 30.75,
+    "score": 7.79220779220779
+  },
+  {
+    "text": "Oui, c’est vrai. Tu en fais beaucoup : huit jours par an !",
+    "start": 30.75,
+    "end": 33.380001,
+    "score": 7.272727272727266
+  },
+  {
+    "text": "Qu’est-ce que nous ferons pendant les vacances de Noël ?",
+    "start": 33.380001,
+    "end": 36.880001,
+    "score": 7.017543859649123
+  },
+  {
+    "text": "Heu... Je ne sais pas, ta mère et moi, nous irons peut-être faire du ski à Grenoble, comme l’année dernière.",
+    "start": 36.880001,
+    "end": 44.169998,
+    "score": 5.769230769230774
+  },
+  {
+    "text": "Oh vous ! Vous êtes encore un peu jeunes... non ? Toi, Paul, tu ne préfères pas passer les fêtes chez tes grands-parents ?",
+    "start": 44.599998,
+    "end": 48.810001,
+    "score": 3.6697247706422047
+  },
+  {
+    "text": "Non, pas cette année ! Si vous faites du ski, j’en ferai aussi. Je suis assez grand maintenant !",
+    "start": 48.810001,
+    "end": 52.860001,
+    "score": 6.521739130434781
+  },
+  {
+    "text": "Et ce soir, papa ? On sort ou on reste ? De toute façon, le foot à la télé, ça ne manque pas !",
+    "start": 52.860001,
+    "end": 57.740002,
+    "score": 4.705882352941174
+  },
+  {
+    "text": "Bon, d’accord. Mais qu’est-ce qu’on fera ? Au cinéma, alors ?",
+    "start": 58.330002,
+    "end": 59.490002,
+    "score": 7.017543859649123
+  },
+  {
+    "text": "O.K., on y va tous ensemble. T’es contente cette fois-ci, Lina ?",
+    "start": 60.189999,
+    "end": 63.560001,
+    "score": 6.557377049180332
+  },
+  {
+    "text": "Oui, elle est toute contente. Mais papa, y a encore mieux ! Et demain, c’est samedi, j’espère qu’on ne restera plus chez nous.",
+    "start": 63.560001,
+    "end": 71.660004,
+    "score": 3.305785123966942
+  },
+  {
+    "text": "Non, chérie. Demain, nous irons à la campagne dans notre maison tous les cinq.",
+    "start": 71.660004,
+    "end": 74.650002,
+    "score": 2.597402597402592
+  },
+  {
+    "text": "Oui, nous partirons de bonne heure, comme ça, avant midi, nous aurons le temps de faire une petite promenade à pied.",
+    "start": 74.650002,
+    "end": 81.190002,
+    "score": 3.773584905660371
+  },
+  {
+    "text": "Et nous mangerons au restaurant à côté ?",
+    "start": 81.190002,
+    "end": 83.43,
+    "score": 9.756097560975604
+  },
+  {
+    "text": "Non, je ne pense pas. Ta mère va préparer des sandwiches, et nous pique-niquerons sur l’herbe de notre jardin ; il fera beau, ce sera plus agréable.",
+    "start": 83.43,
+    "end": 88.779999,
+    "score": 2.7777777777777715
+  },
+  {
+    "text": "Et quand je serai toute seule, je reprendrai mon livre. Heureusement pour moi, il y a la lecture... Et vite, partons tout de suite ! Sinon, on va rater la séance de 22 heures.",
+    "start": 88.779999,
+    "end": 98.050003,
+    "score": 2.631578947368425
+  },
+  {
+    "text": "On y va ! Youpi !",
+    "start": 98.050003,
+    "end": 98.529999,
+    "score": 12.5
+  }
+]
