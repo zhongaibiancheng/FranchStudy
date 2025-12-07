@@ -79,7 +79,7 @@
           重置视图
         </button>
 
-        <button @click="goBack" class="export-btn">
+        <button @click="goBack" class="action-btn">
           ⬅️ 返回
         </button>
       </div>

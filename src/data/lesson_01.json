@@ -339,7 +339,42 @@
       "audio_end": 64.699997
     },
     {
-      "id": "D09",
+  "id": "D09",
+  "source": "dialogue",
+  "french_full": "Paul : Et nous ? Nous irons avec vous ?",
+  "french_gap": "Paul : Et nous ? Nous irons avec vous ?",
+  "chinese": "Paul：那我们呢？我们和你们一起去？",
+  "answers": [],
+  "tags": [
+    "将来时",
+    "家庭对话",
+    "提问句"
+  ],
+  "level": "A",
+  "explain": {
+    "meaning": "Paul：那我们呢？我们会和你们一起去吗？",
+    "vocab": [
+      {
+        "item": "Et nous ?",
+        "note": "“那我们呢？”用于在对话中追问自己这一方的安排/处境。"
+      },
+      {
+        "item": "nous irons",
+        "note": "动词 aller 的将来时第一人称复数：我们将会去……。"
+      },
+      {
+        "item": "avec vous",
+        "note": "“和你们一起”。avec = 和；vous = 你们/您。"
+      }
+    ],
+    "grammar": "这是口语化的提问：先用短问句“Et nous ?”承接前文，再用将来时疑问句“Nous irons avec vous ?”确认未来计划。语序为陈述语序加问号的口语疑问形式。",
+    "usage": "孩子在听到父母的假期计划后，常用这种结构追问自己是否能参与。可以仿写：“Et moi ? J’irai avec vous ?”"
+  },
+  "audio_start": null,
+  "audio_end": null
+},
+    {
+      "id": "D10",
       "source": "dialogue",
       "french_full": "Le père : Oh vous ! Vous êtes encore un peu jeunes... non ? Toi, Paul, tu ne préfères pas passer les fêtes chez tes grands-parents ?",
       "french_gap": "Le père : Oh vous ! Vous êtes __________________________. . . non ? Toi, Paul, tu _________________________________________________________________ ?",
@@ -380,7 +415,7 @@
       "audio_end": 75.900002
     },
     {
-      "id": "D10",
+      "id": "D11",
       "source": "dialogue",
       "french_full": "Paul : Non, pas cette année ! Si vous faites du ski, j’en ferai aussi. Je suis assez grand maintenant !",
       "french_gap": "Paul : Non, pas cette année ! Si __________________________, __________________________ aussi. Je suis __________________________ maintenant !",
@@ -418,7 +453,7 @@
       "audio_end": 83.559998
     },
     {
-      "id": "D11",
+      "id": "D12",
       "source": "dialogue",
       "french_full": "Lina : Et ce soir, papa ? On sort ou on reste ? De toute façon, le foot à la télé, ça ne manque pas !",
       "french_gap": "Lina : Et ce soir, papa ? __________________________________? _____________________, le foot à la télé, _______________________________________!",
@@ -456,7 +491,7 @@
       "audio_end": 93.0
     },
     {
-      "id": "D12",
+      "id": "D13",
       "source": "dialogue",
       "french_full": "La mère : Bon, d’accord. Mais qu’est-ce qu’on fera ? Au cinéma, alors ?",
       "french_gap": "La mère : Bon, d'accord. Mais __________________________ ? _______________________, alors ?",
@@ -493,7 +528,7 @@
       "audio_end": 97.690002
     },
     {
-      "id": "D13",
+      "id": "D14",
       "source": "dialogue",
       "french_full": "Le père : O.K., on y va tous ensemble. T’es contente cette fois-ci, Lina ?",
       "french_gap": "Le père : O. K. , _____________________________. T'es contente cette fois-ci, Lina ?",
@@ -529,7 +564,7 @@
       "audio_end": 106.93
     },
     {
-      "id": "D14",
+      "id": "D15",
       "source": "dialogue",
       "french_full": "Jeanne : Oui, elle est toute contente. Mais papa, y a encore mieux ! Et demain, c’est samedi, j’espère qu’on ne restera plus chez nous.",
       "french_gap": "Jeanne : Oui, elle est__________________________. Mais papa, y a encore moi ! Et demain, c'est samedi, _______________________________________.",
@@ -570,7 +605,7 @@
       "audio_end": 113.989998
     },
     {
-      "id": "D15",
+      "id": "D16",
       "source": "dialogue",
       "french_full": "La mère : Non, chérie. Demain, nous irons à la campagne dans notre maison tous les cinq.",
       "french_gap": "La mère : Non, chérie. Demain, nous ______________________________________________________________________________.",
@@ -611,7 +646,7 @@
       "audio_end": 121.379997
     },
     {
-      "id": "D16",
+      "id": "D17",
       "source": "dialogue",
       "french_full": "Le père : Oui, nous partirons de bonne heure, comme ça, avant midi, nous aurons le temps de faire une petite promenade à pied.",
       "french_gap": "Le père : Oui, nous ____________________________, _____________, avant midi, nous ______________________________________________________________________________.",
@@ -653,7 +688,7 @@
       "audio_end": 134.029999
     },
     {
-      "id": "D17",
+      "id": "D18",
       "source": "dialogue",
       "french_full": "Paul : Et nous mangerons au restaurant à côté ?",
       "french_gap": "Paul : Et nous ____________________________ ?",
@@ -689,7 +724,7 @@
       "audio_end": 137.460007
     },
     {
-      "id": "D18",
+      "id": "D19",
       "source": "dialogue",
       "french_full": "Le père : Non, je ne pense pas. Ta mère va préparer des sandwiches, et nous pique-niquerons sur l’herbe de notre jardin ; il fera beau, ce sera plus agréable.",
       "french_gap": "Le père : Non, je ne pense pas. Ta mère va _____________ des sandwiches, et nous _____________________________________________; il fera beau, ce ____________________________.",
@@ -735,7 +770,7 @@
       "audio_end": 153.300003
     },
     {
-      "id": "D19",
+      "id": "D20",
       "source": "dialogue",
       "french_full": "La mère : Et quand je serai toute seule, je reprendrai mon livre. Heureusement pour moi, il y a la lecture... Et vite, partons tout de suite ! Sinon, on va rater la séance de 22 heures.",
       "french_gap": "La mère : Et quand je ____________________________, je _____________ mon livre. _______________________________________, il y a la lecture… Et _____________, ___________________________________ ! _____________, on va _______________________ 22 heures.",
@@ -794,7 +829,7 @@
       "audio_end": 173.660004
     },
     {
-      "id": "D20",
+      "id": "D21",
       "source": "dialogue",
       "french_full": "Les enfants : On y va ! Youpi !",
       "french_gap": "Les enfants : ____________________________! Youpi !",
