@@ -1,0 +1,1097 @@
+{
+  "title": "Une concierge parisienne",
+  "audio": {
+    "src": "/audio/lesson_concierge/lesson_concierge_dialogue.m4a"
+  },
+  "text": [
+    {
+      "id": "D01",
+      "source": "dialogue",
+      "french_full": "Nous sommes allés interviewer une concierge du 16e arrondissement, Madame Andrieu, une femme d'une trentaine d'années, mariée et mère d'un enfant.",
+      "french_gap": "Nous sommes allés interviewer une concierge du 16e arrondissement, Madame Andrieu, une femme ____________________________, mariée et mère d'un enfant.",
+      "chinese": "我们去采访了巴黎第16区的一位门房，安德里厄夫人，一位三十来岁的女性，已婚并有一个孩子。",
+      "answers": [
+        "d'une trentaine d'années"
+      ],
+      "tags": [
+        "复合过去时",
+        "人物介绍",
+        "采访场景"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "叙述采访背景并介绍人物身份。",
+        "vocab": [
+          {
+            "item": "interviewer",
+            "note": "采访。"
+          },
+          {
+            "item": "arrondissement",
+            "note": "（巴黎的）区。"
+          }
+        ],
+        "grammar": "“sommes allés”是 aller 的复合过去时，用来讲述已经完成的过去动作。",
+        "usage": "文章开头常用这种过去时+人物补充信息的结构交代背景。"
+      }
+    },
+    {
+      "id": "D02",
+      "source": "dialogue",
+      "french_full": "Madame, comment êtes-vous devenue concierge ?",
+      "french_gap": "Madame, comment ____________________________ concierge ?",
+      "chinese": "夫人，您是怎么成为门房的？",
+      "answers": [
+        "êtes-vous devenue"
+      ],
+      "tags": [
+        "复合过去时",
+        "提问",
+        "职业"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "采访者询问她成为门房的经历。",
+        "vocab": [
+          {
+            "item": "devenir",
+            "note": "成为。"
+          },
+          {
+            "item": "concierge",
+            "note": "门房、管理员（公寓楼）。"
+          }
+        ],
+        "grammar": "“êtes-vous devenue”是 devenir 的复合过去时，配合倒装提问。",
+        "usage": "问“过去经历/如何成为……”时常用这种结构。"
+      }
+    },
+    {
+      "id": "D03",
+      "source": "dialogue",
+      "french_full": "C'est bien simple, monsieur.",
+      "french_gap": "C'est ____________________________, monsieur.",
+      "chinese": "这很简单，先生。",
+      "answers": [
+        "bien simple"
+      ],
+      "tags": [
+        "固定表达",
+        "口语回答"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "简短回答，表示“原因不复杂”。",
+        "vocab": [
+          {
+            "item": "bien simple",
+            "note": "很简单。"
+          }
+        ],
+        "grammar": "现在时“c’est”用于对当前说话内容的判断。",
+        "usage": "口语中常用来引出解释。"
+      }
+    },
+    {
+      "id": "D04",
+      "source": "dialogue",
+      "french_full": "Mon mari travaille dans le garage que vous voyez là-bas et nous habitions dans la banlieue nord.",
+      "french_gap": "Mon mari travaille dans le garage que vous voyez là-bas et nous ____________________________ dans la banlieue nord.",
+      "chinese": "我丈夫在你们那边看到的车库工作，而我们以前住在北郊。",
+      "answers": [
+        "habitions"
+      ],
+      "tags": [
+        "未完成过去时",
+        "生活背景",
+        "现在时对比"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "说明丈夫的工作地点以及他们当时的居住情况。",
+        "vocab": [
+          {
+            "item": "banlieue",
+            "note": "郊区。"
+          }
+        ],
+        "grammar": "“travaille”现在时讲事实/现状；“habitions”未完成过去时描述过去持续的背景状态。",
+        "usage": "同一句中“现在时+未完成过去时”能自然对比“现在/当时”。"
+      }
+    },
+    {
+      "id": "D05",
+      "source": "dialogue",
+      "french_full": "Il devait faire presque trois heures de métro et d'autobus pour aller à son travail et en revenir.",
+      "french_gap": "Il ____________________________ presque trois heures de métro et d'autobus pour aller à son travail et en revenir.",
+      "chinese": "他以前上下班得坐地铁和公交差不多三小时。",
+      "answers": [
+        "devait faire"
+      ],
+      "tags": [
+        "未完成过去时",
+        "义务/需要",
+        "通勤"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "强调当时通勤时间很长。",
+        "vocab": [
+          {
+            "item": "devoir",
+            "note": "必须、不得不。这里表示“需要”。"
+          }
+        ],
+        "grammar": "“devait”未完成过去时表示过去经常/持续存在的“需要/情况”。",
+        "usage": "用于讲“那时候的生活有多辛苦”。"
+      }
+    },
+    {
+      "id": "D06",
+      "source": "dialogue",
+      "french_full": "Alors, quand le concierge qui travaillait dans cette maison est mort, nous nous sommes présentés.",
+      "french_gap": "Alors, quand le concierge qui ____________________________ dans cette maison ____________________________, nous nous sommes présentés.",
+      "chinese": "后来，这栋楼里那位当时在工作的门房去世了，我们就去应聘了。",
+      "answers": [
+        "travaillait",
+        "est mort"
+      ],
+      "tags": [
+        "未完成过去时",
+        "复合过去时",
+        "从句",
+        "过去叙事"
+      ],
+      "level": "C",
+      "explain": {
+        "meaning": "说明他们应聘的契机。",
+        "vocab": [
+          {
+            "item": "se présenter",
+            "note": "前去应聘/报名/出现。"
+          }
+        ],
+        "grammar": "“travaillait”作背景描述；“est mort / nous nous sommes présentés”用复合过去时表示具体发生并完成的事件。",
+        "usage": "这是“背景(未完成过去时)+事件(复合过去时)”的典型组合。"
+      }
+    },
+    {
+      "id": "D07",
+      "source": "dialogue",
+      "french_full": "Vous étiez les seuls ?",
+      "french_gap": "Vous ____________________________ les seuls ?",
+      "chinese": "你们是唯一的应聘者吗？",
+      "answers": [
+        "étiez"
+      ],
+      "tags": [
+        "未完成过去时",
+        "提问"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "询问当时的情况。",
+        "vocab": [
+          {
+            "item": "les seuls",
+            "note": "唯一的。"
+          }
+        ],
+        "grammar": "“étiez”未完成过去时用来问“当时是什么状态/情况”。",
+        "usage": "很常见的口语回忆式提问。"
+      }
+    },
+    {
+      "id": "D08",
+      "source": "dialogue",
+      "french_full": "Oh non, il y en avait au moins dix autres qui voulaient la place.",
+      "french_gap": "Oh non, il y en ____________________________ au moins dix autres qui ____________________________ la place.",
+      "chinese": "哦不，至少还有十个人也想要这个职位。",
+      "answers": [
+        "avait",
+        "voulaient"
+      ],
+      "tags": [
+        "未完成过去时",
+        "数量表达",
+        "相对从句"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "否认“只有你们”，说明竞争者很多。",
+        "vocab": [
+          {
+            "item": "au moins",
+            "note": "至少。"
+          },
+          {
+            "item": "la place",
+            "note": "这里指“职位/岗位”。"
+          }
+        ],
+        "grammar": "“il y en avait / voulaient”都是未完成过去时，描述过去的情境与当时的愿望。",
+        "usage": "用来讲“当时竞争有多激烈”。"
+      }
+    },
+    {
+      "id": "D09",
+      "source": "dialogue",
+      "french_full": "Et c'est vous qui l'avez eue.",
+      "french_gap": "Et c'est vous qui ____________________________.",
+      "chinese": "结果是你们得到了这个职位。",
+      "answers": [
+        "l'avez eue"
+      ],
+      "tags": [
+        "复合过去时",
+        "强调句"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "确认她们最终被选中。",
+        "vocab": [
+          {
+            "item": "avoir",
+            "note": "l’avoir eue = 得到它（职位）。"
+          }
+        ],
+        "grammar": "“l’avez eue”复合过去时强调“结果已经发生”。“c’est vous qui...”是强调结构。",
+        "usage": "采访中常用来确认事实。"
+      }
+    },
+    {
+      "id": "D10",
+      "source": "dialogue",
+      "french_full": "Votre mari devait être content ?",
+      "french_gap": "Votre mari ____________________________ content ?",
+      "chinese": "你丈夫当时应该很高兴吧？",
+      "answers": [
+        "devait être"
+      ],
+      "tags": [
+        "未完成过去时",
+        "推测",
+        "情绪"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "对过去情绪进行推测。",
+        "vocab": [
+          {
+            "item": "content",
+            "note": "高兴的。"
+          }
+        ],
+        "grammar": "“devait être”未完成过去时用于回忆并推测当时的状态。",
+        "usage": "口语里很自然的“当时一定……”表达。"
+      }
+    },
+    {
+      "id": "D11",
+      "source": "dialogue",
+      "french_full": "Oh oui, il était heureux.",
+      "french_gap": "Oh oui, il ____________________________ heureux.",
+      "chinese": "哦是的，他当时很开心。",
+      "answers": [
+        "était"
+      ],
+      "tags": [
+        "未完成过去时",
+        "情绪描述"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "确认丈夫当时的心情。",
+        "vocab": [
+          {
+            "item": "heureux",
+            "note": "幸福的、开心的。"
+          }
+        ],
+        "grammar": "“était”未完成过去时描述过去的状态。",
+        "usage": "用于讲“当时感觉怎样”。"
+      }
+    },
+    {
+      "id": "D12",
+      "source": "dialogue",
+      "french_full": "Nous avions vraiment de la chance, les logements dans ce quartier sont trop chers.",
+      "french_gap": "Nous ____________________________ vraiment de la chance, les logements dans ce quartier sont trop chers.",
+      "chinese": "我们当时真的很幸运，因为这个区的住房太贵了。",
+      "answers": [
+        "avions"
+      ],
+      "tags": [
+        "未完成过去时",
+        "表达评价",
+        "现在时对比"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "表达过去的感受，同时补充现在也成立的事实。",
+        "vocab": [
+          {
+            "item": "avoir de la chance",
+            "note": "幸运。"
+          },
+          {
+            "item": "logement",
+            "note": "住房。"
+          }
+        ],
+        "grammar": "“avions”未完成过去时讲当时感受；“sont trop chers”现在时讲普遍事实。",
+        "usage": "用“过去感受+现在事实”让理由更有说服力。"
+      }
+    },
+    {
+      "id": "D13",
+      "source": "dialogue",
+      "french_full": "Bien sûr, c'est très petit.",
+      "french_gap": "Bien sûr, c'est ____________________________.",
+      "chinese": "当然，这里很小。",
+      "answers": [
+        "très petit"
+      ],
+      "tags": [
+        "评价表达",
+        "口语连接"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "承认住房空间小。",
+        "vocab": [
+          {
+            "item": "bien sûr",
+            "note": "当然。"
+          }
+        ],
+        "grammar": "现在时用于描述当前情况。",
+        "usage": "常用于“先承认不足，再继续解释”。"
+      }
+    },
+    {
+      "id": "D14",
+      "source": "dialogue",
+      "french_full": "En plus de cette pièce — à la fois salon, salle à manger, cuisine — nous n'avons qu'une chambre de 4 m².",
+      "french_gap": "En plus de cette pièce — à la fois salon, salle à manger, cuisine — nous ____________________________ qu'une chambre de 4 m².",
+      "chinese": "除了这间既是客厅、餐厅又是厨房的房间之外，我们只有一间4平方米的卧室。",
+      "answers": [
+        "n'avons"
+      ],
+      "tags": [
+        "否定结构",
+        "住房场景",
+        "现在时"
+      ],
+      "level": "C",
+      "explain": {
+        "meaning": "具体说明房子非常小。",
+        "vocab": [
+          {
+            "item": "à la fois",
+            "note": "同时既是……又是……"
+          },
+          {
+            "item": "ne... que",
+            "note": "只……（限制）。"
+          }
+        ],
+        "grammar": "“ne... qu’”不是“否定的‘不’”，而是“只、仅仅”。",
+        "usage": "用来做具体数量/程度说明。"
+      }
+    },
+    {
+      "id": "D15",
+      "source": "dialogue",
+      "french_full": "Pouvez-vous me parler de votre journée de travail ?",
+      "french_gap": "Pouvez-vous me parler de votre ____________________________ ?",
+      "chinese": "您能跟我说说您一天的工作吗？",
+      "answers": [
+        "journée de travail"
+      ],
+      "tags": [
+        "礼貌提问",
+        "采访场景"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "请求对方介绍自己的日常工作。",
+        "vocab": [
+          {
+            "item": "journée",
+            "note": "一天、日常。"
+          }
+        ],
+        "grammar": "“Pouvez-vous... ?”是非常常用的礼貌请求句式。",
+        "usage": "采访、口语对话中很实用。"
+      }
+    },
+    {
+      "id": "D16",
+      "source": "dialogue",
+      "french_full": "Je me lève vers 6 heures, je sors les poubelles, je m'occupe de mon mari, de mon petit garçon.",
+      "french_gap": "Je me lève vers 6 heures, je sors ____________________________, je ____________________________ de mon mari, de mon petit garçon.",
+      "chinese": "我大约六点起床，倒垃圾，照顾我丈夫和小儿子。",
+      "answers": [
+        "les poubelles",
+        "m'occupe"
+      ],
+      "tags": [
+        "现在时",
+        "日常作息",
+        "工作内容"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "用现在时描述日常/习惯性动作。",
+        "vocab": [
+          {
+            "item": "se lever",
+            "note": "起床。"
+          },
+          {
+            "item": "s'occuper de",
+            "note": "照顾、处理。"
+          }
+        ],
+        "grammar": "现在时可以表示“经常做的事/日常安排”。",
+        "usage": "用并列动词列出工作/生活清单。"
+      }
+    },
+    {
+      "id": "D17",
+      "source": "dialogue",
+      "french_full": "Quand le facteur est passé, je porte le courrier aux locataires et je nettoie les escaliers.",
+      "french_gap": "Quand le facteur ____________________________, je porte le courrier aux locataires et je nettoie les escaliers.",
+      "chinese": "邮差来过之后，我把信件送给住户，然后打扫楼梯。",
+      "answers": [
+        "est passé"
+      ],
+      "tags": [
+        "复合过去时",
+        "现在时",
+        "时间从句"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "讲“一个已发生的动作”触发“我日常要做的事”。",
+        "vocab": [
+          {
+            "item": "facteur",
+            "note": "邮差。"
+          },
+          {
+            "item": "locataire",
+            "note": "房客、租户。"
+          }
+        ],
+        "grammar": "从句“est passé”是复合过去时；主句用现在时描述常规工作流程。",
+        "usage": "体现“时间点事件+后续常规动作”。"
+      }
+    },
+    {
+      "id": "D18",
+      "source": "dialogue",
+      "french_full": "À ce moment-là, on frappe à la porte de la loge et on demande un certain M. Renaud.",
+      "french_gap": "À ce moment-là, on ____________________________ à la porte de la loge et on demande un certain M. Renaud.",
+      "chinese": "就在这时，有人敲门房的门，问一位叫雷诺的先生。",
+      "answers": [
+        "frappe"
+      ],
+      "tags": [
+        "现在时叙事",
+        "场景推进"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "叙事推进，进入新的小情节。",
+        "vocab": [
+          {
+            "item": "loge",
+            "note": "门房的住处/值班室。"
+          }
+        ],
+        "grammar": "叙事中也会用现在时制造“现场感”。",
+        "usage": "常见于课文对话转场。"
+      }
+    },
+    {
+      "id": "D19",
+      "source": "dialogue",
+      "french_full": "Deuxième, à gauche, répond la concierge gentiment.",
+      "french_gap": "Deuxième, à gauche, répond la concierge ____________________________.",
+      "chinese": "“二楼，左边。”门房和善地回答。",
+      "answers": [
+        "gentiment"
+      ],
+      "tags": [
+        "现在时",
+        "简短指路"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "门房给出简单指路信息。",
+        "vocab": [
+          {
+            "item": "à gauche",
+            "note": "在左边。"
+          }
+        ],
+        "grammar": "省略句常见于口语；“répond”现在时。",
+        "usage": "住楼的人问谁住哪时很实用。"
+      }
+    },
+    {
+      "id": "D20",
+      "source": "dialogue",
+      "french_full": "Pourquoi il n'y a pas un tableau avec le nom des locataires comme dans les immeubles neufs ?",
+      "french_gap": "Pourquoi il n'y a pas un tableau avec le nom des locataires comme dans les ____________________________ ?",
+      "chinese": "为什么这里没有像新楼那样写着住户名字的牌子？",
+      "answers": [
+        "immeubles neufs"
+      ],
+      "tags": [
+        "疑问句",
+        "住宿场景",
+        "现在时"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "提出对比式疑问。",
+        "vocab": [
+          {
+            "item": "tableau",
+            "note": "牌子、告示板。"
+          }
+        ],
+        "grammar": "口语中“Pourquoi + 陈述语序”也很常见。",
+        "usage": "用“comme...”做对比说明。"
+      }
+    },
+    {
+      "id": "D21",
+      "source": "dialogue",
+      "french_full": "Ici, ça ne se fait pas.",
+      "french_gap": "Ici, ça ____________________________.",
+      "chinese": "在这儿不这么做。",
+      "answers": [
+        "ne se fait pas"
+      ],
+      "tags": [
+        "固定表达",
+        "现在时",
+        "文化习惯"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "表示“这里没有这种做法/习惯”。",
+        "vocab": [
+          {
+            "item": "ça ne se fait pas",
+            "note": "这里不这样做/不流行这样做。"
+          }
+        ],
+        "grammar": "动词“se faire”作无人称/泛指表达。",
+        "usage": "很地道的日常回答。"
+      }
+    },
+    {
+      "id": "D22",
+      "source": "dialogue",
+      "french_full": "Est-ce qu'on vous demande des renseignements sur les locataires ?",
+      "french_gap": "Est-ce qu'on vous demande des ____________________________ sur les locataires ?",
+      "chinese": "有人向您打听住户的信息吗？",
+      "answers": [
+        "renseignements"
+      ],
+      "tags": [
+        "疑问句",
+        "现在时",
+        "工作职责"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "询问门房是否会被问住户信息。",
+        "vocab": [
+          {
+            "item": "renseignement",
+            "note": "信息、消息。"
+          }
+        ],
+        "grammar": "“Est-ce que...”是标准疑问句结构。",
+        "usage": "属于门房工作相关话题。"
+      }
+    },
+    {
+      "id": "D23",
+      "source": "dialogue",
+      "french_full": "Quelquefois, mais je n'en donne pas. Jamais !",
+      "french_gap": "Quelquefois, mais je ____________________________. Jamais !",
+      "chinese": "有时会，但我从不透露。绝不！",
+      "answers": [
+        "n'en donne pas"
+      ],
+      "tags": [
+        "否定",
+        "代词 en",
+        "强调"
+      ],
+      "level": "C",
+      "explain": {
+        "meaning": "强调保护住户隐私。",
+        "vocab": [
+          {
+            "item": "quelquefois",
+            "note": "有时。"
+          },
+          {
+            "item": "jamais",
+            "note": "从不。"
+          }
+        ],
+        "grammar": "“en”代替前文的“des renseignements”。否定结构“ne... pas”。",
+        "usage": "简短有力的职业态度表达。"
+      }
+    },
+    {
+      "id": "D24",
+      "source": "dialogue",
+      "french_full": "Vous prenez des vacances ?",
+      "french_gap": "Vous ____________________________ des vacances ?",
+      "chinese": "您休假吗？",
+      "answers": [
+        "prenez"
+      ],
+      "tags": [
+        "现在时",
+        "日常提问"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "询问假期情况。",
+        "vocab": [
+          {
+            "item": "prendre des vacances",
+            "note": "休假。"
+          }
+        ],
+        "grammar": "现在时一般疑问。",
+        "usage": "口语非常常见。"
+      }
+    },
+    {
+      "id": "D25",
+      "source": "dialogue",
+      "french_full": "Oui, j'ai droit à 21 jours, mais je dois trouver une remplaçante, autrement je ne peux pas partir.",
+      "french_gap": "Oui, j'ai droit à 21 jours, mais je dois trouver ____________________________, autrement je ne peux pas partir.",
+      "chinese": "有的，我有21天假，但我得找到一位替班的人，不然我不能走。",
+      "answers": [
+        "une remplaçante"
+      ],
+      "tags": [
+        "现在时",
+        "工作制度",
+        "条件表达"
+      ],
+      "level": "C",
+      "explain": {
+        "meaning": "说明“有假期但受工作限制”。",
+        "vocab": [
+          {
+            "item": "avoir droit à",
+            "note": "有权享有。"
+          },
+          {
+            "item": "remplaçante",
+            "note": "女替班人/代班人。"
+          }
+        ],
+        "grammar": "“autrement”= 否则。句子有明显逻辑关系。",
+        "usage": "适合用来学习“工作规定+现实限制”的表达。"
+      }
+    },
+    {
+      "id": "D26",
+      "source": "dialogue",
+      "french_full": "Les conditions de travail se sont alors améliorées.",
+      "french_gap": "Les conditions de travail ____________________________ alors ____________________________.",
+      "chinese": "工作条件后来改善了。",
+      "answers": [
+        "se sont",
+        "améliorées"
+      ],
+      "tags": [
+        "复合过去时",
+        "叙事连接"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "叙述时间推进后的变化。",
+        "vocab": [
+          {
+            "item": "conditions de travail",
+            "note": "工作条件。"
+          }
+        ],
+        "grammar": "“se sont améliorées”复合过去时，表示变化结果出现。",
+        "usage": "常见的“随后/后来”叙事句。"
+      }
+    },
+    {
+      "id": "D27",
+      "source": "dialogue",
+      "french_full": "Oui, oui ! Tenez, jusqu’en 1957 nous n’avons pas le droit de nous reposer le week-end.",
+      "french_gap": "Oui, oui ! Tenez, jusqu’en 1957 nous ____________________________ le droit de nous reposer le week-end.",
+      "chinese": "是啊是啊！你看，直到1957年我们都没有周末休息的权利。",
+      "answers": [
+        "n’avons pas"
+      ],
+      "tags": [
+        "现在时",
+        "历史对比",
+        "固定结构"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "用时间点说明过去制度之严。",
+        "vocab": [
+          {
+            "item": "avoir le droit de",
+            "note": "有权……"
+          },
+          {
+            "item": "week-end",
+            "note": "周末。"
+          }
+        ],
+        "grammar": "这里用现在时讲“历史事实/概括性叙述”。",
+        "usage": "口语里“tenez”相当于“你看/你听我说”。"
+      }
+    },
+    {
+      "id": "D28",
+      "source": "dialogue",
+      "french_full": "Nous étions aussi obligés d’ouvrir la porte de la rue à un locataire qui n’avait pas sa clé, à n’importe quelle heure du jour et de la nuit.",
+      "french_gap": "Nous ____________________________ aussi obligés d’ouvrir la porte de la rue à un locataire qui ____________________________ sa clé, à n’importe quelle heure du jour et de la nuit.",
+      "chinese": "我们当时也必须给没带钥匙的住户开大门，不管白天黑夜任何时间。",
+      "answers": [
+        "étions",
+        "n’avait pas"
+      ],
+      "tags": [
+        "未完成过去时",
+        "工作职责",
+        "相对从句"
+      ],
+      "level": "C",
+      "explain": {
+        "meaning": "描述过去长期存在的工作压力。",
+        "vocab": [
+          {
+            "item": "obligé de",
+            "note": "被迫、必须。"
+          },
+          {
+            "item": "à n’importe quelle heure",
+            "note": "在任何时间。"
+          }
+        ],
+        "grammar": "“étions / n’avait pas”未完成过去时，用于描述过去持续的规定与情境。",
+        "usage": "是本课 Imparfait 的关键例句之一。"
+      }
+    },
+    {
+      "id": "D29",
+      "source": "dialogue",
+      "french_full": "Maintenant tout ça a changé !",
+      "french_gap": "Maintenant tout ça ____________________________ !",
+      "chinese": "现在这一切都变了！",
+      "answers": [
+        "a changé"
+      ],
+      "tags": [
+        "复合过去时",
+        "今昔对比"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "用一句话总结变化。",
+        "vocab": [
+          {
+            "item": "tout ça",
+            "note": "这一切。"
+          }
+        ],
+        "grammar": "“a changé”复合过去时表示“变化已发生并完成”。",
+        "usage": "常用于对比“以前 vs 现在”。"
+      }
+    },
+    {
+      "id": "D30",
+      "source": "dialogue",
+      "french_full": "On entend un bruit de moteur dans la cour.",
+      "french_gap": "On entend un bruit de ____________________________ dans la cour.",
+      "chinese": "院子里传来发动机的声音。",
+      "answers": [
+        "moteur"
+      ],
+      "tags": [
+        "现在时叙事",
+        "场景推进"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "引出接下来的小插曲。",
+        "vocab": [
+          {
+            "item": "cour",
+            "note": "院子。"
+          }
+        ],
+        "grammar": "叙事现在时。",
+        "usage": "为后面的对话做铺垫。"
+      }
+    },
+    {
+      "id": "D31",
+      "source": "dialogue",
+      "french_full": "Madame la concierge sort précipitamment.",
+      "french_gap": "Madame la concierge ____________________________ précipitamment.",
+      "chinese": "门房太太匆忙走了出去。",
+      "answers": [
+        "sort"
+      ],
+      "tags": [
+        "现在时",
+        "动作描写"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "说明她的反应很快。",
+        "vocab": [
+          {
+            "item": "précipitamment",
+            "note": "匆忙地。"
+          }
+        ],
+        "grammar": "现在时描述正在发生的动作。",
+        "usage": "短句但很有画面感。"
+      }
+    },
+    {
+      "id": "D32",
+      "source": "dialogue",
+      "french_full": "Eh bien, les enfants, pas de vélomoteur dans la cour !",
+      "french_gap": "Eh bien, les enfants, pas de ____________________________ dans la cour !",
+      "chinese": "好了孩子们，院子里不准骑小摩托！",
+      "answers": [
+        "vélomoteur"
+      ],
+      "tags": [
+        "禁止表达",
+        "口语"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "门房制止孩子们在院子里骑车。",
+        "vocab": [
+          {
+            "item": "pas de + 名词",
+            "note": "表示禁止/不许……"
+          }
+        ],
+        "grammar": "“pas de + 名词”是简洁的禁止句式。",
+        "usage": "生活中非常实用。"
+      }
+    },
+    {
+      "id": "D33",
+      "source": "dialogue",
+      "french_full": "À ce moment entre Monsieur Andrieu.",
+      "french_gap": "À ce moment ____________________________ Monsieur Andrieu.",
+      "chinese": "这时安德里厄先生走了进来。",
+      "answers": [
+        "entre"
+      ],
+      "tags": [
+        "现在时叙事",
+        "场景转换"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "人物登场。",
+        "vocab": [
+          {
+            "item": "à ce moment",
+            "note": "这时。"
+          }
+        ],
+        "grammar": "叙事现在时。",
+        "usage": "常用于写作与课文描述。"
+      }
+    },
+    {
+      "id": "D34",
+      "source": "dialogue",
+      "french_full": "C’est un homme jeune, mais il a certainement grossi ces dernières années.",
+      "french_gap": "C’est un homme jeune, mais il a certainement ____________________________ ces dernières années.",
+      "chinese": "他是个年轻人，但这些年他肯定胖了不少。",
+      "answers": [
+        "grossi"
+      ],
+      "tags": [
+        "复合过去时",
+        "对比表达",
+        "动词变位"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "对人物外形变化做评价。",
+        "vocab": [
+          {
+            "item": "grossir",
+            "note": "变胖。"
+          }
+        ],
+        "grammar": "“a grossi”复合过去时表示一段时间内已完成的变化结果。",
+        "usage": "适合对比学习 grossir 的变位。"
+      }
+    },
+    {
+      "id": "D35",
+      "source": "dialogue",
+      "french_full": "Vous êtes satisfait du travail de votre femme ?",
+      "french_gap": "Vous êtes satisfait du travail de votre ____________________________ ?",
+      "chinese": "您对您妻子的工作满意吗？",
+      "answers": [
+        "femme"
+      ],
+      "tags": [
+        "现在时",
+        "情绪评价",
+        "提问"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "采访者询问丈夫的态度。",
+        "vocab": [
+          {
+            "item": "satisfait",
+            "note": "满意的。"
+          }
+        ],
+        "grammar": "形容词谓语结构“être + adj.”",
+        "usage": "日常表达“满意/不满意”很常用。"
+      }
+    },
+    {
+      "id": "D36",
+      "source": "dialogue",
+      "french_full": "Pour le moment, oui.",
+      "french_gap": "Pour le moment, ____________________________.",
+      "chinese": "目前来说，是的。",
+      "answers": [
+        "oui"
+      ],
+      "tags": [
+        "口语简答"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "简短肯定回答。",
+        "vocab": [
+          {
+            "item": "pour le moment",
+            "note": "目前、暂时。"
+          }
+        ],
+        "grammar": "省略结构，口语常见。",
+        "usage": "回答问题时可用来表达“现在是这样”。"
+      }
+    },
+    {
+      "id": "D37",
+      "source": "dialogue",
+      "french_full": "Nous avons un logement gratuit, ma femme gagne un peu d’argent.",
+      "french_gap": "Nous avons un logement gratuit, ma femme ____________________________ un peu d’argent.",
+      "chinese": "我们有免费的住房，我妻子也能挣一点钱。",
+      "answers": [
+        "gagne"
+      ],
+      "tags": [
+        "现在时",
+        "家庭经济"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "说明做门房带来的现实好处。",
+        "vocab": [
+          {
+            "item": "logement gratuit",
+            "note": "免费住房。"
+          }
+        ],
+        "grammar": "并列句，两件事实并列陈述。",
+        "usage": "用于解释“为什么这份工作值得做”。"
+      }
+    },
+    {
+      "id": "D38",
+      "source": "dialogue",
+      "french_full": "Nous mettons de l’argent de côté et dans quelques années nous achèterons un appartement.",
+      "french_gap": "Nous mettons de l’argent de côté et dans quelques années nous ____________________________ un appartement.",
+      "chinese": "我们把钱存起来，过几年我们会买一套公寓。",
+      "answers": [
+        "achèterons"
+      ],
+      "tags": [
+        "现在时",
+        "将来时",
+        "理财计划"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "描述现在的储蓄行为和未来的计划。",
+        "vocab": [
+          {
+            "item": "mettre de côté",
+            "note": "存起来、留作储蓄。"
+          }
+        ],
+        "grammar": "前半句现在时讲习惯/现状；后半句将来时讲计划。",
+        "usage": "很经典的“现在行动 + 未来目标”句型。"
+      }
+    },
+    {
+      "id": "D39",
+      "source": "dialogue",
+      "french_full": "Alors, en attendant, il faut bien souffrir un peu.",
+      "french_gap": "Alors, en attendant, il faut bien ____________________________ un peu.",
+      "chinese": "所以在那之前，就得先忍一忍、吃点苦。",
+      "answers": [
+        "souffrir"
+      ],
+      "tags": [
+        "无人称句",
+        "生活态度",
+        "动词变位"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "总结性的生活感慨。",
+        "vocab": [
+          {
+            "item": "en attendant",
+            "note": "在此期间、与此同时。"
+          },
+          {
+            "item": "il faut",
+            "note": "必须、得。"
+          }
+        ],
+        "grammar": "无人称结构“il faut + 不定式”。",
+        "usage": "用来表达现实中的“先忍耐、再等改善”。"
+      }
+    }
+  ]
+}

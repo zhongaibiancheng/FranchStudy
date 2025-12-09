@@ -139,25 +139,16 @@ const router = useRouter()
 const lessonNo = computed(() => Number(route.query.lesson || 1))
 
 const lessonData = computed(() => {
-  return getLessonDataByLesson(lessonNo.value,part.value)
+  const datas = getLessonDataByLesson(lessonNo.value,part.value)
+  options.value = datas.option
+
+  return datas.data
 })
 
 const goBack = () => {
   router.push('/')
 }
-const options= [
-  {
-  id:1,
-  value:'对话',
-  label:'对话'
-},
-  {
-  id:2,
-  value:'文章1',
-  label:'文章1'
-}
-]
-
+const options = ref([])
 const part = ref(1)
 
 const showChinese = ref(true)

@@ -5,7 +5,7 @@ const FrenchLesson = () => import('@/views/FrenchLesson.vue')
 const LessonReader = () =>import('@/views/LessonReader.vue')
 const WordList = () =>import('@/views/WordList.vue')
 const GrammarQuotes = () =>import('@/views/GrammarQuotes.vue')
-
+const Notes = () =>import('@/views/Notes.vue')
 const routes = [
   {
     path: '/',
@@ -31,6 +31,11 @@ const routes = [
     path: '/grammarQuotes',
     name: 'GrammarQuotes',
     component: GrammarQuotes
+  },
+  {
+    path: '/notes',
+    name: 'Notes',
+    component: Notes
   }
 ]
 

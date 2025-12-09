@@ -5,37 +5,41 @@ const router = useRouter()
 
 // 课程列表数据
 const lessons = [
-  { id: 1, title: 'Leçon 1 – Rester ou partir ?', path: '/book2/lesson1' },
+  { id: 1, title: 'Leçon 1 – Rester ou partir ?', path: '/book2/lesson1','notes':true },
   { id: 2, title: 'Leçon 2 – La vie quotidienne', path: '/book2/lesson2' },
-  { id: 3, title: 'Leçon 3 – Les voyages', path: '/book2/lesson3' }
+  { id: 3, title: 'Leçon 3 – Les voyages', path: '/book2/lesson3','notes':true }
 ]
 
-// 点击跳转函数
-const goToLesson = (path) => {
-  router.push(path)
-}
-const goLessonReader = ()=>{
+const goLessonReader = (lesson_id)=>{
   router.push({
     path:'/lessonReader',
     query: {
-        lesson: 1
+        lesson: lesson_id
       }
   })
 }
-const goGrammarQuotes = ()=>{
+const goGrammarQuotes = (lesson_id)=>{
   router.push({
     path:'/grammarQuotes',
     query: {
-        lesson: 1
+        lesson: lesson_id
       }
   })
 }
 
-const goWordList = ()=>{
+const goWordList = (lesson_id)=>{
   router.push({
     path:'/wordList',
     query: {
-        lesson: 1
+        lesson: lesson_id
+      }
+  })
+}
+const goNotes =(lesson_id)=>{
+  router.push({
+    path:'/notes',
+    query: {
+        lesson: lesson_id
       }
   })
 }
@@ -61,18 +65,18 @@ const goWordList = ()=>{
           <h3>课程列表</h3>
           <div class="lessons-list">
             <div 
-              v-for="lesson in lessons" 
+              v-for="(lesson,index) in lessons" 
               :key="lesson.id"
               class="lesson-item"
             >
-              <span class="lesson-number" @click="goToLesson(lesson.path)">第 {{ lesson.id }} 课</span>
+              <span class="lesson-number">第 {{ lesson.id }} 课</span>
               <span class="lesson-title">{{ lesson.title }}</span>
               <span class="lesson-arrow">→</span>
               <div>
-                <button @click="goLessonReader">看课文</button>
-                <button @click="goGrammarQuotes">背例句</button>
-                <button @click="goWordList">背单词</button>
-
+                <button @click="goLessonReader(index+1)">看课文</button>
+                <button @click="goGrammarQuotes(index+1)">背例句</button>
+                <button @click="goWordList(index+1)">背单词</button>
+                <button @click="goNotes(index+1)" v-if="lesson.notes">课文备注</button>
               </div>
 
             </div>

@@ -1,11 +1,10 @@
 // WordService.js
-import wordData_01 from '@/data/words_01.json'
-// 将来有第二课、第三课可以继续加：
-// import wordData_02 from '@/data/words_02.json'
-// import wordData_03 from '@/data/words_03.json'
+import wordData_01 from '@/data/lesson_01/words_01.json'
+import wordData_03 from '@/data/lesson_03/words_01.json'
 
 const wordDatas = {
   1: wordData_01,
+  3: wordData_03,
   // 2: wordData_02,
   // 3: wordData_03,
 }

@@ -8,22 +8,35 @@
       </div>
 
       <div class="controls">
+        <!-- Level filter -->
         <label class="control">
-          <span>语法点</span>
-          <select v-model="selectedGrammarId">
+          <span>层级</span>
+          <select v-model="selectedLevel">
             <option value="all">全部</option>
-            <option
-              v-for="gp in data.grammar_points"
-              :key="gp.id"
-              :value="gp.id"
-            >
-              {{ gp.name_zh }} / {{ gp.name_fr }}
+            <option v-for="lv in levelKeys" :key="lv" :value="lv">
+              {{ lv }} 层
             </option>
           </select>
         </label>
 
+        <!-- Grammar point filter -->
         <label class="control">
-          <span>例句显示</span>
+          <span>语法点</span>
+          <select v-model="selectedGpId">
+            <option value="all">全部</option>
+            <option
+              v-for="gp in allGrammarPoints"
+              :key="gp.id"
+              :value="gp.id"
+            >
+              {{ gp.level }}｜{{ gp.name_zh }} / {{ gp.name_fr }}
+            </option>
+          </select>
+        </label>
+
+        <!-- Display mode -->
+        <label class="control">
+          <span>金句显示</span>
           <div class="seg">
             <button
               type="button"
@@ -49,15 +62,17 @@
           </div>
         </label>
 
+        <!-- Search -->
         <label class="control">
           <span>搜索</span>
           <input
             v-model.trim="keyword"
             type="text"
-            placeholder="输入中文/法语关键词"
+            placeholder="输入中文/法语/规则关键词"
           />
         </label>
 
+        <!-- Lines per quote -->
         <label class="control">
           <span>空行数量（每条金句）</span>
           <div class="seg">
@@ -74,14 +89,6 @@
               @click="linesPerQuote = 3"
             >
               3 行
-            </button>
-          </div>
-        </label>
-
-        <label class="control">
-          <div class="seg">
-            <button type="button" @click="goBack">
-              返回
             </button>
           </div>
         </label>
@@ -102,75 +109,66 @@
             反选
           </button>
 
-          <!-- ✅ 打乱顺序 -->
-          <button type="button" @click="shuffleNow">
-            打乱顺序
-          </button>
-          <button
-            v-if="shuffleSeed !== null"
-            type="button"
-            @click="resetOrder"
-            title="恢复原始顺序"
-          >
-            恢复顺序
-          </button>
-
           <button
             type="button"
-            class="primary"
             :disabled="selectedCount === 0"
             @click="downloadPrintHtml"
             title="生成并下载可打印 HTML"
           >
             印刷已选（{{ selectedCount }}）
           </button>
+          <button type="button" @click="goBack">
+            返回
+          </button>
         </div>
 
         <div class="section-head">
-          <h2>金句 / 例句库</h2>
+          <h2>第三课 Notes 金句库（A/B/C）</h2>
           <div class="meta">
-            当前筛选 {{ filteredExamples.length }} 条｜
+            当前筛选 {{ filteredQuotes.length }} 条｜
             已选 {{ selectedCount }} 条
           </div>
         </div>
 
         <div class="example-list">
           <div
-            v-for="ex in displayedExamples"
-            :key="ex.uid"
+            v-for="q in filteredQuotes"
+            :key="q.uid"
             class="example-card"
-            :class="{ checked: isChecked(ex.uid) }"
-            @click="toggleByCard(ex.uid)"
+            :class="{ checked: isChecked(q.uid) }"
+            @click="toggleByCard(q.uid)"
             role="button"
             tabindex="0"
           >
             <div class="checkbox-wrap" @click.stop>
-              <!-- ✅ 改为受控 checked + 手动 toggle（不靠 Set） -->
               <input
                 type="checkbox"
-                :checked="isChecked(ex.uid)"
-                @change="toggle(ex.uid)"
+                :checked="isChecked(q.uid)"
+                @change="toggle(q.uid)"
               />
             </div>
 
             <div class="card-main">
               <div class="card-top">
-                <span class="tag">{{ ex.gpNameZh }}</span>
-                <span class="pattern" v-if="ex.pattern">
-                  {{ ex.pattern }}
-                </span>
+                <span class="tag level">{{ q.level }}</span>
+                <span class="tag">{{ q.gpNameZh }}</span>
+                <span class="tag subtle">{{ q.gpNameFr }}</span>
+              </div>
+
+              <div class="mini-rule" v-if="q.miniRule">
+                {{ q.miniRule }}
               </div>
 
               <div class="card-body">
                 <template v-if="displayMode === 'both'">
-                  <div class="fr">{{ ex.fr }}</div>
-                  <div class="zh">{{ ex.zh }}</div>
+                  <div class="fr">{{ q.fr }}</div>
+                  <div class="zh">{{ q.zh }}</div>
                 </template>
                 <template v-else-if="displayMode === 'zh'">
-                  <div class="zh only">{{ ex.zh }}</div>
+                  <div class="zh only">{{ q.zh }}</div>
                 </template>
                 <template v-else>
-                  <div class="fr only">{{ ex.fr }}</div>
+                  <div class="fr only">{{ q.fr }}</div>
                 </template>
               </div>
             </div>
@@ -178,8 +176,9 @@
         </div>
 
         <div class="foot-hint">
-          提示：点击卡片可快速勾选/取消；也可只点 checkbox。
-          “印刷已选”会下载一个 HTML，打开后直接 Ctrl+P 即可打印。
+          提示：点击卡片可快速勾选/取消；也可只点 checkbox。<br />
+          “印刷已选”会下载一个 HTML，打开后直接 Ctrl+P 即可打印。<br />
+          当前印刷格式：每条金句上方 {{ linesPerQuote }} 行空行 + 中文提示（适合默写法语）。
         </div>
       </section>
     </main>
@@ -187,230 +186,144 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
-import { useRoute, useRouter } from "vue-router";
-import getSentenceDataByLesson from "@/services/sentenceService";
+import { computed, ref, watch } from "vue";
+import { useRoute,useRouter } from "vue-router";
+import getNotesDataByLesson from "@/services/notesService";
+import type { RootData, LevelKey, GrammarPoint } from "@/data/lesson_03/notes";
 
-const router = useRouter();
 const route = useRoute();
+const router = useRouter();
 
-type ExampleLike = {
-  fr: string;
-  zh: string;
-  pattern?: string;
-};
+const lessonNo = computed(() => Number(route.query.lesson || 3));
 
-type FlatExample = {
+const data = computed<RootData>(() => getNotesDataByLesson(lessonNo.value));
+
+const levelKeys = computed<LevelKey[]>(() => ["A", "B", "C"]);
+
+/** 汇总语法点用于下拉 */
+const allGrammarPoints = computed(() => {
+  const out: Array<GrammarPoint & { level: LevelKey }> = [];
+  levelKeys.value.forEach((lv) => {
+    const arr = data.value.levels?.[lv] || [];
+    arr.forEach((gp) => out.push({ ...gp, level: lv }));
+  });
+  return out;
+});
+
+/** 扁平化金句 */
+type FlatQuote = {
   uid: string;
+  level: LevelKey;
   gpId: string;
   gpNameZh: string;
   gpNameFr: string;
+  miniRule: string;
   fr: string;
   zh: string;
-  pattern?: string;
 };
 
-const lessonNo = computed(() => Number(route.query.lesson || 1));
-
-/** 计算属性，获取数据 */
-const data = computed(() => {
-  return getSentenceDataByLesson(lessonNo.value);
-});
-
-/** 获取 grammar_points（可能包含不同结构的语法点） */
-const grammarPoints = computed<any[]>(() => data.value?.grammar_points || []);
-
-/**
- * ✅ 统一抽取例句
- * 兼容：
- * - gp.examples
- * - gp.uses[].examples
- * - gp.fixed_expressions_C_level
- */
-function collectExamplesFromGP(gp: any): ExampleLike[] {
-  const out: ExampleLike[] = [];
-
-  // 1) 常规结构：gp.examples
-  if (Array.isArray(gp?.examples)) {
-    gp.examples.forEach((ex: any) => {
-      if (ex?.fr && ex?.zh) out.push(ex);
-    });
-  }
-
-  // 2) tout 结构：gp.uses[].examples
-  if (Array.isArray(gp?.uses)) {
-    gp.uses.forEach((use: any) => {
-      const useLabel =
-        use?.structure || use?.label_zh || use?.label_fr || gp?.name_zh;
-
-      if (Array.isArray(use?.examples)) {
-        use.examples.forEach((ex: any) => {
-          if (!ex?.fr || !ex?.zh) return;
-          out.push({
-            fr: ex.fr,
-            zh: ex.zh,
-            pattern: ex.pattern ?? useLabel
-          });
+const allQuotes = computed<FlatQuote[]>(() => {
+  const list: FlatQuote[] = [];
+  levelKeys.value.forEach((lv) => {
+    const gps = data.value.levels?.[lv] || [];
+    gps.forEach((gp) => {
+      const quotes = Array.isArray(gp.must_memorize) ? gp.must_memorize : [];
+      quotes.forEach((q, idx) => {
+        if (!q?.fr || !q?.zh) return;
+        list.push({
+          uid: `${lv}-${gp.id}-${idx}`,
+          level: lv,
+          gpId: gp.id,
+          gpNameZh: gp.name_zh,
+          gpNameFr: gp.name_fr,
+          miniRule: gp.mini_rule || "",
+          fr: q.fr,
+          zh: q.zh
         });
-      }
-    });
-  }
-
-  // 3) tout 固定表达
-  if (Array.isArray(gp?.fixed_expressions_C_level)) {
-    gp.fixed_expressions_C_level.forEach((ex: any) => {
-      if (!ex?.fr || !ex?.zh) return;
-      out.push({
-        fr: ex.fr,
-        zh: ex.zh,
-        pattern: ex.pattern ?? "固定表达"
-      });
-    });
-  }
-
-  return out;
-}
-
-/** ✅ 扁平化例句 */
-const allExamples = computed<FlatExample[]>(() => {
-  const list: FlatExample[] = [];
-
-  grammarPoints.value.forEach((gp: any) => {
-    const examples = collectExamplesFromGP(gp);
-
-    examples.forEach((ex, idx) => {
-      list.push({
-        uid: `${gp.id}-${idx}`,
-        gpId: gp.id,
-        gpNameZh: gp.name_zh,
-        gpNameFr: gp.name_fr,
-        fr: ex.fr,
-        zh: ex.zh,
-        pattern: ex.pattern
       });
     });
   });
-
   return list;
 });
 
-// UI 状态
+// ===== UI state =====
 const displayMode = ref<"both" | "zh" | "fr">("both");
-const selectedGrammarId = ref<string>("all");
+const selectedLevel = ref<"all" | LevelKey>("all");
+const selectedGpId = ref<string>("all");
 const keyword = ref<string>("");
 const linesPerQuote = ref<2 | 3>(2);
 
-/** ✅ 选中集合：改为数组，响应更稳 */
-const selectedUidList = ref<string[]>([]);
+// ===== selection =====
+const selectedUids = ref<Set<string>>(new Set());
+
+/** 初次加载默认全选 */
+watch(
+  allQuotes,
+  (quotes) => {
+    if (quotes.length > 0 && selectedUids.value.size === 0) {
+      selectedUids.value = new Set(quotes.map((q) => q.uid));
+    }
+  },
+  { immediate: true }
+);
 
 function isChecked(uid: string) {
-  return selectedUidList.value.includes(uid);
+  return selectedUids.value.has(uid);
 }
 
 function toggle(uid: string) {
-  const idx = selectedUidList.value.indexOf(uid);
-  if (idx >= 0) {
-    // 删除
-    selectedUidList.value = [
-      ...selectedUidList.value.slice(0, idx),
-      ...selectedUidList.value.slice(idx + 1)
-    ];
-  } else {
-    // 添加
-    selectedUidList.value = [...selectedUidList.value, uid];
-  }
+  const s = new Set(selectedUids.value);
+  if (s.has(uid)) s.delete(uid);
+  else s.add(uid);
+  selectedUids.value = s;
 }
 
-/** 点击卡片也能快速切换 */
 function toggleByCard(uid: string) {
   toggle(uid);
 }
 
-/** 批量操作 */
 function selectAll() {
-  selectedUidList.value = allExamples.value.map((e) => e.uid);
+  selectedUids.value = new Set(allQuotes.value.map((q) => q.uid));
 }
 function selectNone() {
-  selectedUidList.value = [];
+  selectedUids.value = new Set();
 }
 function invertSelection() {
-  const set = new Set(selectedUidList.value);
-  selectedUidList.value = allExamples.value
-    .filter((e) => !set.has(e.uid))
-    .map((e) => e.uid);
+  const s = new Set<string>();
+  for (const q of allQuotes.value) {
+    if (!selectedUids.value.has(q.uid)) s.add(q.uid);
+  }
+  selectedUids.value = s;
 }
 
-/** 筛选 */
-const filteredExamples = computed(() => {
-  const k = keyword.value.toLowerCase();
+// ===== filter =====
+const filteredQuotes = computed(() => {
+  const k = keyword.value.trim().toLowerCase();
 
-  return allExamples.value.filter((ex) => {
-    const okGrammar =
-      selectedGrammarId.value === "all" || ex.gpId === selectedGrammarId.value;
+  return allQuotes.value.filter((q) => {
+    const okLevel = selectedLevel.value === "all" || q.level === selectedLevel.value;
+    const okGp = selectedGpId.value === "all" || q.gpId === selectedGpId.value;
 
     const okKeyword =
       !k ||
-      ex.zh.toLowerCase().includes(k) ||
-      ex.fr.toLowerCase().includes(k) ||
-      ex.gpNameZh.toLowerCase().includes(k) ||
-      ex.gpNameFr.toLowerCase().includes(k);
+      q.zh.toLowerCase().includes(k) ||
+      q.fr.toLowerCase().includes(k) ||
+      q.gpNameZh.toLowerCase().includes(k) ||
+      q.gpNameFr.toLowerCase().includes(k) ||
+      (q.miniRule || "").toLowerCase().includes(k);
 
-    return okGrammar && okKeyword;
+    return okLevel && okGp && okKeyword;
   });
 });
 
-const selectedCount = computed(() => selectedUidList.value.length);
+const selectedCount = computed(() => selectedUids.value.size);
 
-/** 已选例句（按原始顺序） */
-const selectedExamples = computed(() => {
-  const set = new Set(selectedUidList.value);
-  return allExamples.value.filter((ex) => set.has(ex.uid));
-});
+const selectedQuotes = computed(() =>
+  allQuotes.value.filter((q) => selectedUids.value.has(q.uid))
+);
 
-/** =========================
- * ✅ 打乱顺序（稳定洗牌）
- * 只影响展示，不影响 uid/勾选
- * ========================= */
-const shuffleSeed = ref<number | null>(null);
-
-function mulberry32(seed: number) {
-  let a = seed >>> 0;
-  return function () {
-    a += 0x6D2B79F5;
-    let t = a;
-    t = Math.imul(t ^ (t >>> 15), t | 1);
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-function shuffleWithSeed<T>(arr: T[], seed: number): T[] {
-  const out = arr.slice();
-  const rand = mulberry32(seed);
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(rand() * (i + 1));
-    [out[i], out[j]] = [out[j], out[i]];
-  }
-  return out;
-}
-
-function shuffleNow() {
-  shuffleSeed.value = Date.now();
-}
-
-function resetOrder() {
-  shuffleSeed.value = null;
-}
-
-/** ✅ 最终用于展示的列表 */
-const displayedExamples = computed(() => {
-  const base = filteredExamples.value;
-  if (shuffleSeed.value === null) return base;
-  return shuffleWithSeed(base, shuffleSeed.value);
-});
-
-/** 生成可打印 HTML（每条：空行 + 中文） */
-function buildPrintableHtml(examples: FlatExample[], lines: 2 | 3) {
+/** 生成可打印 HTML（每条：空行 + 中文 + 页眉页脚 + 页码） */
+function buildPrintableHtml(quotes: FlatQuote[], lines: 2 | 3) {
   const escapeHtml = (s: string) =>
     String(s || "")
       .replace(/&/g, "&amp;")
@@ -419,22 +332,30 @@ function buildPrintableHtml(examples: FlatExample[], lines: 2 | 3) {
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
 
-  const quoteBlocks = examples
-    .map((ex) => {
+  const blocks = quotes
+    .map((q) => {
       const linesHtml = Array.from({ length: lines })
         .map(() => `<div class="line"></div>`)
         .join("");
 
       return `
       <div class="quote">
-        <div class="lines">
-          ${linesHtml}
+        <div class="meta">
+          <span class="lv">${escapeHtml(q.level)}</span>
+          <span class="gp">${escapeHtml(q.gpNameZh)}</span>
         </div>
-        <div class="zh">${escapeHtml(ex.zh)}</div>
+        <div class="lines">${linesHtml}</div>
+        <div class="zh">${escapeHtml(q.zh)}</div>
       </div>
     `;
     })
     .join("");
+
+  const today = new Date();
+  const dateStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(
+    2,
+    "0"
+  )}-${String(today.getDate()).padStart(2, "0")}`;
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -444,6 +365,13 @@ function buildPrintableHtml(examples: FlatExample[], lines: 2 | 3) {
 <title>金句印刷</title>
 <style>
   * { box-sizing: border-box; }
+
+  /* ====== Print page config (best-effort) ====== */
+  @page {
+    /* 给页眉页脚预留空间 */
+    margin: 18mm 12mm 20mm 12mm;
+  }
+
   body {
     margin: 0;
     padding: 28px 26px 40px;
@@ -453,6 +381,8 @@ function buildPrintableHtml(examples: FlatExample[], lines: 2 | 3) {
     color: #000;
     background: #fff;
   }
+
+  /* ====== Screen header ====== */
   .header {
     display: flex;
     align-items: baseline;
@@ -464,23 +394,37 @@ function buildPrintableHtml(examples: FlatExample[], lines: 2 | 3) {
   .header h1 {
     font-size: 18px;
     margin: 0;
-    letter-spacing: 0.04em;
   }
   .header .sub {
     font-size: 11px;
     color: #6b7280;
   }
 
+  /* ====== Quote blocks ====== */
   .quote {
-    padding: 8px 2px 18px;
+    padding: 10px 2px 18px;
     margin-bottom: 16px;
     border-bottom: 1px dashed #d1d5db;
     page-break-inside: avoid;
   }
 
-  .lines {
-    margin-bottom: 10px;
+  .meta {
+    font-size: 10px;
+    color: #6b7280;
+    margin-bottom: 6px;
+    display: flex;
+    gap: 6px;
   }
+  .meta .lv {
+    padding: 1px 6px;
+    border: 1px solid #d1d5db;
+    border-radius: 999px;
+  }
+  .meta .gp {
+    font-weight: 600;
+  }
+
+  .lines { margin-bottom: 10px; }
   .line {
     height: 24px;
     border-bottom: 1.3px solid #111;
@@ -491,35 +435,109 @@ function buildPrintableHtml(examples: FlatExample[], lines: 2 | 3) {
     font-size: 18px;
     font-weight: 600;
     line-height: 1.55;
+    margin-bottom: 6px;
+  }
+  .fr-hint {
+    font-size: 12px;
+    color: #6b7280;
+  }
+
+  /* ====== Print header/footer (repeat on each page) ====== */
+  .print-header,
+  .print-footer {
+    display: none;
   }
 
   @media print {
-    body { padding: 0; }
-    .quote { border-bottom: none; }
+    body {
+      /* 让正文不要压住固定页眉页脚 */
+      padding: 0;
+    }
+
+    /* 让内容有“视觉上的”上下留白 */
+    .content-wrap {
+      padding-top: 12mm;
+      padding-bottom: 12mm;
+    }
+
+    .header {
+      display: none; /* 屏幕头隐藏 */
+    }
+
+    .quote {
+      border-bottom: none;
+    }
+
+    .print-header {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 12mm;
+      padding: 0 12mm;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 10px;
+      color: #6b7280;
+      border-bottom: 1px solid #e5e7eb;
+      background: #fff;
+    }
+
+    .print-footer {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 12mm;
+      padding: 0 12mm;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      color: #6b7280;
+      border-top: 1px solid #e5e7eb;
+      background: #fff;
+    }
+
+    /* CSS page counters (best-effort; some browsers may partially ignore) */
+    .print-footer::after {
+      content: "第 " counter(page) " / " counter(pages) " 页";
+    }
   }
 </style>
 </head>
 <body>
+
+  <!-- 尝试自带页眉页脚 -->
+  <div class="print-header">
+    <div>第三课 Notes 金句默写</div>
+    <div>${dateStr}</div>
+  </div>
+  <div class="print-footer"></div>
+
+  <!-- 屏幕显示头 -->
   <div class="header">
-    <h1>金句印刷</h1>
+    <h1>第三课 Notes 金句印刷</h1>
     <div class="sub">
-      共 ${examples.length} 条｜空行 ${lines} 行/条
+      共 ${quotes.length} 条｜空行 ${lines} 行/条
     </div>
   </div>
 
-  ${quoteBlocks}
+  <div class="content-wrap">
+    ${blocks}
+  </div>
 
 </body>
 </html>`;
 }
 
-/** 下载 HTML 文件 */
+
 function downloadPrintHtml() {
-  const list = selectedExamples.value;
+  const list = selectedQuotes.value;
   if (!list.length) return;
 
   const html = buildPrintableHtml(list, linesPerQuote.value);
-
   const blob = new Blob([html], { type: "text/html;charset=utf-8" });
   const url = URL.createObjectURL(blob);
 
@@ -527,7 +545,7 @@ function downloadPrintHtml() {
   const yyyy = d.getFullYear();
   const mm = String(d.getMonth() + 1).padStart(2, "0");
   const dd = String(d.getDate()).padStart(2, "0");
-  const filename = `金句印刷_${yyyy}${mm}${dd}.html`;
+  const filename = `第三课_Notes_金句印刷_${yyyy}${mm}${dd}.html`;
 
   const a = document.createElement("a");
   a.href = url;
@@ -539,12 +557,8 @@ function downloadPrintHtml() {
   URL.revokeObjectURL(url);
 }
 
-function goBack() {
-  if (window.history.length > 1) {
-    router.back();
-  } else {
-    router.push("/");
-  }
+function goBack(){
+  router.push('/')
 }
 </script>
 
@@ -592,7 +606,7 @@ function goBack() {
 /* ===== Controls ===== */
 .controls {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr 1fr auto;
+  grid-template-columns: 0.7fr 1.4fr 1fr 1fr 1fr;
   gap: 12px;
   align-items: end;
 }
@@ -655,7 +669,7 @@ input:focus {
 .mini-actions {
   display: flex;
   gap: 6px;
-  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .mini-actions button {
@@ -719,7 +733,7 @@ input:focus {
 .example-list {
   display: grid;
   gap: 10px;
-  max-height: calc(100vh - 230px);
+  max-height: calc(100vh - 240px);
   overflow: auto;
   padding-right: 6px;
 }
@@ -764,9 +778,10 @@ input:focus {
 /* card inner */
 .card-top {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   align-items: center;
   margin-bottom: 6px;
+  flex-wrap: wrap;
 }
 
 .tag {
@@ -778,9 +793,22 @@ input:focus {
   color: rgba(229,231,235,0.9);
 }
 
-.pattern {
-  font-size: 10px;
-  color: rgba(229,231,235,0.65);
+.tag.level {
+  background: rgba(59,130,246,0.18);
+  border-color: rgba(59,130,246,0.35);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.tag.subtle {
+  color: rgba(229,231,235,0.7);
+}
+
+.mini-rule {
+  font-size: 11px;
+  color: rgba(229,231,235,0.7);
+  margin-bottom: 8px;
 }
 
 .fr {
@@ -814,6 +842,9 @@ input:focus {
 }
 
 @media (max-width: 720px) {
+  .mini-actions {
+    flex-wrap: wrap;
+  }
   .example-list {
     max-height: 60vh;
   }

@@ -1,0 +1,280 @@
+{
+  "source_title": "初二法语语法学习清单（第三课 La concierge）",
+  "grammar_points": [
+    {
+      "id": "present",
+      "name_zh": "直陈式现在时（课文中的“日常/规则/对话”）",
+      "name_fr": "Le présent de l’indicatif",
+      "target_level": "初二 / A-B",
+      "core_rule": {
+        "zh": "表示现在的事实、日常习惯、规则或对话中的即时表达。",
+        "fr": "Exprime le fait actuel, l’habitude, la règle et le dialogue."
+      },
+      "key_notes": [
+        "本课用现在时描写门房的日常工作、楼里规则、对话问答。",
+        "和过去时搭配时，能形成“现在/过去的对比”。"
+      ],
+      "patterns": [
+        {
+          "label": "日常作息",
+          "structure": "Je + présent, Je + présent...",
+          "meaning_zh": "列举每天做的事"
+        },
+        {
+          "label": "规则/习惯",
+          "structure": "Ici, ça ne se fait pas.",
+          "meaning_zh": "这里不这么做"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Mon mari travaille dans le garage que vous voyez là-bas.",
+          "zh": "我丈夫在你们那边看到的车库（修理行）工作。",
+          "pattern": "事实陈述"
+        },
+        {
+          "fr": "Les logements dans ce quartier sont trop chers.",
+          "zh": "这个街区的住房太贵了。",
+          "pattern": "现在的评价/事实"
+        },
+        {
+          "fr": "Bien sûr, c’est très petit.",
+          "zh": "当然，这很小。",
+          "pattern": "现在的描述"
+        },
+        {
+          "fr": "En plus de cette pièce — à la fois salon, salle à manger, cuisine — nous n’avons qu’une chambre de 4 m².",
+          "zh": "除了这间同时当客厅、餐厅、厨房的房间，我们只有一间4平米的卧室。",
+          "pattern": "现在的居住情况"
+        },
+        {
+          "fr": "Je me lève vers 6 heures, je sors les poubelles, je m’occupe de mon mari, de mon petit garçon.",
+          "zh": "我大约六点起床，把垃圾拿出去，照顾我丈夫和小儿子。",
+          "pattern": "日常作息"
+        },
+        {
+          "fr": "Je porte le courrier aux locataires et je nettoie les escaliers.",
+          "zh": "我把信件送给房客们并打扫楼梯。",
+          "pattern": "日常动作"
+        },
+        {
+          "fr": "Ici, ça ne se fait pas.",
+          "zh": "在这里不这么做。",
+          "pattern": "规则/习惯"
+        },
+        {
+          "fr": "Quelquefois, mais je n’en donne pas. Jamais !",
+          "zh": "有时候会问，但我不给。绝不！",
+          "pattern": "对话中的现在时"
+        },
+        {
+          "fr": "Oui, j’ai droit à 21 jours, mais je dois trouver une remplaçante.",
+          "zh": "是的，我有21天假期，但我必须找个替班。",
+          "pattern": "权利/义务"
+        },
+        {
+          "fr": "Le numéro 23 est une belle maison de quatre étages, toute en pierre blanche.",
+          "zh": "23号楼是一栋漂亮的四层楼房，全是白色石头。",
+          "pattern": "说明/描写"
+        },
+        {
+          "fr": "Les poubelles sont vides : il faut les rentrer.",
+          "zh": "垃圾桶空了：要把它们拿回去。",
+          "pattern": "现状 + 需要做的事"
+        },
+        {
+          "fr": "Vous plaisantez toujours, Monsieur le Facteur.",
+          "zh": "您总爱开玩笑，邮递员先生。",
+          "pattern": "对话表达"
+        }
+      ]
+    },
+    {
+      "id": "imparfait",
+      "name_zh": "直陈式未完成过去时（背景/习惯/状态）",
+      "name_fr": "L’imparfait de l’indicatif",
+      "target_level": "初二 / A-B-C 分级",
+      "core_rule": {
+        "zh": "表示过去的背景、习惯、持续状态或描述，相当于“当时在…… / 过去常常……”。",
+        "fr": "Exprime une habitude, une description ou un état dans le passé."
+      },
+      "key_notes": [
+        "构成：nous 现在时去 -ons + 词尾 -ais, -ais, -ait, -ions, -iez, -aient。",
+        "叙事里常和 passé composé 搭配：imparfait 铺背景，PC 推剧情。"
+      ],
+      "patterns": [
+        {
+          "label": "过去背景",
+          "structure": "Sujet + imparfait",
+          "meaning_zh": "描述当时情况"
+        },
+        {
+          "label": "过去的必须/耗时",
+          "structure": "devoir à l’imparfait",
+          "meaning_zh": "当时不得不/要花时间"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Nous habitions dans la banlieue nord.",
+          "zh": "我们住在北部郊区。",
+          "pattern": "过去背景"
+        },
+        {
+          "fr": "Il devait faire presque trois heures de métro et d’autobus pour aller à son travail et en revenir.",
+          "zh": "他得花将近三个小时坐地铁和公交去上班再回来。",
+          "pattern": "devoir + imparfait"
+        },
+        {
+          "fr": "Vous étiez les seuls ?",
+          "zh": "你们是唯一的候选人吗？",
+          "pattern": "对话中的过去状态"
+        },
+        {
+          "fr": "Il y en avait au moins dix autres qui voulaient la place.",
+          "zh": "至少还有另外十个人想要这份工作。",
+          "pattern": "过去数量背景"
+        },
+        {
+          "fr": "Oh oui, il était heureux.",
+          "zh": "哦是的，他很开心。",
+          "pattern": "过去情绪"
+        },
+        {
+          "fr": "Nous avions vraiment de la chance.",
+          "zh": "我们真的很幸运。",
+          "pattern": "过去评价/状态"
+        },
+        {
+          "fr": "Nous étions aussi obligés d’ouvrir la porte de la rue à un locataire qui n’avait pas sa clé.",
+          "zh": "我们也不得不为一个没带钥匙的房客打开临街大门。",
+          "pattern": "être obligé de + imparfait"
+        }
+      ]
+    },
+    {
+      "id": "passe_compose",
+      "name_zh": "直陈式复合过去时（事件/转折/完成动作）",
+      "name_fr": "Le passé composé",
+      "target_level": "初二 / A-B",
+      "core_rule": {
+        "zh": "表示过去已经完成的一次性动作或事件，相当于“……了”。",
+        "fr": "Exprime une action ponctuelle et terminée."
+      },
+      "key_notes": [
+        "构成：avoir/être 现在时 + 过去分词。",
+        "用 être 的动词要注意性数配合。"
+      ],
+      "patterns": [
+        {
+          "label": "关键事件",
+          "structure": "Sujet + passé composé",
+          "meaning_zh": "故事的转折点"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Nous sommes allés interviewer une concierge du 16e arrondissement.",
+          "zh": "我们去采访了巴黎第16区的一位门房。",
+          "pattern": "关键事件"
+        },
+        {
+          "fr": "Madame, comment êtes-vous devenue concierge ?",
+          "zh": "女士，您是怎么成为门房的？",
+          "pattern": "对话询问过去经历"
+        },
+        {
+          "fr": "Quand le concierge qui travaillait dans cette maison est mort, nous nous sommes présentés.",
+          "zh": "当在这栋楼里工作的门房去世后，我们就去应聘了。",
+          "pattern": "事件触发"
+        },
+        {
+          "fr": "Et c’est vous qui l’avez eue.",
+          "zh": "而这份工作是你们得到的。",
+          "pattern": "结果"
+        },
+        {
+          "fr": "Les conditions de travail se sont alors améliorées.",
+          "zh": "工作条件随后改善了。",
+          "pattern": "变化结果"
+        },
+        {
+          "fr": "Maintenant tout ça a changé !",
+          "zh": "现在这一切都变了！",
+          "pattern": "过去与现在对比"
+        },
+        {
+          "fr": "Il est parti pour son usine, à bicyclette, comme tous les jours.",
+          "zh": "他像每天一样骑自行车去工厂了。",
+          "pattern": "完成动作"
+        }
+      ]
+    },
+    {
+      "id": "futur_simple",
+      "name_zh": "简单将来时（计划/将来目标）",
+      "name_fr": "Le futur simple",
+      "target_level": "初二 / A-B",
+      "core_rule": {
+        "zh": "表示将来会发生的事、计划或目标。",
+        "fr": "Exprime un projet ou un fait à venir."
+      },
+      "key_notes": [
+        "本课的将来时句子非常典型，适合当“金句”。"
+      ],
+      "patterns": [
+        {
+          "label": "未来计划",
+          "structure": "Dans quelques années + futur",
+          "meaning_zh": "几年后会……"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Nous mettons de l’argent de côté et dans quelques années nous achèterons un appartement.",
+          "zh": "我们把钱存起来，几年后我们会买一套公寓。",
+          "pattern": "未来计划"
+        }
+      ]
+    },
+    {
+      "id": "time_mix_reading_strategy",
+      "name_zh": "本课时态组合阅读法（快速掌握技巧）",
+      "name_fr": "Stratégie de lecture des temps",
+      "target_level": "初二 / A-B",
+      "core_rule": {
+        "zh": "用“颜色法/三步法”帮孩子读懂混合时态：现在时=日常与规则；Imparfait=过去背景；Passé composé=过去事件；Futur=目标与计划。",
+        "fr": "Présent = habitude/règle ; imparfait = décor ; passé composé = action ; futur = projet."
+      },
+      "key_notes": [
+        "让孩子先圈时间词：maintenant / quand / jusqu’en 1957 / dans quelques années。",
+        "再判断句子角色：是在“描述背景”还是“发生事件”。",
+        "最后把同一段里不同时间的句子连成“故事线”。"
+      ],
+      "patterns": [
+        {
+          "label": "叙事主干",
+          "structure": "Imparfait (背景) + Passé composé (事件)",
+          "meaning_zh": "最常见讲故事结构"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Nous habitions dans la banlieue nord. Quand le concierge est mort, nous nous sommes présentés.",
+          "zh": "我们住在北部郊区。门房去世后，我们就去应聘了。",
+          "pattern": "背景 → 事件"
+        },
+        {
+          "fr": "Je me lève vers 6 heures, je sors les poubelles, je m’occupe de mon mari, de mon petit garçon.",
+          "zh": "我大约六点起床，把垃圾拿出去，照顾我丈夫和小儿子。",
+          "pattern": "现在时=日常"
+        },
+        {
+          "fr": "Nous mettons de l’argent de côté et dans quelques années nous achèterons un appartement.",
+          "zh": "我们把钱存起来，几年后我们会买一套公寓。",
+          "pattern": "现在努力 → 将来目标"
+        }
+      ]
+    }
+  ]
+}
