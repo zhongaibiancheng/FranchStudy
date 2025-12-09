@@ -1,0 +1,150 @@
+能的。我先把两张图里**能清晰辨认的印刷内容**按“图1/图2”整理出来（尽量保持教材原有结构）。少量地方因为拍摄角度/反光/手写遮挡，我会用「可能/疑似」标注。
+
+---
+
+## 图1（Vocabulaire 词汇，双栏）
+
+### 左栏（我能读到的）
+
+* **admirateur, trice n.** 欣赏者，崇拜者
+* **Afrique n.f.** 非洲
+
+  * **l’Afrique du Nord** 北非
+* **applaudir v.t.** 鼓掌
+* **arrêter (s’) v.pr.** 停止；站住
+* **Atlantique n.m.** 大西洋
+* **au nom de loc.prép.** 以……的名义 / 叫……名字（教材常见双义）
+* **aventurier, ère n.** 冒险家
+* **bateau n.m.** 船
+* **bien sûr (+que) loc.adv.** 当然（……）
+* **bonnet n.m.** （无边）软帽
+* **bonze, bonzesse n.** 和尚；尼姑
+* **ça fait (+时间)** 有……时间了
+* **capitaine n.m.** 船长；上尉；（运动队）队长
+* **coiffé, e a.** 梳过头的；戴着帽子的/带着头饰的
+* **corps n.m.** 身体
+* **curieux, se a., n.** 好奇的（人）
+
+  * **être ~ de** 对……感到好奇
+* **début n.m.** 开始；初期
+
+  * **au ~ de loc.prép.** 在……初期
+* **découverte n.f.** 发现
+
+  * **partir à la ~ de qch.** 出发探寻某物
+* **défendre v.t.** 保卫，捍卫
+* **depuis que loc.conj.** 自从……以后；打……起（后接直陈式）
+* **dire que**（这里教材常注：真想不到/竟然……，后接直陈式）
+* **diriger v.t.** 领导；指导
+* **dizaine n.f.** 十个左右，十来个
+
+  * **une ~ de** 十来个……
+* **durant prép.** 在……期间
+
+> 这一栏里我没看到明显缺行，但如果你要我做“逐行对照原书”的精确版，可以再补一张更正一点、无遮挡的照片。
+
+### 右栏（我能读到的）
+
+* **dynastie n.f.** 王朝，朝代
+
+  * **sous la ~ des Tang** 在唐朝
+* **également adv.** 同样地
+* **entendre dire** 听说
+* **environnement n.m.** 环境
+* **époque n.f.** 时期
+* **esprit n.m.** 精神，思想，意识
+* **Européen, ne n.** 欧洲人
+* **explorateur, trice n.** 探险者；勘探者
+* **exposition n.f.** 展览
+* **généreux, se a.** 慷慨的；大方的
+* **genre n.m.** 种类，类型
+* **humain, e a.** 人类的
+* **île n.f.** 岛屿
+* **longtemps adv.** 长时间地，长久地
+* **merveille n.f.** 好东西；奇迹
+* **millier n.m.** 千，千数
+
+  * **des ~s (+de)** 成千上万（的）
+* **mince a.** 瘦长的，细的
+* **océan n.m.** 海洋，大洋
+* **oser v.t.** 敢于
+* **ouest n.m.** 西，西部，西方
+* **pas mal loc.adv.** 不错
+* **pèlerinage n.m.** 朝圣，进香
+
+  * **P~ vers l’Ouest** （教材通常对应“西行记/西游记”的法语表达）
+* **pitre n.m.** 小丑
+* **pointe n.f.** 尖；海岬
+* **porter v.t.** 穿戴；拿；送
+* **qualité n.f.** 质量；品质
+* **rapporter v.t.** （带回）
+* **rhum n.m.** 朗姆酒
+* **rond, e a.** 圆（形）的
+* **scientifique a./n.** 科学的 / 科学家
+* **se rendre à** 到……去
+
+---
+
+## 图2（补充词汇 + 计量单位 + Notes）
+
+### 顶部补充词
+
+* **souriant, e a.** 微笑的
+* **soutra n.m.** 佛经
+* **sûrement adv.** 当然；肯定
+* **Tibet n.m.** 西藏
+* **traversée n.f.** 横跨，穿越
+* **un/une des (+复数名词)** ……之一
+* **voile n.f.** 帆；帆船/帆类运动相关用词
+
+### Unités de mesure 计量单位
+
+**La longueur 长度**（按教材顺序）
+
+* **un micron** 微米（1/1 000 000 米）
+* **un centimillimètre**（教材对应中文常译“忽米”，非常小的长度单位）
+* **un décimillimètre**（中文常译“丝米”）
+* **un millimètre** 毫米（1/1 000 米）
+* **un centimètre** 厘米
+* **un décimètre** 分米
+* **un mètre** 米
+* **un décamètre** 十米
+* **un hectomètre** 百米
+* **un kilomètre** 千米
+* **un mille** 海里（也说 **mille marin / mille nautique**）
+
+> 这个部分如果你要我把“法语-中文-换算关系”做成可直接进你系统的 JSON，我也能按你之前的 A/B/C 结构给你分级打包。
+
+### Notes 注释（我能读到的第 1 条）
+
+**1. Qui est cette femme au visage rond et habillée en robe ?**
+这位圆脸的、身穿裙子的女人是谁？
+
+并要求区分“脸/面孔”相关的三个词：
+
+1. **visage**（通用词，泛指面部）
+
+   * **un visage allongé / carré / ovale** 长脸 / 方脸 / 鸭蛋脸
+   * **un visage tout rouge** 通红的脸
+   * **un beau visage** 美丽的容貌
+
+2. **figure**（俗语、口语感更强）
+
+   * **un type de longue figure** 一个长脸形的家伙
+   * **une figure sympathique** 一张亲切的脸
+   * **casser la figure à qn** 痛打某人
+
+3. **face**（一般用语，常指特征或引申义）
+
+   * **une face blême** 苍白的面孔
+   * **perdre la face** 丢面子，丢脸
+
+---
+
+## 如果你要我“下一步直接可用”
+
+我可以把这两张图的内容：
+
+* 按你前面那套**A/B/C + mini_rule + must_memorize + drills**
+* 直接整理成**Lesson 4 的 JSON**
+* 并顺便补上你之前提到的**现在时/过去时/复合过去时**的例句分布，让你的 Vue 页面筛选更均衡。

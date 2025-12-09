@@ -5,9 +5,10 @@ const router = useRouter()
 
 // 课程列表数据
 const lessons = [
-  { id: 1, title: 'Leçon 1 – Rester ou partir ?', path: '/book2/lesson1','notes':true },
-  { id: 2, title: 'Leçon 2 – La vie quotidienne', path: '/book2/lesson2' },
-  { id: 3, title: 'Leçon 3 – Les voyages', path: '/book2/lesson3','notes':true }
+  { id: 1, title: 'Leçon 1 – Rester ou partir ?','notes':true },
+  { id: 2, title: "Leçon 2 – S'orienter" },
+  { id: 3, title: "Leçon 3 – Interview d'un personnage",'notes':true },
+  { id: 4, title: "Leçon 4 – Trois visages de l'aventure",'notes':false }
 ]
 
 const goLessonReader = (lesson_id)=>{
