@@ -8,6 +8,9 @@ import lesson_02_02 from "@/data/lesson_02/lesson_02_02.json";
 import lesson_03_01 from "@/data/lesson_03/lesson_03_01.json";
 import lesson_03_02 from "@/data/lesson_03/lesson_03_02.json";
 
+import lesson_04_01 from "@/data/lesson_04/lesson_04_01.json";
+import lesson_04_02 from "@/data/lesson_04/lesson_04_02.json";
+import lesson_04_03 from "@/data/lesson_04/lesson_04_03.json";
 
 const lessonDatas = {
   '1_1': lesson_01_01,
@@ -18,6 +21,10 @@ const lessonDatas = {
   
   '3_1': lesson_03_01,
   '3_2': lesson_03_02,
+
+  '4_1': lesson_04_01,
+  '4_2': lesson_04_02,
+  '4_3': lesson_04_03,
 }
 const options = {
   1:[{
@@ -51,7 +58,24 @@ const options = {
     value:'文章1',
     label:'文章1'
   },
-  ]
+  ],
+  4:[
+    {
+    id:1,
+    value:'对话',
+    label:'对话'
+  },
+  {
+    id:2,
+    value:'文章1',
+    label:'文章1'
+  },
+  {
+    id:3,
+    value:'文章2',
+    label:'文章2'
+  },
+]
 }
 
 

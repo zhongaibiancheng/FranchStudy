@@ -1,9 +1,11 @@
 // WordService.js
 import sentenceData_01 from '@/data/lesson_01/lesson1_gold_sentence.json'
+import sentenceData_02 from '@/data/lesson_02/lesson2_gold_sentence.json'
 import sentenceData_03 from '@/data/lesson_03/lesson3_gold_sentence.json'
 
 const wordDatas = {
   1: sentenceData_01,
+  2: sentenceData_02,
   3: sentenceData_03,
 
 }
