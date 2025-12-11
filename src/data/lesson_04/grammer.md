@@ -1,11 +1,4 @@
-
-下面我给你一个**“补全版（= 以你发的语法资料为主 + 标注课文对应句）”**。
-这样内容就不会漏，而且你上课也能一眼看到：
-**哪些来自语法资料，哪些能在课文里找到呼应。**
-
----
-
-# 本课语法学习资料（完整版·初二友好）
+# 第 4 课语法学习资料
 
 ## 1. L’épithète indépendante（独立的形容语）
 
@@ -18,10 +11,8 @@
 
 * **Malade, elle a consulté un médecin.**
   她**因为生病**去看了医生。（原因）
-
 * **Embarrassé, il a accepté sans rien dire.**
   **虽然为难**，他还是不说什么就同意了。（让步）
-
 * **Florence Arthaud, fatiguée mais souriante, salue gentiment ses admirateurs.**
   弗洛伦丝·阿尔诺**虽然疲劳却面带微笑**，亲切地向仰慕她的人招手致意。
 
@@ -29,10 +20,8 @@
 
 * **Curieux de tout, Jacques-Yves Cousteau a passé sa vie...**
   **对一切都充满好奇的**库斯托一生都在向世界展示海洋奇观。
-
 * **Homme courageux, il a vécu en mer des aventures dangereuses.**
   **作为一个勇敢的人**，他在海上经历了危险的冒险。
-
 * **Scientifique généreux, il défendait... la qualité de l’environnement.**
   **作为一位慷慨的科学家**，他一生都在捍卫环境质量。
 
@@ -204,7 +193,6 @@ je me rendrai / nous nous rendrons
 
 * **une femme au visage rond et habillée en robe**
   一位圆脸、穿着连衣裙的女士。
-
 * **un vieil homme aux cheveux blancs... au corps mince et aux yeux bleus**
   一位白发、戴红帽、身材消瘦、蓝眼睛的老人。
 
