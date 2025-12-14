@@ -6,7 +6,7 @@
         <span class="id">{{ item.id }}</span>
       </div>
 
-      <div class="right" v-if="true==false">
+      <div class="right">
         <button
           class="audio-btn"
           :class="{ playing }"

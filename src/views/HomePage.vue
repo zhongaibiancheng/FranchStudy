@@ -8,7 +8,7 @@ const lessons = [
   { id: 1, title: 'Leçon 1 – Rester ou partir ?','notes':true },
   { id: 2, title: "Leçon 2 – S'orienter" },
   { id: 3, title: "Leçon 3 – Interview d'un personnage",'notes':true },
-  { id: 4, title: "Leçon 4 – Trois visages de l'aventure",'notes':false }
+  { id: 4, title: "Leçon 4 – Trois visages de l'aventure",'notes':false ,'word01':true}
 ]
 
 const goLessonReader = (lesson_id)=>{
@@ -36,6 +36,15 @@ const goWordList = (lesson_id)=>{
       }
   })
 }
+const goWord01 = (lesson_id)=>{
+  router.push({
+    path:'/word01',
+    query: {
+        lesson: lesson_id
+      }
+  })
+}
+
 const goNotes =(lesson_id)=>{
   router.push({
     path:'/notes',
@@ -77,6 +86,7 @@ const goNotes =(lesson_id)=>{
                 <button @click="goLessonReader(index+1)">看课文</button>
                 <button @click="goGrammarQuotes(index+1)">背例句</button>
                 <button @click="goWordList(index+1)">背单词</button>
+                <button @click="goWord01(index+1)" v-if="lesson.word01">背单词 01</button>
                 <button @click="goNotes(index+1)" v-if="lesson.notes">课文备注</button>
               </div>
 
