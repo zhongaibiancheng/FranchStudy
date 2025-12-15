@@ -1,11 +1,3 @@
-可以，我按**每张图片**把主要**印刷内容**整理成可复制的文字版（以课本印刷为准；你手写的批注我不一一抄了，除非你也想要我把手写补进去）。
-
----
-
-## 图1（Vocabulaire 词汇，页31）
-
-### 左栏
-
 * **agent n.m.** 代理人（/工作人员）
 * **ajouter v.i.** （à）添加
 * **amoureux, se a. / n.** 爱恋的；恋人/情人
@@ -23,18 +15,14 @@
 * **devise n.f.** 格言；座右铭；口号
 * **drapeau n.m.** 旗帜
 * **droit adv.** 成直线；笔直
-
-### 右栏
-
 * **tout ~ loc.adv.** 径直；一直（= *tout droit*）
 * **droite n.f.** 右边
 * **écrier (s’) v.pr.** 喊叫；喊出声来
 * **égalité n.f.** 平等
 * **étendre (s’) v.pr.** 延伸
 * **feu n.m.** 火；灯光（装置）
-
-  * **le feu rouge** 红灯
-  * **le feu vert** 绿灯
+* **le feu rouge** 红灯
+* **le feu vert** 绿灯
 * **flèche n.f.** 箭；箭头
 * **fraternité n.f.** 博爱
 * **garer v.t.** 停放（车辆、船舶）
@@ -46,15 +34,6 @@
 * **liberté n.f.** 自由
 * **loin n.m.** 远处
 * **lyonnais, e a.** 里昂的
-
----
-
-## 图2（Le français 2 词汇 + Numéraux）
-
-### 词汇
-
-**左栏**
-
 * **mairie n.f.** 市政府；市政厅；镇政府
 * **le maire n.m.** 市长
 * **malheureusement adv.** 不幸地
@@ -69,9 +48,6 @@
 * **Perpignan** 佩皮尼昂（法国南方城市）
 * **plan n.m.** 图；地图
 * **préfecture n.f.** 省；省会；省政府
-
-**右栏**
-
 * **préféré, e a. / n.** 最为人所喜爱的；最受喜爱的人/物
 * **prier v.t.** 恳求；请求
 * **public, que a.** 公共的；（城市中的）行政的
@@ -80,46 +56,22 @@
 * **secret, ète a.** 秘密的
 * **s’en faire v.pr.** 着急；操心
 * **service n.m.** 帮助；帮忙
-
-  * **À votre service.** （乐意）为您效劳。
+* **À votre service.** （乐意）为您效劳。
 * **sortie n.f.** 出口；门
-
-  * **à la ~ de loc.prép.** 在……的出口处
+* **à la ~ de loc.prép.** 在……的出口处
 * **supermarché n.m.** 超市
 * **temple n.m.** 庙宇；寺院
 * **tourner v.i., v.t.** 转弯；拐弯；旋转
 * **trottoir n.m.** 人行道
 * **voiture n.f.** 车辆；汽车；轿车
-
----
-
-## 图3（Numéraux 数词：La fraction 分数，页32）
-
-### 五个常见特殊分数
-
 * **1/2 un demi** 二分之一
 * **1/3 un tiers** 三分之一
 * **1/4 un quart** 四分之一
 * **2/3 deux tiers** 三分之二
 * **3/4 trois quarts** 四分之三
-
-### 其他分数写法规则
-
-* **分子用基数词**
-* **分母用序数词**
-
-例：
-
 * **1/5 un cinquième** 五分之一
 * **1/6 un sixième** 六分之一
 * **3/8 trois huitièmes** 八分之三
-
----
-
-## 图4（Vocabulaire complémentaire：方位/位置短语小结）
-
-### 左栏
-
 * **à côté (+de)** 在（……的）旁边
 * **à droite (+de)** 在（……的）右边
 * **à gauche (+de)** 在（……的）左边
@@ -140,9 +92,6 @@
 * **de… à…** 从……到……
 * **derrière** 在……后边
 * **devant** 在……前边
-
-### 右栏
-
 * **en bas** 往下/朝下/在下面
 * **en face (+de)** 在（……的）对面
 * **en haut** 往上/朝上/在上面
@@ -163,7 +112,3 @@
 * **suivre** 沿着……而行；顺着
 * **sur** 在……上边
 * **tout droit** 一直；径直
-
----
-
-如果你想，我可以把这四张图的内容**合并成一份“可打印的初二词汇+方位表达+分数”清单**，顺便加上**小测题**（选择/填空/连线/情景对话）。

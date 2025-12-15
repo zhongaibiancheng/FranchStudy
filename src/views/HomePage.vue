@@ -6,7 +6,7 @@ const router = useRouter()
 // 课程列表数据
 const lessons = [
   { id: 1, title: 'Leçon 1 – Rester ou partir ?','notes':true },
-  { id: 2, title: "Leçon 2 – S'orienter" },
+  { id: 2, title: "Leçon 2 – S'orienter",'word01':true },
   { id: 3, title: "Leçon 3 – Interview d'un personnage",'notes':true },
   { id: 4, title: "Leçon 4 – Trois visages de l'aventure",'notes':false ,'word01':true}
 ]

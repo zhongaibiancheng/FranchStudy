@@ -1,12 +1,12 @@
 // WordService.js
 // import wordData_01 from '@/data/lesson_01/words_01.json'
-// import wordData_02 from '@/data/lesson_02/words_02.json'
+import wordData_02 from '@/data/lesson_02/words_01.json'
 // import wordData_03 from '@/data/lesson_03/words_01.json'
 import wordData_04 from '@/data/lesson_04/words_01.json'
 
 const wordDatas = {
   // 1: wordData_01,
-  // 2: wordData_02,
+  2: wordData_02,
   // 3: wordData_03,
   4: wordData_04,
 

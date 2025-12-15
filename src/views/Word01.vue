@@ -19,6 +19,9 @@
           <button @click="downloadAnswerSheet" class="export-btn both-btn">
             下载答案
           </button>
+          <button @click="goBack" class="export-btn both-btn">
+            返回
+          </button>
         </div>
       </div>
     </div>
@@ -84,7 +87,9 @@ const lesson = ref(1)
 
 const router = useRouter()
 const route = useRoute()
-
+const goBack=()=>{
+  router.push('/')
+}
 // 过滤后的单词列表（只按搜索过滤，不再按 level 分类）
 const filteredWords = computed(() => {
   let words = allWords.value.filter(word => {
