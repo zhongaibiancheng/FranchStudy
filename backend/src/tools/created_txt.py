@@ -30,6 +30,6 @@ def extract_property_to_file(json_data, output_file):
 # 使用示例
 if __name__ == "__main__":
     # 读取并提取属性
-    data = read_json_file('./data/lessons/lesson_01.json')
+    data = read_json_file('./data/lesson_01/lesson_01_02.json')
     if data:
-        extract_property_to_file(data, 'name.txt')
+        extract_property_to_file(data, 'lesson_01_02.txt')

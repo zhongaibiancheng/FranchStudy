@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:05,040
+Les vacances peuvent aussi être une aventure !
+
+2
+00:00:05,040 --> 00:00:09,320
+Les aventures, c’est le rêve de tous.
+
+3
+00:00:09,320 --> 00:00:15,280
+Qui n’a pas rêvé de conquérir l’impossible et d’aller au-delà des limites humaines ?
+
+4
+00:00:15,280 --> 00:00:17,400
+Les vacances peuvent aussi être une aventure.
+
+5
+00:00:17,400 --> 00:00:19,400
+N’y avez-vous jamais songé ?
+
+6
+00:00:19,400 --> 00:00:24,960
+Et si vous voulez réaliser ces rêves d’enfance, en voici quelques propositions :
+
+7
+00:00:24,960 --> 00:00:36,960
+Vous découvrirez la Bretagne en vélo, ses églises et ses pardons, ses petits ports, ses plages et sa nature encore sauvage par endroits.
+
+8
+00:00:36,960 --> 00:00:49,520
+Vous traverserez l’Alsace sur les canaux, vous visiterez les châteaux de la Loire.
+
+9
+00:00:49,520 --> 00:00:54,400
+Et croyez-moi, ce sera un voyage pittoresque mais coûteux !
+
+10
+00:00:54,400 --> 00:01:00,760
+Vous ferez de l’alpinisme dans les Alpes ou dans les Pyrénées.
+
+11
+00:01:00,760 --> 00:01:08,320
+Vous grimperez avec un pic... et vos doigts !
+
+12
+00:01:08,320 --> 00:01:11,920
+Vous dominerez toutes les vallées et vous vivrez dangereusement.
+
+13
+00:01:11,920 --> 00:01:15,120
+Si vous êtes sportif et bien entraîné, vous descendrez les torrents en canoë-kayak.
+
+14
+00:01:15,120 --> 00:01:15,120
+Mais vous le ferez de préférence au printemps, quand les eaux ne sont pas trop hautes.
+
+15
+00:01:15,120 --> 00:01:15,120
+Si vous êtes intrépide et souhaitez voler comme l'oiseau, vous vous jetterez du haut d'un pont au-dessus d'un torrent des Pyrénées, retenu par un câble élastique.
+
+16
+00:01:15,120 --> 00:01:15,160
+C'est un sport très à la mode depuis l’an 2000 !
+

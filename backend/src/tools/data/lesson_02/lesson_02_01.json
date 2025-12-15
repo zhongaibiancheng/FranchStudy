@@ -1,0 +1,581 @@
+
+{
+  "title": "Leçon 2 Chercher son chemin / 寻找方向",
+  "audio": {
+    "src": "/audio/lesson2/lesson2_dialogues.m4a"
+  },
+  "text": [
+    {
+      "id": "D01",
+      "source": "dialogue",
+      "french_full": "Pardon, mademoiselle. Vous pouvez m'aider ? Je suis perdu. Je cherche la rue du Temple.",
+      "french_gap": "Pardon, mademoiselle. Vous pouvez ______________? Je suis perdu. Je ______________ la rue du Temple.",
+      "chinese": "不好意思，小姐。您能帮我吗？我迷路了。我在找寺院路。",
+      "answers": [
+        "m'aider",
+        "cherche"
+      ],
+      "tags": [
+        "问路",
+        "Je suis perdu",
+        "礼貌表达"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "向路人求助并说明自己迷路、在找哪条街。",
+        "vocab": [
+          { "item": "perdu", "note": "迷路的。" },
+          { "item": "chercher", "note": "寻找。" }
+        ],
+        "grammar": "“Vous pouvez m'aider ?”是礼貌请求；“Je cherche ...”说明自己要找的地点。",
+        "usage": "真实场景中非常常用的问路开场。"
+      }
+    },
+    {
+      "id": "D02",
+      "source": "dialogue",
+      "french_full": "Continuez tout droit. Faites deux cents mètres. Tournez à gauche et demandez.",
+      "french_gap": "____________________________. ______________ deux cents mètres. __________________________________________.",
+      "chinese": "继续直走。再走200米。向左转,再问问路。",
+      "answers": [
+        "Continuez tout droit",
+        "Faites",
+        "Tournez à gauche et demandez"
+      ],
+      "tags": [
+        "指路",
+        "命令式",
+        "距离"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "用简短指令告诉对方行走方向与距离。",
+        "vocab": [
+          { "item": "tout droit", "note": "直走。" },
+          { "item": "mètre", "note": "米。" }
+        ],
+        "grammar": "“Continuez / Faites / Tournez”都是肯定命令式，用来给出清晰路线指令。",
+        "usage": "指路时常用“三步法”：方向 + 距离 + 下一步动作。"
+      }
+    },
+    {
+      "id": "D03",
+      "source": "dialogue",
+      "french_full": "Je vous en prie.",
+      "french_gap": "__________________________________________.",
+      "chinese": "没关系。",
+      "answers": [
+        "Je vous en prie"
+      ],
+      "tags": [
+        "回应感谢",
+        "礼貌表达"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "对“Merci”作礼貌回应。",
+        "vocab": [],
+        "grammar": "固定搭配。",
+        "usage": "正式、礼貌场合很常见。"
+      }
+    },
+    {
+      "id": "D04",
+      "source": "dialogue",
+      "french_full": "Excusez-moi, madame. Je cherche la banque. Vous savez où c'est ?",
+      "french_gap": "Excusez-moi, madame. Je cherche la banque. Vous ____________________________ ?",
+      "chinese": "不好意思，女士。我在找银行。您知道在哪里吗？",
+      "answers": [
+        "savez où c'est"
+      ],
+      "tags": [
+        "问路",
+        "公共场所"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "礼貌询问银行的位置。",
+        "vocab": [
+          { "item": "banque", "note": "银行。" }
+        ],
+        "grammar": "“Vous savez où c'est ?”是口语中常见的询问地点方式。",
+        "usage": "比“C’est où ?”更礼貌一点。"
+      }
+    },
+    {
+      "id": "D05",
+      "source": "dialogue",
+      "french_full": "Désolée, monsieur. Je ne suis pas du quartier. Mais ne vous en faites pas, vous voyez monsieur l'agent au carrefour ? Vous pourriez le lui demander. Il pourra sûrement vous aider.",
+      "french_gap": "Désolée, monsieur. Je ne suis pas ______________. Mais ____________________________, vous voyez monsieur l'agent ____________________________ ? Vous pouvez ____________________________. Il pourra ____________________________.",
+      "chinese": "不好意思，先生。我不是这儿的人。但是您不要担心，您看到十字路口的警察了吗？您可以去问他。他肯定会帮助您的。",
+      "answers": [
+        "du quartier",
+        "ne vous en faites pas",
+        "au carrefour",
+        "le lui demander",
+        "sûrement vous aider"
+      ],
+      "tags": [
+        "问路",
+        "安慰",
+        "宾语代词"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "自己不熟悉路，但安慰对方并建议去问警察。",
+        "vocab": [
+          { "item": "quartier", "note": "街区、社区。" },
+          { "item": "agent", "note": "警察/工作人员（此处指警察）。" },
+          { "item": "carrefour", "note": "十字路口。" }
+        ],
+        "grammar": "“Ne vous en faites pas”=别担心；“le lui demander”体现宾语代词顺序：le + lui。",
+        "usage": "非常生活化的“我不清楚，但你可以问……”模板。"
+      }
+    },
+    {
+      "id": "D06",
+      "source": "dialogue",
+      "french_full": "C'est une bonne idée. Je vous remercie, madame.",
+      "french_gap": "C'est ____________________________. Je vous remercie, madame.",
+      "chinese": "这是个好主意。谢谢您，女士。",
+      "answers": [
+        "une bonne idée"
+      ],
+      "tags": [
+        "感谢",
+        "评价建议"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "认可对方的建议并表达感谢。",
+        "vocab": [],
+        "grammar": "固定表达“C’est une bonne idée”。",
+        "usage": "对别人的帮助或建议作积极回应时可用。"
+      }
+    },
+    {
+      "id": "D07",
+      "source": "dialogue",
+      "french_full": "De rien, jeune homme.",
+      "french_gap": "____________________________, jeune homme.",
+      "chinese": "没关系，年轻人。",
+      "answers": [
+        "De rien"
+      ],
+      "tags": [
+        "回应感谢"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "对感谢的随和回应。",
+        "vocab": [],
+        "grammar": "固定表达。",
+        "usage": "口语中非常常见。"
+      }
+    },
+    {
+      "id": "D08",
+      "source": "dialogue",
+      "french_full": "Pardon, monsieur, pour aller à la poste, s'il vous plaît ?",
+      "french_gap": "Pardon, monsieur, ____________________________, s’il vous plaît ?",
+      "chinese": "不好意思，先生，请问怎么去邮局？",
+      "answers": [
+        "pour aller à la poste"
+      ],
+      "tags": [
+        "问路",
+        "邮局"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "询问去邮局的路线。",
+        "vocab": [
+          { "item": "poste", "note": "邮局。" }
+        ],
+        "grammar": "“pour aller à ...”用于表达“去……怎么走”。",
+        "usage": "可替换地点：pour aller au café / à l'école 等。"
+      }
+    },
+    {
+      "id": "D09",
+      "source": "dialogue",
+      "french_full": "La poste ? Attendez... Bon ben, il y a juste un plan du quartier au coin de la rue, je vais vous la montrer. C'est plus simple.",
+      "french_gap": "La poste ? Attendez… Bon ben, il y a _______________________________________________________, je __________________________________________. C'est plus simple.",
+      "chinese": "邮局？等等...那个，这条街拐弯的地方正好有张城区图，我指给您看。非常简单。",
+      "answers": [
+        "juste un plan du quartier au coin de la rue",
+        "vais vous la montrer"
+      ],
+      "tags": [
+        "指路",
+        "plan du quartier"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "用街区地图帮助对方理解路线。",
+        "vocab": [
+          { "item": "plan", "note": "地图、平面图。" },
+          { "item": "au coin de", "note": "在……拐角处。" }
+        ],
+        "grammar": "“je vais ...”表示马上要做的事（近未来）。",
+        "usage": "现实对话里很自然的“我给你看地图”。"
+      }
+    },
+    {
+      "id": "D10",
+      "source": "dialogue",
+      "french_full": "C'est très gentil à vous. Je vous suis, monsieur.",
+      "french_gap": "C'est ____________________________. Je ____________________________, monsieur.",
+      "chinese": "太谢谢您了。我跟着您走，先生。",
+      "answers": [
+        "très gentil à vous",
+        "vous suis"
+      ],
+      "tags": [
+        "感谢",
+        "跟随行动"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "感谢对方的热心并表示跟着走。",
+        "vocab": [
+          { "item": "gentil", "note": "友善的、好心的。" },
+          { "item": "suivre", "note": "跟随。" }
+        ],
+        "grammar": "“Je vous suis”是口语里很实用的跟随表达。",
+        "usage": "可用于现实场景如“我跟着你”。"
+      }
+    },
+    {
+      "id": "D11",
+      "source": "dialogue",
+      "french_full": "Bon, vous voyez la petite flèche, nous sommes ici. C'est la rue de la Préfecture. Vous la prenez et vous continuez jusqu'au feu rouge. Au feu, vous tournez à gauche et vous allez tout droit.",
+      "french_gap": "Bon, vous voyez la petite ______________, nous sommes ici. C'est la rue de la ______________. Vous ___________________ et vous ____________________________. ______________, vous __________________ et vous ____________________________.",
+      "chinese": "好的，您看这个小箭头，我们现在在这里。这是省政府路，您一直走到红绿灯那里。然后左转，直走。",
+      "answers": [
+        "flèche",
+        "Préfecture",
+        "la prenez",
+        "continuez jusqu'au feu rouge",
+        "Au feu",
+        "tournez à gauche",
+        "allez tout droit"
+      ],
+      "tags": [
+        "指路",
+        "命令式",
+        "地点词汇"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "用地图标记+路名+红绿灯作为路线关键点。",
+        "vocab": [
+          { "item": "flèche", "note": "箭头。" },
+          { "item": "feu rouge", "note": "红绿灯（路口信号灯）。" }
+        ],
+        "grammar": "连续使用命令式动词“prenez / continuez / tournez / allez”来形成清晰路线。",
+        "usage": "指路时常用“关键路名 + 标志点(红绿灯/广场)”。"
+      }
+    },
+    {
+      "id": "D12",
+      "source": "dialogue",
+      "french_full": "Vous arrivez sur une place. Là, vous prenez la rue sur votre droite, c'est la rue Pasteur. Vous continuez encore cinquante mètres et la poste est sur votre gauche. Vous ne pouvez pas la manquer.",
+      "french_gap": "Vous arrivez ____________________________. Là, vous ____________________________, c'est la rue Pasteur. Vous ________________________ cinquante mètres et la poste est ________________________. Vous ne pouvez pas ______________.",
+      "chinese": "您到了一个广场。到了那里，你向右走，是Pasteur路。您继续往前走50米，邮局就在您的左手边。您不要错过了。",
+      "answers": [
+        "sur une place",
+        "prenez la rue sur votre droite",
+        "continuez encore",
+        "sur votre gauche",
+        "la manquer"
+      ],
+      "tags": [
+        "指路",
+        "左右方位",
+        "距离"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "以“广场”为新节点，继续用左右方向和距离定位目的地。",
+        "vocab": [
+          { "item": "place", "note": "广场。" },
+          { "item": "sur votre droite/gauche", "note": "在您右边/左边。" }
+        ],
+        "grammar": "“Vous ne pouvez pas la manquer”是固定式强调“不会找不到/不会错过”。",
+        "usage": "指路结尾常用的“放心句”。"
+      }
+    },
+    {
+      "id": "D13",
+      "source": "dialogue",
+      "french_full": "À votre service, mademoiselle.",
+      "french_gap": "____________________________, mademoiselle.",
+      "chinese": "不用谢，小姐。",
+      "answers": [
+        "À votre service"
+      ],
+      "tags": [
+        "回应感谢",
+        "礼貌表达"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "更正式的“不用谢/乐意效劳”。",
+        "vocab": [],
+        "grammar": "固定表达。",
+        "usage": "比“De rien”更郑重。"
+      }
+    },
+    {
+      "id": "D14",
+      "source": "dialogue",
+      "french_full": "Allô ? Patrick ? Tu peux m'aider ?",
+      "french_gap": "Allô ? Patrick ? Tu peux______________ ?",
+      "chinese": "喂？Patrick ?你能帮帮我吗？",
+      "answers": [
+        "m'aider"
+      ],
+      "tags": [
+        "电话对话",
+        "求助"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "电话中向熟人求助。",
+        "vocab": [],
+        "grammar": "“Tu peux m'aider ?”是熟人之间的口语请求。",
+        "usage": "可替换：Tu peux venir ? Tu peux me dire ?"
+      }
+    },
+    {
+      "id": "D15",
+      "source": "dialogue",
+      "french_full": "Oui, qu'est-ce qu'il y a ?",
+      "french_gap": "Oui, ____________________________?",
+      "chinese": "好的，有什么事吗？",
+      "answers": [
+        "qu'est-ce qu'il y a"
+      ],
+      "tags": [
+        "电话对话",
+        "口语提问"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "询问对方发生了什么。",
+        "vocab": [],
+        "grammar": "固定口语问句。",
+        "usage": "朋友之间很自然的回应。"
+      }
+    },
+    {
+      "id": "D16",
+      "source": "dialogue",
+      "french_full": "Quel itinéraire dois-je prendre pour aller au Palais des Sports en voiture ? Dis-le-moi !",
+      "french_gap": "___________________________________________________________? ______________________ !",
+      "chinese": "我应该选哪条路线开车去体育馆？告诉我！",
+      "answers": [
+        "Quel itinéraire dois-je prendre pour aller au Palais des Sports en voiture",
+        "Dis-le-moi"
+      ],
+      "tags": [
+        "问路",
+        "交通方式",
+        "宾语代词"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "询问开车去体育馆的路线，并催对方直接告诉自己。",
+        "vocab": [
+          { "item": "itinéraire", "note": "路线。" },
+          { "item": "en voiture", "note": "开车。" }
+        ],
+        "grammar": "“Dis-le-moi”含命令式+宾语代词顺序：le 放在动词后。",
+        "usage": "熟人对话语气更直接。"
+      }
+    },
+    {
+      "id": "D17",
+      "source": "dialogue",
+      "french_full": "Tu n'as pas de plan sur toi ?",
+      "french_gap": "Tu n'as pas ____________________________?",
+      "chinese": "你身上没有地图吗？",
+      "answers": [
+        "de plan sur toi"
+      ],
+      "tags": [
+        "地图",
+        "口语"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "询问对方是否带着地图。",
+        "vocab": [
+          { "item": "plan", "note": "地图/城区图。" }
+        ],
+        "grammar": "否定疑问句用来表达惊讶或确认。",
+        "usage": "非常口语化。"
+      }
+    },
+    {
+      "id": "D18",
+      "source": "dialogue",
+      "french_full": "Si, j'en ai un. C'est Joelle qui me l'a dessiné hier. Malheureusement je n'y comprends rien : ce n'est pas un plan, mais un code secret !",
+      "french_gap": "______________, ______________. __________________________________________. _________________________________________ : ce n'est pas ______________, mais ______________ !",
+      "chinese": "有，我有一张地图。是Joëlle昨天画给我的。不幸的是，我一点都看不懂：这不是地图，是密码。",
+      "answers": [
+        "Si",
+        "j'en ai un",
+        "C'est Joelle qui me l'a dessiné hier",
+        "Malheureusement je n'y comprends rien",
+        "un plan",
+        "un code secret"
+      ],
+      "tags": [
+        "y/en",
+        "复合过去时",
+        "口语吐槽"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "说明自己有地图，但看不懂，语气带点幽默。",
+        "vocab": [
+          { "item": "dessiner", "note": "画。" },
+          { "item": "code secret", "note": "密码、暗号。" }
+        ],
+        "grammar": "“j'en ai un”用 en 代替“un plan”；“je n'y comprends rien”中 y 指代“这张图”。",
+        "usage": "很好用的生活化表达。"
+      }
+    },
+    {
+      "id": "D19",
+      "source": "dialogue",
+      "french_full": "Devant la gare, côté avenue Perpignan.",
+      "french_gap": "______________ la gare, ____________________________ Perpignan.",
+      "chinese": "在火车站前，佩皮尼昂大街旁边。",
+      "answers": [
+        "Devant",
+        "côté avenue"
+      ],
+      "tags": [
+        "方位表达",
+        "地标"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "用地标+方位说明当前位置。",
+        "vocab": [
+          { "item": "devant", "note": "在……前面。" },
+          { "item": "côté", "note": "在……旁边/一侧。" }
+        ],
+        "grammar": "“Devant + 地点”是高频方位结构。",
+        "usage": "报位置时特别实用。"
+      }
+    },
+    {
+      "id": "D20",
+      "source": "dialogue",
+      "french_full": "Bon, tu prends le boulevard en face et tu continues jusqu'à un grand jardin public. Là, tu tournes à droite, c'est la rue Dufour. Tu restes sur la rue. Tu traverses une place, la place de la Liberté. Tu passe devant quelques magasins et tu verras, c'est juste après, en face d'une grande surface Carrefour. Tu vois ?",
+      "french_gap": "Bon, tu __________________________ et tu ________________________________________________. ______________, tu ______________, c'est la rue Dufour. Tu ______________ la rue. Tu ______________ une place, la place de la Liberté. Tu _________________ quelques ______________ et tu ______________, c'est _____________________, _________________________________________ . Tu vois ?",
+      "chinese": "好的，你往对面的大街走，直到走到一个大的公共公园。在那里，你向右转，是杜弗街。你呆在那条街上。穿过自由广场。你经过一些商店门前，然后，你将看到（目的地）就在家乐福商场的对面。你看到了吗？",
+      "answers": [
+        "prends le boulevard en face",
+        "continues jusqu'à un grand jardin public",
+        "Là",
+        "tournes à droite",
+        "restes sur",
+        "traverses",
+        "passe devant",
+        "magasins",
+        "verras",
+        "juste après",
+        "en face d'une grande surface Carrefour"
+      ],
+      "tags": [
+        "指路",
+        "连续命令式",
+        "路线描述"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "用多个节点（公园、街道、广场、商店）串起完整路线。",
+        "vocab": [
+          { "item": "boulevard", "note": "林荫大道/大街。" },
+          { "item": "jardin public", "note": "公共公园。" },
+          { "item": "grande surface", "note": "大型商超。" }
+        ],
+        "grammar": "口语中连续使用命令式动词，让路线听起来像“导航”。",
+        "usage": "这是初中阶段非常好的“长指路句”模板。"
+      }
+    },
+    {
+      "id": "D21",
+      "source": "dialogue",
+      "french_full": "Oui. Tiens, tu connais tout, toi !",
+      "french_gap": "Oui. ______________, tu ____________________________, toi !",
+      "chinese": "是的。噢，你都认识！",
+      "answers": [
+        "Tiens",
+        "connais tout"
+      ],
+      "tags": [
+        "口语感叹"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "带点惊讶/佩服的口语感叹。",
+        "vocab": [
+          { "item": "Tiens", "note": "咦/哎呀（口语感叹）。" }
+        ],
+        "grammar": "“toi”放句末加强语气。",
+        "usage": "朋友对话很自然。"
+      }
+    },
+    {
+      "id": "D22",
+      "source": "dialogue",
+      "french_full": "À qui le dis-tu ? J'habite le quartier.",
+      "french_gap": "____________________________ ? __________________________________________.",
+      "chinese": "你跟谁说这话呢？我住这个街区的。",
+      "answers": [
+        "À qui le dis-tu",
+        "J'habite le quartier"
+      ],
+      "tags": [
+        "口语",
+        "解释原因"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "表示“那还用说”，并解释自己熟悉这里的原因。",
+        "vocab": [
+          { "item": "habiter", "note": "居住。" },
+          { "item": "quartier", "note": "街区。" }
+        ],
+        "grammar": "“À qui le dis-tu ?”是固定口语表达，约等于“可不是嘛”。",
+        "usage": "适合熟人之间的轻松语气。"
+      }
+    },
+    {
+      "id": "D23",
+      "source": "dialogue",
+      "french_full": "Pas de quoi.",
+      "french_gap": "____________________________.",
+      "chinese": "不用谢。",
+      "answers": [
+        "Pas de quoi"
+      ],
+      "tags": [
+        "回应感谢"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "轻松自然的“不用谢”。",
+        "vocab": [],
+        "grammar": "固定表达。",
+        "usage": "口语中很常见。"
+      }
+    }
+  ]
+}

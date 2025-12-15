@@ -1,0 +1,67 @@
+{
+  "title": "Texte 2 L'aventure sportive / 体育冒险",
+  "audio": {
+    "src": "/audio/lesson4/lesson4_texte.m4a"
+  },
+  "text": [
+    {
+      "id": "T01",
+      "source": "texte",
+      "french_full": "Le 18 novembre 1990, il faisait nuit sur l'île de la Guadeloupe quand le bateau de Florence Arthaud est arrivé au port de Pointe-à-Pitre. Des milliers de curieux et d'admirateurs attendaient et ils ont applaudi la jeune femme.",
+      "french_gap": "Le 18 novembre 1990, il ___________________ ___________________ l'île de la ___________________ quand le bateau de Florence Arthaud ______________________________________ Pointe-à-Pitre. ______________________________________ curieux et ___________________ attendaient et ils ______________________________________ la jeune femme.",
+      "chinese": "1990年11月18日，当佛洛伦丝·阿尔托的船抵达普安它皮特港的时候，瓜德罗普岛的天已经黑了。数千名看热闹和仰慕她的人等在那里，为这位年轻姑娘鼓掌欢呼。",
+      "answers": [
+        "faisait nuit sur",
+        "Guadeloupe",
+        "est arrivé au port de",
+        "Des milliers de",
+        "d'admirateurs",
+        "ont applaudi"
+      ],
+      "tags": [
+        "描述",
+        "时间",
+        "地点"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "讲述佛洛伦丝·阿尔托的航行到达港口时的情景。",
+        "vocab": [
+          { "item": "curieux", "note": "看热闹的人。" },
+          { "item": "admirateurs", "note": "仰慕者。" },
+          { "item": "attendaient", "note": "等待。" }
+        ],
+        "grammar": "描述场景时，常使用过去未完成时（imparfait）来表示背景。",
+        "usage": "场景描写常用此句型：时间 + 地点 + 动作。"
+      }
+    },
+    {
+      "id": "T02",
+      "source": "texte",
+      "french_full": "Florence Arthaud était souriante, fatiguée mais heureuse. Dans la Route du Rhum, célèbre traversée de l'Atlantique à la voile, elle arrivait la première.",
+      "french_gap": "Florence Arthaud était ___________________, ___________________ mais heureuse. Dans la Route du Rhum, _________________________________________________________, elle arrivait ___________________.",
+      "chinese": "佛洛伦丝·阿尔托面带微笑，虽然疲倦但很幸福。在“朗姆之路”这项著名的横越大西洋的帆船赛事中，她第一个抵达终点。",
+      "answers": [
+        "souriante",
+        "fatiguée",
+        "célèbre traversée de l'Atlantique à la voile",
+        "la première"
+      ],
+      "tags": [
+        "人物描述",
+        "情感",
+        "比赛"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "描述佛洛伦丝·阿尔托参加横渡大西洋的帆船比赛时的状态。",
+        "vocab": [
+          { "item": "souriante", "note": "微笑的。" },
+          { "item": "fatiguée", "note": "疲倦的。" }
+        ],
+        "grammar": "使用形容词描述人物的外貌和情感状态。",
+        "usage": "人物状态描述时常用形容词，表达对情绪的感受。"
+      }
+    }
+  ]
+}

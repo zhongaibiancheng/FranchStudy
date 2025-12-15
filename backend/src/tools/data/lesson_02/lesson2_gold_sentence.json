@@ -1,0 +1,180 @@
+{
+  "source_title": "法语街道与方向表达",
+  "grammar_points": [
+    {
+      "id": "direction_expressions",
+      "name_zh": "方向表达",
+      "name_fr": "Expressions de direction",
+      "target_level": "初二 / A-B-C 分级",
+      "core_rule": {
+        "zh": "用法：描述方向时，常用命令式或表示目的地的表达方式。",
+        "fr": "Utilisation : pour indiquer la direction ou un endroit, on utilise souvent l'impératif ou des expressions de destination."
+      },
+      "key_notes": [
+        "常见的方向动词：tourner, continuer, demander。",
+        "表达方向时，常见的句式包括“tout droit”, “à gauche”, “à droite”, “demandez à…”。"
+      ],
+      "patterns": [
+        {
+          "label": "继续前进",
+          "structure": "Continuez + tout droit",
+          "meaning_zh": "表示继续往前走"
+        },
+        {
+          "label": "转向",
+          "structure": "Tournez + à gauche / à droite",
+          "meaning_zh": "表示向左或向右转"
+        },
+        {
+          "label": "请求帮助",
+          "structure": "Demandez à + personne",
+          "meaning_zh": "表示向某人询问"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Continuez tout droit.",
+          "zh": "请继续走直路。",
+          "pattern": "继续前进"
+        },
+        {
+          "fr": "Tournez à gauche et demandez.",
+          "zh": "请左转并询问。",
+          "pattern": "转向"
+        },
+        {
+          "fr": "Demandez au monsieur l’agent.",
+          "zh": "请向警察先生询问。",
+          "pattern": "请求帮助"
+        }
+      ]
+    },
+    {
+      "id": "futur_simple_expressions",
+      "name_zh": "将来时表达",
+      "name_fr": "Le futur simple",
+      "target_level": "初二 / A-B-C 分级",
+      "core_rule": {
+        "zh": "用法：表示将来可能发生的动作或事件。",
+        "fr": "Utilisation : pour exprimer des actions ou événements futurs."
+      },
+      "key_notes": [
+        "将来时用于描述将来发生的动作。",
+        "常见的将来时动词如：aller, faire, être, avoir等。"
+      ],
+      "patterns": [
+        {
+          "label": "描述未来事件",
+          "structure": "Verbe + futur simple",
+          "meaning_zh": "表示未来某个时刻会发生的事件"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Demain, je ferai mes devoirs.",
+          "zh": "明天，我会做作业。",
+          "pattern": "描述未来事件"
+        }
+      ]
+    },
+    {
+      "id": "si_conditionnels",
+      "name_zh": "条件句（si 引导的句子）",
+      "name_fr": "Les phrases conditionnelles avec 'si'",
+      "target_level": "初二 / A-B-C 分级",
+      "core_rule": {
+        "zh": "用法：表达条件和结果关系，si从句使用现在时，主句使用将来时。",
+        "fr": "Utilisation : pour exprimer une condition et son résultat, avec 'si' suivi du présent et la proposition principale au futur."
+      },
+      "key_notes": [
+        "si 从句的条件部分用现在时，结果部分可以使用将来时。",
+        "当表达真实、可能发生的情况时使用这个结构。"
+      ],
+      "patterns": [
+        {
+          "label": "条件与结果",
+          "structure": "Si + présent, futur",
+          "meaning_zh": "表示如果发生某事，另一件事会发生"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Si vous allez tout droit, vous trouverez la banque.",
+          "zh": "如果你继续直走，你会找到银行。",
+          "pattern": "条件与结果"
+        }
+      ]
+    },
+    {
+      "id": "polite_requests",
+      "name_zh": "礼貌请求",
+      "name_fr": "Demander poliment",
+      "target_level": "初二 / A-B-C 分级",
+      "core_rule": {
+        "zh": "用法：表示礼貌的请求，常用疑问句和命令式。",
+        "fr": "Utilisation : pour faire des demandes polies, on utilise souvent l'interrogation et l'impératif."
+      },
+      "key_notes": [
+        "常见的请求动词：aider, demander, montrer。",
+        "请求时，动词通常使用命令式或疑问句表达。"
+      ],
+      "patterns": [
+        {
+          "label": "请帮助",
+          "structure": "Pouvez-vous + verbe ?",
+          "meaning_zh": "表示请求某人帮助"
+        },
+        {
+          "label": "请说明",
+          "structure": "Montrez-moi + nom",
+          "meaning_zh": "请求某人给出指引或说明"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Pouvez-vous m'aider ?",
+          "zh": "您能帮我吗？",
+          "pattern": "请帮助"
+        },
+        {
+          "fr": "Montrez-moi le chemin.",
+          "zh": "请给我指路。",
+          "pattern": "请说明"
+        }
+      ]
+    },
+    {
+      "id": "expressions_of_gratitude",
+      "name_zh": "感激表达",
+      "name_fr": "Expressions de gratitude",
+      "target_level": "初二 / A-B-C 分级",
+      "core_rule": {
+        "zh": "用法：表示感谢，通常用‘merci’和‘de rien’等。",
+        "fr": "Utilisation : pour exprimer de la gratitude, on utilise des expressions comme 'merci' et 'de rien'."
+      },
+      "key_notes": [
+        "‘Merci’是表示感谢的基础表达。",
+        "‘De rien’是表示回应感谢时常用的表达。"
+      ],
+      "patterns": [
+        {
+          "label": "感谢",
+          "structure": "Merci + de rien",
+          "meaning_zh": "表示感谢并回应感谢"
+        }
+      ],
+      "examples": [
+        {
+          "fr": "Merci beaucoup.",
+          "zh": "非常感谢。",
+          "pattern": "感谢"
+        },
+        {
+          "fr": "De rien.",
+          "zh": "不客气。",
+          "pattern": "回应感谢"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "A": [
+    {
+      "lemma": "discuter",
+      "pos": "v.i.",
+      "chinese": "讨论",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["家庭", "对话", "常用动词"],
+      "example_fr": "M. et Mme Dupré discutent avec leurs trois enfants, Paul, Lina et Jeanne.",
+      "example_zh": "杜普雷先生和夫人同他们的三个孩子——保罗、丽娜和让娜——在谈话。",
+      "grammar_note_zh": "discuter avec qn 表示“与某人讨论”。主语为复数人名时用动词第三人称复数 discutent。"
+    },
+    {
+      "lemma": "dire (Dis !)",
+      "pos": "v.t.",
+      "chinese": "说；（口语）喂",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["口语", "对话起始", "高频动词"],
+      "example_fr": "Dis, papa, on sort ce soir ?",
+      "example_zh": "哎，爸爸，我们今晚出去吗？",
+      "grammar_note_zh": "Dis 是 dire 的命令式（tu 形式），常用于口语引出提问或请求。"
+    },
+    {
+      "lemma": "sortir",
+      "pos": "v.i.",
+      "chinese": "出去；外出",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["假期", "生活", "高频动词"],
+      "example_fr": "On sort ce soir ?",
+      "example_zh": "我们今晚出去吗？",
+      "grammar_note_zh": "on + 动词现在时 表示口语中的“我们”。"
+    },
+    {
+      "lemma": "rester",
+      "pos": "v.i.",
+      "chinese": "留下；待着",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["对比词", "主题", "高频动词"],
+      "example_fr": "On sort ou on reste ?",
+      "example_zh": "我们出门还是待在家里？",
+      "grammar_note_zh": "ou 连接两个并列动词结构，构成选择疑问。"
+    },
+    {
+      "lemma": "partir",
+      "pos": "v.i.",
+      "chinese": "出发；离开",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["假期", "出行", "高频动词"],
+      "example_fr": "Et vite, partons tout de suite !",
+      "example_zh": "快，我们马上出发！",
+      "grammar_note_zh": "partons 是 partir 的命令式（nous 形式）。"
+    },
+    {
+      "lemma": "vacances",
+      "pos": "n.f.pl.",
+      "chinese": "假期",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["主题词", "时间", "高频名词"],
+      "example_fr": "Qu’est-ce que nous ferons pendant les vacances de Noël ?",
+      "example_zh": "我们在圣诞假期要做什么？",
+      "grammar_note_zh": "les vacances 常用复数；de Noël 作名词补语。"
+    },
+    {
+      "lemma": "match",
+      "pos": "n.m.",
+      "chinese": "比赛",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["体育", "对话核心", "名词"],
+      "example_fr": "Ce soir, je vais regarder le match de foot à la télé.",
+      "example_zh": "今晚我要在电视上看足球比赛。",
+      "grammar_note_zh": "le match de + 运动名词 表示“……比赛”。"
+    },
+    {
+      "lemma": "foot",
+      "pos": "n.m.",
+      "chinese": "足球（football 的口语缩写）",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["体育", "口语", "对话核心"],
+      "example_fr": "Le foot à la télé, ça ne manque pas !",
+      "example_zh": "电视里的足球比赛又不少！",
+      "grammar_note_zh": "ça ne manque pas 表示“并不少见/不缺”。"
+    },
+    {
+      "lemma": "télévision / télé",
+      "pos": "n.f.",
+      "chinese": "电视",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["媒体", "日常", "口语"],
+      "example_fr": "… le match de foot à la télé …",
+      "example_zh": "……在电视上看足球比赛……",
+      "grammar_note_zh": "à la télé 为口语表达，等于 à la télévision。"
+    },
+    {
+      "lemma": "ski",
+      "pos": "n.m.",
+      "chinese": "滑雪",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["假期", "运动", "对话核心"],
+      "example_fr": "Je fais du ski, moi !",
+      "example_zh": "我可是滑雪的！",
+      "grammar_note_zh": "faire du + 运动名词 表示“进行某项运动”。"
+    },
+    {
+      "lemma": "aventure",
+      "pos": "n.f.",
+      "chinese": "冒险",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["假期", "主题词", "抽象名词"],
+      "example_fr": "Les vacances peuvent aussi être une aventure.",
+      "example_zh": "假期也可以是一场冒险。",
+      "grammar_note_zh": "peuvent être + 名词 表示“可以成为……”。aventure 为阴性名词，用 une。"
+    },
+    {
+      "lemma": "rêve",
+      "pos": "n.m.",
+      "chinese": "梦；梦想",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["主题词", "抽象名词"],
+      "example_fr": "Les aventures, c’est le rêve de tous.",
+      "example_zh": "冒险，是所有人的梦想。",
+      "grammar_note_zh": "c’est + 名词 + de tous 表示“这是所有人的……”。"
+    },
+    {
+      "lemma": "proposition",
+      "pos": "n.f.",
+      "chinese": "建议；提议",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["文章结构词", "课堂用语"],
+      "example_fr": "… en voici quelques propositions.",
+      "example_zh": "……这里有一些建议。",
+      "grammar_note_zh": "en voici + 名词 表示“这里有……”。quelques 表示“一些”。"
+    },
+    {
+      "lemma": "rater",
+      "pos": "v.t.",
+      "chinese": "错过",
+      "level": "A",
+      "present_in_text": true,
+      "tags": ["时间", "生活场景", "高频动词"],
+      "example_fr": "Sinon, on va rater la séance de 22 heures.",
+      "example_zh": "不然我们就要错过晚上十点那一场了。",
+      "grammar_note_zh": "on va + 不定式 构成最近将来时。"
+    }
+  ],
+  "B": [
+    {
+      "lemma": "découvrir",
+      "pos": "v.t.",
+      "chinese": "发现；游览",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["旅行", "动词", "文章核心"],
+      "example_fr": "Vous découvrirez la Bretagne en vélo…",
+      "example_zh": "你们将骑自行车游览布列塔尼……",
+      "grammar_note_zh": "découvrirez 为简单将来时 vous 形式。"
+    },
+    {
+      "lemma": "Bretagne",
+      "pos": "n.f.",
+      "chinese": "布列塔尼（法国大区）",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["地名", "法国", "旅行"],
+      "example_fr": "Vous découvrirez la Bretagne en vélo…",
+      "example_zh": "你们将骑自行车游览布列塔尼……",
+      "grammar_note_zh": "专有名词作直接宾语时常与定冠词连用：la Bretagne。"
+    },
+    {
+      "lemma": "église",
+      "pos": "n.f.",
+      "chinese": "教堂",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["建筑", "旅行", "名词"],
+      "example_fr": "… ses églises et ses pardons …",
+      "example_zh": "……它的教堂和朝圣节……",
+      "grammar_note_zh": "ses + 名词复数 表示“它的……”。"
+    },
+    {
+      "lemma": "port",
+      "pos": "n.m.",
+      "chinese": "港口",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["地理", "旅行", "名词"],
+      "example_fr": "… ses petits ports, ses plages …",
+      "example_zh": "……它的小港口、海滩……",
+      "grammar_note_zh": "形容词 petits 与名词 ports 在数上保持一致。"
+    },
+    {
+      "lemma": "plage",
+      "pos": "n.f.",
+      "chinese": "海滩",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["自然", "旅行", "名词"],
+      "example_fr": "… ses plages et sa nature …",
+      "example_zh": "……它的海滩和自然风光……",
+      "grammar_note_zh": "plages 为阴性复数，通常加 -s。"
+    },
+    {
+      "lemma": "Alsace",
+      "pos": "n.f.",
+      "chinese": "阿尔萨斯（法国大区）",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["地名", "法国", "旅行"],
+      "example_fr": "Vous traverserez l’Alsace sur les canaux…",
+      "example_zh": "你们将乘船穿过阿尔萨斯的运河……",
+      "grammar_note_zh": "traverser + 地名 表示“穿越/走过某地”。"
+    },
+    {
+      "lemma": "canal",
+      "pos": "n.m.",
+      "chinese": "运河；水道",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["地理", "交通", "名词"],
+      "example_fr": "… sur les canaux …",
+      "example_zh": "……在运河上……",
+      "grammar_note_zh": "复数不规则：un canal → des canaux。"
+    },
+    {
+      "lemma": "Loire",
+      "pos": "n.f.",
+      "chinese": "卢瓦尔河",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["地名", "河流", "旅行"],
+      "example_fr": "… les châteaux de la Loire …",
+      "example_zh": "……卢瓦尔河流域的城堡……",
+      "grammar_note_zh": "de 表示所属或区域范围。"
+    },
+    {
+      "lemma": "alpinisme",
+      "pos": "n.m.",
+      "chinese": "登山运动",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["运动", "山", "文章核心"],
+      "example_fr": "Vous ferez de l’alpinisme dans les Alpes ou dans les Pyrénées.",
+      "example_zh": "你们会在阿尔卑斯山或比利牛斯山进行登山运动。",
+      "grammar_note_zh": "faire de l’ + 名词 表示“进行某项运动”。"
+    },
+    {
+      "lemma": "pique-niquer",
+      "pos": "v.i.",
+      "chinese": "野餐",
+      "level": "B",
+      "present_in_text": true,
+      "tags": ["假期", "饮食", "户外"],
+      "example_fr": "Nous pique-niquerons sur l’herbe de notre jardin.",
+      "example_zh": "我们会在自家花园的草地上野餐。",
+      "grammar_note_zh": "pique-niquerons 为简单将来时 nous 形式。"
+    }
+  ],
+  "C": [
+    {
+      "lemma": "au-delà de",
+      "pos": "loc.prép.",
+      "chinese": "在……的那边；超越",
+      "level": "C",
+      "present_in_text": true,
+      "tags": ["介词短语", "抽象", "文章表达"],
+      "example_fr": "… d’aller au-delà des limites humaines.",
+      "example_zh": "……去超越人类的极限。",
+      "grammar_note_zh": "au-delà de + 名词 表示“超越……”。"
+    },
+    {
+      "lemma": "impossible",
+      "pos": "n.m.",
+      "chinese": "不可能的事",
+      "level": "C",
+      "present_in_text": true,
+      "tags": ["抽象名词", "评价"],
+      "example_fr": "… conquérir l’impossible …",
+      "example_zh": "……征服不可能之事……",
+      "grammar_note_zh": "定冠词 l’ + 抽象名词 表示概念整体。"
+    },
+    {
+      "lemma": "humain, humaine",
+      "pos": "a.",
+      "chinese": "人的；人类的",
+      "level": "C",
+      "present_in_text": true,
+      "tags": ["形容词", "抽象"],
+      "example_fr": "… les limites humaines.",
+      "example_zh": "……人类的极限。",
+      "grammar_note_zh": "形容词与名词性数一致：limites（阴性复数）→ humaines。"
+    },
+    {
+      "lemma": "coûteux, coûteuse",
+      "pos": "a.",
+      "chinese": "昂贵的",
+      "level": "C",
+      "present_in_text": true,
+      "tags": ["形容词", "旅行", "评价"],
+      "example_fr": "… un voyage pittoresque mais coûteux !",
+      "example_zh": "……一趟风景如画但昂贵的旅行！",
+      "grammar_note_zh": "mais 连接两个并列表语形容词。"
+    },
+    {
+      "lemma": "câble",
+      "pos": "n.m.",
+      "chinese": "缆绳；电缆",
+      "level": "C",
+      "present_in_text": false,
+      "tags": ["工具", "扩展词"],
+      "example_fr": "",
+      "example_zh": "",
+      "grammar_note_zh": "词表扩展项，可用于后续“冒险/攀登”主题补充。"
+    },
+    {
+      "lemma": "canoë-kayak",
+      "pos": "n.m.",
+      "chinese": "皮划艇",
+      "level": "C",
+      "present_in_text": false,
+      "tags": ["运动", "水上", "扩展词"],
+      "example_fr": "",
+      "example_zh": "",
+      "grammar_note_zh": "常见搭配：faire du canoë-kayak。"
+    },
+    {
+      "lemma": "élastique",
+      "pos": "a.",
+      "chinese": "有弹性的",
+      "level": "C",
+      "present_in_text": false,
+      "tags": ["形容词", "物理性质", "扩展词"],
+      "example_fr": "",
+      "example_zh": "",
+      "grammar_note_zh": "可用于“极限运动/装备”主题词汇扩展。"
+    },
+    {
+      "lemma": "intrépide",
+      "pos": "a.",
+      "chinese": "无畏的",
+      "level": "C",
+      "present_in_text": false,
+      "tags": ["性格", "形容词", "扩展词"],
+      "example_fr": "",
+      "example_zh": "",
+      "grammar_note_zh": "描述人很勇敢，常用于书面或叙述语境。"
+    },
+    {
+      "lemma": "au-dessus de",
+      "pos": "loc.prép.",
+      "chinese": "在……之上",
+      "level": "C",
+      "present_in_text": false,
+      "tags": ["介词短语", "空间方位", "扩展词"],
+      "example_fr": "",
+      "example_zh": "",
+      "grammar_note_zh": "空间方位常用表达，可与旅行/自然场景结合。"
+    },
+    {
+      "lemma": "mode",
+      "pos": "n.f.",
+      "chinese": "时髦；时尚",
+      "level": "C",
+      "present_in_text": false,
+      "tags": ["生活", "扩展词"],
+      "example_fr": "",
+      "example_zh": "",
+      "grammar_note_zh": "常见表达：être à la mode。"
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "title": "Les vacances peuvent aussi être une aventure !",
+  "audio": {
+    "src": "/audio/lesson_07/lesson_07_texte.m4a"
+  },
+  "text": [
+    {
+      "id": "T01",
+      "source": "texte",
+      "french_full": "Les vacances peuvent aussi être une aventure !",
+      "french_gap": "Les vacances peuvent aussi ____________________________ !",
+      "chinese": "假期也可能是一场冒险！",
+      "answers": [
+        "être une aventure"
+      ],
+      "tags": [
+        "主题句",
+        "可能性表达"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "假期也可能是一场冒险！",
+        "vocab": [
+          {
+            "item": "les vacances",
+            "note": "假期。"
+          },
+          {
+            "item": "peuvent",
+            "note": "pouvoir 的第三人称复数：可以、可能。"
+          },
+          {
+            "item": "une aventure",
+            "note": "一次冒险、一段奇遇。"
+          }
+        ],
+        "grammar": "“pouvoir + infinitif”表示可能性或能力；这里是“可能成为”。",
+        "usage": "文章标题/主题句，提示本课与“假期计划 + 冒险体验”有关。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T02",
+      "source": "texte",
+      "french_full": "Les aventures, c’est le rêve de tous.",
+      "french_gap": "Les aventures, c'est ____________________________.",
+      "chinese": "冒险是每个人的梦想。",
+      "answers": [
+        "le rêve de tous"
+      ],
+      "tags": [
+        "固定表达",
+        "名词解释"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "冒险是所有人的梦想。",
+        "vocab": [
+          {
+            "item": "une aventure",
+            "note": "冒险、奇遇。"
+          },
+          {
+            "item": "le rêve de tous",
+            "note": "所有人的梦想。"
+          }
+        ],
+        "grammar": "“X, c’est Y”是非常常见的定义/解释句型。",
+        "usage": "用于引出下文对“冒险式假期”的展开。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T03",
+      "source": "texte",
+      "french_full": "Qui n’a pas rêvé de conquérir l’impossible et d’aller au-delà des limites humaines ?",
+      "french_gap": "_________________________________________________________________________________________ ?",
+      "chinese": "谁没梦想过征服不可能，超越人类极限？",
+      "answers": [
+        "Qui n’a pas rêvé de conquérir l’impossible et d’aller au-delà des limites humaines"
+      ],
+      "tags": [
+        "修辞疑问句",
+        "不定式结构"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "谁没有梦想过征服不可能、超越人类极限呢？",
+        "vocab": [
+          {
+            "item": "rêver de",
+            "note": "梦想做……"
+          },
+          {
+            "item": "conquérir",
+            "note": "征服。"
+          },
+          {
+            "item": "au-delà de",
+            "note": "超越、在……之外。"
+          }
+        ],
+        "grammar": "“Qui n’a pas... ?”是否定形式的修辞疑问，实际表达肯定：大家都梦想过。",
+        "usage": "增强语气，让读者情绪更投入。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T04",
+      "source": "texte",
+      "french_full": "Les vacances peuvent aussi être une aventure.",
+      "french_gap": "Les vacances peuvent aussi ____________________________.",
+      "chinese": "假期也可以是一场冒险。",
+      "answers": [
+        "être une aventure"
+      ],
+      "tags": [
+        "主题 повтор",
+        "可能性表达"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "假期也可以是一场冒险。",
+        "vocab": [
+          {
+            "item": "peuvent",
+            "note": "表示“可能”。"
+          }
+        ],
+        "grammar": "与标题呼应，巩固“pouvoir + infinitif”。",
+        "usage": "正文再次点题。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T05",
+      "source": "texte",
+      "french_full": "N’y avez-vous jamais songé ?",
+      "french_gap": "_______________________________________ ?",
+      "chinese": "您从未想过吗？",
+      "answers": [
+        "N’y avez-vous jamais songé"
+      ],
+      "tags": [
+        "倒装疑问",
+        "代词 y"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "你从没考虑过这件事吗？",
+        "vocab": [
+          {
+            "item": "songer à",
+            "note": "想到、考虑。"
+          },
+          {
+            "item": "y",
+            "note": "代替前文提到的“假期也能冒险”这件事。"
+          }
+        ],
+        "grammar": "“avez-vous”是典型倒装疑问；“ne... jamais”是否定副词结构。",
+        "usage": "与读者对话式写法，提升互动感。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T06",
+      "source": "texte",
+      "french_full": "Et si vous voulez réaliser ces rêves d’enfance, en voici quelques propositions :",
+      "french_gap": "Et si vous _______________________________________, _______________________________________ :",
+      "chinese": "如果您想要实现童年的梦想，这里有一些建议：",
+      "answers": [
+        "voulez réaliser ces rêves d’enfance",
+        "en voici quelques propositions"
+      ],
+      "tags": [
+        "si 句",
+        "引出建议",
+        "书面表达"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "如果你想实现这些童年的梦想，这里有一些建议。",
+        "vocab": [
+          {
+            "item": "réaliser",
+            "note": "实现。"
+          },
+          {
+            "item": "rêves d’enfance",
+            "note": "童年梦想。"
+          },
+          {
+            "item": "en voici",
+            "note": "这里有……；en 指代前文的“梦想”。"
+          }
+        ],
+        "grammar": "“Et si + présent”用于提出假设情境，引出建议或下一步内容。",
+        "usage": "文章过渡句，连接“梦想”与“5 个提案”。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+
+    {
+      "id": "T07",
+      "source": "texte",
+      "french_full": "Vous découvrirez la Bretagne en vélo, ses églises et ses pardons, ses petits ports, ses plages et sa nature encore sauvage par endroits.",
+      "french_gap": "Vous découvrirez la Bretagne _____________, ses ____________ et ses ____________, ses petits ____________, ses plages et ______________________________________ ________________________.",
+      "chinese": "您可以骑单车游布列塔尼，它的教堂和朝圣节、小港口、海滩，以及某些地方仍然原始的自然风光。",
+      "answers": [
+        "en vélo",
+        "églises",
+        "pardons",
+        "ports",
+        "sa nature encore sauvage",
+        "par endroits"
+      ],
+      "tags": [
+        "将来时",
+        "旅行地区",
+        "并列列举"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "你将骑自行车探索布列塔尼，参观教堂与朝圣节活动、小港口、海滩以及一些地方仍然原始的自然。",
+        "vocab": [
+          {
+            "item": "découvrir",
+            "note": "发现、探索。"
+          },
+          {
+            "item": "la Bretagne",
+            "note": "布列塔尼（法国地区）。"
+          },
+          {
+            "item": "par endroits",
+            "note": "在某些地方。"
+          }
+        ],
+        "grammar": "主句用 futur simple “vous découvrirez”描述未来建议；后面多个并列名词短语列举景物。",
+        "usage": "典型“旅行建议”句型，可仿写：Vous découvrirez + 地点 + 活动/景点。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+
+    {
+      "id": "T08",
+      "source": "texte",
+      "french_full": "Vous traverserez l’Alsace sur les canaux, vous visiterez les châteaux de la Loire.",
+      "french_gap": "Vous __________________ l'Alsace ____________, vous visiterez __________________________.",
+      "chinese": "您可以沿着水道穿越阿尔萨斯，参观卢瓦尔河的城堡群。",
+      "answers": [
+        "traverserez",
+        "sur les canaux",
+        "les châteaux de la Loire"
+      ],
+      "tags": [
+        "将来时",
+        "地名",
+        "并列动词"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "你将沿运河穿越阿尔萨斯，参观卢瓦尔河的城堡。",
+        "vocab": [
+          {
+            "item": "traverser",
+            "note": "穿越。"
+          },
+          {
+            "item": "l’Alsace",
+            "note": "阿尔萨斯。"
+          },
+          {
+            "item": "les châteaux",
+            "note": "城堡（复数）。"
+          }
+        ],
+        "grammar": "两个并列将来时动词“traverserez / visiterez”共享主语“vous”。",
+        "usage": "展示“一个建议里列出两个动作”的写法。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T09",
+      "source": "texte",
+      "french_full": "Et croyez-moi, ce sera un voyage pittoresque mais coûteux !",
+      "french_gap": "Et ________________________, ce ________________________________________________ !",
+      "chinese": "相信我，这会是一趟风景如画但很昂贵的旅行！",
+      "answers": [
+        "croyez-moi",
+        "ce sera un voyage pittoresque mais coûteux"
+      ],
+      "tags": [
+        "祈使式",
+        "评价句",
+        "将来时"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "而且相信我，这将是一趟风景独特但花费不小的旅行！",
+        "vocab": [
+          {
+            "item": "croyez-moi",
+            "note": "相信我（croire 的 vous 祈使式）。"
+          },
+          {
+            "item": "pittoresque",
+            "note": "风景如画的、别致的。"
+          },
+          {
+            "item": "coûteux",
+            "note": "昂贵的。"
+          }
+        ],
+        "grammar": "“croyez-moi”插入语用祈使式增强语气；“ce sera”是 futur simple 的 être。",
+        "usage": "用来补充作者态度和评价。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+
+    {
+      "id": "T10",
+      "source": "texte",
+      "french_full": "Vous ferez de l’alpinisme dans les Alpes ou dans les Pyrénées.",
+      "french_gap": "Vous __________________________________________________.",
+      "chinese": "您可以在阿尔卑斯山或比利牛斯山进行登山运动。",
+      "answers": [
+        "ferez de l’alpinisme dans les Alpes ou dans les Pyrénées"
+      ],
+      "tags": [
+        "将来时",
+        "运动",
+        "地名"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "你将去阿尔卑斯山或比利牛斯山进行登山。",
+        "vocab": [
+          {
+            "item": "l’alpinisme",
+            "note": "登山运动。"
+          },
+          {
+            "item": "les Alpes / les Pyrénées",
+            "note": "阿尔卑斯山 / 比利牛斯山。"
+          }
+        ],
+        "grammar": "“faire de + 运动”是常见结构；“vous ferez”是将来时建议表达。",
+        "usage": "旅行/运动建议模板。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T11",
+      "source": "texte",
+      "french_full": "Vous grimperez avec un pic... et vos doigts !",
+      "french_gap": "Vous __________ avec un __________... et vos __________ !",
+      "chinese": "您将用冰镐……甚至用手指攀登！",
+      "answers": [
+        "grimperez",
+        "pic",
+        "doigts"
+      ],
+      "tags": [
+        "将来时",
+        "夸张表达",
+        "登山语境"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "你会拿着冰镐攀登……甚至用手指！",
+        "vocab": [
+          {
+            "item": "grimper",
+            "note": "攀爬。"
+          },
+          {
+            "item": "un pic",
+            "note": "冰镐。"
+          },
+          {
+            "item": "les doigts",
+            "note": "手指。"
+          }
+        ],
+        "grammar": "省略号和感叹号是修辞手段，突出“极限、刺激”。",
+        "usage": "表达“很硬核、很冒险”的语气。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T12",
+      "source": "texte",
+      "french_full": "Vous dominerez toutes les vallées et vous vivrez dangereusement.",
+      "french_gap": "Vous ____________________________________ et vous ____________________________________.",
+      "chinese": "您将俯瞰所有山谷，并体验危险的生活。",
+      "answers": [
+        "dominerez toutes les vallées",
+        "vivrez dangereusement"
+      ],
+      "tags": [
+        "将来时",
+        "并列结构",
+        "副词"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "你将俯视所有山谷，并危险地生活/冒险地体验。",
+        "vocab": [
+          {
+            "item": "dominer",
+            "note": "居高临下俯瞰、支配。"
+          },
+          {
+            "item": "dangereusement",
+            "note": "危险地（副词）。"
+          }
+        ],
+        "grammar": "两个将来时动词并列；“dangereusement”修饰“vivrez”。",
+        "usage": "强化“冒险假期”的主题。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+
+    {
+      "id": "T13",
+      "source": "texte",
+      "french_full": "Si vous êtes sportif et bien entraîné, vous descendrez les torrents en canoë-kayak.",
+      "french_gap": "Si vous êtes __________ et ________________________, vous ________________________ ________________________.",
+      "chinese": "如果您是运动型而且训练有素，您就可以乘皮划艇顺流而下。",
+      "answers": [
+        "sportif",
+        "bien entraîné",
+        "descendrez",
+        "les torrents en canoë-kayak"
+      ],
+      "tags": [
+        "si 现实条件句",
+        "将来时",
+        "运动场景"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "如果你身体素质好又训练充分，你就会去玩皮划艇冲激流。",
+        "vocab": [
+          {
+            "item": "sportif",
+            "note": "爱运动的、运动型的。"
+          },
+          {
+            "item": "bien entraîné",
+            "note": "训练有素的。"
+          },
+          {
+            "item": "canoë-kayak",
+            "note": "皮划艇/独木舟运动。"
+          }
+        ],
+        "grammar": "经典现实条件：Si + présent, futur simple。",
+        "usage": "可仿写：Si tu es prêt, tu feras...（如果你准备好了，你就会……）。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T14",
+      "source": "texte",
+      "french_full": "Mais vous le ferez de préférence au printemps, quand les eaux ne sont pas trop hautes.",
+      "french_gap": "Mais vous ________________________________________________, quand les eaux ne sont pas ________________________.",
+      "chinese": "但您最好在春天进行，因为那时水位不会太高。",
+      "answers": [
+        "le ferez de préférence au printemps",
+        "trop hautes"
+      ],
+      "tags": [
+        "时间状语从句",
+        "安全提示"
+      ],
+      "level": "B",
+      "explain": {
+        "meaning": "不过你最好在春天这样做，因为那时候水不会太高。",
+        "vocab": [
+          {
+            "item": "de préférence",
+            "note": "最好、优先。"
+          },
+          {
+            "item": "au printemps",
+            "note": "在春天。"
+          },
+          {
+            "item": "les eaux",
+            "note": "水域/水位（复数形式常见）。"
+          }
+        ],
+        "grammar": "“quand + présent”表示一般事实/时间条件；“le”指代前句的活动。",
+        "usage": "属于“建议 + 注意事项”的写法。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+
+    {
+      "id": "T15",
+      "source": "texte",
+      "french_full": "Si vous êtes intrépide et souhaitez voler comme l'oiseau, vous vous jetterez du haut d'un pont au-dessus d'un torrent des Pyrénées, retenu par un câble élastique.",
+      "french_gap": "Si vous êtes __________ et ____________________________________, vous ________________________________________________________________________________________, ________________________ un ________________________.",
+      "chinese": "如果您十分勇敢并希望像鸟儿一样飞翔，您可以系着弹力绳，从比利牛斯山湍流上方的桥上纵身一跃。",
+      "answers": [
+        "intrépide",
+        "souhaitez voler comme l'oiseau",
+        "vous vous jetterez du haut d'un pont au-dessus d'un torrent des Pyrénées",
+        "retenu par",
+        "câble élastique"
+      ],
+      "tags": [
+        "si 现实条件句",
+        "蹦极",
+        "长句结构"
+      ],
+      "level": "C",
+      "explain": {
+        "meaning": "如果你无所畏惧、想像鸟一样飞，你就会从比利牛斯山某条急流上方的桥上跳下，用弹力绳固定住。",
+        "vocab": [
+          {
+            "item": "intrépide",
+            "note": "无畏的、胆大的。"
+          },
+          {
+            "item": "se jeter",
+            "note": "纵身跳下。"
+          },
+          {
+            "item": "câble élastique",
+            "note": "弹力绳（蹦极绳）。"
+          }
+        ],
+        "grammar": "主干仍是 Si + présent, futur；后半句大量介词短语作地点/方式补充，信息密度高。",
+        "usage": "典型“冒险运动介绍句”，读懂主干再处理修饰成分。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    },
+    {
+      "id": "T16",
+      "source": "texte",
+      "french_full": "C'est un sport très à la mode depuis l’an 2000 !",
+      "french_gap": "C'est un sport très ________________________ ____________ l'an 2000 !",
+      "chinese": "这项运动从 2000 年起就非常流行！",
+      "answers": [
+        "à la mode",
+        "depuis"
+      ],
+      "tags": [
+        "固定表达",
+        "时间介词"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "这是一项从 2000 年起就很时髦/流行的运动。",
+        "vocab": [
+          {
+            "item": "à la mode",
+            "note": "流行的、时髦的。"
+          },
+          {
+            "item": "depuis",
+            "note": "自从……以来（表示持续到现在）。"
+          }
+        ],
+        "grammar": "“depuis + 时间点”表示动作/状态从过去开始持续到现在。",
+        "usage": "常用于介绍潮流、趋势或习惯。"
+      },
+      "audio_start": null,
+      "audio_end": null
+    }
+  ]
+}
