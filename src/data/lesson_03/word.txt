@@ -1,34 +1,17 @@
 
-名词 (n.m./n.f.)
-
-法语 词性 中文含义
-
 arrondissement n.m. （巴黎的）区
-
 bicyclette n.f. 自行车
-
 bruit n.m. 响声，动静；〈复数〉噪音
-
 clé / clef n.f. 钥匙
-
 concierge n. 门房，看门人
-
 condition n.f. 条件
-
 courrier n.m. 信件，邮件
-
 droit n.m. 权利，权益
-
 escalier n.m. 楼梯
-
 facteur n.m. 邮递员
-
 garage n.m. 车库；汽车修理行
-
 humanité (L’H～) n.f. 人道；《人道报》
-
 immeuble n.m. 楼房
-
 loge n.f. 门房，传达室；（剧院的）包厢
 
 locataire n. 房客
@@ -48,8 +31,6 @@ sourire n.m. 微笑
 tableau n.m. 表格；画
 
 vélomoteur n.m. （轻型）摩托车*
-动词 (v.t./v.i./v.pr.)
-法语 词性 中文含义
 
 améliorer (s’) v.pr. 改善，好转
 
@@ -76,8 +57,6 @@ rentrer v.t. 拿回，取回
 sortir v.t. 拿出
 
 satisfaire (être ~ de) 过去分词作形容词 满意的，满足的
-形容词/副词/短语等
-法语 词性 中文含义
 
 à la fois loc.adv. 同时，既……又……
 
@@ -108,8 +87,6 @@ parfois adv. 有时；偶尔
 précipitamment adv. 匆忙地，赶紧地
 
 pour le moment loc.adv. 目前；暂时
-专有名词/报刊名
-法语 类型 中文/说明
 
 Le Figaro 报刊名 《费加罗报》
 
@@ -118,8 +95,6 @@ Le Monde 报刊名 《世界报》
 L’Humanité 报刊名 《人道报》
 
 16e arrondissement 地名 （巴黎）第16区
-短语/固定搭配
-法语 中文含义
 
 avoir le droit de faire qch 有权利做某事
 
@@ -134,8 +109,6 @@ parler de qch à qn 跟某人谈某事
 porter qch à qn 拿/送某物给某人
 
 mettre qch de côté 把某物存起来，留起来
-超大数字（数词）
-法语 中文数值
 
 un billion 一万亿 (10¹²)
 
@@ -148,7 +121,3 @@ deux trillions 二百亿亿? (2×10¹⁸)*
 un quadrillion 一亿亿亿? (10²⁴)*
 
 un quintillion 一百万亿亿? (10³⁰)*
-
-注：超大数字的法语与英语/中文对应关系在不同地区标准不同，上表按图片所示“法语长级差”系统（échelle longue）列出，仅供参考。
-
-如果需要我将这些词汇按字母顺序重新排序，或导出为表格/单词卡格式，请告诉我。
