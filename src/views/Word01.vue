@@ -167,11 +167,27 @@ const shuffleArray = (array) => {
   return result
 }
 
+
+// ✅ 按“当前页面显示顺序(含乱序)”输出已选单词
+const getSelectedWordDataInDisplayOrder = () => {
+  const selectedSet = new Set(selectedWords.value)
+
+  // 当前页面显示顺序（已包含随机/顺序 + 搜索过滤）
+  const displayList = filteredWords.value
+
+  // 先按显示顺序取出已选
+  const inDisplay = displayList.filter(w => selectedSet.has(w.id))
+
+  // 兼容：如果有些已选单词不在当前过滤结果里（比如你搜索过），把它们补到最后（按原始顺序）
+  const displayIdSet = new Set(displayList.map(w => w.id))
+  const others = allWords.value.filter(w => selectedSet.has(w.id) && !displayIdSet.has(w.id))
+
+  return [...inDisplay, ...others]
+}
+
 // HTML 生成 & 下载
 const generatePracticeSheetHTML = () => {
-  const selectedWordData = allWords.value.filter(word => 
-    selectedWords.value.includes(word.id)
-  )
+  const selectedWordData = getSelectedWordDataInDisplayOrder()
   
   const wordsHTML = selectedWordData.map((word, index) => `
     <div class="practice-item">
@@ -207,9 +223,7 @@ const generatePracticeSheetHTML = () => {
 }
 
 const generateAnswerSheetHTML = () => {
-  const selectedWordData = allWords.value.filter(word => 
-    selectedWords.value.includes(word.id)
-  )
+  const selectedWordData = getSelectedWordDataInDisplayOrder()
   
   const wordsHTML = selectedWordData.map((word, index) => `
     <div class="answer-item">
@@ -230,8 +244,8 @@ const generateAnswerSheetHTML = () => {
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     .answer-item { margin-top: 12px; padding:12px;background-color:#f5f5f5}
-    .word-info { margin-bottom: 4px; font-weight: bold; }
-    .word-answer { border-bottom: 4px double #333; height: 24px; }
+    .word-info { margin-bottom: 4px; }
+    .word-answer { border-bottom: 4px double #333; height: 24px;}
   </style>
 </head>
 <body style="display:flex;flex-direction:column;align-items:center;">
