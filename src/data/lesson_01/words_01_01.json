@@ -1,0 +1,849 @@
+[
+  {
+    "id": 1,
+    "french": "aventure",
+    "chinese": "冒险",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 2,
+    "french": "enfant",
+    "chinese": "儿童，小孩",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 3,
+    "french": "découvrir",
+    "chinese": "发现，发觉",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 4,
+    "french": "doigt",
+    "chinese": "手指",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 5,
+    "french": "église",
+    "chinese": "教堂",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 6,
+    "french": "enfance",
+    "chinese": "童年，儿童时代",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 7,
+    "french": "haut",
+    "chinese": "高处",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 8,
+    "french": "impossible",
+    "chinese": "不可能的事，办不到的事",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 9,
+    "french": "limite",
+    "chinese": "极限，限度",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 10,
+    "french": "mode",
+    "chinese": "时髦，时兴",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 11,
+    "french": "nature",
+    "chinese": "自然（界），大自然",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 12,
+    "french": "pied",
+    "chinese": "脚",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 13,
+    "french": "plage",
+    "chinese": "海滩，海滨",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 14,
+    "french": "pont",
+    "chinese": "桥",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 15,
+    "french": "port",
+    "chinese": "港口",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 16,
+    "french": "proposition",
+    "chinese": "建议",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 17,
+    "french": "rater",
+    "chinese": "错过，未赶上",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 18,
+    "french": "réaliser",
+    "chinese": "实现",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 19,
+    "french": "reprendre",
+    "chinese": "再拿，重取",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 20,
+    "french": "rêve",
+    "chinese": "梦；梦想",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 21,
+    "french": "alpinisme",
+    "chinese": "登山运动",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 22,
+    "french": "Bretagne",
+    "chinese": "布列塔尼",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 23,
+    "french": "canoë-kayak",
+    "chinese": "皮划艇",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 24,
+    "french": "coupe",
+    "chinese": "奖杯",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 25,
+    "french": "finale",
+    "chinese": "决赛",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 26,
+    "french": "foot",
+    "chinese": "足球",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 27,
+    "french": "golf",
+    "chinese": "高尔夫球",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 28,
+    "french": "grimper",
+    "chinese": "攀爬，攀登",
+    "part_of_speech": "v.i., v.t.",
+    "part_of_speech_full_chinese": "不及物动词/及物动词"
+  },
+  {
+    "id": 29,
+    "french": "Loire",
+    "chinese": "卢瓦尔河",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 30,
+    "french": "pique-niquer",
+    "chinese": "野餐",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 31,
+    "french": "Pyrénées",
+    "chinese": "比利牛斯山",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "阴性名词复数"
+  },
+  {
+    "id": 32,
+    "french": "pittoresque",
+    "chinese": "风景如画的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 33,
+    "french": "Alsace",
+    "chinese": "阿尔萨斯",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 34,
+    "french": "au-delà de",
+    "chinese": "在……的那边；超越，跨越",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 35,
+    "french": "au-dessus de",
+    "chinese": "在……之上",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 36,
+    "french": "câble",
+    "chinese": "缆绳，钢丝绳，电缆",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 37,
+    "french": "canal",
+    "chinese": "运河；水道",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 38,
+    "french": "conquérir",
+    "chinese": "征服；赢得",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 39,
+    "french": "coûteux, coûteuse",
+    "chinese": "昂贵的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 40,
+    "french": "dangereusement",
+    "chinese": "危险地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 41,
+    "french": "dominer",
+    "chinese": "俯视，俯临",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 42,
+    "french": "élastique",
+    "chinese": "有弹性的，伸缩的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 43,
+    "french": "entraîné, entraînée",
+    "chinese": "训练有素的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 44,
+    "french": "humain, humaine",
+    "chinese": "人的；人类的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 45,
+    "french": "intrépide",
+    "chinese": "无畏的，勇敢的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 46,
+    "french": "se jeter",
+    "chinese": "投入，钻进",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 47,
+    "french": "pardon",
+    "chinese": "（布列塔尼地区的）朝圣节",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 48,
+    "french": "pic",
+    "chinese": "十字镐，鹤嘴镐",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 49,
+    "french": "préférence",
+    "chinese": "喜爱",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 50,
+    "french": "retenu, retenue",
+    "chinese": "拘住的，拖住的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 51,
+    "french": "congé",
+    "chinese": "短假期；休假，放假",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 52,
+    "french": "sortie",
+    "chinese": "外出",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 53,
+    "french": "vacations",
+    "chinese": "假期",
+    "part_of_speech": "f.pl.",
+    "part_of_speech_full_chinese": "阴性名词复数"
+  },
+  {
+    "id": 54,
+    "french": "colonie de vacances",
+    "chinese": "夏令营",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 55,
+    "french": "jour",
+    "chinese": "日（子）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 56,
+    "french": "faire de l'auto-stop",
+    "chinese": "搭顺风车",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 57,
+    "french": "voyager",
+    "chinese": "旅行",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 58,
+    "french": "ce soir",
+    "chinese": "今晚",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 59,
+    "french": "vendredi soir",
+    "chinese": "周五晚上",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 60,
+    "french": "demain",
+    "chinese": "明天",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 61,
+    "french": "samedi",
+    "chinese": "星期六",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 62,
+    "french": "avant midi",
+    "chinese": "中午之前",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 63,
+    "french": "pendant",
+    "chinese": "在……期间",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 64,
+    "french": "l'année dernière",
+    "chinese": "去年",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 65,
+    "french": "huit jours par an",
+    "chinese": "每年八天",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 66,
+    "french": "le père",
+    "chinese": "爸爸",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 67,
+    "french": "la mère",
+    "chinese": "妈妈",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 68,
+    "french": "les enfants",
+    "chinese": "孩子们",
+    "part_of_speech": "n.m.pl.",
+    "part_of_speech_full_chinese": "阳性名词复数"
+  },
+  {
+    "id": 69,
+    "french": "chéri(e)",
+    "chinese": "亲爱的",
+    "part_of_speech": "a./n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 70,
+    "french": "grands-parents",
+    "chinese": "祖父母/外祖父母",
+    "part_of_speech": "n.m.pl.",
+    "part_of_speech_full_chinese": "阳性名词复数"
+  },
+  {
+    "id": 71,
+    "french": "à table",
+    "chinese": "在餐桌边",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 72,
+    "french": "à la télé",
+    "chinese": "在电视上",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 73,
+    "french": "au cinéma",
+    "chinese": "去电影院",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 74,
+    "french": "à la campagne",
+    "chinese": "去乡下",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 75,
+    "french": "la maison",
+    "chinese": "家",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 76,
+    "french": "le jardin",
+    "chinese": "花园",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 77,
+    "french": "au restaurant",
+    "chinese": "在餐厅",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 78,
+    "french": "à côté de",
+    "chinese": "在……旁边",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 79,
+    "french": "sortir",
+    "chinese": "出去",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 80,
+    "french": "rester",
+    "chinese": "待着/留下",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 81,
+    "french": "partir",
+    "chinese": "出发/离开",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 82,
+    "french": "regarder",
+    "chinese": "看",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 83,
+    "french": "discuter",
+    "chinese": "讨论",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 84,
+    "french": "aimer",
+    "chinese": "喜欢",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 85,
+    "french": "faire",
+    "chinese": "做/进行",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 86,
+    "french": "préférer",
+    "chinese": "更喜欢",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 87,
+    "french": "préparer",
+    "chinese": "准备",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 88,
+    "french": "rêver",
+    "chinese": "梦想",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 89,
+    "french": "aller",
+    "chinese": "超越/去",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 90,
+    "french": "traverser",
+    "chinese": "穿越",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 91,
+    "french": "visiter",
+    "chinese": "参观",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 92,
+    "french": "vivre",
+    "chinese": "生活/体验",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 93,
+    "french": "descendre",
+    "chinese": "顺流而下",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 94,
+    "french": "voler",
+    "chinese": "飞",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 95,
+    "french": "rugby",
+    "chinese": "橄榄球",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 96,
+    "french": "volley-ball",
+    "chinese": "排球",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 97,
+    "french": "tennis",
+    "chinese": "网球",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 98,
+    "french": "ski",
+    "chinese": "滑雪",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 99,
+    "french": "un sport",
+    "chinese": "运动",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 100,
+    "french": "content(e)",
+    "chinese": "开心的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 101,
+    "french": "jeune",
+    "chinese": "年轻的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 102,
+    "french": "grand",
+    "chinese": "长大了",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 103,
+    "french": "agréable",
+    "chinese": "舒服的/愉快的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 104,
+    "french": "sportif(ve)",
+    "chinese": "爱运动的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 105,
+    "french": "à la mode",
+    "chinese": "流行的",
+    "part_of_speech": "loc.adj.",
+    "part_of_speech_full_chinese": "形容词短语"
+  },
+  {
+    "id": 106,
+    "french": "la Coupe du Monde",
+    "chinese": "世界杯",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 107,
+    "french": "passer les fêtes",
+    "chinese": "过节",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 108,
+    "french": "de bonne heure",
+    "chinese": "很早",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 109,
+    "french": "faire une promenade à pied",
+    "chinese": "步行散步",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 110,
+    "french": "sur l'herbe",
+    "chinese": "在草地上",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 111,
+    "french": "du haut de",
+    "chinese": "从……的高处",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 112,
+    "french": "être encore un peu jeunes",
+    "chinese": "还小点",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 113,
+    "french": "un fauteuil",
+    "chinese": "扶手椅",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 114,
+    "french": "sportif en chambre",
+    "chinese": "室内运动员/嘴上运动员",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 115,
+    "french": "une vallée",
+    "chinese": "山谷",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 116,
+    "french": "un torrent",
+    "chinese": "山洪/急流",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 117,
+    "french": "un câble élastique",
+    "chinese": "弹力绳",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 118,
+    "french": "sauvage",
+    "chinese": "原生态的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 119,
+    "french": "par endroits",
+    "chinese": "在某些地方",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 120,
+    "french": "Grenoble",
+    "chinese": "格勒诺布尔",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 121,
+    "french": "les Alpes",
+    "chinese": "阿尔卑斯山",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "阴性名词复数"
+  }
+]
