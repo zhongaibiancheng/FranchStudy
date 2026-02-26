@@ -1,0 +1,1632 @@
+2026-02-26 18:10:48,633 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:11:25,863 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:12:42,436 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:12:42,462 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:12:42,653 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:12:42,666 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:38:32,982 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee?username=username&email=username@gmail.com&password=Caonima1&confirm_password=Caonima1 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:38:32,988 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee?username=username&email=username@gmail.com&password=Caonima1&confirm_password=Caonima1 - 404 NOT FOUND [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:38:58,210 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/register?username=username&email=username@gmail.com&password=Caonima1&confirm_password=Caonima1 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:38:58,211 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/register?username=username&email=username@gmail.com&password=Caonima1&confirm_password=Caonima1 - 404 NOT FOUND [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:39:38,029 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register?username=username&email=username@gmail.com&password=Caonima1&confirm_password=Caonima1 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:39:38,030 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:39:38,032 WARNING: 注册失败：缺少必要参数 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:47]
+2026-02-26 18:39:38,032 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register?username=username&email=username@gmail.com&password=Caonima1&confirm_password=Caonima1 - 400 BAD REQUEST [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:45:33,704 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:45:33,718 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:45:40,668 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:45:40,678 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:46:12,294 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:46:12,306 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:46:12,460 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:46:12,471 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:46:16,503 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register?username=username&email=username@gmail.com&password=Caonima1&confirm_password=Caonima1 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:46:16,503 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:46:16,504 WARNING: 注册失败：缺少必要参数 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:47]
+2026-02-26 18:46:16,504 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register?username=username&email=username@gmail.com&password=Caonima1&confirm_password=Caonima1 - 400 BAD REQUEST [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:48:17,528 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:48:17,528 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:48:17,529 WARNING: 注册失败：密码强度不足，需要至少一个大写字母 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:95]
+2026-02-26 18:48:17,530 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 400 BAD REQUEST [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:48:30,455 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:48:30,455 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:48:30,456 WARNING: 注册失败：密码强度不足，需要至少一个数字 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:103]
+2026-02-26 18:48:30,456 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 400 BAD REQUEST [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:48:41,853 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:48:41,853 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:48:41,938 INFO: 用户注册sql: 
+                        insert into users(
+                            username, 
+                            email, 
+                            password_hash, 
+                            is_admin, 
+                            created_at)values(
+                                'username',
+                                'little7q@gmail.com',
+                                'scrypt:32768:8:1$wtBIZaLUWy0Mo8w8$206870f21e66a6a7a39b8b11e67697da000142cf3e14226ec0923bf459c74d6a5a6833c5829e32a9e7832ecef2d1253ffb64ef6b5eef4f0313c79690739d9832',
+                                False,
+                                now()
+                            ) RETURNING id;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:148]
+2026-02-26 18:48:41,943 ERROR: 注册过程中发生错误: relation "users" does not exist
+LINE 2:                         insert into users(
+                                            ^
+ [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:171]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/auth_routes.py", line 149, in register
+    cur.execute(sql)
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "users" does not exist
+LINE 2:                         insert into users(
+                                            ^
+
+2026-02-26 18:48:41,945 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:49:55,208 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:49:55,209 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:49:55,294 INFO: 用户注册sql: 
+                        insert into users(
+                            username, 
+                            email, 
+                            password_hash, 
+                            is_admin, 
+                            created_at)values(
+                                'username',
+                                'little7q@gmail.com',
+                                'scrypt:32768:8:1$7voUp34kMmFuKbMx$cded54babd3941c0b623093ecee7ea0647401d7351e458ad1caafd94396f63e31c82a1b34a56eb37f8f1e6a657f57f46aedd9e87a8c47840ba8e16a6b123201c',
+                                False,
+                                now()
+                            ) RETURNING id;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:148]
+2026-02-26 18:49:55,299 ERROR: 注册过程中发生错误: permission denied for table users
+ [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:171]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/auth_routes.py", line 149, in register
+    cur.execute(sql)
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InsufficientPrivilege: permission denied for table users
+
+2026-02-26 18:49:55,301 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:51:37,895 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:51:37,895 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:51:37,977 INFO: 用户注册sql: 
+                        insert into users(
+                            username, 
+                            email, 
+                            password_hash, 
+                            is_admin, 
+                            created_at)values(
+                                'username',
+                                'little7q@gmail.com',
+                                'scrypt:32768:8:1$whB6Nx8NSHcSaLdd$dd78fd30b2b451c6957a268950335b5e6ba42bb24c5567ef0c75425e1b269c2f0c52c7e030cf26c5d45397cb1cc0373477fd24a7895b212c46bb8e9f22a0bdee',
+                                False,
+                                now()
+                            ) RETURNING id;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:148]
+2026-02-26 18:51:37,981 INFO: 用户注册成功: username (little7q@gmail.com) [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:154]
+2026-02-26 18:51:37,981 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 201 CREATED [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:53:45,515 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:53:45,525 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:54:56,829 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:54:56,839 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:55:01,074 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:55:01,085 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:55:07,385 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:55:07,396 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:55:15,642 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:55:15,652 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:55:30,134 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:55:30,146 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:55:30,317 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:55:30,330 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:55:36,721 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:55:36,721 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:55:36,728 WARNING: 注册失败：邮箱已存在 - little7q@gmail.com [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:152]
+2026-02-26 18:55:36,729 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 409 CONFLICT [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:57:47,793 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:57:47,803 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 18:57:47,804 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:57:50,117 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:57:50,129 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 18:57:50,129 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:57:50,276 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:57:50,285 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 18:57:50,285 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:57:54,103 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:57:54,104 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:57:54,105 DEBUG: 注册 user sql：
+                    select 1 from users where username='username'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:136]
+2026-02-26 18:57:54,108 DEBUG: 注册 user sql：
+                    select 1 from users where email='little7q@gmail.com'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:148]
+2026-02-26 18:57:54,108 WARNING: 注册失败：邮箱已存在 - little7q@gmail.com [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:152]
+2026-02-26 18:57:54,108 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 409 CONFLICT [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:58:40,445 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:58:40,455 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 18:58:40,455 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:58:44,676 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:58:44,688 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 18:58:44,688 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:58:52,947 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:58:52,959 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 18:58:52,959 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:58:59,026 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:58:59,038 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 18:58:59,039 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:58:59,193 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 18:58:59,204 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 18:58:59,204 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 18:59:03,957 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:59:03,957 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:59:03,959 DEBUG: 注册 user sql：
+                    select 1 from users where username='username'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:136]
+2026-02-26 18:59:03,961 WARNING: 注册失败：用户名已存在 - username [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:141]
+2026-02-26 18:59:03,962 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 409 CONFLICT [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 18:59:08,043 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 18:59:08,043 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 18:59:08,044 DEBUG: 注册 user sql：
+                    select 1 from users where username='username1'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:136]
+2026-02-26 18:59:08,044 DEBUG: 注册 user sql：
+                    select 1 from users where email='little7q@gmail.com'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:148]
+2026-02-26 18:59:08,132 INFO: 用户注册sql: 
+                        insert into users(
+                            username, 
+                            email, 
+                            password_hash, 
+                            is_admin, 
+                            created_at)values(
+                                'username1',
+                                'little7q@gmail.com',
+                                'scrypt:32768:8:1$dbvO0Hfj5xDBrWFI$a5e5899ca0f0703f3e17efa8e3abfd991ff109eee1db141b8af15e12e239be99263adb1b730b8bf3dd5e0b29dda92b7622d9b9449042960f647f63909aaf235e',
+                                False,
+                                now()
+                            ) RETURNING id;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:171]
+2026-02-26 18:59:08,136 ERROR: 注册过程中发生错误: duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(little7q@gmail.com) already exists.
+ [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:194]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/auth_routes.py", line 172, in register
+    cur.execute(sql)
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(little7q@gmail.com) already exists.
+
+2026-02-26 18:59:08,138 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 19:00:49,790 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:00:49,799 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:00:49,800 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:00:57,904 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:00:57,913 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:00:57,913 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:00:58,056 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:00:58,067 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:00:58,067 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:01:03,121 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 19:01:03,121 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 19:01:03,123 DEBUG: 注册 user sql：
+                    select 1 from users where username='username1'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:136]
+2026-02-26 19:01:03,125 DEBUG: 注册 user sql：
+                    select 1 from users where email='little7q@gmail.com'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:148]
+2026-02-26 19:01:03,125 WARNING: 注册失败：邮箱已存在 - little7q@gmail.com [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:153]
+2026-02-26 19:01:03,126 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 409 CONFLICT [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 19:01:08,155 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 19:01:08,155 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 19:01:08,156 DEBUG: 注册 user sql：
+                    select 1 from users where username='username1'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:136]
+2026-02-26 19:01:08,157 DEBUG: 注册 user sql：
+                    select 1 from users where email='little78q@gmail.com'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:148]
+2026-02-26 19:01:08,250 INFO: 用户注册sql: 
+                        insert into users(
+                            username, 
+                            email, 
+                            password_hash, 
+                            is_admin, 
+                            created_at)values(
+                                'username1',
+                                'little78q@gmail.com',
+                                'scrypt:32768:8:1$sD28MRBzAfelYpG9$e9eb6ae9ccd02b63878032335ad36bdeb6b8bc422f88e2dd1c9b4cde504033a3f0acce28caee0de76a442bebf3c8925c441040c6b3c66861a0d418a39ecdeff1',
+                                False,
+                                now()
+                            ) RETURNING id;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:172]
+2026-02-26 19:01:08,257 INFO: 用户注册成功: username1 (little78q@gmail.com) [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:178]
+2026-02-26 19:01:08,258 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 201 CREATED [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 19:02:33,178 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:02:33,191 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:02:33,192 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:02:33,371 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:02:33,381 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:02:33,381 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:02:39,891 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 19:02:39,892 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 19:02:39,894 DEBUG: 注册 user sql：
+                    select 1 from users where username='username21'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:113]
+2026-02-26 19:02:39,896 DEBUG: 注册 user sql：
+                    select 1 from users where email='little178q@gmail.com'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:125]
+2026-02-26 19:02:39,987 INFO: 用户注册sql: 
+                        insert into users(
+                            username, 
+                            email, 
+                            password_hash, 
+                            is_admin, 
+                            created_at)values(
+                                'username21',
+                                'little178q@gmail.com',
+                                'scrypt:32768:8:1$slCSZAfWU2sTl3NG$364cb33d4432d7417c1208dc7b1c2373add311aabd7621ceff7cdac09e727e3f0b8fdfe80ff9ce271d25a9a0eebe03baebb635f2ef9e6c723f5c7922d9b53755',
+                                False,
+                                now()
+                            ) RETURNING id;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:149]
+2026-02-26 19:02:39,990 INFO: 用户注册成功: username21 (little178q@gmail.com) [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:155]
+2026-02-26 19:02:39,991 ERROR: 注册过程中发生错误: 'dict' object has no attribute 'to_dict' [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:172]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/auth_routes.py", line 168, in register
+    'user':{'username':username,'id':user['id']}.to_dict()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'to_dict'
+2026-02-26 19:02:39,992 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 19:02:53,454 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:02:53,465 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:02:53,465 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:02:56,292 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:02:56,303 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:02:56,304 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:02:56,481 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:02:56,491 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:02:56,492 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:03:00,623 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 19:03:00,623 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 19:03:00,625 DEBUG: 注册 user sql：
+                    select 1 from users where username='username21'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:113]
+2026-02-26 19:03:00,627 WARNING: 注册失败：用户名已存在 - username21 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:118]
+2026-02-26 19:03:00,628 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 409 CONFLICT [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 19:03:26,466 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:03:26,477 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:03:26,477 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:03:30,860 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:03:30,871 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:03:30,871 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:03:46,738 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:03:46,749 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:03:46,750 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:03:46,900 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:03:46,912 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:03:46,912 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:03:51,368 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 19:03:51,368 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 19:03:51,370 DEBUG: 注册 user sql：
+                    select 1 from users where username='username21'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:113]
+2026-02-26 19:03:51,373 WARNING: 注册失败：用户名已存在 - username21 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:118]
+2026-02-26 19:03:51,373 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 409 CONFLICT [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 19:03:55,884 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 19:03:55,885 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 19:03:55,885 DEBUG: 注册 user sql：
+                    select 1 from users where username='username121'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:113]
+2026-02-26 19:03:55,886 DEBUG: 注册 user sql：
+                    select 1 from users where email='little1178q@gmail.com'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:125]
+2026-02-26 19:03:55,986 INFO: 用户注册sql: 
+                        insert into users(
+                            username, 
+                            email, 
+                            password_hash, 
+                            is_admin, 
+                            created_at)values(
+                                'username121',
+                                'little1178q@gmail.com',
+                                'scrypt:32768:8:1$UySPB3JnhWuy6L8z$d3ff5483e5e0d06d8bd4e0bc31f1850a66a79b1dd4a9da0bd89b4d8530d5dfdc82e4827874717e7922ec6fa3c3feef9c3bbf921bb69a841dc119ab5588c58782',
+                                False,
+                                now()
+                            ) RETURNING id;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:149]
+2026-02-26 19:03:55,990 INFO: 用户注册成功: username121 (little1178q@gmail.com) [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:155]
+2026-02-26 19:03:55,990 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 201 CREATED [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 19:06:33,648 INFO: 请求: POST http://172.30.91.84:5000/api/auth/login [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 19:06:33,648 INFO: 收到登录请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:180]
+2026-02-26 19:06:33,735 ERROR: 登录过程中发生错误: relation "uses" does not exist
+LINE 6:                             uses 
+                                    ^
+ [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:270]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/auth_routes.py", line 248, in login
+    cur.execute(sql)
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "uses" does not exist
+LINE 6:                             uses 
+                                    ^
+
+2026-02-26 19:06:33,737 INFO: 响应: POST http://172.30.91.84:5000/api/auth/login - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 19:06:52,044 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:06:52,054 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:06:52,055 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:06:57,920 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:06:57,931 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:06:57,931 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:06:58,118 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 19:06:58,127 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 19:06:58,128 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 19:07:01,460 INFO: 请求: POST http://172.30.91.84:5000/api/auth/login [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 19:07:01,461 INFO: 收到登录请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:180]
+2026-02-26 19:07:01,555 ERROR: 登录过程中发生错误: 'RealDictRow' object has no attribute 'check_password' [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:270]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/auth_routes.py", line 252, in login
+    if not user or not user.check_password(password):
+                       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RealDictRow' object has no attribute 'check_password'
+2026-02-26 19:07:01,558 INFO: 响应: POST http://172.30.91.84:5000/api/auth/login - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 20:22:13,685 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 20:22:13,696 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 20:22:13,696 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 20:22:18,516 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 20:22:18,530 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 20:22:18,530 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 20:22:18,683 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 20:22:18,694 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 20:22:18,694 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 20:22:22,246 INFO: 请求: POST http://172.30.91.84:5000/api/auth/login [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 20:22:22,247 INFO: 收到登录请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:180]
+2026-02-26 20:22:22,426 ERROR: 登录过程中发生错误: 'RealDictRow' object has no attribute 'to_dict' [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:268]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/auth_routes.py", line 265, in login
+    'user': user.to_dict()
+            ^^^^^^^^^^^^
+AttributeError: 'RealDictRow' object has no attribute 'to_dict'
+2026-02-26 20:22:22,428 INFO: 响应: POST http://172.30.91.84:5000/api/auth/login - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 20:23:24,422 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 20:23:24,433 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 20:23:24,433 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 20:23:26,502 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 20:23:26,512 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 20:23:26,512 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 20:23:26,666 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 20:23:26,676 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 20:23:26,677 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 20:23:30,262 INFO: 请求: POST http://172.30.91.84:5000/api/auth/login [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 20:23:30,263 INFO: 收到登录请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:180]
+2026-02-26 20:23:30,454 INFO: 响应: POST http://172.30.91.84:5000/api/auth/login - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 21:14:58,836 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:14:58,847 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:14:58,847 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:14:59,009 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:14:59,020 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:14:59,020 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:15:03,275 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 21:15:03,276 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:20]
+2026-02-26 21:15:03,278 ERROR: 登录过程中发生错误: syntax error at or near "%"
+LINE 13:                             book=%d and lesson = %d
+                                                          ^
+ [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:72]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 62, in create_exercise
+    cur.execute(sql)
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: syntax error at or near "%"
+LINE 13:                             book=%d and lesson = %d
+                                                          ^
+
+2026-02-26 21:15:03,280 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 21:15:30,390 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:15:30,401 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:15:30,401 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:15:35,064 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:15:35,075 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:15:35,076 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:15:35,209 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:15:35,223 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:15:35,224 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:15:39,387 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 21:15:39,388 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:20]
+2026-02-26 21:15:39,391 ERROR: 登录过程中发生错误: 'RealDictCursor' object has no attribute 'fetchalls' [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:72]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 64, in create_exercise
+    words  = cur.fetchalls()
+             ^^^^^^^^^^^^^
+AttributeError: 'RealDictCursor' object has no attribute 'fetchalls'. Did you mean: 'fetchall'?
+2026-02-26 21:15:39,393 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 21:15:49,845 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:15:49,856 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:15:49,856 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:15:52,104 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:15:52,118 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:15:52,118 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:15:52,276 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:15:52,290 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:15:52,290 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:15:55,233 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 21:15:55,234 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:20]
+2026-02-26 21:15:55,237 ERROR: 登录过程中发生错误: dictionary update sequence element #0 has length 7; 2 is required [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:72]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 69, in create_exercise
+    'words': dict(words)
+             ^^^^^^^^^^^
+ValueError: dictionary update sequence element #0 has length 7; 2 is required
+2026-02-26 21:15:55,238 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 21:16:21,558 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:16:21,567 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:16:21,567 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:16:24,482 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:16:24,492 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:16:24,492 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:16:24,627 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:16:24,638 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:16:24,638 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:16:27,689 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 21:16:27,690 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:20]
+2026-02-26 21:16:27,693 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 21:24:41,206 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:24:41,217 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:24:41,217 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:24:44,462 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:24:44,472 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:24:44,473 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:26:21,208 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:26:21,219 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:26:21,219 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:26:23,456 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:26:23,466 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:26:23,466 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:27:17,435 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:27:17,445 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:27:17,445 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:36:57,972 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:36:57,991 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:36:57,991 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:36:58,160 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 21:36:58,171 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 21:36:58,171 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 21:37:04,131 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 21:37:04,131 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 21:37:04,132 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzA4NjM1fQ.Rw3UPbt826AItzuVtkFA_twAZRdENpZmeWzuhGzLV7Q [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO:   Postman-Token: 784b9b27-aa24-4bbd-a0e8-f684301df940 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 21:37:04,132 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzA4NjM1fQ.Rw3UPbt826AItzuVtkFA_twAZRdENpZmeWzuhGzLV7Q [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 21:37:04,133 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzA4NjM1fQ.Rw3UPbt826AItzuVtkFA_twAZRdENpZmeWzuhGzLV7Q [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 21:37:04,133 INFO: 解码后的 token 数据: {'user_id': 5, 'username': 'username121', 'exp': 1772708635} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 21:37:04,142 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 401 UNAUTHORIZED [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:26:16,066 INFO: 请求: POST http://172.30.91.84:5000/api/auth/register [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:26:16,066 INFO: 收到注册请求 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:22]
+2026-02-26 22:26:16,070 DEBUG: 注册 user sql：
+                    select 1 from users where username='username121'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:113]
+2026-02-26 22:26:16,075 DEBUG: 注册 user sql：
+                    select 1 from users where email='little1178q@gmail.com'
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:125]
+2026-02-26 22:26:16,165 INFO: 用户注册sql: 
+                        insert into users(
+                            username, 
+                            email, 
+                            password_hash, 
+                            is_admin, 
+                            created_at)values(
+                                'username121',
+                                'little1178q@gmail.com',
+                                'scrypt:32768:8:1$R0dC7gcvQ4XIwBMC$accf1b896dee71a173561eea2c5237c03266cb577622327dee206ede928090cd63436926ebaa6be818b7443fd8b74b0030eb51de78a9b8035cfd63c6c43152a9',
+                                False,
+                                now()
+                            ) RETURNING id;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:149]
+2026-02-26 22:26:16,170 INFO: 用户注册成功: username121 (little1178q@gmail.com) [in /home/dora/workspace/FranchStudy/backend/routes/auth_routes.py:155]
+2026-02-26 22:26:16,170 INFO: 响应: POST http://172.30.91.84:5000/api/auth/register - 201 CREATED [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:26:32,144 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:26:32,144 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:26:32,145 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO:   Postman-Token: 9d215559-b69a-4977-8d18-280e455a99e0 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:26:32,145 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:26:32,145 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:26:32,146 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:26:32,147 ERROR: Token 处理异常: 'RealDictRow' object has no attribute 'id' [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:83]
+2026-02-26 22:26:32,147 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 401 UNAUTHORIZED [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:28:22,923 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:28:22,934 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:28:22,934 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:28:32,959 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:28:32,971 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:28:32,971 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:28:33,116 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:28:33,127 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:28:33,127 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:28:36,165 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:28:36,166 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:28:36,166 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO:   Postman-Token: 91577851-f9c7-47f8-8ad8-b8438d743b68 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:28:36,166 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:28:36,166 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:28:36,166 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:28:36,169 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 22:28:36,199 ERROR: 登录过程中发生错误: missing FROM-clause entry for table "w"
+LINE 12:                             ON wp.word_id = w.id
+                                                     ^
+ [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:86]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 76, in create_exercise
+    cur.execute(sql)
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: missing FROM-clause entry for table "w"
+LINE 12:                             ON wp.word_id = w.id
+                                                     ^
+
+2026-02-26 22:28:36,201 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:29:13,129 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:29:13,138 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:29:13,138 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:29:15,945 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:29:15,955 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:29:15,955 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:29:16,095 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:29:16,106 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:29:16,106 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:29:20,706 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:29:20,706 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:29:20,707 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,707 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,707 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,707 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,707 INFO:   Postman-Token: a77227e6-a951-40a7-be08-dc03c22a9df1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,707 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,708 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,708 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,708 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:29:20,708 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:29:20,708 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:29:20,709 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:29:20,713 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 22:29:20,716 ERROR: 登录过程中发生错误: column reference "id" is ambiguous
+LINE 3:                             id,
+                                    ^
+ [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:86]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 76, in create_exercise
+    cur.execute(sql)
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.AmbiguousColumn: column reference "id" is ambiguous
+LINE 3:                             id,
+                                    ^
+
+2026-02-26 22:29:20,718 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:30:10,151 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:30:10,163 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:30:10,163 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:30:13,337 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:30:13,346 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:30:13,347 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:30:13,491 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:30:13,502 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:30:13,502 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:30:18,289 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:30:18,289 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:30:18,290 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO:   Postman-Token: f84c6103-f121-4e7a-9afa-5a0efd06ddc0 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:30:18,290 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:30:18,290 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:30:18,291 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:30:18,294 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 22:30:18,302 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:32:33,362 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:32:33,372 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:32:33,372 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:33:20,902 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:33:20,911 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:33:20,911 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:34:27,504 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:34:27,514 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:34:27,514 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:34:30,737 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:34:30,747 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:34:30,747 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:35:03,531 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:35:03,542 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:35:03,543 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:37:21,503 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:37:21,512 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:37:21,512 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:37:26,254 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:37:26,263 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:37:26,264 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:38:16,930 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:38:16,942 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:38:16,943 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:38:17,106 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:38:17,117 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:38:17,117 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:38:22,936 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:38:22,937 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:38:22,937 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO:   Postman-Token: dff4f51a-e2e5-44f8-849c-e6f2fbfcbf3e [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:38:22,937 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:38:22,937 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:38:22,938 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:38:22,940 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 22:38:22,941 DEBUG: 
+                        select 
+                            w.id,
+                            w.book,
+                            w.lesson,
+                            w.french, 
+                            w.chinese, 
+                            w.part_of_speech, 
+                            w.part_of_speech_full_chinese  
+                        from 
+                            words as w LEFT JOIN exercise_words as wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = 1
+                        where 
+                            book=1 and lesson = 1
+                            AND wp.word_id IS NULL
+                            ORDER BY random()
+                            LIMIT 10;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:76]
+2026-02-26 22:38:22,943 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,947 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,948 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,948 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,949 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,949 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,950 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,950 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,950 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,951 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:38:22,952 ERROR: 登录过程中发生错误: '<' not supported between instances of 'int' and 'str' [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:102]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 96, in create_exercise
+    return jsonify({
+           ^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 354, in _iterencode_dict
+    items = sorted(dct.items())
+            ^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'int' and 'str'
+2026-02-26 22:38:22,957 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:39:16,958 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:39:16,968 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:39:16,968 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:39:19,534 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:39:19,545 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:39:19,546 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:39:19,696 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:39:19,707 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:39:19,707 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:39:25,686 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:39:25,686 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:39:25,686 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,686 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,686 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,686 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,686 INFO:   Postman-Token: b543039f-4c19-440e-b3d6-be42b594f903 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,686 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,686 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,686 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,686 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:39:25,687 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:39:25,687 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:39:25,687 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:39:25,689 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 22:39:25,691 DEBUG: 
+                        select 
+                            w.id,
+                            w.book,
+                            w.lesson,
+                            w.french, 
+                            w.chinese, 
+                            w.part_of_speech, 
+                            w.part_of_speech_full_chinese  
+                        from 
+                            words as w LEFT JOIN exercise_words as wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = 1
+                        where 
+                            book=1 and lesson = 1
+                            AND wp.word_id IS NULL
+                            ORDER BY random()
+                            LIMIT 10;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:76]
+2026-02-26 22:39:25,692 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,693 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,694 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,694 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,695 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,695 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,696 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,696 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,696 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,697 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(%d,%d,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:39:25,697 ERROR: 登录过程中发生错误: '<' not supported between instances of 'int' and 'str' [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:102]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 96, in create_exercise
+    return jsonify({
+           ^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 354, in _iterencode_dict
+    items = sorted(dct.items())
+            ^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'int' and 'str'
+2026-02-26 22:39:25,700 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:40:00,147 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:40:00,156 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:40:00,156 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:40:03,690 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:40:03,701 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:40:03,701 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:40:03,871 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:40:03,883 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:40:03,884 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:40:07,647 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:40:07,648 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:40:07,648 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO:   Postman-Token: 7e079717-342f-478c-8948-8bf8ff7657a6 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:40:07,648 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:40:07,649 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:40:07,649 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:40:07,651 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 22:40:07,652 DEBUG: 
+                        select 
+                            w.id,
+                            w.book,
+                            w.lesson,
+                            w.french, 
+                            w.chinese, 
+                            w.part_of_speech, 
+                            w.part_of_speech_full_chinese  
+                        from 
+                            words as w LEFT JOIN exercise_words as wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = 1
+                        where 
+                            book=1 and lesson = 1
+                            AND wp.word_id IS NULL
+                            ORDER BY random()
+                            LIMIT 10;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:76]
+2026-02-26 22:40:07,654 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,7,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,655 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,89,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,655 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,85,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,656 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,32,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,656 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,100,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,657 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,48,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,657 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,11,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,658 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,17,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,658 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,28,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,658 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,39,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:40:07,659 ERROR: 登录过程中发生错误: '<' not supported between instances of 'int' and 'str' [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:102]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 96, in create_exercise
+    return jsonify({
+           ^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/flask/json/provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/root/miniconda3/envs/france/lib/python3.12/json/encoder.py", line 354, in _iterencode_dict
+    items = sorted(dct.items())
+            ^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'int' and 'str'
+2026-02-26 22:40:07,664 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:40:56,247 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:40:56,258 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:40:56,258 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:40:58,356 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:40:58,366 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:40:58,367 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:40:58,508 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:40:58,519 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:40:58,519 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:41:01,836 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:41:01,837 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:41:01,837 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO:   Postman-Token: 16b49185-0279-49fa-993e-efb4079972ad [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:41:01,837 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:41:01,838 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:41:01,838 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:41:01,840 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 22:41:01,841 DEBUG: 
+                        select 
+                            w.id,
+                            w.book,
+                            w.lesson,
+                            w.french, 
+                            w.chinese, 
+                            w.part_of_speech, 
+                            w.part_of_speech_full_chinese  
+                        from 
+                            words as w LEFT JOIN exercise_words as wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = 1
+                        where 
+                            book=1 and lesson = 1
+                            AND wp.word_id IS NULL
+                            ORDER BY random()
+                            LIMIT 10;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:76]
+2026-02-26 22:41:01,842 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,61,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,843 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,14,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,843 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,101,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,843 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,53,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,844 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,41,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,844 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,69,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,845 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,29,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,845 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,93,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,845 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,99,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,845 DEBUG: 
+                    insert into
+                        exercise_words(user_id,word_id,created_at)values(1,73,now()) RETURNING id
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:90]
+2026-02-26 22:41:01,849 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:42:02,072 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:49:58,265 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:49:58,274 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:49:58,275 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:49:58,421 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:49:58,431 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:49:58,431 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:50:26,584 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/31 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:50:26,585 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:50:26,585 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO:   Postman-Token: 6646bfab-464f-49b5-bb70-928b1f7e649a [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO:   Content-Length: 37 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:26,585 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:50:26,585 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:50:26,585 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:50:26,588 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:107]
+2026-02-26 22:50:26,591 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/31 - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:50:42,741 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/32 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:50:42,741 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:50:42,741 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,741 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,741 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,741 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,742 INFO:   Postman-Token: d40c4388-79a2-485c-95f2-fd11cfacbd59 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,742 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,742 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,742 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,742 INFO:   Content-Length: 37 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:50:42,742 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:50:42,742 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:50:42,742 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:50:42,743 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:107]
+2026-02-26 22:50:42,746 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/32 - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:54:53,177 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:54:53,186 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:54:53,186 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:56:12,785 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:56:12,795 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:56:12,795 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:56:31,037 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:56:31,048 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:56:31,048 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:57:11,208 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:57:11,219 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:57:11,219 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:58:43,107 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:58:43,120 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:58:43,120 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:58:50,178 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:58:50,188 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:58:50,188 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:58:56,346 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:58:56,356 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:58:56,356 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:58:56,497 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:58:56,507 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:58:56,507 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 22:59:04,142 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/32 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 22:59:04,143 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 22:59:04,143 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO:   Postman-Token: c42d4c58-7c23-40be-b69b-f780625e84ca [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO:   Content-Length: 37 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 22:59:04,143 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 22:59:04,143 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 22:59:04,143 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 22:59:04,146 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:107]
+2026-02-26 22:59:04,147 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/32 - 400 BAD REQUEST [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 22:59:24,833 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 22:59:24,843 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 22:59:24,844 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:00:14,374 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:00:14,384 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:00:14,384 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:00:31,721 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/32 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:00:31,722 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:00:31,722 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,722 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,722 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,722 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,722 INFO:   Postman-Token: 787a46b7-765b-45b5-980f-feed6a9505f6 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,722 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,722 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,722 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,723 INFO:   Content-Length: 58 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:00:31,723 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:00:31,723 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:00:31,723 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:00:31,725 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:107]
+2026-02-26 23:00:31,729 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/32 - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:01:54,496 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:01:54,496 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:01:54,496 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,496 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,496 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,496 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,496 INFO:   Postman-Token: 611cbfd8-985b-4a2f-86bc-0607f68c6a41 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,496 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,496 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,496 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,496 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:01:54,497 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:01:54,497 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:01:54,497 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:01:54,498 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 23:01:54,499 DEBUG: 
+                        select 
+                            w.id as word_id,
+                            w.book,
+                            w.lesson,
+                            w.french, 
+                            w.chinese, 
+                            w.part_of_speech, 
+                            w.part_of_speech_full_chinese  
+                        from 
+                            words as w LEFT JOIN exercise_words as wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = 1
+                        where 
+                            book=1 and lesson = 1
+                            AND wp.word_id IS NULL
+                            ORDER BY random()
+                            LIMIT 10;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:76]
+2026-02-26 23:01:54,501 ERROR: 登录过程中发生错误: 'id' [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:102]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 88, in create_exercise
+    _sql = sql%(user_id,int(word['id']))
+                            ~~~~^^^^^^
+KeyError: 'id'
+2026-02-26 23:01:54,502 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:02:05,105 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:02:05,115 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:02:05,115 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:02:03,673 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:02:03,683 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:02:03,683 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:02:06,987 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:02:06,987 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:02:06,987 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO:   Postman-Token: 8075ffd0-456d-490d-b1fc-42b2b785c7a3 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:02:06,987 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:02:06,988 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:02:06,988 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:02:06,990 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 23:02:06,991 DEBUG: 
+                        select 
+                            w.id as word_id,
+                            w.book,
+                            w.lesson,
+                            w.french, 
+                            w.chinese, 
+                            w.part_of_speech, 
+                            w.part_of_speech_full_chinese  
+                        from 
+                            words as w LEFT JOIN exercise_words as wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = 1
+                        where 
+                            book=1 and lesson = 1
+                            AND wp.word_id IS NULL
+                            ORDER BY random()
+                            LIMIT 10;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:76]
+2026-02-26 23:02:06,993 ERROR: 登录过程中发生错误: 'id' [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:102]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 88, in create_exercise
+    _sql = sql%(user_id,int(word['id']))
+                            ~~~~^^^^^^
+KeyError: 'id'
+2026-02-26 23:02:06,994 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:03:05,483 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:03:05,493 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:03:05,494 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:03:09,085 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:03:09,095 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:03:09,096 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:03:13,625 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:03:13,635 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:03:13,635 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:03:13,777 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:03:13,788 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:03:13,789 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:03:17,383 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:03:17,384 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:03:17,384 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,384 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,384 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,384 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,384 INFO:   Postman-Token: 75cf569f-8bc2-4ba6-9d28-abaaed42b8c3 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,384 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,384 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,384 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,384 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:03:17,385 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:03:17,385 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:03:17,385 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:03:17,387 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 23:03:17,389 DEBUG: 
+                        select 
+                            w.id as word_id,
+                            w.book,
+                            w.lesson,
+                            w.french, 
+                            w.chinese, 
+                            w.part_of_speech, 
+                            w.part_of_speech_full_chinese  
+                        from 
+                            words as w LEFT JOIN exercise_words as wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = 1
+                        where 
+                            book=1 and lesson = 1
+                            AND wp.word_id IS NULL
+                            ORDER BY random()
+                            LIMIT 10;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:76]
+2026-02-26 23:03:17,391 ERROR: 登录过程中发生错误: RealDictCursor.execute() takes from 2 to 3 positional arguments but 4 were given [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:98]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 87, in create_exercise
+    cur.execute(sql,user_id,int(word['word_id']))
+TypeError: RealDictCursor.execute() takes from 2 to 3 positional arguments but 4 were given
+2026-02-26 23:03:17,392 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:03:56,425 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:03:56,436 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:03:56,436 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:04:00,277 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:04:00,290 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:04:00,290 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:04:02,598 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:04:02,610 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:04:02,611 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:04:12,499 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:04:12,511 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:04:12,512 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:04:12,665 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:04:12,677 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:04:12,677 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:04:18,210 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:04:18,211 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:04:18,211 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO:   Postman-Token: 3b396157-3b57-48e6-a65c-273f3b84d76b [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:04:18,211 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:04:18,211 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:04:18,212 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:04:18,214 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 23:04:18,215 DEBUG: 
+                        select 
+                            w.id as word_id,
+                            w.book,
+                            w.lesson,
+                            w.french, 
+                            w.chinese, 
+                            w.part_of_speech, 
+                            w.part_of_speech_full_chinese  
+                        from 
+                            words as w LEFT JOIN exercise_words as wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = 1
+                        where 
+                            book=1 and lesson = 1
+                            AND wp.word_id IS NULL
+                            ORDER BY random()
+                            LIMIT 10;
+                 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:76]
+2026-02-26 23:04:18,221 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:05:01,717 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/42 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:05:01,717 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:05:01,717 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,717 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,718 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,718 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,718 INFO:   Postman-Token: dd6456da-a24b-47e9-ae60-4d9487cc7eb2 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,718 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,718 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,718 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,718 INFO:   Content-Length: 43 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:01,718 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:05:01,718 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:05:01,718 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:05:01,720 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:103]
+2026-02-26 23:05:01,723 ERROR: 更新听写结果发生错误: INSERT has more target columns than expressions
+LINE 1: insert into mistake_notebook(word_id,user_id,wrong_count,rig...
+                                                     ^
+ [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:152]
+Traceback (most recent call last):
+  File "/home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py", line 147, in update_exercise
+    cur.execute(sql, (word_id,user_id))
+  File "/root/miniconda3/envs/france/lib/python3.12/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: INSERT has more target columns than expressions
+LINE 1: insert into mistake_notebook(word_id,user_id,wrong_count,rig...
+                                                     ^
+
+2026-02-26 23:05:01,726 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/42 - 500 INTERNAL SERVER ERROR [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:05:21,999 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:05:22,009 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:05:22,009 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:05:26,085 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:05:26,098 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:05:26,098 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:05:26,256 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:05:26,266 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:05:26,267 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:05:30,369 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/42 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:05:30,370 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:05:30,370 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO:   Postman-Token: 47d2133a-6c98-454b-ad61-bafd83573175 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO:   Content-Length: 43 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:05:30,370 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:05:30,370 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:05:30,371 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:05:30,373 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:103]
+2026-02-26 23:05:30,379 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/42 - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:06:43,926 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:06:43,938 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:06:43,938 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:06:46,145 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:06:46,157 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:06:46,158 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:11:24,919 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:11:24,930 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:11:24,931 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:11:55,152 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:11:55,162 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:11:55,163 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:12:22,701 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:12:22,711 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:12:22,711 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:13:34,692 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:13:34,702 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:13:34,702 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:13:44,298 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:13:44,307 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:13:44,307 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:13:44,443 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:13:44,453 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:13:44,453 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:13:59,941 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:13:59,942 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:13:59,942 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO:   Postman-Token: 537fe333-e2e2-4c0b-ac5e-8856dedc3b89 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:13:59,942 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:13:59,943 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:13:59,943 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:13:59,945 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 23:13:59,946 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 400 BAD REQUEST [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:14:24,847 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:14:24,855 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:14:24,856 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:14:29,045 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:14:29,054 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:14:29,055 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:14:31,242 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:14:31,255 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:14:31,255 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:14:44,488 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:14:44,498 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:14:44,499 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:14:46,452 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:14:46,463 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:14:46,463 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:14:46,608 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:14:46,620 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:14:46,620 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:14:50,159 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:14:50,160 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:14:50,160 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,160 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,160 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,160 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,160 INFO:   Postman-Token: d6fc273a-077f-4af5-875c-b6120fa36490 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,160 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,160 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,160 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,161 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:14:50,161 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:14:50,161 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:14:50,161 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:14:50,163 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 23:14:50,168 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:16:01,580 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:16:01,592 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:16:01,593 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:16:06,961 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:16:06,971 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:16:06,971 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:16:07,106 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-26 23:16:07,117 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-26 23:16:07,117 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-26 23:16:19,152 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:16:19,152 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:16:19,152 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,152 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,152 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,152 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,152 INFO:   Postman-Token: 46ff9c72-a7d3-4791-8a16-1f9d1cf00407 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,152 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,152 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,152 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,152 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:19,153 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:16:19,153 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:16:19,153 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:16:19,155 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 23:16:19,160 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:16:56,050 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/51 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:16:56,051 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:16:56,051 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,051 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,051 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,051 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,051 INFO:   Postman-Token: 9cd870f4-2144-4275-92f1-02b81f0c531d [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,051 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,051 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,051 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,052 INFO:   Content-Length: 43 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:16:56,052 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:16:56,052 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:16:56,052 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:16:56,053 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:148]
+2026-02-26 23:16:56,057 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/51 - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:17:19,298 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/51 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:17:19,299 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:17:19,299 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO:   Postman-Token: af1db365-89b0-4410-b04b-dc8953a937cb [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO:   Content-Length: 43 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:19,299 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:17:19,299 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:17:19,299 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:17:19,301 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:148]
+2026-02-26 23:17:19,304 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/51 - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:17:28,203 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/51 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:17:28,204 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:17:28,204 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO:   Postman-Token: c77a9d51-64b4-4e66-a714-4da9be5645c6 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO:   Content-Length: 43 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:28,204 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:17:28,204 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:17:28,205 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:17:28,206 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:148]
+2026-02-26 23:17:28,209 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/51 - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:17:33,906 INFO: 请求: PUT http://172.30.91.84:5000/api/spellingbee/exercise/51 [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:17:33,906 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:17:33,906 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,906 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,906 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,906 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,906 INFO:   Postman-Token: 24ad246b-6bd7-481f-aba7-973edd61d117 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,907 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,907 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,907 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,907 INFO:   Content-Length: 43 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:33,907 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:17:33,907 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:17:33,907 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:17:33,908 INFO: 更新听写结果 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:148]
+2026-02-26 23:17:33,911 INFO: 响应: PUT http://172.30.91.84:5000/api/spellingbee/exercise/51 - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-26 23:17:43,626 INFO: 请求: POST http://172.30.91.84:5000/api/spellingbee/exercise [in /home/dora/workspace/FranchStudy/backend/app.py:51]
+2026-02-26 23:17:43,626 INFO: 所有请求头: [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:27]
+2026-02-26 23:17:43,627 INFO:   Content-Type: application/json [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,627 INFO:   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,627 INFO:   User-Agent: PostmanRuntime/7.51.1 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,627 INFO:   Accept: */* [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,627 INFO:   Postman-Token: b506af90-cd27-491d-a089-578fa1c1ba8f [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,627 INFO:   Host: 172.30.91.84:5000 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,628 INFO:   Accept-Encoding: gzip, deflate, br [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,628 INFO:   Connection: keep-alive [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,628 INFO:   Content-Length: 50 [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:29]
+2026-02-26 23:17:43,628 INFO: 提取的 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:39]
+2026-02-26 23:17:43,628 INFO: 开始解码 token...eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIxIiwiZXhwIjoxNzcyNzIwNzc2fQ.vROQAePLCBJOkc3kiyG304jQkTYDv17t1nYnZD-O9-w [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:54]
+2026-02-26 23:17:43,628 INFO: 解码后的 token 数据: {'user_id': 1, 'username': 'username121', 'exp': 1772720776} [in /home/dora/workspace/FranchStudy/backend/middleware/auth.py:57]
+2026-02-26 23:17:43,630 INFO: 创建练习 [in /home/dora/workspace/FranchStudy/backend/routes/spellingbee_routes.py:28]
+2026-02-26 23:17:43,632 INFO: 响应: POST http://172.30.91.84:5000/api/spellingbee/exercise - 200 OK [in /home/dora/workspace/FranchStudy/backend/app.py:55]
+2026-02-27 00:19:49,735 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-27 00:19:49,753 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-27 00:19:49,753 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]
+2026-02-27 00:19:49,910 INFO: 应用启动 [in /home/dora/workspace/FranchStudy/backend/logging_config.py:42]
+2026-02-27 00:19:49,924 DEBUG: 应用在调试模式下启动 [in /home/dora/workspace/FranchStudy/backend/app.py:90]
+2026-02-27 00:19:49,924 INFO: 启动应用: host=0.0.0.0, port=5000, debug=True [in /home/dora/workspace/FranchStudy/backend/app.py:92]

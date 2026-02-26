@@ -1,0 +1,478 @@
+[
+  {
+    "id": 1,
+    "french": "arrondissement",
+    "chinese": "（巴黎的）区",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 2,
+    "french": "bicyclette",
+    "chinese": "自行车",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 3,
+    "french": "bruit",
+    "chinese": "响声，动静；〈复数〉噪音",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 4,
+    "french": "clé / clef",
+    "chinese": "钥匙",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 5,
+    "french": "concierge",
+    "chinese": "门房，看门人",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 6,
+    "french": "condition",
+    "chinese": "条件",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 7,
+    "french": "courrier",
+    "chinese": "信件，邮件",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 8,
+    "french": "droit",
+    "chinese": "权利，权益",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 9,
+    "french": "escalier",
+    "chinese": "楼梯",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 10,
+    "french": "facteur",
+    "chinese": "邮递员",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 11,
+    "french": "garage",
+    "chinese": "车库；汽车修理行",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 12,
+    "french": "humanité (L'H～)",
+    "chinese": "人道；《人道报》",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 13,
+    "french": "immeuble",
+    "chinese": "楼房",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 14,
+    "french": "loge",
+    "chinese": "门房，传达室；（剧院的）包厢",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 15,
+    "french": "locataire",
+    "chinese": "房客",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 16,
+    "french": "logement",
+    "chinese": "居所，住房",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 17,
+    "french": "moteur",
+    "chinese": "发动机，马达",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 18,
+    "french": "poubelle",
+    "chinese": "垃圾箱",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 19,
+    "french": "remplaçant(e)",
+    "chinese": "代替者",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 20,
+    "french": "renseignement",
+    "chinese": "消息，信息",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 21,
+    "french": "sourire",
+    "chinese": "微笑",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 22,
+    "french": "tableau",
+    "chinese": "表格；画",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 23,
+    "french": "vélomoteur",
+    "chinese": "（轻型）摩托车",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 24,
+    "french": "améliorer (s')",
+    "chinese": "改善，好转",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 25,
+    "french": "changer",
+    "chinese": "变（化），改变",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 26,
+    "french": "faire (se)",
+    "chinese": "被做；流行；不能这么做",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 27,
+    "french": "gagner",
+    "chinese": "挣（钱）；赢（得）",
+    "part_of_speech": "v.t., v.i.",
+    "part_of_speech_full_chinese": "及物动词/不及物动词"
+  },
+  {
+    "id": 28,
+    "french": "grossir",
+    "chinese": "变大，变胖；增大",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 29,
+    "french": "interviewer",
+    "chinese": "访问，采访",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 30,
+    "french": "marier (se)",
+    "chinese": "结婚",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 31,
+    "french": "nettoyer",
+    "chinese": "清洁；打扫",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 32,
+    "french": "obliger (être ~ de)",
+    "chinese": "被逼迫的；不得不",
+    "part_of_speech": "过去分词作形容词",
+    "part_of_speech_full_chinese": "过去分词作形容词"
+  },
+  {
+    "id": 33,
+    "french": "présenter (se)",
+    "chinese": "自我推荐，自我介绍；露面",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 34,
+    "french": "rentrer",
+    "chinese": "拿回，取回",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 35,
+    "french": "sortir",
+    "chinese": "拿出",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 36,
+    "french": "satisfaire (être ~ de)",
+    "chinese": "满意的，满足的",
+    "part_of_speech": "过去分词作形容词",
+    "part_of_speech_full_chinese": "过去分词作形容词"
+  },
+  {
+    "id": 37,
+    "french": "à la fois",
+    "chinese": "同时，既……又……",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 38,
+    "french": "au moins",
+    "chinese": "至少",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 39,
+    "french": "autrement",
+    "chinese": "否则，不然",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 40,
+    "french": "car",
+    "chinese": "因为",
+    "part_of_speech": "conj.",
+    "part_of_speech_full_chinese": "连词"
+  },
+  {
+    "id": 41,
+    "french": "certain(e)",
+    "chinese": "某个；确实的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 42,
+    "french": "en attendant",
+    "chinese": "在此期间，趁机",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 43,
+    "french": "en plus de",
+    "chinese": "除……之外",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 44,
+    "french": "gentiment",
+    "chinese": "亲切地；优雅地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 45,
+    "french": "gratuit(e)",
+    "chinese": "免费的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 46,
+    "french": "immense",
+    "chinese": "广阔的；巨大的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 47,
+    "french": "levé(e)",
+    "chinese": "起立的，起床的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 48,
+    "french": "n'importe quel(le)",
+    "chinese": "任何的，不管怎样的",
+    "part_of_speech": "loc.adj.",
+    "part_of_speech_full_chinese": "形容词短语"
+  },
+  {
+    "id": 49,
+    "french": "parfois",
+    "chinese": "有时；偶尔",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 50,
+    "french": "précipitamment",
+    "chinese": "匆忙地，赶紧地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 51,
+    "french": "pour le moment",
+    "chinese": "目前；暂时",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 52,
+    "french": "Le Figaro",
+    "chinese": "《费加罗报》",
+    "part_of_speech": "报刊名",
+    "part_of_speech_full_chinese": "报刊名"
+  },
+  {
+    "id": 53,
+    "french": "Le Monde",
+    "chinese": "《世界报》",
+    "part_of_speech": "报刊名",
+    "part_of_speech_full_chinese": "报刊名"
+  },
+  {
+    "id": 54,
+    "french": "L'Humanité",
+    "chinese": "《人道报》",
+    "part_of_speech": "报刊名",
+    "part_of_speech_full_chinese": "报刊名"
+  },
+  {
+    "id": 55,
+    "french": "16e arrondissement",
+    "chinese": "（巴黎）第16区",
+    "part_of_speech": "地名",
+    "part_of_speech_full_chinese": "地名"
+  },
+  {
+    "id": 56,
+    "french": "avoir le droit de faire qch",
+    "chinese": "有权利做某事",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定搭配"
+  },
+  {
+    "id": 57,
+    "french": "avoir droit à qch",
+    "chinese": "有……的权利",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定搭配"
+  },
+  {
+    "id": 58,
+    "french": "être obligé de faire qch",
+    "chinese": "被迫做某事",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定搭配"
+  },
+  {
+    "id": 59,
+    "french": "ouvrir qch à qn",
+    "chinese": "给某人打开……",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定搭配"
+  },
+  {
+    "id": 60,
+    "french": "parler de qch à qn",
+    "chinese": "跟某人谈某事",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定搭配"
+  },
+  {
+    "id": 61,
+    "french": "porter qch à qn",
+    "chinese": "拿/送某物给某人",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定搭配"
+  },
+  {
+    "id": 62,
+    "french": "mettre qch de côté",
+    "chinese": "把某物存起来，留起来",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定搭配"
+  },
+  {
+    "id": 63,
+    "french": "un billion",
+    "chinese": "一万亿 (10¹²)",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 64,
+    "french": "cinq billions",
+    "chinese": "五万亿 (5×10¹²)",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 65,
+    "french": "un trillion",
+    "chinese": "一百亿亿? (10¹⁸)*",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 66,
+    "french": "deux trillions",
+    "chinese": "二百亿亿? (2×10¹⁸)*",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 67,
+    "french": "un quadrillion",
+    "chinese": "一亿亿亿? (10²⁴)*",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 68,
+    "french": "un quintillion",
+    "chinese": "一百万亿亿? (10³⁰)*",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  }
+]

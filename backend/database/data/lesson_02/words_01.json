@@ -1,0 +1,870 @@
+[
+  {
+    "id": 1,
+    "french": "agent",
+    "chinese": "代理人（/工作人员）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 2,
+    "french": "ajouter",
+    "chinese": "添加",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 3,
+    "french": "amoureux",
+    "chinese": "爱恋的；恋人/情人",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 4,
+    "french": "amoureuse",
+    "chinese": "爱恋的；恋人/情人",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 5,
+    "french": "angle",
+    "chinese": "角；拐角",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 6,
+    "french": "à l'angle de",
+    "chinese": "在……的拐角处",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 7,
+    "french": "après",
+    "chinese": "在……后面（表示空间）",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 8,
+    "french": "après-demain",
+    "chinese": "后天",
+    "part_of_speech": "adv., n.m.",
+    "part_of_speech_full_chinese": "副词/阳性名词"
+  },
+  {
+    "id": 9,
+    "french": "avant",
+    "chinese": "在……前面（表示空间）",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 10,
+    "french": "banque",
+    "chinese": "银行",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 11,
+    "french": "central",
+    "chinese": "中心的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 12,
+    "french": "centrale",
+    "chinese": "中心的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 13,
+    "french": "code",
+    "chinese": "电码；密码",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 14,
+    "french": "commerçant",
+    "chinese": "经商的；商人",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 15,
+    "french": "commerçante",
+    "chinese": "经商的；商人",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 16,
+    "french": "commode",
+    "chinese": "方便的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 17,
+    "french": "dessiner",
+    "chinese": "画",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 18,
+    "french": "devise",
+    "chinese": "格言；座右铭；口号",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 19,
+    "french": "drapeau",
+    "chinese": "旗帜",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 20,
+    "french": "droit",
+    "chinese": "成直线；笔直",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 21,
+    "french": "tout droit",
+    "chinese": "径直；一直",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 22,
+    "french": "droite",
+    "chinese": "右边",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 23,
+    "french": "écrier (s')",
+    "chinese": "喊叫；喊出声来",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 24,
+    "french": "égalité",
+    "chinese": "平等",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 25,
+    "french": "étendre (s')",
+    "chinese": "延伸",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 26,
+    "french": "feu",
+    "chinese": "火；灯光（装置）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 27,
+    "french": "le feu rouge",
+    "chinese": "红灯",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 28,
+    "french": "le feu vert",
+    "chinese": "绿灯",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 29,
+    "french": "flèche",
+    "chinese": "箭；箭头",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 30,
+    "french": "fraternité",
+    "chinese": "博爱",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 31,
+    "french": "garer",
+    "chinese": "停放（车辆、船舶）",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 32,
+    "french": "gauche",
+    "chinese": "左边",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 33,
+    "french": "grande surface",
+    "chinese": "大型自选商场（大超市）",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 34,
+    "french": "hôtel",
+    "chinese": "旅店；旅馆",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 35,
+    "french": "itinéraire",
+    "chinese": "路线；线路",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 36,
+    "french": "le long de",
+    "chinese": "沿着……",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 37,
+    "french": "liberté",
+    "chinese": "自由",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 38,
+    "french": "loin",
+    "chinese": "远处",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 39,
+    "french": "lyonnais",
+    "chinese": "里昂的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 40,
+    "french": "lyonnaise",
+    "chinese": "里昂的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 41,
+    "french": "mairie",
+    "chinese": "市政府；市政厅；镇政府",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 42,
+    "french": "le maire",
+    "chinese": "市长",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 43,
+    "french": "malheureusement",
+    "chinese": "不幸地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 44,
+    "french": "marché",
+    "chinese": "市场",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 45,
+    "french": "mariage",
+    "chinese": "结婚；婚姻",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 46,
+    "french": "marié",
+    "chinese": "已婚的；新郎",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 47,
+    "french": "mariée",
+    "chinese": "已婚的；新娘",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 48,
+    "french": "orienter (s')",
+    "chinese": "寻找方向；辨别方位",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 49,
+    "french": "parking",
+    "chinese": "停车场",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 50,
+    "french": "Pasteur",
+    "chinese": "巴斯德（人物介绍）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 51,
+    "french": "perdu",
+    "chinese": "迷路的；失去的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 52,
+    "french": "perdue",
+    "chinese": "迷路的；失去的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 53,
+    "french": "Perpignan",
+    "chinese": "佩皮尼昂（法国南方城市）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 54,
+    "french": "plan",
+    "chinese": "图；地图",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 55,
+    "french": "préfecture",
+    "chinese": "省；省会；省政府",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 56,
+    "french": "préféré",
+    "chinese": "最为人所喜爱的；最受喜爱的人/物",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 57,
+    "french": "préférée",
+    "chinese": "最为人所喜爱的；最受喜爱的人/物",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词/名词"
+  },
+  {
+    "id": 58,
+    "french": "prier",
+    "chinese": "恳求；请求",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 59,
+    "french": "public",
+    "chinese": "公共的；（城市中的）行政的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 60,
+    "french": "publique",
+    "chinese": "公共的；（城市中的）行政的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 61,
+    "french": "quartier",
+    "chinese": "区；居住区；街区；区内居民",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 62,
+    "french": "remercier",
+    "chinese": "感谢",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 63,
+    "french": "secret",
+    "chinese": "秘密的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 64,
+    "french": "secrète",
+    "chinese": "秘密的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 65,
+    "french": "s'en faire",
+    "chinese": "着急；操心",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 66,
+    "french": "service",
+    "chinese": "帮助；帮忙",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 67,
+    "french": "À votre service",
+    "chinese": "（乐意）为您效劳",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 68,
+    "french": "sortie",
+    "chinese": "出口；门",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 69,
+    "french": "à la sortie de",
+    "chinese": "在……的出口处",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 70,
+    "french": "supermarché",
+    "chinese": "超市",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 71,
+    "french": "temple",
+    "chinese": "庙宇；寺院",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 72,
+    "french": "tourner",
+    "chinese": "转弯；拐弯；旋转",
+    "part_of_speech": "v.i., v.t.",
+    "part_of_speech_full_chinese": "不及物动词/及物动词"
+  },
+  {
+    "id": 73,
+    "french": "trottoir",
+    "chinese": "人行道",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 74,
+    "french": "voiture",
+    "chinese": "车辆；汽车；轿车",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 75,
+    "french": "un demi",
+    "chinese": "二分之一",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 76,
+    "french": "un tiers",
+    "chinese": "三分之一",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 77,
+    "french": "un quart",
+    "chinese": "四分之一",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 78,
+    "french": "deux tiers",
+    "chinese": "三分之二",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 79,
+    "french": "trois quarts",
+    "chinese": "四分之三",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 80,
+    "french": "un cinquième",
+    "chinese": "五分之一",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 80,
+    "french": "un sixième",
+    "chinese": "六分之一",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 81,
+    "french": "trois huitièmes",
+    "chinese": "八分之三",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 82,
+    "french": "à côté (de)",
+    "chinese": "在（……的）旁边",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 83,
+    "french": "à droite (de)",
+    "chinese": "在（……的）右边",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 84,
+    "french": "à gauche (de)",
+    "chinese": "在（……的）左边",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 85,
+    "french": "à l'angle de",
+    "chinese": "在……的拐角处",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 86,
+    "french": "après",
+    "chinese": "在……后面（表示空间）",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 87,
+    "french": "au bord de",
+    "chinese": "在……的边上",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 88,
+    "french": "au bout (de)",
+    "chinese": "在（……的）尽头",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 89,
+    "french": "au centre (de)",
+    "chinese": "在（……的）中心",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 90,
+    "french": "au coin de",
+    "chinese": "在……拐角上",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 91,
+    "french": "au-dessous (de)",
+    "chinese": "在（……的）下边",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 92,
+    "french": "au-dessus (de)",
+    "chinese": "在（……的）上边",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 93,
+    "french": "au fond (de)",
+    "chinese": "在（……的）深处/里面",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 94,
+    "french": "au milieu (de)",
+    "chinese": "在（……的）中间",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 95,
+    "french": "au pied de",
+    "chinese": "在……脚下",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 96,
+    "french": "autour de",
+    "chinese": "在……周围/四周",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 97,
+    "french": "avant",
+    "chinese": "在……前面（表示空间、次序）",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 98,
+    "french": "dans",
+    "chinese": "在……里边",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 99,
+    "french": "de… à…",
+    "chinese": "从……到……",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 100,
+    "french": "derrière",
+    "chinese": "在……后边",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 101,
+    "french": "devant",
+    "chinese": "在……前边",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 102,
+    "french": "en bas",
+    "chinese": "往下/朝下/在下面",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 103,
+    "french": "en face (de)",
+    "chinese": "在（……的）对面",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 104,
+    "french": "en haut",
+    "chinese": "往上/朝上/在上面",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 105,
+    "french": "entre… et…",
+    "chinese": "在……和……之间",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 106,
+    "french": "ici",
+    "chinese": "这里",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 107,
+    "french": "jusqu'à",
+    "chinese": "一直到……",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 108,
+    "french": "la première rue à gauche",
+    "chinese": "左边第一条街",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 109,
+    "french": "la première rue à droite",
+    "chinese": "右边第一条街",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 110,
+    "french": "là",
+    "chinese": "那里",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 111,
+    "french": "là-bas",
+    "chinese": "在那儿",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 112,
+    "french": "là-haut",
+    "chinese": "在那上边",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 113,
+    "french": "le long de",
+    "chinese": "沿着……",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 114,
+    "french": "loin de",
+    "chinese": "离……远",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 115,
+    "french": "prendre à gauche",
+    "chinese": "向左转",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 116,
+    "french": "prendre à droite",
+    "chinese": "向右转",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 117,
+    "french": "près de",
+    "chinese": "在……附近；离……不远",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 118,
+    "french": "proche de",
+    "chinese": "离……近",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 119,
+    "french": "quelque part",
+    "chinese": "某处；某地",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 120,
+    "french": "sous",
+    "chinese": "在……下边",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 121,
+    "french": "suivre",
+    "chinese": "沿着……而行；顺着",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 122,
+    "french": "sur",
+    "chinese": "在……上边",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 123,
+    "french": "tout droit",
+    "chinese": "一直；径直",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  }
+]

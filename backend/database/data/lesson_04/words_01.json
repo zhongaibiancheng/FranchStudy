@@ -1,0 +1,681 @@
+[
+  {
+    "id": 1,
+    "french": "admirateur",
+    "chinese": "欣赏者，崇拜者",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 2,
+    "french": "admiratrice",
+    "chinese": "欣赏者，崇拜者",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 3,
+    "french": "Afrique",
+    "chinese": "非洲",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 4,
+    "french": "l'Afrique du Nord",
+    "chinese": "北非",
+    "part_of_speech": "loc.nom.",
+    "part_of_speech_full_chinese": "名词短语"
+  },
+  {
+    "id": 5,
+    "french": "applaudir",
+    "chinese": "鼓掌",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 6,
+    "french": "s'arrêter",
+    "chinese": "停止；站住",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 7,
+    "french": "Atlantique",
+    "chinese": "大西洋",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 8,
+    "french": "au nom de",
+    "chinese": "以……的名义 / 叫……名字",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 9,
+    "french": "aventurier",
+    "chinese": "冒险家",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 10,
+    "french": "aventurière",
+    "chinese": "冒险家",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 11,
+    "french": "bateau",
+    "chinese": "船",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 12,
+    "french": "bien sûr",
+    "chinese": "当然",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 13,
+    "french": "bonnet",
+    "chinese": "（无边）软帽",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 14,
+    "french": "bonze",
+    "chinese": "和尚",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 15,
+    "french": "bonzesse",
+    "chinese": "尼姑",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 16,
+    "french": "ça fait",
+    "chinese": "有……时间了",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 17,
+    "french": "capitaine",
+    "chinese": "船长；上尉；（运动队）队长",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 18,
+    "french": "coiffé",
+    "chinese": "梳过头的；戴着帽子的/带着头饰的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 19,
+    "french": "corps",
+    "chinese": "身体",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 20,
+    "french": "curieux",
+    "chinese": "好奇的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 21,
+    "french": "curieuse",
+    "chinese": "好奇的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 22,
+    "french": "être curieux de",
+    "chinese": "对……感到好奇",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 23,
+    "french": "début",
+    "chinese": "开始；初期",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 24,
+    "french": "au début de",
+    "chinese": "在……初期",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 25,
+    "french": "découverte",
+    "chinese": "发现",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 26,
+    "french": "partir à la découverte de qch.",
+    "chinese": "出发探寻某物",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 27,
+    "french": "défendre",
+    "chinese": "保卫，捍卫",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 28,
+    "french": "depuis que",
+    "chinese": "自从……以后；打……起",
+    "part_of_speech": "loc.conj.",
+    "part_of_speech_full_chinese": "连词短语"
+  },
+  {
+    "id": 29,
+    "french": "dire que",
+    "chinese": "真想不到/竟然……",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 30,
+    "french": "diriger",
+    "chinese": "领导；指导",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 31,
+    "french": "dizaine",
+    "chinese": "十个左右，十来个",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 32,
+    "french": "une dizaine de",
+    "chinese": "十来个……",
+    "part_of_speech": "loc.nom.",
+    "part_of_speech_full_chinese": "名词短语"
+  },
+  {
+    "id": 33,
+    "french": "durant",
+    "chinese": "在……期间",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 34,
+    "french": "dynastie",
+    "chinese": "王朝，朝代",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 35,
+    "french": "sous la dynastie des Tang",
+    "chinese": "在唐朝",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 36,
+    "french": "également",
+    "chinese": "同样地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 37,
+    "french": "entendre dire",
+    "chinese": "听说",
+    "part_of_speech": "loc.verb.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 38,
+    "french": "environnement",
+    "chinese": "环境",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 39,
+    "french": "époque",
+    "chinese": "时期",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 40,
+    "french": "esprit",
+    "chinese": "精神，思想，意识",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 41,
+    "french": "Européen",
+    "chinese": "欧洲人",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 42,
+    "french": "Européenne",
+    "chinese": "欧洲人",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 43,
+    "french": "explorateur",
+    "chinese": "探险者；勘探者",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 44,
+    "french": "exploratrice",
+    "chinese": "探险者；勘探者",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 45,
+    "french": "exposition",
+    "chinese": "展览",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 46,
+    "french": "généreux",
+    "chinese": "慷慨的；大方的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 47,
+    "french": "généreuse",
+    "chinese": "慷慨的；大方的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 48,
+    "french": "genre",
+    "chinese": "种类，类型",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 49,
+    "french": "humain",
+    "chinese": "人类的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 50,
+    "french": "humaine",
+    "chinese": "人类的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 51,
+    "french": "île",
+    "chinese": "岛屿",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 52,
+    "french": "longtemps",
+    "chinese": "长时间地，长久地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 53,
+    "french": "merveille",
+    "chinese": "好东西；奇迹",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 54,
+    "french": "millier",
+    "chinese": "千，千数",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 55,
+    "french": "des milliers de",
+    "chinese": "成千上万（的）",
+    "part_of_speech": "loc.nom.",
+    "part_of_speech_full_chinese": "名词短语"
+  },
+  {
+    "id": 56,
+    "french": "mince",
+    "chinese": "瘦长的，细的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 57,
+    "french": "océan",
+    "chinese": "海洋，大洋",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 58,
+    "french": "oser",
+    "chinese": "敢于",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 59,
+    "french": "ouest",
+    "chinese": "西，西部，西方",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 60,
+    "french": "pas mal",
+    "chinese": "不错",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 61,
+    "french": "pèlerinage",
+    "chinese": "朝圣，进香",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 62,
+    "french": "Pèlerinage vers l'Ouest",
+    "chinese": "西行记/西游记",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 63,
+    "french": "pitre",
+    "chinese": "小丑",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 64,
+    "french": "pointe",
+    "chinese": "尖；海岬",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 65,
+    "french": "porter",
+    "chinese": "穿戴；拿；送",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 66,
+    "french": "qualité",
+    "chinese": "质量；品质",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 67,
+    "french": "rapporter",
+    "chinese": "带回",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 68,
+    "french": "rhum",
+    "chinese": "朗姆酒",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 69,
+    "french": "rond",
+    "chinese": "圆（形）的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 70,
+    "french": "ronde",
+    "chinese": "圆（形）的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 71,
+    "french": "scientifique",
+    "chinese": "科学的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 72,
+    "french": "scientifique",
+    "chinese": "科学家",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 73,
+    "french": "se rendre à",
+    "chinese": "到……去",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 74,
+    "french": "souriant",
+    "chinese": "微笑的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 75,
+    "french": "souriante",
+    "chinese": "微笑的",
+    "part_of_speech": "adj.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 76,
+    "french": "soutra",
+    "chinese": "佛经",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 77,
+    "french": "sûrement",
+    "chinese": "当然；肯定",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 78,
+    "french": "Tibet",
+    "chinese": "西藏",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 79,
+    "french": "traversée",
+    "chinese": "横跨，穿越",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 80,
+    "french": "un/une des",
+    "chinese": "……之一",
+    "part_of_speech": "loc.dét.",
+    "part_of_speech_full_chinese": "限定词短语"
+  },
+  {
+    "id": 81,
+    "french": "voile",
+    "chinese": "帆；帆船/帆类运动相关用词",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 82,
+    "french": "un micron",
+    "chinese": "微米（1/1 000 000 米）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 83,
+    "french": "un centimillimètre",
+    "chinese": "忽米（非常小的长度单位）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 84,
+    "french": "un décimillimètre",
+    "chinese": "丝米",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 85,
+    "french": "un millimètre",
+    "chinese": "毫米（1/1 000 米）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 86,
+    "french": "un centimètre",
+    "chinese": "厘米",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 87,
+    "french": "un décimètre",
+    "chinese": "分米",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 88,
+    "french": "un mètre",
+    "chinese": "米",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 89,
+    "french": "un décamètre",
+    "chinese": "十米",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 90,
+    "french": "un hectomètre",
+    "chinese": "百米",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 91,
+    "french": "un kilomètre",
+    "chinese": "千米",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 92,
+    "french": "un mille",
+    "chinese": "海里",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 93,
+    "french": "mille marin",
+    "chinese": "海里",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 94,
+    "french": "mille nautique",
+    "chinese": "海里",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 95,
+    "french": "visage",
+    "chinese": "脸，面孔",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 96,
+    "french": "figure",
+    "chinese": "脸，面孔（口语）",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 97,
+    "french": "face",
+    "chinese": "脸，面孔（一般用语）",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  }
+]

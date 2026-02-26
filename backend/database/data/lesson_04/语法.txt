@@ -1,0 +1,157 @@
+
+GRAMMAIRE 语法
+
+1. L'épithète indépendante (独立的形容语)
+(1) 概念(Notion)
+独立的形容语也被称作分词性形容语，用来突出所修饰名词的特征或性质，或用于表示原因、让步等。
+(2) 构成(Formation)
+形容词独立出来，用逗号与所修饰名词分开，便构成独立的形容语。
+(3) 用法(Emploi)
+独立的形容语仅常用于书面语。修辞中，使用独立的形容语可简化复合句，使其变得简练、明快。独立的形容语可置于名词前后，前一种用法更常见。在笔语中，这种前置结构(antéposition)可以使句子更加流畅。如：
+Malade, elle a consulté un médecin. 她因病去看了医生。(原因)
+Embarrassé, il a accepté sans dire. 虽然为难，但他什么都没说就同意了。(让步)
+Florence Arthaud, fatiguée mais souriante, salue gentiment ses admirateurs. 弗罗伦丝·阿尔诺虽然疲劳却面带微笑，她亲切地向仰慕她的人们招手致意。
+
+2. L'exclamation (感叹)
+表达感叹的方式多种多样。其中使用较多的有四种类型：
+(1) 感叹词(Interjection)。如：
+Ah! 啊!
+Ah! (Ouille!) Tu me fais mal ! 哎呀! 你弄疼我了!
+Bah! 得啦!
+Comment! 怎么!
+Enfin! Tu as fini! 你总算是搞完了!
+Oh! 啊!
+Oh là là! 哎呦呦!
+Paaaaaaaaaaf!!!!!! 啪! 啊! (连环画中用于形容耳光的拟声词)
+Tiens!!
+
+2) 感叹副词 quoi (l'adverbe exclamatif quoi)
+Quoi! Vous êtes encore là? 怎么? 您还没走?
+Je ferai de mon mieux, quoi! 我尽力而为吧!
+
+3) 感叹形容词 quel (l'adjectif exclamatif quel)
+Quel temps! 多坏的天气啊! (也可用来指：多好的天气啊!)
+Quelle chance tu as! 你多有运气呀! (你好运气!)
+
+4) 感叹结构 (les structures au usage d'exclamation)
+① C'est... qui / c'est... que. 如：
+C'est moi qui l'ai dit! 这话是我说的!
+C'est là que tu as vécu! 此前你就生活在这儿 si / tant / tellement. 如：
+Si j'avais su! 要是我早知道就好了!
+S'il pouvait s'exprimer en français! 他要是会讲法语就好了!
+Il est si gentil! 他是那么和蔼可亲!
+Il mange tant! 他可真能吃啊!
+Elle a tellement changé! 她变化太大了!
+
+③ comme / combien / que / qu'est-ce que 等。如：
+Comme il est courageux! 他多勇敢啊!
+Combien il est courageux! 他多勇敢啊!
+Qu'il est courageux! 他多勇敢啊!
+Qu'est'il est courageux! 他可真够勇敢的!
+
+※上面列出了一些比较常用和相对固定的感叹手段。实际上，感叹语气的表达因人而异。在必要时，几乎任何词、句都可以用来表示感叹。注意：
+
+①口语中感叹的表达一定要与语境有关，也就是说交际需要决定感叹的使用。只要改变语调，感叹语气几乎可以通过任何句子来表达。
+
+②书面语中，感叹句仅以感叹号标出。那么只要加上感叹号，书面语中几乎任何句子都可以成为感叹句。如：
+Il a osé me refuser! 他竟敢拒绝我!
+Réussir ou mourir! 不成功便成仁!
+Courage! 拿出勇气来!
+Ça, jamais de la vie! 这个休想!
+
+3. La phrase complexe (复合句)(1)
+复合句是由两个以上的独立分句组成。复合句中又可再细分为平列句、并列句和主从复合句。
+
+1) Les propositions juxtaposées (平列句)
+伴随的两个(或两个以上的)独立分句之间不用连词，仅用逗号、分冒号隔开，便组成平列句。
+
+平列分句之间虽然没有连词，但语义上通常存在着某种联系。比如，因果、时间、条件、解释、转折、对立、比较、列举、结果等关系。如：
+Il fait froid: il gèle. 天很冷，都结冰了。(结果)
+Il fait nuit, tout dort. 夜幕降临，万物沉睡。(时间)
+Il m’aide, je l’aime bien. 他帮助我很喜欢他。(因果)
+Ne bouge plus, sinon je tire. 别动，否则我开枪了。(条件)
+Il n’est pas venu, il a été malade. 他没来，他病了。(解释)
+Nous sommes fatigués, nous continuons. 我们虽然疲劳，但还是继续前进。(让步)
+L’un rit, l’autre pleure. 一个在笑，另一个在哭。(对立)
+Les uns dansent, les autres chantent. 一些人在跳舞，另一些人在唱歌。(对立)
+Plus je le connais, plus je l’admire. 我越了解他，就越钦佩他。(比较)
+Il faut partir: voilà le train. ，火车来了。(结果)
+Les étudiants lisent, écrivent, révisent leurs leçons. 学生们读书、写字、复习功课。(列举)
+
+2) Les propositions coordonnées (并列句)
+用并列连词连接起来的两个(或两个以上的)独立分句组成并列句。法语中常见的并列连词有：et, ou, ni, mais, or, donc, car 等。如：
+Pierre est étudiant et Anne travaille dans une usine. 皮埃尔是大学生，而安娜在一家工厂工作。
+Lève-toi vite, ou tu vas rater le train. 快起床，否则你要误火车了。
+Il n’a pas faim, ni soif. 他不饿，也不渴。
+Il n’est pas grand, mais il est fort. 他个子不高，但很结实。
+Je n’ai pas pu venir hier, car j’étais malade. 我昨天没能来，因为我病了。
+
+3) Les propositions subordonnées (主从复合句)
+主从复合句由主句和从句构成，它们之间用从属连词、连、关系代词或疑问词等连接。被连接的分句(即从句)是另一个分句(即主句)的某个成分(如：主语、宾语、状语、补语等)。如：
+Je sais qu’il viendra. 我知道他会来。
+Qu’il viendra, je le sais. 他会来，这事我知道。
+Je ne sais pas pourquoi il est parti. 我不知道他为什么走了。
+Je me demande s’il viendra. 我琢磨他会不会来。
+
+ La conjugaison (动词变位)
+1) défendre
+présent
+
+je défends nous défendons
+
+tu défends vous défendez
+
+il défend ils défendent
+
+elle défend elles défendent
+
+futur simple : je défendrai nous défendrons
+
+participe passé : défendu
+2) se rendre
+présent
+
+je me rends nous nous rendons
+
+tu te rends vous vous rendez
+
+il se rend ils se rendent
+
+elle se rend elles se rendent
+
+futur simple : je me rendrai nous nous rendrons
+
+participe passé : rend
+
+DES MOTS POUR LE DIRE
+1. La taille (身材)
+Il est grand et fort. 他又高又壮。
+Il est petit et maigre. 他又瘦又矮。
+Il est gros / mince. 他胖 / 瘦。
+Il a une grande / petite taille. 他身材高大 / 矮小。
+Il est de taille moyenne. 他中等身材。
+Il mesure / fait 1,80 m. 他身高一米八。
+
+
+2. Les yeux et les cheveux (眼睛和头发)
+Il a les yeux noirs/bleus/marron. 他的眼睛是黑/栗色的。
+Il a les yeux grands/petits. 他有一双大/小眼睛。
+Il a les cheveux noirs/bruns/châtains/blonds. 他的头发是黑/棕/栗/金色的。
+Il a les cheveux longs/courts. 他一头长/短发。
+
+3. Le visage (脸庞)
+Il a le visage rond/allongé/carré/ovale. 他的脸是圆/长/方/椭圆形的。
+Il a les joues rouges. 他红脸膛。
+Il a une grande bouche. 他的嘴挺大。
+Il a un grand nez / un nez aquilin.长着个大鼻子/鹰钩鼻子。
+Il a de la moustache / de la barbe. 他留着小胡子/络腮胡子。
+Il a un long menton. 他下巴长。
+
+4. Les autres parties du corps (身体的其他部位)
+Il a une large poitrine. 他的胸很宽。
+Ses mains et ses pieds sont grands. 他手大脚大。
+Il a un cou long. 他脖子长。
+Il a une grosse tête. 他脑袋大。
+Il a de longues jambes. 他腿长。
+Il a les doigts longs et minces. 他手指又细又长。
+Il a un gros ventre. 他肚子大。

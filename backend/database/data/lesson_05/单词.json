@@ -1,0 +1,800 @@
+
+[
+    {
+      "french": "achat",
+      "chinese": "购买",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "faire des achats",
+      "chinese": "买东西",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "alimentaire",
+      "chinese": "食品的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "amical, e (pl. ~aux)",
+      "chinese": "友好的，朋友的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "approcher (s') (+de)",
+      "chinese": "靠近······，走近······",
+      "partOfSpeech": "v.pr."
+    },
+    {
+      "french": "argenté, e",
+      "chinese": "银色的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "avoir lieu",
+      "chinese": "举行；发生",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "beige",
+      "chinese": "纯羊毛色",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "beige",
+      "chinese": "纯羊毛色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "bien",
+      "chinese": "好处，益处",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "faire du bien à",
+      "chinese": "对······有好处",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "blazer [blazer, blazer]",
+      "chinese": "〈英〉阔条法兰绒上衣；运动上装",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "bleu",
+      "chinese": "蓝色的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "bleu",
+      "chinese": "蓝色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "bleu clair",
+      "chinese": "浅蓝色",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "bleu foncé",
+      "chinese": "深蓝色",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "boucherie",
+      "chinese": "肉店",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "boulangerie",
+      "chinese": "面包店",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "boulot",
+      "chinese": "〈俗〉工作",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "cabine d'essayage",
+      "chinese": "试衣间",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "caisse",
+      "chinese": "收银台",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "cas",
+      "chinese": "情况；案子",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "celui, celle, ceux, celles",
+      "chinese": "这一个，那一个；这些，那些",
+      "partOfSpeech": "pron. dém."
+    },
+    {
+      "french": "charcuterie",
+      "chinese": "熟肉制品店",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "chemisier",
+      "chinese": "女式衬衣",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "chic",
+      "chinese": "漂亮的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "choix",
+      "chinese": "选择，挑选",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "classique",
+      "chinese": "老式的；古典的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "commercial, e (pl. ~aux)",
+      "chinese": "商业的；贸易的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "corvée",
+      "chinese": "苦役，苦差",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "rose",
+      "chinese": "玫瑰红色的，粉红色的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "rose",
+      "chinese": "玫瑰红，粉红色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "sale",
+      "chinese": "肮脏的；（指天气）坏的，恶劣的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "sérieux, se",
+      "chinese": "严肃的；（颜色）素的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "sévère",
+      "chinese": "严格的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "social, e (pl. ~aux)",
+      "chinese": "社会的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "solde",
+      "chinese": "削价出售的商品；处理品",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "(être) en solde",
+      "chinese": "削价出售",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "spécialement",
+      "chinese": "专门地；特别地",
+      "partOfSpeech": "adv."
+    },
+    {
+      "french": "supérette",
+      "chinese": "小型超市（面积 120m²-400m² 之间的小型自选商店）",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "taille",
+      "chinese": "身材；尺寸；规模",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "trouver",
+      "chinese": "认为，觉得",
+      "partOfSpeech": "v.t."
+    },
+    {
+      "french": "usé, e",
+      "chinese": "用旧的；过时的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "valoir",
+      "chinese": "价值；值得",
+      "partOfSpeech": "v.i."
+    },
+    {
+      "french": "vendeur, se",
+      "chinese": "售货员",
+      "partOfSpeech": "n."
+    },
+    {
+      "french": "vêtement",
+      "chinese": "衣服",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "vif, ve",
+      "chinese": "鲜艳的；强烈的；活跃的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "vitrine",
+      "chinese": "橱窗",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "costume",
+      "chinese": "西服套装",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "couleur",
+      "chinese": "颜色",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "couple",
+      "chinese": "夫妻俩；两口子",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "courses",
+      "chinese": "购物",
+      "partOfSpeech": "n.f.pl."
+    },
+    {
+      "french": "faire les courses",
+      "chinese": "购物",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "crémerie [kre'mri, kremari]",
+      "chinese": "乳品店",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "démodé, e",
+      "chinese": "过时的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "dépendre (+de)",
+      "chinese": "取决于；视······而定",
+      "partOfSpeech": "v.t.ind."
+    },
+    {
+      "french": "discuter (+de)",
+      "chinese": "讨论······",
+      "partOfSpeech": "v.t.ind."
+    },
+    {
+      "french": "dynamique",
+      "chinese": "充满活力的；活泼的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "échanger",
+      "chinese": "交换；交流",
+      "partOfSpeech": "v.t."
+    },
+    {
+      "french": "éclat",
+      "chinese": "光彩夺目",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "en plein air",
+      "chinese": "露天的，户外的",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "en un rien de temps",
+      "chinese": "一瞬间，一眨眼的功夫",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "envie",
+      "chinese": "热望，渴望",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "avoir envie de faire qch.",
+      "chinese": "十分想做某事",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "épicerie",
+      "chinese": "食品杂货店",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "établir",
+      "chinese": "建立",
+      "partOfSpeech": "v.t."
+    },
+    {
+      "french": "être en (pleine) forme",
+      "chinese": "状态良好",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "euh",
+      "chinese": "嗯，唔",
+      "partOfSpeech": "interj."
+    },
+    {
+      "french": "exister",
+      "chinese": "存在；有",
+      "partOfSpeech": "v.i."
+    },
+    {
+      "french": "faire jeune",
+      "chinese": "显得年轻",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "faire le marché",
+      "chinese": "逛（菜）市场",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "fermé, e",
+      "chinese": "封闭的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "fou, folle",
+      "chinese": "疯狂的；过多的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "fréquenté, e",
+      "chinese": "人多的，人常去的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "galerie",
+      "chinese": "长廊，游廊；大百货商店；画廊",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "garer (se)",
+      "chinese": "停车",
+      "partOfSpeech": "v.pr."
+    },
+    {
+      "french": "gris",
+      "chinese": "灰色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "hypermarché",
+      "chinese": "大型超市",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "il vaut mieux",
+      "chinese": "最好······",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "importance",
+      "chinese": "重要性",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "inconvénient",
+      "chinese": "不便之处",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "information",
+      "chinese": "信息，消息",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "jupe",
+      "chinese": "短裙",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "luxe",
+      "chinese": "奢侈，豪华",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "marchand, e",
+      "chinese": "商人",
+      "partOfSpeech": "n."
+    },
+    {
+      "french": "marchand, e",
+      "chinese": "商品的，商业的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "marron",
+      "chinese": "栗子；栗色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "marron",
+      "chinese": "栗色的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "meilleur, e",
+      "chinese": "更好的（bon的比较级）",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "mieux",
+      "chinese": "更好地（bien的比较级）",
+      "partOfSpeech": "adv."
+    },
+    {
+      "french": "modèle",
+      "chinese": "榜样，典型",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "modèle",
+      "chinese": "模范的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "moins",
+      "chinese": "较少，更少",
+      "partOfSpeech": "adv."
+    },
+    {
+      "french": "paire",
+      "chinese": "一双，一对，一副",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "une paire de",
+      "chinese": "一双······",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "pantalon",
+      "chinese": "裤子",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "parfait, e",
+      "chinese": "完美的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "parfaitement",
+      "chinese": "完美地",
+      "partOfSpeech": "adv."
+    },
+    {
+      "french": "pâtisserie",
+      "chinese": "糕点店",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "périphérie",
+      "chinese": "城市的外围，城郊",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "permettre",
+      "chinese": "允许；使······能够做某事",
+      "partOfSpeech": "v.t."
+    },
+    {
+      "french": "plein, e",
+      "chinese": "充满的；完全的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "plutôt",
+      "chinese": "更倾向于······；宁愿",
+      "partOfSpeech": "adv."
+    },
+    {
+      "french": "pourre",
+      "chinese": "紫红色的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "pourre",
+      "chinese": "紫红色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "pratique",
+      "chinese": "方便的，实用的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "probable",
+      "chinese": "可能的，大概的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "produit",
+      "chinese": "产品",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "provisions",
+      "chinese": "食品，食物",
+      "partOfSpeech": "n.f.pl."
+    },
+    {
+      "french": "aller aux provisions",
+      "chinese": "买食物",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "faire ses provisions",
+      "chinese": "买食物",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "quotidien, ne",
+      "chinese": "每日的，天天的",
+      "partOfSpeech": "a."
+    },
+    {
+      "french": "quotidien",
+      "chinese": "日报",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "rayon",
+      "chinese": "柜台；光线",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "remettre",
+      "chinese": "交给；交还",
+      "partOfSpeech": "v.t."
+    },
+    {
+      "french": "reprochen",
+      "chinese": "指责；责备",
+      "partOfSpeech": "v.t."
+    },
+    {
+      "french": "champion, ne",
+      "chinese": "冠军",
+      "partOfSpeech": "n."
+    },
+    {
+      "french": "couleur",
+      "chinese": "颜色",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "couple",
+      "chinese": "夫妻俩；两口子",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "courses",
+      "chinese": "购物",
+      "partOfSpeech": "n.f.pl."
+    },
+    {
+      "french": "éclat",
+      "chinese": "光彩夺目",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "envie",
+      "chinese": "热望，渴望",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "galerie",
+      "chinese": "长廊，游廊；大百货商店；画廊",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "gris",
+      "chinese": "灰色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "hypermarché",
+      "chinese": "大型超市",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "importance",
+      "chinese": "重要性",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "inconvénient",
+      "chinese": "不便之处",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "information",
+      "chinese": "信息，消息",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "jupe",
+      "chinese": "短裙",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "luxe",
+      "chinese": "奢侈，豪华",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "marron",
+      "chinese": "栗子；栗色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "modèle",
+      "chinese": "榜样，典型",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "paire",
+      "chinese": "一双，一对，一副",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "pantalon",
+      "chinese": "裤子",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "pâtisserie",
+      "chinese": "糕点店",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "périphérie",
+      "chinese": "城郊",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "pourre",
+      "chinese": "紫红色",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "produit",
+      "chinese": "产品，食品",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "quotidien",
+      "chinese": "日报",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "rayon",
+      "chinese": "柜台；光线",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "supermarché",
+      "chinese": "超级市场",
+      "partOfSpeech": "n.m."
+    },
+    {
+      "french": "taille",
+      "chinese": "身材；尺寸；规模",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "vendeur, se",
+      "chinese": "售货员",
+      "partOfSpeech": "n."
+    },
+    {
+      "french": "vitrine",
+      "chinese": "橱窗",
+      "partOfSpeech": "n.f."
+    },
+    {
+      "french": "discuter de qch.",
+      "chinese": "讨论某事",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "discuter sur qch.",
+      "chinese": "讨论某事（同义表达）",
+      "partOfSpeech": "词组"
+    },
+    {
+      "french": "le week-end 《faire le marché》 pour l'ambiance.",
+      "chinese": "周末去“逛市场”感受氛围。",
+      "partOfSpeech": "句子"
+    },
+    {
+      "french": "Faire des courses à Paris, c'est pas une corvée mais un vrai plaisir quotidien.",
+      "chinese": "在巴黎购物不是苦差事，而是一种真正的日常乐趣。",
+      "partOfSpeech": "句子"
+    },
+    {
+      "french": "On va au Printemps ou aux Galeries Lafayette ?",
+      "chinese": "咱们去春天百货商场还是去老佛爷百货商场？",
+      "partOfSpeech": "句子"
+    }
+  ],
+  "measurement_units": [
+    {
+      "french": "un milligramme",
+      "chinese": "毫克",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "un centigramme",
+      "chinese": "厘克",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "un décigramme",
+      "chinese": "分克",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "un gramme",
+      "chinese": "克",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "un décagramme",
+      "chinese": "十克",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "un hectogramme",
+      "chinese": "百克",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "un kilogramme",
+      "chinese": "公斤，千克",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "un quintal",
+      "chinese": "公担（100公斤）",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "une tonne",
+      "chinese": "吨",
+      "partOfSpeech": "计量单位"
+    },
+    {
+      "french": "une livre",
+      "chinese": "一市斤（500克）",
+      "partOfSpeech": "计量单位"
+    }
+  ]

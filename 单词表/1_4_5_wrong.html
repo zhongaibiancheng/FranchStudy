@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>单词练习 - 2026-01-08 17:03:24 - 折叠默写</title>
+  <style>
+    /* A4 打印设置 */
+    @page { size: A4; margin: 10mm; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; color:#111; }
+    .page-title { font-size: 14pt; font-weight: 700; margin: 0 0 6mm 0; }
+    .hint { font-size: 10pt; color:#555; margin: 0 0 4mm 0; }
+
+    /* 整体表格：三列 */
+    .sheet { width: 190mm; } /* A4 宽 210mm，左右各 10mm margin => 190mm */
+    .row {
+      display: flex;
+      justify-content:space-between;
+      grid-template-columns: 60mm 70mm 60mm; /* 左/中/右 */
+      align-items: stretch;
+      min-height: 9mm;
+      border-bottom: 1px solid #ddd;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .cell { box-sizing: border-box; }
+
+    /* 左列：答案区 */
+    .left-inner { display:flex; gap:2mm; align-items: baseline; }
+    .idx { width: 7mm; color:#666; }
+    .fr { font-weight: 700; }
+    .pos { color:#666; font-size: 9pt; margin-left: 2mm; }
+
+    /* 右列：中文提示 */
+    .zh { font-size: 11pt; text-align: right;max-width:100px; }
+
+    /* 中列：默写区 + 折叠线 */
+    .mid {
+      position: relative;
+      /* 两侧“折叠线”：多条竖虚线 */
+      // border-left: 1px dashed #999;
+      // border-right: 1px dashed #999;
+    }
+    .mid::before, .mid::after {
+      content: "";
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 0;
+      // border-left: 1px dashed #ccc;
+      pointer-events: none;
+    }
+    // .mid::before { left: 3mm; }   /* 多一条辅助折线 */
+    // .mid::after  { right: 3mm; }  /* 多一条辅助折线 */
+
+    .write-area { height: 100%; position: relative; }
+    /* 横线：方便手写 */
+    .lines {
+      position: absolute;
+      left: 0; right: 0; top: 1.5mm; bottom: 1.5mm;
+      background: repeating-linear-gradient(
+        to bottom,
+        transparent 0mm,
+        transparent 5mm,
+        rgba(0,0,0,0.25) 5mm,
+        rgba(0,0,0,0.25) 5.15mm
+      );
+      opacity: 0.35;
+      // border-right: 1px dashed black;
+      // border-left: 1px dashed black;
+    }
+
+    /* 批改对/错框（手工勾选） */
+    .mark {
+      position: absolute;
+      right: 2mm;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+      font-size: 9pt;
+      color:#444;
+      background: rgba(255,255,255,0.75);
+      padding: 0.5mm 1mm;
+      border-radius: 2mm;
+    }
+    .box {
+      display:inline-block;
+      width: 4mm;
+      height: 4mm;
+      border: 1px solid #333;
+    }
+    .box-label { margin-right: 2mm; }
+
+    /* 打印时不显示滚动条等 */
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-title">第 1,4,5 课单词练习 - 2026-01-08 16:48:08（折叠默写纸）</div>
+  <div class="hint">用法：把左侧“法语答案区”沿中间虚线向内折叠遮住；根据右侧中文在中间默写；写完展开对照。</div>
+
+  <div class="sheet">
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">1.</span>
+            <span class="fr">découvrir</span>
+            <span class="pos">v.t.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">发现，发觉<span class="pos">v.t.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">2.</span>
+            <span class="fr">église</span>
+            <span class="pos">n.f.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">教堂<span class="pos">n.f.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">3.</span>
+            <span class="fr">réaliser</span>
+            <span class="pos">v.t.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">实现<span class="pos">v.t.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">4.</span>
+            <span class="fr">colonie de vacances</span>
+            <span class="pos">n.f.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">夏令营<span class="pos">n.f.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">5.</span>
+            <span class="fr">pendant</span>
+            <span class="pos">prép.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">在……期间<span class="pos">prép.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">6.</span>
+            <span class="fr">à la campagne</span>
+            <span class="pos">loc.adv.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">去乡下<span class="pos">loc.adv.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">7.</span>
+            <span class="fr">un sport</span>
+            <span class="pos">n.m.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">运动<span class="pos">n.m.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">8.</span>
+            <span class="fr">à la mode</span>
+            <span class="pos">loc.adj.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">流行的<span class="pos">loc.adj.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">9.</span>
+            <span class="fr">passer les fêtes</span>
+            <span class="pos">loc.verb.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">过节<span class="pos">loc.verb.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">10.</span>
+            <span class="fr">de bonne heure</span>
+            <span class="pos">loc.adv.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">很早<span class="pos">loc.adv.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">11.</span>
+            <span class="fr">faire une promenade à pied</span>
+            <span class="pos">loc.verb.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">步行散步<span class="pos">loc.verb.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">12.</span>
+            <span class="fr">par endroits</span>
+            <span class="pos">loc.adv.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">在某些地方<span class="pos">loc.adv.</span></div>
+        </div>
+      </div>
+    
+  </div>
+<div class="sheet">
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">1.</span>
+            <span class="fr">coiffé</span>
+            <span class="pos">adj.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">梳过头的；戴着帽子的/带着头饰的<span class="pos">adj.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">2.</span>
+            <span class="fr">découverte</span>
+            <span class="pos">n.f.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">发现<span class="pos">n.f.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">3.</span>
+            <span class="fr">époque</span>
+            <span class="pos">n.f.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">时期<span class="pos">n.f.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">4.</span>
+            <span class="fr">esprit</span>
+            <span class="pos">n.m.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">精神，思想，意识<span class="pos">n.m.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">5.</span>
+            <span class="fr">Pèlerinage vers l'Ouest</span>
+            <span class="pos">n.m.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">西行记/西游记<span class="pos">n.m.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">6.</span>
+            <span class="fr">rapporter</span>
+            <span class="pos">v.t.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">带回<span class="pos">v.t.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">7.</span>
+            <span class="fr">se rendre à</span>
+            <span class="pos">v.pr.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">到……去<span class="pos">v.pr.</span></div>
+        </div>
+      </div>
+    
+  </div>
+  <div class="sheet">
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">1.</span>
+            <span class="fr">faire les courses</span>
+            <span class="pos">词组</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">购物<span class="pos">词组</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">2.</span>
+            <span class="fr">démodé, e</span>
+            <span class="pos">a.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">过时的<span class="pos">a.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">3.</span>
+            <span class="fr">établir</span>
+            <span class="pos">v.t.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">建立<span class="pos">v.t.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">4.</span>
+            <span class="fr">être en (pleine) forme</span>
+            <span class="pos">词组</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">状态良好<span class="pos">词组</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">5.</span>
+            <span class="fr">fou, folle</span>
+            <span class="pos">a.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">疯狂的；过多的<span class="pos">a.</span></div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">6.</span>
+            <span class="fr">fréquenté, e</span>
+            <span class="pos">a.</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">人多的，人常去的<span class="pos">a.</span></div>
+        </div>
+      </div>
+    
+  </div>
+</body>
+</html>
