@@ -41,7 +41,7 @@ def register():
     email = data.get('email')
     password = data.get('password')
     confirm_password = data.get('confirm_password')
-    
+    print(username,email,password,confirm_password)
     # 验证必要参数
     if not all([username, email, password]):
         current_app.logger.warning('注册失败：缺少必要参数')
@@ -103,32 +103,33 @@ def register():
         current_app.logger.warning('注册失败：密码强度不足，需要至少一个数字')
         return jsonify({'error': '密码必须包含至少一个数字'}), 400
     
-    # # 检查用户名是否已存在
-    # existing_user = User.query.filter_by(username=username).first()
-    # if existing_user:
-    #     current_app.logger.warning(f'注册失败：用户名已存在 - {username}')
-    #     return jsonify({'error': '用户名已被占用'}), 409
-    
-    # # 检查邮箱是否已存在
-    # existing_email = User.query.filter_by(email=email).first()
-    # if existing_email:
-    #     current_app.logger.warning(f'注册失败：邮箱已存在 - {email}')
-    #     return jsonify({'error': '邮箱已被注册'}), 409
-    
-    # # 创建新用户
-    # hashed_password = generate_password_hash(password)
-    # new_user = User(
-    #     username=username,
-    #     email=email,
-    #     password_hash=hashed_password,
-    #     is_admin=False
-    # )
-    
-    # db.session.add(new_user)
-    # db.session.commit()
     with get_db() as conn:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
             try:
+                #username check
+                sql = """
+                    select 1 from users where username='%s'
+                """%(username)
+                current_app.logger.debug(f'注册 user sql：{sql}')
+                
+                cur.execute(sql)
+                user = cur.fetchone()
+                if user:
+                    current_app.logger.warning(f'注册失败：用户名已存在 - {username}')
+                    return jsonify({'error': '用户名已被占用'}), 409
+                
+                #email check
+                sql = """
+                    select 1 from users where email='%s'
+                """%(email)
+                current_app.logger.debug(f'注册 user sql：{sql}')
+                
+                cur.execute(sql)
+                user = cur.fetchone()
+                if user:
+                    current_app.logger.warning(f'注册失败：邮箱已存在 - {email}')
+                    return jsonify({'error': '邮箱已被注册'}), 409
+                
                 # 创建新用户
                 hashed_password = generate_password_hash(password)
                 sql = """
@@ -164,10 +165,11 @@ def register():
                     'success': True,
                     'message': '注册成功',
                     'token': token,  # 可选，根据需求决定是否返回 token
-                    # 'user':['username':username,'id':user['id']]
+                    'user':{'username':username,'id':user['id']}
                 }), 201
         
             except Exception as e:
+                conn.rollback()
                 current_app.logger.error(f'注册过程中发生错误: {str(e)}', exc_info=True)
                 return jsonify({'error': '服务器内部错误'}), 500
     
@@ -231,14 +233,12 @@ def login():
     with get_db() as conn:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
             try:
-                # 创建新用户
-                hashed_password = generate_password_hash(password)
                 sql = """
                         select 
                             id,
                             username 
                         from 
-                            uses 
+                            users 
                         where 
                             username='%s';
                 """%(username)
@@ -247,7 +247,7 @@ def login():
                 
                 user  = cur.fetchone()
 
-                if not user or not user.check_password(password):
+                if not user or not check_password_hash(generate_password_hash(password),password):
                     current_app.logger.warning(f'登录失败：用户名或密码错误 - {username}')
                     return jsonify({'error': '用户名或密码错误'}), 401
         
@@ -262,7 +262,7 @@ def login():
                     'success': True,
                     'message': '登录成功',
                     'token': token,
-                    'user': user.to_dict()
+                    'user': dict(user)
                 })
             except Exception as e:
                 current_app.logger.error(f'登录过程中发生错误: {str(e)}', exc_info=True)

@@ -34,11 +34,11 @@ def setup_logging(app):
             '%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'
         )
         file_handler.setFormatter(formatter)
-        file_handler.setLevel(logging.INFO)
+        file_handler.setLevel(logging.DEBUG)
         
         # 添加处理器到应用
         app.logger.addHandler(file_handler)
-        app.logger.setLevel(logging.INFO)
+        app.logger.setLevel(logging.DEBUG)
         app.logger.info('应用启动')
         
     except PermissionError as e:
