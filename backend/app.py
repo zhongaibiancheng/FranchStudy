@@ -1,142 +1,94 @@
-# backend/app.py
+
+import sys
 import os
-import requests
-from flask import Flask, request, jsonify
+import subprocess
+from db import init_db_pool
 from flask_cors import CORS
+from flask import Flask, request
 
-app = Flask(__name__)
-CORS(app)  # 允许前端跨域访问
+# 添加当前目录到Python路径
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")
-DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"  # 按你实际的DeepSeek API改
+from config import BaseConfig
+import logging
+from logging_config import setup_logging
 
-def call_deepseek(messages):
-    """
-    调用 DeepSeek 大模型的辅助函数。
-    注意：下面这个请求格式只是“接近 OpenAI Chat API 的示例”，
-    你需要根据 DeepSeek 官方文档调整 url / headers / body。
-    """
-    if not DEEPSEEK_API_KEY:
-        # 开发阶段方便调试，可以先返回一个假数据
-        return {
-            "meaning": "【DEMO】这里是句子的中文大意。",
-            "vocab": [],
-            "grammar": "【DEMO】这里是语法说明。",
-            "examples": [],
-            "tips": "请配置 DEEPSEEK_API_KEY 才能真实调用模型。"
-        }
+# 导入蓝图
+from routes.spellingbee_routes import spellingbee_bp
+from routes.auth_routes import auth_bp
 
-    headers = {
-        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
-        "Content-Type": "application/json"
-    }
+def create_app(config_class=None):
+    """创建应用，支持测试配置"""
+    app = Flask(__name__)
+    
+    # 1. 首先加载配置类
+    if config_class:
+        app.config.from_object(config_class)
+    else:
+        app.config.from_object(BaseConfig)
+    
+    setup_logging(app)
 
-    payload = {
-        "model": "deepseek-chat",  # 替换成你实际可用的模型名称
-        "messages": messages,
-        "temperature": 0.3
-    }
+    # 初始化数据库
+    # ⭐ 只初始化一次
+    init_db_pool(app.config)
 
-    resp = requests.post(DEEPSEEK_API_URL, headers=headers, json=payload, timeout=30)
-    resp.raise_for_status()
-    data = resp.json()
+    # 启用CORS，允许所有来源
+    CORS(app, resources={r"/api/*": {"origins": "*"}})
 
-    # 这里假设 DeepSeek 返回格式类似 OpenAI：
-    content = data["choices"][0]["message"]["content"]
-
-    # 让模型直接输出 JSON 字符串，我们再解析
-    try:
-        import json
-        parsed = json.loads(content)
-        return parsed
-    except Exception:
-        # 如果解析失败，就当成纯文本包一下
-        return {
-            "raw": content
-        }
-
-
-@app.route("/api/explain", methods=["POST"])
-def explain_sentence():
-    """
-    输入：
-    {
-      "lesson_title": "Rester ou partir ?",
-      "sentence_id": "D10",
-      "french_text": "Si vous faites du ski, j’en ferai aussi. Je suis assez grand maintenant !",
-      "chinese_hint": "如果你们去滑雪，我也要去。我现在年纪已经够大了！",  # 可选
-      "question": "这句话什么意思？帮我讲讲语法，用适合初二学生的中文。"
-    }
-    输出：
-    {
-      "ok": true,
-      "data": {
-        "meaning": "...",
-        "vocab": [...],
-        "grammar": "...",
-        "examples": [...],
-        "tips": "..."
-      }
-    }
-    """
-    data = request.get_json(force=True) or {}
-    lesson_title = data.get("lesson_title", "")
-    sentence_id = data.get("sentence_id", "")
-    french_text = data.get("french_text", "")
-    chinese_hint = data.get("chinese_hint", "")
-    user_question = data.get("question", "")
-
-    if not french_text:
-        return jsonify({"ok": False, "error": "french_text 不能为空"}), 400
-
-    # 构造发给 DeepSeek 的 messages
-    system_prompt = """
-你是一名用中文给初二学生讲解法语的老师。
-学生使用的教材是《北外法语 马晓宏 第二册》，水平偏弱，目标是能听懂课文、通过校内考试。
-
-请你对给出的这句法语做【结构化讲解】，要求输出 JSON 格式，不要多余文字：
-{
-  "meaning": "用简单中文写出整句大意",
-  "vocab": [
-    { "word": "...", "explain": "中文解释 + 词性 + 简单例子（如果需要）" }
-  ],
-  "grammar": "用初二能听懂的语言，解释这句中涉及的语法点（如将来时、si句型、tout用法等）",
-  "examples": [
-    { "french": "另一句类似结构的例句", "chinese": "对应中文" }
-  ],
-  "tips": "1~2条学习建议，比如怎么记、容易错在哪里"
-}
-
-注意：
-- 用简体中文解释；
-- 语法说明尽量口语化、举例子，不要讲专业术语。
-"""
-
-    user_content = f"""
-课文标题：{lesson_title}
-句子ID：{sentence_id}
-
-法语原句：
-{french_text}
-
-（如果有）课本上的中文大意：
-{chinese_hint}
-
-学生的问题：
-{user_question or "请帮我讲懂这句话，包括词汇和语法。"}
-"""
-
-    messages = [
-        {"role": "system", "content": system_prompt.strip()},
-        {"role": "user", "content": user_content.strip()}
+    # 一次性注册所有蓝图
+    blueprints = [
+        (auth_bp, '/api/auth'),
+        (spellingbee_bp, '/api/spellingbee'),
     ]
+    
+    for blueprint, url_prefix in blueprints:
+        app.register_blueprint(blueprint, url_prefix=url_prefix)
+    
+    # 添加请求日志
+    @app.before_request
+    def log_request_info():
+        app.logger.info('请求: %s %s', request.method, request.url)
+    
+    @app.after_request
+    def log_response_info(response):
+        app.logger.info('响应: %s %s - %s', request.method, request.url, response.status)
+        return response
+    
+    # 添加错误处理日志
+    # @user_bp.errorhandler(404)
 
-    result = call_deepseek(messages)
+    
+    @app.errorhandler(Exception)
+    def not_found(error):
+        print("请求的资源不存在请求的资源不存在请求的资源不存在请求的资源不存在")
+        return {'error': '请求的资源不存在'}, 404
+    
+    def handle_exception(e):
+        app.logger.error('未处理的异常: %s', str(e), exc_info=True)
+        return {"error": "服务器内部错误"}, 500
+    
+    # 健康检查路由
+    @app.route('/health', methods=['GET'])
+    def health_check():
+        return {'status': 'healthy', 'service': 'quiz-platform-api'}
+    
+    return app
 
-    return jsonify({"ok": True, "data": result})
+# 为了支持flask run命令
+app = create_app()
 
+if __name__ == '__main__':
+    # 获取主机和端口配置
+    host = os.environ.get('HOST', '0.0.0.0')
+    port = int(os.environ.get('PORT', 5000))
+    debug = os.environ.get('DEBUG', 'True').lower() == 'true'
+    
+    # 在调试模式下也启用日志
+    if debug:
+        app.logger.setLevel(logging.DEBUG)
+        app.logger.debug('应用在调试模式下启动')
 
-if __name__ == "__main__":
-    # 开发环境直接运行
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.logger.info(f'启动应用: host={host}, port={port}, debug={debug}')
+    app.run(host=host, port=port, debug=debug)
 
