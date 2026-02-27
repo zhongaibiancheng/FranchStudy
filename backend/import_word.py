@@ -20,9 +20,9 @@ app.config.from_object(BaseConfig)
 # ⭐ 只初始化一次
 init_db_pool(app.config)
 
-file_path = './database/data/book_01/words_13_14.json'
-book = 1
-lesson = 13
+file_path = './database/data/lesson_05/words_01.json'
+book = 2
+lesson = 5
 
 import json
 

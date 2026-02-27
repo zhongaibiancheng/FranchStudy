@@ -61,7 +61,6 @@ def create_exercise():
     
     user_id = g.current_user['id']
     
-    current_app.logger.info(f'用户 {user_id} 请求创建练习，模式: {mode}, 书籍: {book}, 课程: {lesson}') 
     with get_db() as conn:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
             try:
