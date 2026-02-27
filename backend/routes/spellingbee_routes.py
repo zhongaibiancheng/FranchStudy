@@ -43,9 +43,11 @@ def create_exercise():
         current_app.logger.warning('登录失败：无效的 JSON 格式')
         return jsonify({'error': '请求数据格式错误，必须是有效的 JSON'}), 400
     
-    if 'mode' not in data:
+    if 'mode' not in data or 'count' not in data:
         return jsonify({'error': '缺少字段 mode'}), 400
     mode = data.get('mode')
+    count = data.get('count')
+    
     if mode not in ('lesson', 'wrongbook'):
         return jsonify({'error': 'mode 只能是 lesson 或 wrongbook'}), 400
     
@@ -84,7 +86,7 @@ def create_exercise():
                                 ORDER BY random()
                                 LIMIT %s;
                     """
-                    cur.execute(sql,(user_id,book,lesson,10))
+                    cur.execute(sql,(user_id,book,lesson,count))
                     
                     words  = cur.fetchall()
             
@@ -122,7 +124,7 @@ def create_exercise():
                                 ORDER BY random()
                                 LIMIT %s;
                     """
-                    cur.execute(sql,(user_id,10))
+                    cur.execute(sql,(user_id,count))
                     
                     words  = cur.fetchall()
             
