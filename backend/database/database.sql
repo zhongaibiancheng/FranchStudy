@@ -57,11 +57,13 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO franchuse
 GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO franchuser;
 
 --exercise_words
+drop table if exists exercise_words;
 CREATE TABLE "exercise_words" (
 	id SERIAL NOT NULL, 
 	word_id integer not null,
 	user_id integer not null,
 	result integer not null default 0, -- 0:wrong 1:right
+	finished boolean not null default false,
 	created_at TIMESTAMP WITH TIME ZONE,
 	PRIMARY KEY (id)
 );

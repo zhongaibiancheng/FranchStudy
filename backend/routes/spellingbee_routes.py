@@ -43,17 +43,25 @@ def create_exercise():
         current_app.logger.warning('登录失败：无效的 JSON 格式')
         return jsonify({'error': '请求数据格式错误，必须是有效的 JSON'}), 400
     
-    if 'book' not in data or 'lesson' not in data or 'mode' not in data:
-        return jsonify({'error': '缺少字段 book 或者 lesson 或者 mode'}), 400
+    if 'mode' not in data:
+        return jsonify({'error': '缺少字段 mode'}), 400
+    mode = data.get('mode')
+    if mode not in ('lesson', 'wrongbook'):
+        return jsonify({'error': 'mode 只能是 lesson 或 wrongbook'}), 400
+    
+    if data.get('mode') == 'lesson':#单词表
+        if 'book' not in data or 'lesson' not in data:
+            return jsonify({'error': '缺少字段 book 或者 lesson'}), 400
     
     book = data.get('book')
     lesson = data.get('lesson')
     
     #0:单词表 1:错题本
-    mode = data.get('mode')
+    mode = 0 if data.get('mode')=='lesson' else 1
     
     user_id = g.current_user['id']
     
+    current_app.logger.info(f'用户 {user_id} 请求创建练习，模式: {mode}, 书籍: {book}, 课程: {lesson}') 
     with get_db() as conn:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
             try:
@@ -70,16 +78,14 @@ def create_exercise():
                             from 
                                 words as w LEFT JOIN exercise_words as wp
                                 ON wp.word_id = w.id
-                                AND wp.user_id = %d 
+                                AND wp.user_id = %s 
                             where 
-                                book=%d and lesson = %d
-                                AND wp.word_id IS NULL
+                                book=%s and lesson = %s
+                                AND (wp.word_id IS NULL or wp.finished = false)
                                 ORDER BY random()
-                                LIMIT %d;
-                    """%(user_id,book,lesson,10)
-                    
-                    current_app.logger.debug(sql)
-                    cur.execute(sql)
+                                LIMIT %s;
+                    """
+                    cur.execute(sql,(user_id,book,lesson,10))
                     
                     words  = cur.fetchall()
             
@@ -114,12 +120,10 @@ def create_exercise():
                                 ON wp.word_id = w.id
                                 AND wp.user_id = %s
                                 and wp.wrong_count >= wp.right_count
-                            where 
-                                book=%s and lesson = %s
                                 ORDER BY random()
                                 LIMIT %s;
                     """
-                    cur.execute(sql,((user_id,book,lesson,10)))
+                    cur.execute(sql,(user_id,10))
                     
                     words  = cur.fetchall()
             
@@ -175,7 +179,7 @@ def update_exercise(id: int):
             with conn.cursor(cursor_factory=RealDictCursor) as cur:
                 sql = """
                     UPDATE exercise_words
-                    SET result = %s
+                    SET result = %s,finished=true
                     WHERE id = %s
                 """
                 cur.execute(sql, (result, id))
