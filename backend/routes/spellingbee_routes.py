@@ -22,130 +22,176 @@ def before_api_request():
     # 这个函数会在每个 API 请求前执行，通过 token_required 进行认证
     pass
 
-# 用户登录
+def _gram_label_cn(row: dict) -> str:
+    """
+    把 gram_* 字段拼成 UI 可展示的中文标签
+    """
+    gender = row.get("gram_gender")
+    number = row.get("gram_number")
+    mood = row.get("gram_mood")
+    person = row.get("gram_person")
+
+    parts = []
+
+    # 命令式优先展示（尤其是 entrez 这种）
+    if mood == "imp":
+        # 2p = vous，2s = tu，1p = nous（如果未来你也会用到）
+        person_map = {"2p": "vous(2p)", "2s": "tu(2s)", "1p": "nous(1p)"}
+        parts.append(f"命令式·{person_map.get(person, person or '')}".rstrip("·"))
+        return "；".join([p for p in parts if p])
+
+    # 否则展示阴阳性、单复数
+    if gender in ("m", "f"):
+        parts.append("阳性" if gender == "m" else "阴性")
+
+    if number in ("sg", "pl"):
+        parts.append("单数" if number == "sg" else "复数")
+
+    return "·".join(parts) if parts else ""
+
+
+def _decorate_words(words: list[dict]) -> list[dict]:
+    """
+    给每个 word 增加 UI 友好字段
+    """
+    for w in words:
+        w["pos_label_cn"] = w.get("part_of_speech_full_chinese") or w.get("part_of_speech") or ""
+        w["gram_label_cn"] = _gram_label_cn(w)
+
+        if w["pos_label_cn"] and w["gram_label_cn"]:
+            w["display_label_cn"] = f'{w["pos_label_cn"]}｜{w["gram_label_cn"]}'
+        else:
+            w["display_label_cn"] = w["pos_label_cn"] or w["gram_label_cn"] or ""
+
+    return words
+
+
+# 听写内容创建
 @spellingbee_bp.route('/exercise', methods=['POST'])
 def create_exercise():
     current_app.logger.info('创建练习')
 
-    # 安全地获取 JSON 数据
-    if not request.data:  # 检查是否有请求体
-        current_app.logger.warning('登录失败：请求体为空')
+    if not request.data:
+        current_app.logger.warning('请求体为空')
         return jsonify({'error': '请求体不能为空'}), 400
-    
+
     try:
-        data = request.get_json(force=True, silent=False)  # 强制解析，不静默
+        data = request.get_json(force=True, silent=False)
     except Exception as e:
         current_app.logger.warning(f'JSON 解析失败: {str(e)}')
         return jsonify({'error': '请求数据格式错误，必须是有效的 JSON'}), 400
-    
-    # 如果 data 为 None，说明 JSON 解析失败
+
     if data is None:
-        current_app.logger.warning('登录失败：无效的 JSON 格式')
+        current_app.logger.warning('无效的 JSON 格式')
         return jsonify({'error': '请求数据格式错误，必须是有效的 JSON'}), 400
-    
+
     if 'mode' not in data or 'count' not in data:
-        return jsonify({'error': '缺少字段 mode'}), 400
-    mode = data.get('mode')
+        return jsonify({'error': '缺少字段 mode 或 count'}), 400
+
+    mode_str = data.get('mode')
     count = data.get('count')
-    
-    if mode not in ('lesson', 'wrongbook'):
+
+    if mode_str not in ('lesson', 'wrongbook'):
         return jsonify({'error': 'mode 只能是 lesson 或 wrongbook'}), 400
-    
-    if data.get('mode') == 'lesson':#单词表
+
+    if mode_str == 'lesson':
         if 'book' not in data or 'lesson' not in data:
-            return jsonify({'error': '缺少字段 book 或者 lesson'}), 400
-    
+            return jsonify({'error': '缺少字段 book 或 lesson'}), 400
+
     book = data.get('book')
     lesson = data.get('lesson')
-    
-    #0:单词表 1:错题本
-    mode = 0 if data.get('mode')=='lesson' else 1
-    
+
+    # 0: 单词表 1: 错题本
+    mode = 0 if mode_str == 'lesson' else 1
     user_id = g.current_user['id']
-    
+
     with get_db() as conn:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
             try:
-                if mode == 0: #单词表
+                if mode == 0:
                     sql = """
-                            select 
-                                w.id as word_id,
-                                w.book,
-                                w.lesson,
-                                w.french, 
-                                w.chinese, 
-                                w.part_of_speech, 
-                                w.part_of_speech_full_chinese  
-                            from 
-                                words as w LEFT JOIN exercise_words as wp
-                                ON wp.word_id = w.id
-                                AND wp.user_id = %s 
-                            where 
-                                book=%s and lesson = %s
-                                AND (wp.word_id IS NULL or wp.finished = false)
-                                ORDER BY random()
-                                LIMIT %s;
+                        SELECT 
+                            w.id AS word_id,
+                            w.book,
+                            w.lesson,
+                            w.french,
+                            w.chinese,
+                            w.part_of_speech,
+                            w.part_of_speech_full_chinese,
+                            w.french_raw,
+                            w.lemma,
+                            w.variant_group_id,
+                            w.gram_gender,
+                            w.gram_number,
+                            w.gram_mood,
+                            w.gram_person,
+                            w.gram_tense
+                        FROM words AS w
+                        LEFT JOIN exercise_words AS wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = %s
+                        WHERE 
+                            w.book = %s
+                            AND w.lesson = %s
+                            AND (wp.word_id IS NULL OR wp.finished = false)
+                        ORDER BY random()
+                        LIMIT %s;
                     """
-                    cur.execute(sql,(user_id,book,lesson,count))
-                    
-                    words  = cur.fetchall()
-            
-                    #把单词插入到 exercise_words
+                    cur.execute(sql, (user_id, book, lesson, count))
+                    words = cur.fetchall()
+
+                else:
                     sql = """
-                        insert into
-                            exercise_words(user_id,word_id,created_at)values(%s,%s,now()) RETURNING id
+                        SELECT 
+                            w.id AS word_id,
+                            w.book,
+                            w.lesson,
+                            w.french,
+                            w.chinese,
+                            w.part_of_speech,
+                            w.part_of_speech_full_chinese,
+                            w.french_raw,
+                            w.lemma,
+                            w.variant_group_id,
+                            w.gram_gender,
+                            w.gram_number,
+                            w.gram_mood,
+                            w.gram_person,
+                            w.gram_tense
+                        FROM words AS w
+                        INNER JOIN mistake_notebook AS wp
+                            ON wp.word_id = w.id
+                            AND wp.user_id = %s
+                            AND wp.wrong_count >= wp.right_count
+                        ORDER BY random()
+                        LIMIT %s;
                     """
-                    for word in words:
-                        cur.execute(sql,(user_id,word['word_id']))
-                        
-                        exercise_id = cur.fetchone()['id']
-                        word['exercise_id'] = exercise_id;
-                    
-                    return jsonify({
-                        'success': True,
-                        'message': '登录成功',
-                        'words': words
-                    })
-                else:#错题本
-                    sql = """
-                            select 
-                                w.id as word_id,
-                                w.book,
-                                w.lesson,
-                                w.french, 
-                                w.chinese, 
-                                w.part_of_speech, 
-                                w.part_of_speech_full_chinese  
-                            from 
-                                words as w INNER JOIN mistake_notebook as wp
-                                ON wp.word_id = w.id
-                                AND wp.user_id = %s
-                                and wp.wrong_count >= wp.right_count
-                                ORDER BY random()
-                                LIMIT %s;
-                    """
-                    cur.execute(sql,(user_id,count))
-                    
-                    words  = cur.fetchall()
-            
-                    #把单词插入到 exercise_words
-                    sql = """
-                        insert into
-                            exercise_words(user_id,word_id,created_at)values(%s,%s,now()) RETURNING id
-                    """
-                    for word in words:
-                        cur.execute(sql,(user_id,word['word_id']))
-                        
-                        exercise_id = cur.fetchone()['id']
-                        word['exercise_id'] = exercise_id;
-                    
-                    return jsonify({
-                        'success': True,
-                        'message': '登录成功',
-                        'words': words
-                    })
+                    cur.execute(sql, (user_id, count))
+                    words = cur.fetchall()
+
+                # 把单词插入到 exercise_words
+                insert_sql = """
+                    INSERT INTO exercise_words(user_id, word_id, created_at)
+                    VALUES (%s, %s, now())
+                    RETURNING id
+                """
+                for w in words:
+                    cur.execute(insert_sql, (user_id, w["word_id"]))
+                    w["exercise_id"] = cur.fetchone()["id"]
+
+                # 追加 UI 展示字段
+                words = _decorate_words(words)
+
+                conn.commit()
+                return jsonify({
+                    'success': True,
+                    'message': '创建练习成功',
+                    'words': words
+                })
+
             except Exception as e:
-                current_app.logger.error(f'登录过程中发生错误: {str(e)}', exc_info=True)
+                conn.rollback()
+                current_app.logger.error(f'创建练习过程中发生错误: {str(e)}', exc_info=True)
                 return jsonify({'error': '服务器内部错误'}), 500
             
 @spellingbee_bp.route('/exercise/<int:id>', methods=['PUT'])

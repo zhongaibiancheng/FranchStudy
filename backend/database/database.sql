@@ -104,3 +104,17 @@ GRANT USAGE ON SCHEMA public TO franchuser;
 -- 如果还需要其他表的权限
 GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO franchuser;
 GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO franchuser;
+
+
+--引入真实的读音 同时 把 阴阳性不同单词分成多条记录
+ALTER TABLE words
+ADD COLUMN french_raw VARCHAR(128),
+ADD COLUMN lemma VARCHAR(128),
+ADD COLUMN variant_group_id INTEGER;
+
+ALTER TABLE words
+  ADD COLUMN IF NOT EXISTS gram_gender text,
+  ADD COLUMN IF NOT EXISTS gram_number text,
+  ADD COLUMN IF NOT EXISTS gram_mood   text,
+  ADD COLUMN IF NOT EXISTS gram_person text,
+  ADD COLUMN IF NOT EXISTS gram_tense  text;
