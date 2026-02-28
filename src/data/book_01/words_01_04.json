@@ -1,0 +1,709 @@
+[
+  {
+    "id": 1,
+    "french": "Alet",
+    "chinese": "阿莱（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 2,
+    "french": "aller",
+    "chinese": "去（往）",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 3,
+    "french": "Annie",
+    "chinese": "安妮（女名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 4,
+    "french": "appeler (s')",
+    "chinese": "名叫",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 5,
+    "french": "aussi",
+    "chinese": "也",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 6,
+    "french": "avec",
+    "chinese": "和，带着",
+    "part_of_speech": "prep.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 7,
+    "french": "boutique",
+    "chinese": "商店",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 8,
+    "french": "Cécile",
+    "chinese": "塞西尔（女名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 9,
+    "french": "Charles",
+    "chinese": "夏尔（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 10,
+    "french": "dans",
+    "chinese": "在……内，在……里",
+    "part_of_speech": "prep.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 11,
+    "french": "Dufour",
+    "chinese": "迪富尔（姓）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "姓氏（专有名词）"
+  },
+  {
+    "id": 12,
+    "french": "enchanté, e",
+    "chinese": "很高兴",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 13,
+    "french": "études",
+    "chinese": "学业",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "复数阴性名词"
+  },
+  {
+    "id": 14,
+    "french": "étudiant, e",
+    "chinese": "大学生",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 15,
+    "french": "gare",
+    "chinese": "火车站",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 16,
+    "french": "Jacques",
+    "chinese": "雅克（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 17,
+    "french": "je",
+    "chinese": "我（主语人称代词）",
+    "part_of_speech": "pron.pers.",
+    "part_of_speech_full_chinese": "主语人称代词"
+  },
+  {
+    "id": 18,
+    "french": "là-bas",
+    "chinese": "那边，那儿",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 19,
+    "french": "mademoiselle",
+    "chinese": "小姐",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 20,
+    "french": "maintenant",
+    "chinese": "现在",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 21,
+    "french": "Marc",
+    "chinese": "马克（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 22,
+    "french": "mon",
+    "chinese": "我的",
+    "part_of_speech": "a.poss.",
+    "part_of_speech_full_chinese": "主有形容词"
+  },
+  {
+    "id": 23,
+    "french": "monsieur",
+    "chinese": "先生",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 24,
+    "french": "Paris",
+    "chinese": "巴黎",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "地名（专有名词）"
+  },
+  {
+    "id": 25,
+    "french": "piscine",
+    "chinese": "游泳池",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 26,
+    "french": "pourquoi",
+    "chinese": "为什么",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 27,
+    "french": "présentation",
+    "chinese": "介绍",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 28,
+    "french": "présenter",
+    "chinese": "介绍",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 29,
+    "french": "rentrée",
+    "chinese": "开学；返校",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 30,
+    "french": "rue",
+    "chinese": "街道",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 31,
+    "french": "sa",
+    "chinese": "他（她；它）的",
+    "part_of_speech": "a.poss.",
+    "part_of_speech_full_chinese": "主有形容词"
+  },
+  {
+    "id": 32,
+    "french": "Toulouse",
+    "chinese": "图卢兹（法国西南大城市）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "地名（专有名词）"
+  },
+  {
+    "id": 33,
+    "french": "Tours",
+    "chinese": "图尔（法国中部城市）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "地名（专有名词）"
+  },
+  {
+    "id": 34,
+    "french": "très",
+    "chinese": "很，非常",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 35,
+    "french": "avoir",
+    "chinese": "有",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 36,
+    "french": "Bernard",
+    "chinese": "贝尔纳（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 37,
+    "french": "Catherine",
+    "chinese": "卡特琳娜（女名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 38,
+    "french": "chinois",
+    "chinese": "中文，汉语",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 39,
+    "french": "Claire",
+    "chinese": "克莱尔（女名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 40,
+    "french": "cours",
+    "chinese": "课（程）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 41,
+    "french": "de",
+    "chinese": "……的（表示所属、限定等）",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 42,
+    "french": "déjà",
+    "chinese": "已经",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 43,
+    "french": "demi, e",
+    "chinese": "一半的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 44,
+    "french": "dépêcher (se)",
+    "chinese": "赶快",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 45,
+    "french": "école",
+    "chinese": "学校",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 46,
+    "french": "excuser",
+    "chinese": "原谅",
+    "part_of_speech": "v.",
+    "part_of_speech_full_chinese": "动词"
+  },
+  {
+    "id": 47,
+    "french": "heure",
+    "chinese": "时间，钟点",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 48,
+    "french": "juste",
+    "chinese": "正好，恰巧",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 49,
+    "french": "oh",
+    "chinese": "啊，哎呦",
+    "part_of_speech": "interj.",
+    "part_of_speech_full_chinese": "叹词"
+  },
+  {
+    "id": 50,
+    "french": "presque",
+    "chinese": "几乎，差不多",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 51,
+    "french": "pressé, e",
+    "chinese": "着急，赶时间",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 52,
+    "french": "quel, quelle",
+    "chinese": "哪个",
+    "part_of_speech": "a.interr.",
+    "part_of_speech_full_chinese": "疑问形容词"
+  },
+  {
+    "id": 53,
+    "french": "retard",
+    "chinese": "迟到",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 54,
+    "french": "un",
+    "chinese": "一个（阳性不定冠词）",
+    "part_of_speech": "art.indéf.m.",
+    "part_of_speech_full_chinese": "不定冠词（阳性）"
+  },
+  {
+    "id": 55,
+    "french": "vite",
+    "chinese": "快，赶快",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 56,
+    "french": "à",
+    "chinese": "在（表示地点）",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 57,
+    "french": "Anne",
+    "chinese": "安娜（女名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 58,
+    "french": "artiste",
+    "chinese": "艺人，艺术家",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 59,
+    "french": "bien",
+    "chinese": "好，非常",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 60,
+    "french": "bonjour",
+    "chinese": "早安；您好",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 61,
+    "french": "ça",
+    "chinese": "〈口语〉这",
+    "part_of_speech": "pron.dém.",
+    "part_of_speech_full_chinese": "指示代词"
+  },
+  {
+    "id": 62,
+    "french": "ce",
+    "chinese": "这",
+    "part_of_speech": "pron.dém.",
+    "part_of_speech_full_chinese": "指示代词"
+  },
+  {
+    "id": 63,
+    "french": "elle",
+    "chinese": "她（重读人称代词；主语人称代词）",
+    "part_of_speech": "pron.pers.",
+    "part_of_speech_full_chinese": "人称代词"
+  },
+  {
+    "id": 64,
+    "french": "et",
+    "chinese": "和，以及",
+    "part_of_speech": "conj.",
+    "part_of_speech_full_chinese": "连词"
+  },
+  {
+    "id": 65,
+    "french": "Fanny",
+    "chinese": "法妮（女名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 66,
+    "french": "il",
+    "chinese": "他（主语人称代词）",
+    "part_of_speech": "pron.pers.",
+    "part_of_speech_full_chinese": "主语人称代词"
+  },
+  {
+    "id": 67,
+    "french": "Lamy",
+    "chinese": "拉米（姓）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "姓氏（专有名词）"
+  },
+  {
+    "id": 68,
+    "french": "Lille",
+    "chinese": "里尔（法国东北最大城市）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "地名（专有名词）"
+  },
+  {
+    "id": 69,
+    "french": "Michel",
+    "chinese": "米歇尔（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 70,
+    "french": "moi",
+    "chinese": "我",
+    "part_of_speech": "pron.pers.",
+    "part_of_speech_full_chinese": "重读人称代词"
+  },
+  {
+    "id": 71,
+    "french": "Nathalie",
+    "chinese": "纳塔莉（女名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 72,
+    "french": "Nice",
+    "chinese": "尼斯（法国南部旅游名城）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "地名（专有名词）"
+  },
+  {
+    "id": 73,
+    "french": "oui",
+    "chinese": "是的，对",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 74,
+    "french": "Pascal",
+    "chinese": "帕斯卡尔（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 75,
+    "french": "Philippe",
+    "chinese": "菲利普（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 76,
+    "french": "qui",
+    "chinese": "谁",
+    "part_of_speech": "pron.interr.",
+    "part_of_speech_full_chinese": "疑问代词"
+  },
+  {
+    "id": 77,
+    "french": "salut",
+    "chinese": "你好",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 78,
+    "french": "styliste",
+    "chinese": "服装设计师",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 79,
+    "french": "toi",
+    "chinese": "你（重读人称代词）",
+    "part_of_speech": "pron.pers.",
+    "part_of_speech_full_chinese": "重读人称代词"
+  },
+  {
+    "id": 80,
+    "french": "voici",
+    "chinese": "这是",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 81,
+    "french": "voilà",
+    "chinese": "那是",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 82,
+    "french": "ah",
+    "chinese": "哎，啊",
+    "part_of_speech": "interj.",
+    "part_of_speech_full_chinese": "叹词"
+  },
+  {
+    "id": 83,
+    "french": "ami, e",
+    "chinese": "朋友",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 84,
+    "french": "ce",
+    "chinese": "这个",
+    "part_of_speech": "a.dém.",
+    "part_of_speech_full_chinese": "指示形容词"
+  },
+  {
+    "id": 85,
+    "french": "chemise",
+    "chinese": "男式衬衫",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 86,
+    "french": "chez",
+    "chinese": "在……家",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 87,
+    "french": "chic",
+    "chinese": "〈口语〉漂亮极了",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 88,
+    "french": "être",
+    "chinese": "是",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "系动词"
+  },
+  {
+    "id": 89,
+    "french": "Lemat",
+    "chinese": "勤马（男名）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 90,
+    "french": "ma",
+    "chinese": "我的",
+    "part_of_speech": "a.poss.",
+    "part_of_speech_full_chinese": "主有形容词"
+  },
+  {
+    "id": 91,
+    "french": "mais",
+    "chinese": "但是",
+    "part_of_speech": "conj.",
+    "part_of_speech_full_chinese": "连词"
+  },
+  {
+    "id": 92,
+    "french": "merci",
+    "chinese": "谢谢",
+    "part_of_speech": "interj.",
+    "part_of_speech_full_chinese": "叹词"
+  },
+  {
+    "id": 93,
+    "french": "où",
+    "chinese": "哪里",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 94,
+    "french": "paquet",
+    "chinese": "盒子",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 95,
+    "french": "porte",
+    "chinese": "门",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 96,
+    "french": "pour",
+    "chinese": "给",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 97,
+    "french": "ta",
+    "chinese": "你的",
+    "part_of_speech": "a.poss.",
+    "part_of_speech_full_chinese": "主有形容词"
+  },
+  {
+    "id": 98,
+    "french": "toc",
+    "chinese": "笃笃",
+    "part_of_speech": "interj.",
+    "part_of_speech_full_chinese": "叹词"
+  },
+  {
+    "id": 99,
+    "french": "tu",
+    "chinese": "你（主语人称代词）",
+    "part_of_speech": "pron.pers.",
+    "part_of_speech_full_chinese": "主语人称代词"
+  },
+  {
+    "id": 100,
+    "french": "une",
+    "chinese": "一个（阴性不定冠词）",
+    "part_of_speech": "art.indéf.f.",
+    "part_of_speech_full_chinese": "不定冠词（阴性）"
+  },
+  {
+    "id": 101,
+    "french": "valise",
+    "chinese": "手提箱",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  }
+]

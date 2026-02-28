@@ -19,6 +19,10 @@
           <button @click="downloadAnswerSheet" class="export-btn both-btn">
             下载答案
           </button>
+
+          <button @click="printFoldSheet" class="export-btn both-btn">
+            打印折叠默写
+          </button>
           <button @click="goBack" class="export-btn both-btn">
             返回
           </button>
@@ -213,7 +217,7 @@ const generatePracticeSheetHTML = () => {
   <title>${title.value}</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    .practice-item { margin-top: 12px; padding:12px;background-color:#f5f5f5}
+    .practice-item { margin-top: 4px; padding:12px;background-color:#f5f5f5}
     .word-info { margin-bottom: 4px; }
     .answer-line { border-bottom: 4px double #333; height: 24px; }
   </style>
@@ -248,7 +252,7 @@ const generateAnswerSheetHTML = () => {
   <title>${title.value} 答案</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    .answer-item { margin-top: 12px; padding:12px;background-color:#f5f5f5}
+    .answer-item { margin-top:4px; padding:12px;background-color:#f5f5f5}
     .word-info { margin-bottom: 4px; }
     .word-answer { border-bottom: 4px double #333; height: 24px;}
   </style>
@@ -281,6 +285,178 @@ const downloadFile = (content, filename, contentType = 'text/html;charset=utf-8'
   URL.revokeObjectURL(url)
 }
 
+
+// 兼容字段：你的页面里可能是 lemma/pos，也可能是 french/part_of_speech
+const normalizeWord = (w) => {
+  return {
+    id: w.id,
+    french: w.french ?? w.lemma ?? '',
+    pos: w.part_of_speech ?? w.pos ?? '',
+    chinese: w.chinese ?? '',
+  }
+}
+
+// 生成：A4 折叠默写纸（左：法语+词性，中：默写+批改，右：中文）
+const generateFoldSheetHTML = () => {
+  const selectedWordData = getSelectedWordDataInDisplayOrder().map(normalizeWord)
+
+  const rowsHTML = selectedWordData.map((word, index) => {
+    return `
+      <div class="row">
+        <div class="cell left">
+          <div class="left-inner">
+            <span class="idx">${index + 1}.</span>
+            <span class="fr">${escapeHtml(word.french)}</span>
+            <span class="pos">${escapeHtml(word.pos)}</span>
+          </div>
+        </div>
+
+        <div class="cell mid">
+          <div class="write-area">
+            <div class="lines"></div>
+          </div>
+        </div>
+
+        <div class="cell right">
+          <div class="zh">${escapeHtml(word.chinese)}<span class="pos">${escapeHtml(word.pos)}</span></div>
+        </div>
+      </div>
+    `
+  }).join('')
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>${escapeHtml(title.value)} - 折叠默写</title>
+  <style>
+    /* A4 打印设置 */
+    @page { size: A4; margin: 10mm; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; color:#111; }
+    .page-title { font-size: 14pt; font-weight: 700; margin: 0 0 6mm 0; }
+    .hint { font-size: 10pt; color:#555; margin: 0 0 4mm 0; }
+
+    /* 整体表格：三列 */
+    .sheet { width: 190mm; } /* A4 宽 210mm，左右各 10mm margin => 190mm */
+    .row {
+      display: flex;
+      justify-content:space-between;
+      grid-template-columns: 60mm 70mm 60mm; /* 左/中/右 */
+      align-items: stretch;
+      min-height: 9mm;
+      border-bottom: 1px solid #ddd;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .cell { box-sizing: border-box; }
+
+    /* 左列：答案区 */
+    .left-inner { display:flex; gap:2mm; align-items: baseline; }
+    .idx { width: 7mm; color:#666; }
+    .fr { font-weight: 700; }
+    .pos { color:#666; font-size: 9pt; margin-left: 2mm; }
+
+    /* 右列：中文提示 */
+    .zh { font-size: 11pt; text-align: right;max-width:100px; }
+
+    /* 中列：默写区 + 折叠线 */
+    .mid {
+      position: relative;
+      /* 两侧“折叠线”：多条竖虚线 */
+      // border-left: 1px dashed #999;
+      // border-right: 1px dashed #999;
+    }
+    .mid::before, .mid::after {
+      content: "";
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 0;
+      // border-left: 1px dashed #ccc;
+      pointer-events: none;
+    }
+    // .mid::before { left: 3mm; }   /* 多一条辅助折线 */
+    // .mid::after  { right: 3mm; }  /* 多一条辅助折线 */
+
+    .write-area { height: 100%; position: relative; }
+    /* 横线：方便手写 */
+    .lines {
+      position: absolute;
+      left: 0; right: 0; top: 1.5mm; bottom: 1.5mm;
+      background: repeating-linear-gradient(
+        to bottom,
+        transparent 0mm,
+        transparent 5mm,
+        rgba(0,0,0,0.25) 5mm,
+        rgba(0,0,0,0.25) 5.15mm
+      );
+      opacity: 0.35;
+      // border-right: 1px dashed black;
+      // border-left: 1px dashed black;
+    }
+
+    /* 批改对/错框（手工勾选） */
+    .mark {
+      position: absolute;
+      right: 2mm;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      gap: 1.5mm;
+      font-size: 9pt;
+      color:#444;
+      background: rgba(255,255,255,0.75);
+      padding: 0.5mm 1mm;
+      border-radius: 2mm;
+    }
+    .box {
+      display:inline-block;
+      width: 4mm;
+      height: 4mm;
+      border: 1px solid #333;
+    }
+    .box-label { margin-right: 2mm; }
+
+    /* 打印时不显示滚动条等 */
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-title">${escapeHtml(title.value)}（折叠默写纸）</div>
+  <div class="hint">用法：把左侧“法语答案区”沿中间虚线向内折叠遮住；根据右侧中文在中间默写；写完展开对照。</div>
+
+  <div class="sheet">
+    ${rowsHTML}
+  </div>
+</body>
+</html>`
+}
+
+// 打印：打开新窗口并触发浏览器打印
+const printFoldSheet = () => {
+  if (selectedWords.value.length === 0) {
+    alert('请先选择要打印的单词')
+    return
+  }
+  const html = generateFoldSheetHTML()
+  const w = window.open('', '_blank')
+  if (!w) {
+    alert('浏览器拦截了弹窗，请允许弹窗后重试')
+    return
+  }
+  w.document.open()
+  w.document.write(html)
+  w.document.close()
+
+  // 等页面渲染后打印
+  w.onload = () => {
+    w.focus()
+    w.print()
+  }
+}
+
 const downloadPracticeSheet = () => {
   if (selectedWords.value.length === 0) {
     alert('请先选择要下载的单词')
@@ -308,7 +484,9 @@ const initializeData = async () => {
   try {
     loading.value = true
     lesson.value = route.query.lesson
-    allWords.value = WordService.getAllWords(lesson.value) || []
+    const book = route.query.book;
+
+    allWords.value = WordService.getAllWords(lesson.value,book) || []
     // 默认所有单词选中
     selectedWords.value = allWords.value.map(word => word.id)
   } catch (error) {

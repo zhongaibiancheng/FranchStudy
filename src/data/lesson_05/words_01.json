@@ -1,0 +1,1115 @@
+[
+  {
+    "id": 1,
+    "french": "achat",
+    "chinese": "购买",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 2,
+    "french": "faire des achats",
+    "chinese": "买东西",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 3,
+    "french": "alimentaire",
+    "chinese": "食品的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 4,
+    "french": "amical, e (pl. ~aux)",
+    "chinese": "友好的，朋友的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 5,
+    "french": "approcher (s') (+de)",
+    "chinese": "靠近······，走近······",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "自反动词"
+  },
+  {
+    "id": 6,
+    "french": "argenté, e",
+    "chinese": "银色的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 7,
+    "french": "avoir lieu",
+    "chinese": "举行；发生",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 8,
+    "french": "beige",
+    "chinese": "纯羊毛色",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 9,
+    "french": "beige",
+    "chinese": "纯羊毛色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 10,
+    "french": "bien",
+    "chinese": "好处，益处",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 11,
+    "french": "faire du bien à",
+    "chinese": "对······有好处",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 12,
+    "french": "blazer [blazer, blazer]",
+    "chinese": "〈英〉阔条法兰绒上衣；运动上装",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 13,
+    "french": "bleu",
+    "chinese": "蓝色的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 14,
+    "french": "bleu",
+    "chinese": "蓝色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 15,
+    "french": "bleu clair",
+    "chinese": "浅蓝色",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 16,
+    "french": "bleu foncé",
+    "chinese": "深蓝色",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 17,
+    "french": "boucherie",
+    "chinese": "肉店",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 18,
+    "french": "boulangerie",
+    "chinese": "面包店",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 19,
+    "french": "boulot",
+    "chinese": "〈俗〉工作",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 20,
+    "french": "cabine d'essayage",
+    "chinese": "试衣间",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 21,
+    "french": "caisse",
+    "chinese": "收银台",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 22,
+    "french": "cas",
+    "chinese": "情况；案子",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 23,
+    "french": "celui, celle, ceux, celles",
+    "chinese": "这一个，那一个；这些，那些",
+    "part_of_speech": "pron. dém.",
+    "part_of_speech_full_chinese": "指示代词"
+  },
+  {
+    "id": 24,
+    "french": "charcuterie",
+    "chinese": "熟肉制品店",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 25,
+    "french": "chemisier",
+    "chinese": "女式衬衣",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 26,
+    "french": "chic",
+    "chinese": "漂亮的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 27,
+    "french": "choix",
+    "chinese": "选择，挑选",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 28,
+    "french": "classique",
+    "chinese": "老式的；古典的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 29,
+    "french": "commercial, e (pl. ~aux)",
+    "chinese": "商业的；贸易的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 30,
+    "french": "corvée",
+    "chinese": "苦役，苦差",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 31,
+    "french": "rose",
+    "chinese": "玫瑰红色的，粉红色的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 32,
+    "french": "rose",
+    "chinese": "玫瑰红，粉红色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 33,
+    "french": "sale",
+    "chinese": "肮脏的；（指天气）坏的，恶劣的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 34,
+    "french": "sérieux, se",
+    "chinese": "严肃的；（颜色）素的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 35,
+    "french": "sévère",
+    "chinese": "严格的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 36,
+    "french": "social, e (pl. ~aux)",
+    "chinese": "社会的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 37,
+    "french": "solde",
+    "chinese": "削价出售的商品；处理品",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 38,
+    "french": "(être) en solde",
+    "chinese": "削价出售",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 39,
+    "french": "spécialement",
+    "chinese": "专门地；特别地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 40,
+    "french": "supérette",
+    "chinese": "小型超市（面积 120m²-400m² 之间的小型自选商店）",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 41,
+    "french": "taille",
+    "chinese": "身材；尺寸；规模",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 42,
+    "french": "trouver",
+    "chinese": "认为，觉得",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 43,
+    "french": "usé, e",
+    "chinese": "用旧的；过时的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 44,
+    "french": "valoir",
+    "chinese": "价值；值得",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 45,
+    "french": "vendeur, se",
+    "chinese": "售货员",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词（阴阳通用/可变形）"
+  },
+  {
+    "id": 46,
+    "french": "vêtement",
+    "chinese": "衣服",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 47,
+    "french": "vif, ve",
+    "chinese": "鲜艳的；强烈的；活跃的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 48,
+    "french": "vitrine",
+    "chinese": "橱窗",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 49,
+    "french": "costume",
+    "chinese": "西服套装",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 50,
+    "french": "couleur",
+    "chinese": "颜色",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 51,
+    "french": "couple",
+    "chinese": "夫妻俩；两口子",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 52,
+    "french": "courses",
+    "chinese": "购物",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "阴性复数名词"
+  },
+  {
+    "id": 53,
+    "french": "faire les courses",
+    "chinese": "购物",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 54,
+    "french": "crémerie [kre'mri, kremari]",
+    "chinese": "乳品店",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 55,
+    "french": "démodé, e",
+    "chinese": "过时的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 56,
+    "french": "dépendre (+de)",
+    "chinese": "取决于；视······而定",
+    "part_of_speech": "v.t.ind.",
+    "part_of_speech_full_chinese": "间接及物动词"
+  },
+  {
+    "id": 57,
+    "french": "discuter (+de)",
+    "chinese": "讨论······",
+    "part_of_speech": "v.t.ind.",
+    "part_of_speech_full_chinese": "间接及物动词"
+  },
+  {
+    "id": 58,
+    "french": "dynamique",
+    "chinese": "充满活力的；活泼的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 59,
+    "french": "échanger",
+    "chinese": "交换；交流",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 60,
+    "french": "éclat",
+    "chinese": "光彩夺目",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 61,
+    "french": "en plein air",
+    "chinese": "露天的，户外的",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 62,
+    "french": "en un rien de temps",
+    "chinese": "一瞬间，一眨眼的功夫",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 63,
+    "french": "envie",
+    "chinese": "热望，渴望",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 64,
+    "french": "avoir envie de faire qch.",
+    "chinese": "十分想做某事",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 65,
+    "french": "épicerie",
+    "chinese": "食品杂货店",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 66,
+    "french": "établir",
+    "chinese": "建立",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 67,
+    "french": "être en (pleine) forme",
+    "chinese": "状态良好",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 68,
+    "french": "euh",
+    "chinese": "嗯，唔",
+    "part_of_speech": "interj.",
+    "part_of_speech_full_chinese": "感叹词"
+  },
+  {
+    "id": 69,
+    "french": "exister",
+    "chinese": "存在；有",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 70,
+    "french": "faire jeune",
+    "chinese": "显得年轻",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 71,
+    "french": "faire le marché",
+    "chinese": "逛（菜）市场",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 72,
+    "french": "fermé, e",
+    "chinese": "封闭的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 73,
+    "french": "fou, folle",
+    "chinese": "疯狂的；过多的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 74,
+    "french": "fréquenté, e",
+    "chinese": "人多的，人常去的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 75,
+    "french": "galerie",
+    "chinese": "长廊，游廊；大百货商店；画廊",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 76,
+    "french": "garer (se)",
+    "chinese": "停车",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "自反动词"
+  },
+  {
+    "id": 77,
+    "french": "gris",
+    "chinese": "灰色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 78,
+    "french": "hypermarché",
+    "chinese": "大型超市",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 79,
+    "french": "il vaut mieux",
+    "chinese": "最好······",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 80,
+    "french": "importance",
+    "chinese": "重要性",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 81,
+    "french": "inconvénient",
+    "chinese": "不便之处",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 82,
+    "french": "information",
+    "chinese": "信息，消息",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 83,
+    "french": "jupe",
+    "chinese": "短裙",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 84,
+    "french": "luxe",
+    "chinese": "奢侈，豪华",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 85,
+    "french": "marchand, e",
+    "chinese": "商人",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词（阴阳通用/可变形）"
+  },
+  {
+    "id": 86,
+    "french": "marchand, e",
+    "chinese": "商品的，商业的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 87,
+    "french": "marron",
+    "chinese": "栗子；栗色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 88,
+    "french": "marron",
+    "chinese": "栗色的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 89,
+    "french": "meilleur, e",
+    "chinese": "更好的（bon的比较级）",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 90,
+    "french": "mieux",
+    "chinese": "更好地（bien的比较级）",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 91,
+    "french": "modèle",
+    "chinese": "榜样，典型",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 92,
+    "french": "modèle",
+    "chinese": "模范的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 93,
+    "french": "moins",
+    "chinese": "较少，更少",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 94,
+    "french": "paire",
+    "chinese": "一双，一对，一副",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 95,
+    "french": "une paire de",
+    "chinese": "一双······",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 96,
+    "french": "pantalon",
+    "chinese": "裤子",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 97,
+    "french": "parfait, e",
+    "chinese": "完美的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 98,
+    "french": "parfaitement",
+    "chinese": "完美地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 99,
+    "french": "pâtisserie",
+    "chinese": "糕点店",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 100,
+    "french": "périphérie",
+    "chinese": "城市的外围，城郊",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 101,
+    "french": "permettre",
+    "chinese": "允许；使······能够做某事",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 102,
+    "french": "plein, e",
+    "chinese": "充满的；完全的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 103,
+    "french": "plutôt",
+    "chinese": "更倾向于······；宁愿",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 104,
+    "french": "pourre",
+    "chinese": "紫红色的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 105,
+    "french": "pourre",
+    "chinese": "紫红色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 106,
+    "french": "pratique",
+    "chinese": "方便的，实用的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 107,
+    "french": "probable",
+    "chinese": "可能的，大概的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 108,
+    "french": "produit",
+    "chinese": "产品",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 109,
+    "french": "provisions",
+    "chinese": "食品，食物",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "阴性复数名词"
+  },
+  {
+    "id": 110,
+    "french": "aller aux provisions",
+    "chinese": "买食物",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 111,
+    "french": "faire ses provisions",
+    "chinese": "买食物",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 112,
+    "french": "quotidien, ne",
+    "chinese": "每日的，天天的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 113,
+    "french": "quotidien",
+    "chinese": "日报",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 114,
+    "french": "rayon",
+    "chinese": "柜台；光线",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 115,
+    "french": "remettre",
+    "chinese": "交给；交还",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 116,
+    "french": "reprochen",
+    "chinese": "指责；责备",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 117,
+    "french": "champion, ne",
+    "chinese": "冠军",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词（阴阳通用/可变形）"
+  },
+  {
+    "id": 118,
+    "french": "couleur",
+    "chinese": "颜色",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 119,
+    "french": "couple",
+    "chinese": "夫妻俩；两口子",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 120,
+    "french": "courses",
+    "chinese": "购物",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "阴性复数名词"
+  },
+  {
+    "id": 121,
+    "french": "éclat",
+    "chinese": "光彩夺目",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 122,
+    "french": "envie",
+    "chinese": "热望，渴望",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 123,
+    "french": "galerie",
+    "chinese": "长廊，游廊；大百货商店；画廊",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 124,
+    "french": "gris",
+    "chinese": "灰色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 125,
+    "french": "hypermarché",
+    "chinese": "大型超市",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 126,
+    "french": "importance",
+    "chinese": "重要性",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 127,
+    "french": "inconvénient",
+    "chinese": "不便之处",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 128,
+    "french": "information",
+    "chinese": "信息，消息",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 129,
+    "french": "jupe",
+    "chinese": "短裙",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 130,
+    "french": "luxe",
+    "chinese": "奢侈，豪华",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 131,
+    "french": "marron",
+    "chinese": "栗子；栗色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 132,
+    "french": "modèle",
+    "chinese": "榜样，典型",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 133,
+    "french": "paire",
+    "chinese": "一双，一对，一副",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 134,
+    "french": "pantalon",
+    "chinese": "裤子",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 135,
+    "french": "pâtisserie",
+    "chinese": "糕点店",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 136,
+    "french": "périphérie",
+    "chinese": "城郊",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 137,
+    "french": "pourre",
+    "chinese": "紫红色",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 138,
+    "french": "produit",
+    "chinese": "产品，食品",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 139,
+    "french": "quotidien",
+    "chinese": "日报",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 140,
+    "french": "rayon",
+    "chinese": "柜台；光线",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 141,
+    "french": "supermarché",
+    "chinese": "超级市场",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 142,
+    "french": "taille",
+    "chinese": "身材；尺寸；规模",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 143,
+    "french": "vendeur, se",
+    "chinese": "售货员",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词（阴阳通用/可变形）"
+  },
+  {
+    "id": 144,
+    "french": "vitrine",
+    "chinese": "橱窗",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 145,
+    "french": "discuter de qch.",
+    "chinese": "讨论某事",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 146,
+    "french": "discuter sur qch.",
+    "chinese": "讨论某事（同义表达）",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 147,
+    "french": "le week-end 《faire le marché》 pour l'ambiance.",
+    "chinese": "周末去“逛市场”感受氛围。",
+    "part_of_speech": "句子",
+    "part_of_speech_full_chinese": "句子"
+  },
+  {
+    "id": 148,
+    "french": "Faire des courses à Paris, c'est pas une corvée mais un vrai plaisir quotidien.",
+    "chinese": "在巴黎购物不是苦差事，而是一种真正的日常乐趣。",
+    "part_of_speech": "句子",
+    "part_of_speech_full_chinese": "句子"
+  },
+  {
+    "id": 149,
+    "french": "On va au Printemps ou aux Galeries Lafayette ?",
+    "chinese": "咱们去春天百货商场还是去老佛爷百货商场？",
+    "part_of_speech": "句子",
+    "part_of_speech_full_chinese": "句子"
+  },
+  {
+    "id": 150,
+    "french": "un milligramme",
+    "chinese": "毫克",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 151,
+    "french": "un centigramme",
+    "chinese": "厘克",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 152,
+    "french": "un décigramme",
+    "chinese": "分克",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 153,
+    "french": "un gramme",
+    "chinese": "克",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 154,
+    "french": "un décagramme",
+    "chinese": "十克",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 155,
+    "french": "un hectogramme",
+    "chinese": "百克",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 156,
+    "french": "un kilogramme",
+    "chinese": "公斤，千克",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 157,
+    "french": "un quintal",
+    "chinese": "公担（100公斤）",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 158,
+    "french": "une tonne",
+    "chinese": "吨",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 159,
+    "french": "une livre",
+    "chinese": "一市斤（500克）",
+    "part_of_speech": "计量单位",
+    "part_of_speech_full_chinese": "计量单位"
+  }
+]

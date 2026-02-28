@@ -1,0 +1,196 @@
+已提取图片5-9中全部的语法 (Grammaire) 内容，包括“颜色形容词”、“指示代词”、“形容词比较级”和“动词变位”四个部分，严格保持其在图片中的原始顺序、结构和措辞。
+
+GRAMMAIRE 语法
+
+1. Les adjectifs de couleur (颜色形容词)
+
+1) 颜色形容词可以作形容语或表语，可以是简单形式或复合形式。如:
+une veste noire 一件黑上衣(形容语)
+Le ciel est tout rouge au coucher du soleil. 夕阳西下，满天红霞。(表语)
+
+2) 简单形式
+① 一般应和相关名词进行性数配合。如:
+une chemise verte 一件绿衬衫
+une paire de chaussures noires 一双黑鞋
+
+② 如果是名词用作形容词，原则上性数不变。如:
+des couleurs ivoire 象牙色
+des soies prune 深紫红色绸子
+une robe marron 栗色长裙
+
+③ 但一些早已成为形容词的名词需要进行性数配合。如:
+des fleurs violettes 紫色的花朵
+des chaussettes roses 粉红色的袜子
+
+3) 复合形式
+① 如果是表示纯色的复合形式形容词，则性数不变。如:
+des yeux bleu clair 浅蓝色眼睛
+des jupes brun foncé 深褐色短裙
+des robes rouge cerise 樱桃红连衣裙
+des rideaux bleu ciel 天蓝色窗帘
+
+2. Les pronoms démonstratifs (指示代词)
+
+1) 概念 (Notion)
+指示代词在句中起名词作用，专门用来复指一个已经提及过的名词，可以避免重复该名词。
+指示代词可以确指，即明确替代前面已出现过的某个名词；也可以泛指，即并不明确指明所代替的名词。如:
+Voici deux romans. Prenez celui-ci. 这儿有两本小说。您买这本吧。(确指)
+Honte à celui qui ment. 撒谎者可耻。(泛指)
+
+2) 构成 (Formation)
+
+形式 单数 复数
+
+阳性 简单形式<br>复合形式 celui<br>celui-ci celui-là ceux<br>ceux-ci ceux-là
+
+阴性 简单形式<br>复合形式 celle<br>celle-ci celle-là celles<br>celles-ci celles-là
+
+中性 简单形式<br>复合形式 ce, ceci, cela, ça -
+
+3) 用法 (Emploi)
+简单指示代词：常常与介词 de 或关系从句一起使用。
+① 与介词 de 连用。如:
+Mon costume est bleu, celui de Jules est noir. 我的西服套装是蓝色的，儒勒的那套是黑的。
+Prenez la porte de gauche, s'il vous plaît; celle de droite est fermée à clé. 请您走左边的门，右边的那扇锁上了。
+
+② 与关系从句连用。如:
+La langue française est celle que j'apprends. 法语是我正在学习的语言。
+Son sac est celui qui est sur la table. 她的包是桌上的那个。
+Vous voulez essayer cette robe ou celles qui sont en vitrine? 您想试一下这条连衣裙呢，还是(在)橱窗里的那几条呢？
+
+③ 指示代词之后除可跟介词 de 外，还经常跟其他介词或过去分词。但从语法上讲，其他介词或过去分词是由关系代词引导出来的。它们之所以直接跟在指示代词后，是因为原来引导它们的关系代词从句被省略了。如:
+Et ceux en vitrine? 橱窗里的那几件呢? (原为: Et ceux qui sont en vitrine?)
+Tu as lu les dernières nouvelles? Surtout celle sur la Chine? 你看最新消息了么? 特别是关于中国的那一条? (原为: celle qui est sur la Chine)
+Parmi tous ces romans, celui écrit par Verne est le plus intéressant. 所有这些小说里，凡尔纳写的那本最有意思。(原为: celui qui est écrit par Verne)
+
+复合指示代词：其后往往不再跟介词或过去分词。
+① 只使用一个复合指示代词来复指名词时，往往使用 -là, 而 -ci 较为少用。如:
+-C'est cette couleur que tu aimes? 你喜欢的是这种颜色?
+-Oui, c'est celle-là. / Oui, c'est celle-ci. 对，就是这种。(celle-ci 少用)
+
+② 使用两个复合指示代词来复指名词时，带 -ci 的复合指示代词用来复指句中最近的那个名词; 带 -là 的则指远些的那一个。如:
+J'ai plusieurs modèles. Vous voulez celui-ci ou celui-là? 我有好几种款式。您想要这种还是那种?
+Voici de belles fleurs. Celles-ci sont plus chères et celles-là sont moins chères. 这里有些漂亮的花儿。这些略贵，那些便宜点儿。
+
+中性指示代词：ce/ceci/cela/ça (cela 的口语形式)。
+① ce 常与动词 être 连用。可指人称，或复指一个词组或句子。如:
+Le bleu et le vert, ce sont ses couleurs préférées. 蓝色和绿色是她的最爱。(复指词组)
+Vivre à la campagne, c'était difficile à l'époque. 在乡下生活，这在当时很难。(复指句子)
+C'est utile d'apprendre le français. 学法语是有用的。(代替无人称结构 il est)
+-Qui est-ce? 谁呀?
+-C'est moi. 是我。(用于鉴别人称)
+
+② cela 的使用频率高于 ceci, 后者更常见于书面语中。cela 和 ça 常在句中作主语、表语或宾语。如:
+Cela ne vous regarde pas. 这不关您的事儿。(主语)
+Je ne comprends pas cela. 我搞不懂这事儿。(宾语)
+Oui, c'est bien cela. 是的，就是如此。(表语)
+
+③ 在俗语中，ça 用于许多固定的表达方式中。如:
+Ça y est! 行了。
+Ça suffit! 够了!
+Ça fait combien? 这多少钱?
+Ça ne fait rien. 没关系。
+Qu'est-que c'est que ça? 这是什么东西?
+
+3. Le comparatif des adjectifs (形容词比较级)
+
+1) 概念 (Notion)
+法语形容词可按其使用情况分为原级、比较级和最高级。
+形容词比较级用来区分人与人、物与物、事情与事情之间在形状、品质、数量等诸多方面的差异，是为了对第一成分在上述各方面高于、等同于或低于第二成分的情况进行比较。
+
+2) 构成 (Formation)
+
+第一比较成分   verbe  plus   aussi   moins  adjectif  que    第二比较成分
+
+
+3) 用法 (Emploi)
+① 人与人比较
+Jules est plus grand que Claudette. 儒勒比克洛黛特高。
+Claudette est moins grande que Jules. 克洛黛特没有儒勒高。
+Jules est aussi grand que Claudette. 儒勒和克洛黛特一般高。
+Jules est moins petit que Claudette. 儒勒没有克洛黛特矮。
+Claudette est plus petite que Jules. 克洛黛特比儒勒矮。
+Claudette est aussi petite que Jules. 克洛黛特和儒勒一般矮。
+
+注意: 一些品质形容词本身带有贬义色彩，如上述例句: Claudette est moins grande que Jules 与 Claudette est plus petite que Jules 实际意义相同，但 petit 听起来总不如 grand 好听。为避免这类刺激性词语，法语中常常使用否定褒义词这种婉转的方式来替代原本含有贬义色彩的词语。
+
+② 物与物比较
+Ce costume-ci fait plus jeune que celui-là. (穿) 这套西装显得比那一套年轻。
+Le temps est moins beau qu'hier. 天气不如昨天好。
+Cette couleur est aussi bonne que l'autre. 这种颜色和那种颜色一样好。
+
+③ 事情与事情比较
+Lire en français est plus difficile que lire en chinois. 用法语读比用汉语读难。
+Mon travail est moins facile que votre travail. 我的活儿没您的活儿容易。
+L'ambiance y est aussi chaleureuse qu'ici. 那儿的气氛和这儿一样热烈。
+
+④ 形容词 bon/petit/mauvais 在某些定义下的比较级是不规则的。如:
+bon
+在表示“同样好，不如……好”时，bon 保持不变。如:
+Sa qualité est aussi bonne que l'autre. 它的质量和另一件一样好。
+Sa qualité est moins bonne que l'autre. 它的质量不如另一件好。
+在表示“更好”时，要使用比较级 meilleur。如:
+Sa qualité est meilleure que l'autre. 它的质量比另一件好。
+Ceux-ci sont nettement meilleurs. 这些明显好得多。
+
+petit
+用于表示尺寸、大小等具体意义时，petit 不变。如:
+Ma chambre est plus petite que sa chambre. 我的房间比他的房间小。
+Celui-ci paraît plus petit que celui-là. 这个看起来比那个小。
+Elle est plus petite que sa mère. 她比她母亲个子矮。
+表示“距离、质量、价值、程度、重要性”等抽象意义时，应使用比较级 moindre。如:
+une distance moindre 更短的距离
+un moindre prix 更低的价格
+Ces vêtements sont de moindre qualité. 这些服装质量较差。
+Voici des problèmes de moindre importance. 这是一些不太重要的问题。
+
+mauvais
+表示“同样不好”的概念时，mauvais 保持不变。如:
+Le temps est aussi mauvais qu'hiern. 天气和昨天一样不好。
+表示“更坏、更不好”时，多使用比较级 pire。如:
+Celui-ci est pire que celui-là. 这个比那个更差。
+La situation est bien pire que vous ne pensiez. 情况比您想象的还要糟糕。
+
+※ 注意: bon/petit/ mauvais 用于同等或较低程度比较时，仍保持其原来的形式。如:
+aussi / moins bon, bonne, bons, bonnes
+aussi / moins petit, petite, petits, petites
+aussi / moins mauvais, mauvaise, mauvaises
+
+⑤ 在上下文意思清楚的情况下，比较级中常常省略第二成分。如:
+La robe est meilleure. 长裙更好看。(省略 que la jupe)
+Cette chambre est plus ensoleillee. 这个房间阳光更足。(省略 que l'autre)
+Les petits commerces sont plus commodes. 小商店更方便。(省略 que les grands magasins)
+
+⑥ 某些形容词因词义本身的原因不能使用比较级，如: delicieux/excellent/essentiel/impossible/magnifique/possible/superbe 等。
+
+4. La conjugaison (动词变位)
+
+1) dépendre
+
+dépendre
+
+je dépends nous dépendons
+
+tu dépends vous dépendez
+
+il dépend ils dépendent
+
+elle dépend elles dépendent
+
+futur simple: je dépendrai nous dépendrons
+
+paticipe passé: dépendu
+2) établir (第二组动词)
+établir
+
+j'établis nous établissons
+
+tu établis vous établissez
+
+il établit ils établissent
+
+elle établit elles établissent
+
+futur simple: j'établirai nous établirons
+
+paticipe passé: établi

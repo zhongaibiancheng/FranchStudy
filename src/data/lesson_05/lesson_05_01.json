@@ -1,0 +1,454 @@
+{
+  "title": "Leçon 4 Trois visages de l'aventure / 冒险三杰",
+  "audio": {
+    "src": "/audio/lesson4/lesson4_dialogues.m4a"
+  },
+  "text": [
+    {
+      "id": "D01",
+      "source": "dialogue",
+      "french_full": "À l'exposition de l'Histoire des aventures humaines, Robert et son amie chinoise Li Li s'arrêtent devant une vieille photo prise au début du siècle dernier.",
+      "french_gap": "À l'exposition de l'Histoire des aventures humaines, Robert et son amie chinoise Li Li _______________ devant une vieille photo prise au début du siècle dernier.",
+      "chinese": "在人类探险史展览会上，罗贝尔与他的中国女友李丽在一幅拍摄于上世纪初的老照片前站住了脚。",
+      "answers": [
+        "s'arrêtent"
+      ],
+      "tags": [
+        "描述",
+        "动作"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "描述罗贝尔和李丽站在展览会前面观看一张老照片。",
+        "vocab": [
+          { "item": "s'arrêter", "note": "停止，停下。" }
+        ],
+        "grammar": "使用动词“s'arrêter”来表示停止或停下，通常和地点一起使用。",
+        "usage": "常用于描述某人因某种原因停下来看某物。"
+      }
+    },
+    {
+      "id": "D02",
+      "source": "dialogue",
+      "french_full": "— Qui est cette femme au visage rond et habillée en robe ? demande Li Li.",
+      "french_gap": "— Qui est cette femme ________________ et ______________________ une robe ? demande Li Li.",
+      "chinese": "— 这位圆脸穿连衣裙的妇女是谁？李丽问道。",
+      "answers": [
+        "au visage rond",
+        "habillée en"
+      ],
+      "tags": [
+        "问问题",
+        "描述"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "李丽用问句询问照片中的妇女是谁。",
+        "vocab": [
+          { "item": "visage", "note": "面部，脸。" },
+          { "item": "habiller", "note": "穿衣服，打扮。" }
+        ],
+        "grammar": "使用了“au visage + 形容词”和“habillé(e) en + 服饰”来描述外貌。",
+        "usage": "描述外貌时常用这些结构。"
+      }
+    },
+    {
+      "id": "D03",
+      "source": "dialogue",
+      "french_full": "— Elle s'appelle Alexandra David-Néel, c'était la mode, à l'époque, les femmes portaient toutes ce genre de robe.",
+      "french_gap": "— Elle s'appelle Alexandra David-Néel, __________________________, à l'époque, les femmes portaient toutes ce genre de robe.",
+      "chinese": "— 她名叫亚力山德拉·大卫-内尔，当时这是时尚，在那个年代里，妇女都穿这种连衣裙。",
+      "answers": [
+        "c'était la mode"
+      ],
+      "tags": [
+        "解释",
+        "描述"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "解释这位女性的名字以及她穿着的服装代表当时的时尚。",
+        "vocab": [
+          { "item": "mode", "note": "时尚。" },
+          { "item": "porter", "note": "穿着，佩戴。" }
+        ],
+        "grammar": "“c'était la mode”表示“那时的时尚”，用于说明某物在过去的流行。",
+        "usage": "这种结构用于描述过去的潮流或风格。"
+      }
+    },
+    {
+      "id": "D04",
+      "source": "dialogue",
+      "french_full": "— Elle est pas mal comme ça.",
+      "french_gap": "— Elle est ________________ comme ça.",
+      "chinese": "— 她这样看着挺好的。",
+      "answers": [
+        "pas mal"
+      ],
+      "tags": [
+        "评论",
+        "外貌"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "表示对某人外貌或样子的赞美，意思是“看起来不错”。",
+        "vocab": [
+          { "item": "pas mal", "note": "不错，还可以。" }
+        ],
+        "grammar": "“pas mal”是口语中常用的形容词短语，表示“不错”。",
+        "usage": "常用于日常对话中，表示对某人或某事物的肯定。"
+      }
+    },
+    {
+      "id": "D05",
+      "source": "dialogue",
+      "french_full": "— Alexandra est une des premières exploratrices françaises, explique Robert. Elle est née en 1868, près de Paris. J’ai entendu dire qu'elle rêvait déjà de partir à la découverte du monde, depuis qu'on lui avait raconté des histoires d'aventure.",
+      "french_gap": "— Alexandra est  ________________________________________________________, explique Robert. Elle ______________en 1868, près de Paris. _______________________________________________________________________________, ______________________________________________________________________________.",
+      "chinese": "— 亚力山德拉是法国女探险家的先驱之一，罗贝尔解释道。她1868年出生在巴黎附近。我听说自从有人给她讲过一些冒险故事后，她就梦想着去探索世界了。",
+      "answers": [
+        "une des premières"
+      ],
+      "tags": [
+        "介绍",
+        "背景"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "罗贝尔介绍亚力山德拉是法国女探险家的先驱之一，并且讲述她从小听到冒险故事后梦想去探索世界。",
+        "vocab": [
+          { "item": "exploratrice", "note": "女探险家。" },
+          { "item": "rêver", "note": "梦想。" }
+        ],
+        "grammar": "“une des premières”表示“其中之一”，通常用于表示某人或某物在某个领域的开创地位。",
+        "usage": "用于描述某人在某个领域的开创地位。"
+      }
+    },
+    {
+      "id": "D06",
+      "source": "dialogue",
+      "french_full": "— Ah bon ? Dire qu'elle était courageuse !",
+      "french_gap": "— Ah bon ? _____________ qu'elle était courageuse !",
+      "chinese": "— 真的吗？想不到她这么勇敢。",
+      "answers": [
+        "Dire"
+      ],
+      "tags": [
+        "感叹",
+        "评论"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "表示对亚力山德拉的勇气感到惊讶。",
+        "vocab": [
+          { "item": "courageux", "note": "勇敢的。" }
+        ],
+        "grammar": "使用“Dire que”来表达对某事的惊讶或评论。",
+        "usage": "常用于感叹或评论时。"
+      }
+    },
+  {
+      "id": "D07",
+      "source": "dialogue",
+      "french_full": "Tout à fait ! À l'âge de 15 ans, elle a osé quitter la maison familiale et s'est rendue toute seule en Angleterre ! Dans les années suivantes, elle a aussi visité l'Europe et l'Afrique du Nord avant de quitter son mari en 1911. C'est là qu'a commencé sa vraie aventure. Elle est partie à la découverte de l'Asie. Pendant 14 ans, elle a découvert l'Inde...",
+      "french_gap": "___________________ ! ___________________ 15 ans, elle ______________________________________ et______________________________________! Dans les années ___________________, elle a aussi visité l'Europe et ___________________ ______________________________________son mari en 1911. _________________________________________________________. Elle ______________________________________ l'Asie. Pendant 14 ans, elle ______________________________________ l'Inde...",
+      "chinese": "的确如此。15岁的时候，她就敢离家出走，只身一人去了英国！在之后的若干年里，她还游历了欧洲和北非，直到1911年与丈夫分手。她真正的探险正是从这个时候开始的。她动身前往亚洲探险。在十四年的时间里，她探索了印度······",
+      "answers": [
+        "Tout à fait",
+        "À l'âge de",
+        "osé quitter",
+        "s'est rendue",
+        "Dans les années suivantes",
+        "elle a découvert",
+        "elle a découvert"
+      ],
+      "tags": [
+        "探险",
+        "勇气",
+        "历史"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "讲述亚力山德拉勇敢出发，探索世界的故事。",
+        "vocab": [
+          { "item": "oser", "note": "敢于。" },
+          { "item": "rendre", "note": "前往。" }
+        ],
+        "grammar": "使用过去时（passé composé）描述过去的动作，强调过去经历的时间跨度。",
+        "usage": "描述重大冒险经历时常用，强调某人的勇气和探索精神。"
+      }
+    },
+    {
+      "id": "D08",
+      "source": "dialogue",
+      "french_full": "— Attends ! Tu as bien dit « 14 ans » ?",
+      "french_gap": "__________________ ! Tu as bien dit « 14 ans » ?",
+      "chinese": "等等！你说的是“十四年”吗？",
+      "answers": [
+        "Attends"
+      ],
+      "tags": [
+        "惊讶",
+        "确认"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "表示惊讶和对前述时间的确认。",
+        "vocab": [
+          { "item": "attendre", "note": "等待，停顿。" }
+        ],
+        "grammar": "使用“Attends”来表示暂停和惊讶，常用于口语中。",
+        "usage": "在口语中，用来表示对某事的惊讶和需要确认的信息。"
+      }
+    },
+    {
+      "id": "D09",
+      "source": "dialogue",
+      "french_full": "— Oui, pourquoi ?",
+      "french_gap": "__________________ ?",
+      "chinese": "是啊，怎么了？",
+      "answers": [
+        "Oui"
+      ],
+      "tags": [
+        "回应",
+        "口语"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "简短的回应，表示确认并等待对方进一步解释。",
+        "vocab": [],
+        "grammar": "口语中常见的简短回答，表示同意和进一步询问。",
+        "usage": "适用于日常对话中，表示确认并等待继续的对话。"
+      }
+    },
+    {
+      "id": "D10",
+      "source": "dialogue",
+      "french_full": "— Tu sais qu'en Chine, sous la dynastie des Tang, il y avait aussi un bonze très connu, au nom de Tang Xuanzang. Pour rapporter les vrais soutras en Chine, il est parti tout seul en Inde et il y est resté également une dizaine d'années ! Mais ça fait longtemps, c'était 1 300 ans avant.",
+      "french_gap": "Tu sais qu'en Chine, ________________________ Tang, il y avait aussi _______________ _______________, _______________ Tang Xuanzang. Pour _______________ les vrais soutras en Chine, il ______________________________ Inde et il______________________________ également ______________________________ ! Mais ______________________________, il y a 1 300 ans.",
+      "chinese": "你知道，在中国唐朝的时候，也有一位有名的玄奘和尚，为了将真经取回中国，他孤身一人前往印度，同样在那里待了十好几年！但是这是很久以前的事情了，有1300多年了。",
+      "answers": [
+        "sous la dynastie des",
+        "un bonze très connu",
+        "au nom de",
+        "rapporter",
+        "est parti",
+        "est resté",
+        "une dizaine d'années",
+        "ça fait longtemps"
+      ],
+      "tags": [
+        "历史",
+        "比较",
+        "文化"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "用历史背景说明唐代的著名人物玄奘和尚的故事，做比较。",
+        "vocab": [
+          { "item": "dynastie", "note": "朝代。" },
+          { "item": "bonze", "note": "和尚。" },
+          { "item": "soutra", "note": "佛教经典。" }
+        ],
+        "grammar": "使用“Pour + 动词”表示目的；同时“il est parti / est resté”强调过去发生的动作。",
+        "usage": "在讲述历史故事时常用，尤其是通过比较不同文化或历史事件的方式。"
+      }
+    },
+    {
+      "id": "D11",
+      "source": "dialogue",
+      "french_full": "— Oui ! Y a encore un roman là-dessus. C'est le Pèlerinage vers l'Ouest, n'est-ce pas ?",
+      "french_gap": "___________________ ! Y a encore un roman ____________________. C'est ____________________, n'est-ce pas ?",
+      "chinese": "对！还有本小说写的就是这件事。是《西游记》，对不对？",
+      "answers": [
+        "Oui",
+        "là-dessus",
+        "le Pèlerinage vers l'Ouest"
+      ],
+      "tags": [
+        "比较",
+        "文化",
+        "文学"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "确认并指出这段历史背景与小说《西游记》有关。",
+        "vocab": [
+          { "item": "roman", "note": "小说。" }
+        ],
+        "grammar": "通过“C'est + 名称”来确认话题。",
+        "usage": "常用于对某个文化现象的确认和提及。"
+      }
+    },
+    {
+      "id": "D12",
+      "source": "dialogue",
+      "french_full": "— Tiens ! Tu sais ce roman ?",
+      "french_gap": "___________________ ! Tu ___________ ce roman ?",
+      "chinese": "哟！你知道这本小说？",
+      "answers": [
+        "Tiens",
+        "sais"
+      ],
+      "tags": [
+        "口语",
+        "惊讶"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "表示惊讶并提及对方对某个话题的了解。",
+        "vocab": [],
+        "grammar": "“Tiens”用作感叹词，表示惊讶，通常用于口语中。",
+        "usage": "日常对话中用来表达对某事的惊讶。"
+      }
+    },
+    {
+      "id": "D13",
+      "source": "dialogue",
+      "french_full": "— Bien sûr que oui, je l'ai lu quand j'étais au lycée. Tu vois, les grands esprits se rencontrent toujours.",
+      "french_gap": "___________________ que oui, je l'ai lu quand j'étais au lycée. Tu vois, _________________________________ toujours.",
+      "chinese": "当然知道了，我中学的时候读过这本小说。你看，英雄总是所见略同。",
+      "answers": [
+        "Bien sûr",
+        "les grands esprits se rencontrent"
+      ],
+      "tags": [
+        "引用",
+        "文化",
+        "幽默"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "用幽默的方式表示自己知道，并引用名言。",
+        "vocab": [
+          { "item": "esprit", "note": "智慧。" },
+          { "item": "rencontrer", "note": "遇到，碰面。" }
+        ],
+        "grammar": "引用名言“les grands esprits se rencontrent”表示智慧的相遇。",
+        "usage": "常用来表达对某个话题或思想的认同。"
+      }
+    },
+    {
+      "id": "D14",
+      "source": "dialogue",
+      "french_full": "Et Alexandra, qu'est-ce qu'elle est devenue après ?",
+      "french_gap": "Et Alexandra, qu'est-ce qu____________________ ?",
+      "chinese": "那亚力山德拉后来怎么样了？",
+      "answers": [
+        "elle est devenue"
+      ],
+      "tags": [
+        "询问",
+        "后续"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "询问亚力山德拉的后续经历。",
+        "vocab": [
+          { "item": "devenir", "note": "变成，成为。" }
+        ],
+        "grammar": "使用疑问句询问某人之后的经历。",
+        "usage": "常用于询问某人的未来或后续故事。"
+      }
+    },
+    {
+      "id": "D15",
+      "source": "dialogue",
+      "french_full": "Elle est allée en Chine, au Tibet. C’était la première Européenne à entrer au Tibet et toute seule, elle y a passé 2 ans dans les montagnes au-dessus de 4 000 mètres.",
+      "french_gap": "Elle est allée en Chine, ______________________. C'était ____________________________ Tibet et ______________________, elle ______________________ 2 ans ___________ les montagnes ______________________ 4000 mètres.",
+      "chinese": "她去了中国西藏。这是第一位只身入藏的欧洲女性，她在那里海拔4000米以上的山中度过了两年的时间。",
+      "answers": [
+        "au Tibet",
+        "la première Européenne à entrer",
+        "toute seule",
+        "y a passé",
+        "dans",
+        "au-dessus de"
+      ],
+      "tags": [
+        "描述",
+        "探险",
+        "地理"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "描述亚力山德拉在西藏的冒险经历。",
+        "vocab": [
+          { "item": "tibet", "note": "西藏。" },
+          { "item": "montagne", "note": "山脉。" }
+        ],
+        "grammar": "使用过去时表达过去的事件。"
+      }
+    },
+    {
+      "id": "D16",
+      "source": "dialogue",
+      "french_full": "C’est pas vrai ?! Elle devait y vivre des aventures extraordinaires ! Est-elle rentrée à la fin ?",
+      "french_gap": "C'est pas vrai ?! Elle ___________________ des a_____________ e______________ ! Est-elle rentrée _________________?",
+      "chinese": "这不会是真的吧？她在那里肯定有过不同寻常的冒险经历。最后她回来了吗？",
+      "answers": [
+        "devait vivre",
+        "aventures extraordinaires",
+        "rentrée"
+      ],
+      "tags": [
+        "感叹",
+        "冒险"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "表示怀疑并询问她是否回到法国。",
+        "vocab": [
+          { "item": "aventure", "note": "冒险。" }
+        ],
+        "grammar": "使用“devait”来表示“应该做的事”并表达推测。"
+      }
+    },
+    {
+      "id": "D17",
+      "source": "dialogue",
+      "french_full": "— Oui, sûrement. Mais elle est rentrée en 1925.",
+      "french_gap": "— Oui, sûrement. Mais elle __________________________________ en 1925.",
+      "chinese": "— 当然回来了。但她是直到1925年才回的法国。",
+      "answers": [
+        "est rentrée"
+      ],
+      "tags": [
+        "回应",
+        "解释"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "确认并解释亚力山德拉在1925年才回到法国。",
+        "vocab": [
+          { "item": "rentrer", "note": "回去，返回。" }
+        ],
+        "grammar": "使用过去时（passé composé）来描述过去发生的事情。",
+        "usage": "用于描述过去的动作，特别是解释某件事发生的时间。"
+      }
+    },
+    {
+      "id": "D18",
+      "source": "dialogue",
+      "french_full": "C’est vraiment une exploratrice incroyable !",
+      "french_gap": "C’est vraiment ____________________________ !",
+      "chinese": "这可真是位神奇的女探险家！",
+      "answers": [
+        "une exploratrice incroyable"
+      ],
+      "tags": [
+        "感叹",
+        "钦佩"
+      ],
+      "level": "A",
+      "explain": {
+        "meaning": "表示对亚力山德拉非凡勇气的钦佩。",
+        "vocab": [
+          { "item": "incroyable", "note": "不可思议的，令人惊叹的。" }
+        ],
+        "grammar": "用“C’est vraiment + 形容词”表示强烈的感叹。",
+        "usage": "在表达钦佩或惊讶时很常用。"
+      }
+    }
+  ]
+}

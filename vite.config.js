@@ -1,18 +1,23 @@
-import { fileURLToPath, URL } from 'node:url'
-
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import vueDevTools from 'vite-plugin-vue-devtools'
+import { fileURLToPath, URL } from 'node:url'
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    vueDevTools(),
-  ],
+  base: process.env.BASE_URL || '/france/',
+  plugins: [vue()],
+  server: {
+    host: '0.0.0.0',
+    watch: { usePolling: true },
+    port: 3000
+  },
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
-    },
+    }
   },
+  publicDir: 'public'
 })

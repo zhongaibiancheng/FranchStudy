@@ -3,12 +3,23 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter()
 
+const book_01_lessons = [
+  { id: 1, title: '第一课-第四课','notes':false,'word01':true },
+  { id: 2, title: "第五课-第八课",'word01':true },
+  { id: 3, title: "第九课-第十课",'word01':true },
+  { id: 4, title: "第十一课-第十二课",'word01':true },
+  { id: 5, title: "第十三课-第十四课",'word01':true },
+  // { id: 3, title: "Leçon 3 – Interview d'un personnage",'notes':true,'word01':true },
+  // { id: 4, title: "Leçon 4 – Trois visages de l'aventure",'notes':false ,'word01':true},
+  // { id: 5, title: "Leçon 5 – Trois visages de l'aventure",'notes':false ,'word01':true}
+]
 // 课程列表数据
 const lessons = [
   { id: 1, title: 'Leçon 1 – Rester ou partir ?','notes':true,'word01':true },
   { id: 2, title: "Leçon 2 – S'orienter",'word01':true },
   { id: 3, title: "Leçon 3 – Interview d'un personnage",'notes':true,'word01':true },
-  { id: 4, title: "Leçon 4 – Trois visages de l'aventure",'notes':false ,'word01':true}
+  { id: 4, title: "Leçon 4 – Trois visages de l'aventure",'notes':false ,'word01':true},
+  { id: 5, title: "Leçon 5 – Trois visages de l'aventure",'notes':false ,'word01':true}
 ]
 
 const goLessonReader = (lesson_id)=>{
@@ -36,6 +47,15 @@ const goWordList = (lesson_id)=>{
       }
   })
 }
+const goBook1Word01 = (lesson_id)=>{
+  router.push({
+    path:'/word01',
+    query: {
+        book:1,
+        lesson: lesson_id
+      }
+  })
+}
 const goWord01 = (lesson_id)=>{
   router.push({
     path:'/word01',
@@ -45,6 +65,11 @@ const goWord01 = (lesson_id)=>{
   })
 }
 
+const spellingBee = ()=>{
+  router.push({
+    path:'/dictationPage'
+  })
+}
 const goNotes =(lesson_id)=>{
   router.push({
     path:'/notes',
@@ -60,11 +85,44 @@ const goNotes =(lesson_id)=>{
     <!-- 页面头部 -->
     <header class="page-header">
       <h1>法语学习系统</h1>
-      <p>北外法语修订版 第二册</p>
+      <p>北外法语修订版</p>
     </header>
 
     <!-- 主要内容 -->
     <main class="main-content">
+      <div class="book-card">
+        <div class="book-cover">
+          <h2>第一册</h2>
+          <div class="book-decoration">📚</div>
+        </div>
+        <div class="lessons-section">
+          <div class="flex items-center justify-between mb-4">
+            <h3>课程列表</h3>
+            <button @click="spellingBee()" class="h-9 px-4 rounded-lg border border-gray-200 bg-white text-sm font-semibold hover:bg-gray-50">听写单词</button>
+          </div>
+
+          <div class="lessons-list">
+            <div 
+              v-for="(lesson,index) in book_01_lessons" 
+              :key="lesson.id"
+              class="lesson-item"
+            >
+              <span class="lesson-number">第 {{ lesson.id }} 课</span>
+              <span class="lesson-title">{{ lesson.title }}</span>
+              <span class="lesson-arrow">→</span>
+              <div>
+                <!-- <button @click="goLessonReader(index+1)">看课文</button>
+                <button @click="goGrammarQuotes(index+1)">背例句</button>
+                <button @click="goWordList(index+1)">背单词</button> -->
+                <button @click="goBook1Word01(index+1)" v-if="lesson.word01">背单词 01</button>
+                <button @click="goNotes(index+1)" v-if="lesson.notes">课文备注</button>
+              </div>
+
+            </div>
+          
+        </div>
+        </div>
+      </div>
       <div class="book-card">
         <div class="book-cover">
           <h2>第二册</h2>
@@ -72,7 +130,10 @@ const goNotes =(lesson_id)=>{
         </div>
         
         <div class="lessons-section">
-          <h3>课程列表</h3>
+          <div class="flex items-center justify-between mb-4">
+            <h3>课程列表</h3>
+            <button @click="spellingBee()" class="h-9 px-4 rounded-lg border border-gray-200 bg-white text-sm font-semibold hover:bg-gray-50">听写单词</button>
+          </div>
           <div class="lessons-list">
             <div 
               v-for="(lesson,index) in lessons" 

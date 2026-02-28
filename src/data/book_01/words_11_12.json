@@ -1,0 +1,674 @@
+[
+  {
+    "id": 1,
+    "french": "à propos",
+    "chinese": "对啦，想起来啦（用于引出突然想起的话）",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 2,
+    "french": "directeur, trice",
+    "chinese": "班长；经理",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 3,
+    "french": "enseigner",
+    "chinese": "教授(课)",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 4,
+    "french": "froid, e",
+    "chinese": "冷的；凉的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 5,
+    "french": "grand-mère",
+    "chinese": "（外）祖母",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 6,
+    "french": "grand-père",
+    "chinese": "（外）祖父",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 7,
+    "french": "an",
+    "chinese": "年",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 8,
+    "french": "le Nouvel An",
+    "chinese": "新年，元旦",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 9,
+    "french": "appartement",
+    "chinese": "公寓套房，成套房间",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 10,
+    "french": "habiller (s')",
+    "chinese": "（外）祖父母",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 11,
+    "french": "laver (se)",
+    "chinese": "洗(脸)",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 12,
+    "french": "Legrand",
+    "chinese": "勒格朗（姓）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "姓氏（专有名词）"
+  },
+  {
+    "id": 13,
+    "french": "capitale",
+    "chinese": "首都",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 14,
+    "french": "lettre",
+    "chinese": "信件",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 15,
+    "french": "Carrefour",
+    "chinese": "（法国连锁的）家乐福超市",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 16,
+    "french": "lever (se)",
+    "chinese": "起床",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 17,
+    "french": "chef-lieu",
+    "chinese": "省会",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 18,
+    "french": "littérature",
+    "chinese": "文学",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 19,
+    "french": "loin de",
+    "chinese": "离……远的",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 20,
+    "french": "Luxembourg",
+    "chinese": "卢森堡公园",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 21,
+    "french": "date",
+    "chinese": "日期",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 22,
+    "french": "lycée",
+    "chinese": "高中（公立）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 23,
+    "french": "de bonne heure",
+    "chinese": "早",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 24,
+    "french": "Mathilde",
+    "chinese": "玛蒂尔德（女名）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 25,
+    "french": "dehors",
+    "chinese": "在外面",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 26,
+    "french": "matinal, e, aux",
+    "chinese": "早晨的；早起的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 27,
+    "french": "dent",
+    "chinese": "牙齿",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 28,
+    "french": "neiger",
+    "chinese": "下雪",
+    "part_of_speech": "v.impers.",
+    "part_of_speech_full_chinese": "无人称动词"
+  },
+  {
+    "id": 29,
+    "french": "nostalgique",
+    "chinese": "想家的，思乡的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 30,
+    "french": "parc",
+    "chinese": "公园",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 31,
+    "french": "passer",
+    "chinese": "流逝；通过",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 32,
+    "french": "passer un examen",
+    "chinese": "应考",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 33,
+    "french": "penser(+à)",
+    "chinese": "想到；想念",
+    "part_of_speech": "v.t.indir.",
+    "part_of_speech_full_chinese": "间接及物动词"
+  },
+  {
+    "id": 34,
+    "french": "pétrolier, ère",
+    "chinese": "石油的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 35,
+    "french": "promener(se)",
+    "chinese": "散步",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 36,
+    "french": "province",
+    "chinese": "省",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 37,
+    "french": "raser(se)",
+    "chinese": "刮脸",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 38,
+    "french": "regarder(se)",
+    "chinese": "照镜子",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 39,
+    "french": "rencontrer(se)",
+    "chinese": "相遇",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 40,
+    "french": "rentrer",
+    "chinese": "返回，回家",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 41,
+    "french": "rien",
+    "chinese": "什么也没有，什么也不",
+    "part_of_speech": "pron.inf.",
+    "part_of_speech_full_chinese": "泛指代词"
+  },
+  {
+    "id": 42,
+    "french": "saluer(se)",
+    "chinese": "互致问候",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 43,
+    "french": "sortir",
+    "chinese": "不出去，出门",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 44,
+    "french": "TOTAL",
+    "chinese": "道达尔石油公司",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "专有名词（公司）"
+  },
+  {
+    "id": 45,
+    "french": "vacances",
+    "chinese": "假期",
+    "part_of_speech": "n.pl.",
+    "part_of_speech_full_chinese": "复数名词"
+  },
+  {
+    "id": 46,
+    "french": "Xavier",
+    "chinese": "格扎维埃（男名）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 47,
+    "french": "Préparez vos cahiers. Nous allons faire la dictée.",
+    "chinese": "准备好本子，我们来做听写。",
+    "part_of_speech": "phrase",
+    "part_of_speech_full_chinese": "课堂用语（短语）"
+  },
+  {
+    "id": 48,
+    "french": "N'oubliez pas d'ajouter s à la fin.",
+    "chinese": "别忘了在后面加s。",
+    "part_of_speech": "phrase",
+    "part_of_speech_full_chinese": "课堂用语（短语）"
+  },
+  {
+    "id": 49,
+    "french": "un million",
+    "chinese": "一百万",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 50,
+    "french": "cent millions",
+    "chinese": "一亿",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 51,
+    "french": "un million deux cent mille",
+    "chinese": "一百二十万",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 52,
+    "french": "cent dix millions",
+    "chinese": "一亿一千万",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 53,
+    "french": "dix millions",
+    "chinese": "一千万",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 54,
+    "french": "deux cents millions",
+    "chinese": "两亿",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 55,
+    "french": "quinze millions cinq cent mille",
+    "chinese": "一千五百五十万",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 56,
+    "french": "neuf cents millions",
+    "chinese": "九亿",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 57,
+    "french": "milliard",
+    "chinese": "十亿",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 58,
+    "french": "Asseyez-vous, s'il vous plaît.",
+    "chinese": "请坐",
+    "part_of_speech": "phrase",
+    "part_of_speech_full_chinese": "课堂用语（短语）"
+  },
+  {
+    "id": 59,
+    "french": "lever",
+    "chinese": "举起",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 60,
+    "french": "main",
+    "chinese": "手",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 61,
+    "french": "manger",
+    "chinese": "吃",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 62,
+    "french": "matin",
+    "chinese": "早晨，上午",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 63,
+    "french": "mesdemoiselles",
+    "chinese": "小姐们",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "复数阴性名词"
+  },
+  {
+    "id": 64,
+    "french": "messieurs",
+    "chinese": "先生们",
+    "part_of_speech": "n.m.pl.",
+    "part_of_speech_full_chinese": "复数阳性名词"
+  },
+  {
+    "id": 65,
+    "french": "mot",
+    "chinese": "字",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 66,
+    "french": "nid",
+    "chinese": "鸟巢",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 67,
+    "french": "non plus",
+    "chinese": "也不",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 68,
+    "french": "normal, e, aux",
+    "chinese": "正常的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 69,
+    "french": "œil (pl. yeux)",
+    "chinese": "眼睛",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 70,
+    "french": "à mes yeux",
+    "chinese": "在我看来",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 71,
+    "french": "oiseau",
+    "chinese": "鸟",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 72,
+    "french": "on",
+    "chinese": "人们；大家",
+    "part_of_speech": "pron.indéf.",
+    "part_of_speech_full_chinese": "泛指代词"
+  },
+  {
+    "id": 73,
+    "french": "parler de qn",
+    "chinese": "谈论某人",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 74,
+    "french": "pas",
+    "chinese": "脚步",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 75,
+    "french": "patience",
+    "chinese": "耐心",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 76,
+    "french": "plus",
+    "chinese": "更愈",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 77,
+    "french": "problème",
+    "chinese": "问题",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 78,
+    "french": "pronunciation",
+    "chinese": "发音",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 79,
+    "french": "quelque",
+    "chinese": "某个",
+    "part_of_speech": "a.indéf.",
+    "part_of_speech_full_chinese": "泛指形容词"
+  },
+  {
+    "id": 80,
+    "french": "rire",
+    "chinese": "笑；笑声",
+    "part_of_speech": "v.i., n.m.",
+    "part_of_speech_full_chinese": "不及物动词/阳性名词"
+  },
+  {
+    "id": 81,
+    "french": "rivière",
+    "chinese": "河流",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 82,
+    "french": "ruisseau",
+    "chinese": "溪流",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 83,
+    "french": "seulement",
+    "chinese": "仅仅",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 84,
+    "french": "si",
+    "chinese": "假如，如果",
+    "part_of_speech": "conj.",
+    "part_of_speech_full_chinese": "连词"
+  },
+  {
+    "id": 85,
+    "french": "suivre",
+    "chinese": "跟随",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 86,
+    "french": "supposer",
+    "chinese": "假设",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 87,
+    "french": "ton",
+    "chinese": "声调",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 88,
+    "french": "tous",
+    "chinese": "所有人（复数）",
+    "part_of_speech": "pron.indéf.",
+    "part_of_speech_full_chinese": "泛指代词"
+  },
+  {
+    "id": 89,
+    "french": "tout à fait",
+    "chinese": "完全地",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 90,
+    "french": "vérité",
+    "chinese": "真理；事实",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 91,
+    "french": "mille cent",
+    "chinese": "一千一百",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 92,
+    "french": "onze cents",
+    "chinese": "一千一百",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 93,
+    "french": "mille deux cents",
+    "chinese": "一千二百",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 94,
+    "french": "douze cents",
+    "chinese": "一千二百",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 95,
+    "french": "mille cinq cents",
+    "chinese": "一千五百",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  },
+  {
+    "id": 96,
+    "french": "quinze cents",
+    "chinese": "一千五百",
+    "part_of_speech": "num.",
+    "part_of_speech_full_chinese": "数词"
+  }
+]
