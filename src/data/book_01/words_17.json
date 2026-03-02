@@ -1,0 +1,387 @@
+[
+  {
+    "id": 1,
+    "french": "agence",
+    "chinese": "办事处；事务所；社",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 2,
+    "french": "alimentation",
+    "chinese": "食品",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 3,
+    "french": "arrêter de faire qch.",
+    "chinese": "停止做某事",
+    "part_of_speech": "loc.v.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 4,
+    "french": "bavarder",
+    "chinese": "聊天；闲谈",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 5,
+    "french": "bip",
+    "chinese": "嘟嘟声（指电子仪器发出的短促提示声）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 6,
+    "french": "chargé, e",
+    "chinese": "满满的；紧凑的（时间、日程安排）",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 7,
+    "french": "chaussette",
+    "chinese": "袜子",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 8,
+    "french": "chéri, e",
+    "chinese": "心爱的（人）",
+    "part_of_speech": "a., n.",
+    "part_of_speech_full_chinese": "形容词；名词"
+  },
+  {
+    "id": 9,
+    "french": "chien",
+    "chinese": "狗",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 10,
+    "french": "coiffer (se)",
+    "chinese": "梳头",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 11,
+    "french": "comme d’habitude",
+    "chinese": "如同往常一样",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 12,
+    "french": "courant, e",
+    "chinese": "日常的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 13,
+    "french": "courses",
+    "chinese": "购物",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "阴性复数名词"
+  },
+  {
+    "id": 14,
+    "french": "crier",
+    "chinese": "叫喊",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 15,
+    "french": "de plus",
+    "chinese": "又；再",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 16,
+    "french": "exigeant, e",
+    "chinese": "严格的；苛刻的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 17,
+    "french": "fatigué, e",
+    "chinese": "疲劳的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 18,
+    "french": "garage",
+    "chinese": "汽车修理厂；车库",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 19,
+    "french": "gras, se",
+    "chinese": "肥沃的；丰富的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 20,
+    "french": "faire la grasse matinée",
+    "chinese": "睡懒觉",
+    "part_of_speech": "loc.v.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 21,
+    "french": "impatient, e",
+    "chinese": "不耐烦的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 22,
+    "french": "mal",
+    "chinese": "疼；痛",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 23,
+    "french": "avoir mal à",
+    "chinese": "（某处）疼痛",
+    "part_of_speech": "loc.v.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 24,
+    "french": "mathématiques",
+    "chinese": "数学",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "阴性复数名词"
+  },
+  {
+    "id": 25,
+    "french": "mauvais, e",
+    "chinese": "坏的；不好的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 26,
+    "french": "métro",
+    "chinese": "地铁",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 27,
+    "french": "obligatoire",
+    "chinese": "必须遵守的；强制性的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 28,
+    "french": "occupé, e",
+    "chinese": "忙碌的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 29,
+    "french": "option",
+    "chinese": "选择",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 30,
+    "french": "ordinateur",
+    "chinese": "电脑；计算机",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 31,
+    "french": "pantalon",
+    "chinese": "裤子",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 32,
+    "french": "peigner (se)",
+    "chinese": "梳头",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 33,
+    "french": "prendre qch. pour exemple",
+    "chinese": "以……为例",
+    "part_of_speech": "loc.v.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 34,
+    "french": "préparer (se)",
+    "chinese": "做准备",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 35,
+    "french": "prêt, e",
+    "chinese": "就绪的；准备好的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 36,
+    "french": "promenade",
+    "chinese": "散步",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 37,
+    "french": "promettre",
+    "chinese": "允诺；答应",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 38,
+    "french": "rempli, e",
+    "chinese": "忙碌的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 39,
+    "french": "Renault",
+    "chinese": "雷诺汽车（公司）",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "专有名词"
+  },
+  {
+    "id": 40,
+    "french": "rester",
+    "chinese": "逗留；呆在",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 41,
+    "french": "réveil",
+    "chinese": "闹钟",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 42,
+    "french": "réveiller (se)",
+    "chinese": "醒；苏醒",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 43,
+    "french": "rythme",
+    "chinese": "节奏；韵律",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 44,
+    "french": "savonnette",
+    "chinese": "香皂",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 45,
+    "french": "secondaire",
+    "chinese": "中等的；第二的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 46,
+    "french": "se mettre en colère",
+    "chinese": "发脾气",
+    "part_of_speech": "loc.v.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 47,
+    "french": "serviette",
+    "chinese": "毛巾",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 48,
+    "french": "sommeil",
+    "chinese": "睡意；困倦",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 49,
+    "french": "sonnerie",
+    "chinese": "铃声",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 50,
+    "french": "soulier",
+    "chinese": "鞋；皮鞋",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 51,
+    "french": "tête",
+    "chinese": "头",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 52,
+    "french": "toilette",
+    "chinese": "盥洗；梳洗",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 53,
+    "french": "tour",
+    "chinese": "圈；环绕",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 54,
+    "french": "France Tour",
+    "chinese": "环法旅行社",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "专有名词"
+  },
+  {
+    "id": 55,
+    "french": "voyage",
+    "chinese": "旅行",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  }
+]

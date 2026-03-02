@@ -1,0 +1,688 @@
+[
+  {
+    "id": 1,
+    "french": "à l'aise",
+    "chinese": "舒适；自在",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 2,
+    "french": "accorder",
+    "chinese": "给予；授予",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 3,
+    "french": "adolescent, e",
+    "chinese": "青少年；青春的，青少年期的；年幼的",
+    "part_of_speech": "n. / a.",
+    "part_of_speech_full_chinese": "名词 / 形容词"
+  },
+  {
+    "id": 4,
+    "french": "adulte",
+    "chinese": "成年人；成体的；成熟的；成年（人）的",
+    "part_of_speech": "n. / a.",
+    "part_of_speech_full_chinese": "名词 / 形容词"
+  },
+  {
+    "id": 5,
+    "french": "aménager",
+    "chinese": "整理，布置",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 6,
+    "french": "amuser",
+    "chinese": "使高兴，逗乐；玩耍，自娱自乐；消遣",
+    "part_of_speech": "v.t. / v.pr.",
+    "part_of_speech_full_chinese": "及物动词 / 代词式动词"
+  },
+  {
+    "id": 7,
+    "french": "appeler",
+    "chinese": "给（某人）打电话；互通电话",
+    "part_of_speech": "v.t. / v.pr.",
+    "part_of_speech_full_chinese": "及物动词 / 代词式动词"
+  },
+  {
+    "id": 8,
+    "french": "attentionné, e",
+    "chinese": "殷勤的，亲切的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 9,
+    "french": "au profit de",
+    "chinese": "为……的利益",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 10,
+    "french": "autonomie",
+    "chinese": "自治，自主",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 11,
+    "french": "autonomiser (s')",
+    "chinese": "自治；自（己作）",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代词式动词"
+  },
+  {
+    "id": 12,
+    "french": "autre",
+    "chinese": "另一个；其他人，其他事物",
+    "part_of_speech": "pron.indéf.",
+    "part_of_speech_full_chinese": "泛指代词"
+  },
+  {
+    "id": 13,
+    "french": "les uns aux ~s",
+    "chinese": "相互，彼此",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 14,
+    "french": "bonheur",
+    "chinese": "幸福",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 15,
+    "french": "Canaries",
+    "chinese": "西属加那利群岛（北大西洋东部火山群岛）",
+    "part_of_speech": "n.f.pl.",
+    "part_of_speech_full_chinese": "复数阴性名词"
+  },
+  {
+    "id": 16,
+    "french": "Cantal",
+    "chinese": "康塔尔（省）（法国中南部奥弗涅大区所辖的省份）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 17,
+    "french": "caravane",
+    "chinese": "（用汽车牵引的）旅行挂车；沙漠商队；结队而行的人或车",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 18,
+    "french": "Champs - sur - Mer",
+    "chinese": "上海地（布列塔尼南海岸线地名）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "专有名词"
+  },
+  {
+    "id": 19,
+    "french": "charge",
+    "chinese": "责任，任务，差使",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 20,
+    "french": "prendre qch. en ~",
+    "chinese": "负责做某事",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 21,
+    "french": "prendre qn en ~",
+    "chinese": "担负起抚养或管教某人的责任",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 22,
+    "french": "chouette",
+    "chinese": "〈民间用语〉漂亮的；可爱的；真不错啊（表示惊喜）",
+    "part_of_speech": "a. / interj.",
+    "part_of_speech_full_chinese": "形容词 / 感叹词"
+  },
+  {
+    "id": 23,
+    "french": "complètement",
+    "chinese": "完全地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 24,
+    "french": "comporter (se)",
+    "chinese": "举止，行为",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代词式动词"
+  },
+  {
+    "id": 25,
+    "french": "concevoir",
+    "chinese": "构思，构想，设计",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 26,
+    "french": "conférence",
+    "chinese": "演讲会，报告会；讲座",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 27,
+    "french": "maître de ~",
+    "chinese": "（大学）讲师",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 28,
+    "french": "cure",
+    "chinese": "治疗，疗法",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 29,
+    "french": "décider (se)",
+    "chinese": "决定，下决心；被决定",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代词式动词"
+  },
+  {
+    "id": 30,
+    "french": "se ~ à (faire) qch.",
+    "chinese": "终于决定，终于下决心（做某事）",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 31,
+    "french": "détendre",
+    "chinese": "松开；使放松；（自我）放松",
+    "part_of_speech": "v.t. / v.pr.",
+    "part_of_speech_full_chinese": "及物动词 / 代词式动词"
+  },
+  {
+    "id": 32,
+    "french": "disparaître",
+    "chinese": "消失",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 33,
+    "french": "échappatoire",
+    "chinese": "摆脱困境的方法，脱身之计",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 34,
+    "french": "échapper (+à)",
+    "chinese": "逃脱",
+    "part_of_speech": "v.t.ind.",
+    "part_of_speech_full_chinese": "间接及物动词"
+  },
+  {
+    "id": 35,
+    "french": "emplacement",
+    "chinese": "场地，地方",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 36,
+    "french": "étoile",
+    "chinese": "星；星形物，星形标志",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 37,
+    "french": "un quatre - ~",
+    "chinese": "一家四星级宾馆",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 38,
+    "french": "extérieur, e",
+    "chinese": "外面，外界，外部；外面的，外边，外部的",
+    "part_of_speech": "a. / n.m.",
+    "part_of_speech_full_chinese": "形容词 / 阳性名词"
+  },
+  {
+    "id": 39,
+    "french": "extra",
+    "chinese": "〈俗〉优质的，优等的，特等的",
+    "part_of_speech": "a.inv.",
+    "part_of_speech_full_chinese": "不变化形容词"
+  },
+  {
+    "id": 40,
+    "french": "extraterrestre",
+    "chinese": "外星的；地球以外的；外星人",
+    "part_of_speech": "a. / n.",
+    "part_of_speech_full_chinese": "形容词 / 名词"
+  },
+  {
+    "id": 41,
+    "french": "gâcher",
+    "chinese": "浪费，糟蹋",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 42,
+    "french": "Grèce",
+    "chinese": "希腊",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 43,
+    "french": "habitat",
+    "chinese": "居住形式，居住条件",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 44,
+    "french": "hésitation",
+    "chinese": "踌躇，犹豫",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 45,
+    "french": "identique",
+    "chinese": "一致的；相同的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 46,
+    "french": "igloo",
+    "chinese": "（爱斯基摩人的）圆顶雪屋（也写作igou）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 47,
+    "french": "indépendant, e",
+    "chinese": "独立的；自主的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 48,
+    "french": "jungle",
+    "chinese": "〈英〉热带丛林；〈转〉弱肉强食的世界",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 49,
+    "french": "linge",
+    "chinese": "衬衣，内衣；（棉麻化纤等日用）布制品",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 50,
+    "french": "lipide",
+    "chinese": "脂肪，脂类（动、植物的脂肪）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 51,
+    "french": "marquer",
+    "chinese": "表明，显示",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 52,
+    "french": "mélanger",
+    "chinese": "混合；〈俗〉弄乱，搞乱；混合，掺合",
+    "part_of_speech": "v.t. / v.pr.",
+    "part_of_speech_full_chinese": "及物动词 / 代词式动词"
+  },
+  {
+    "id": 53,
+    "french": "ménager, ère",
+    "chinese": "家务的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 54,
+    "french": "mobil(e) home (pl. des mobile homes)",
+    "chinese": "（机车牵引的）移动住宅",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 55,
+    "french": "Morbihan",
+    "chinese": "莫尔比安（省）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 56,
+    "french": "moult [mult]",
+    "chinese": "很，十分，许多（现只用于戏谑语）",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 57,
+    "french": "naturel, le",
+    "chinese": "大自然的；天然的；正常的，合乎情理的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 58,
+    "french": "il est ~ que",
+    "chinese": "……是很自然的，……是理所当然的（il为无人称主语）",
+    "part_of_speech": "句型",
+    "part_of_speech_full_chinese": "句型"
+  },
+  {
+    "id": 59,
+    "french": "nicher",
+    "chinese": "〈俗〉安顿，安置",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 60,
+    "french": "nomade",
+    "chinese": "游牧的；（动物）随季节变更而迁移的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 61,
+    "french": "normalement",
+    "chinese": "正常地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 62,
+    "french": "nouer",
+    "chinese": "扎，系；建立，结下",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 63,
+    "french": "organisme",
+    "chinese": "组织；机构",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 64,
+    "french": "parental, e (pl. ~aux)",
+    "chinese": "双亲的，父母的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 65,
+    "french": "partager",
+    "chinese": "分配，分派；平分；〈转〉分享，分担",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 66,
+    "french": "pêche",
+    "chinese": "渔业；捕鱼",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 67,
+    "french": "pizza",
+    "chinese": "〈意〉比萨饼，意大利馅饼",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 68,
+    "french": "pratique",
+    "chinese": "实践",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 69,
+    "french": "proche",
+    "chinese": "邻近的；逼近的，即将来临的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 70,
+    "french": "projeter",
+    "chinese": "打算，设想，规划；~ qch. / ~ de faire qch. 打算做某事",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 71,
+    "french": "quand même",
+    "chinese": "仍然",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 72,
+    "french": "ramassage",
+    "chinese": "拾取，捡起",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 73,
+    "french": "redécouvrir",
+    "chinese": "再发现，重新发现",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 74,
+    "french": "redoublement",
+    "chinese": "留级，重读",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 75,
+    "french": "règle",
+    "chinese": "尺子；〈俗〉规则",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 76,
+    "french": "en ~ générale",
+    "chinese": "通常，一般情况下（相当于habituellement）",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 77,
+    "french": "résidence",
+    "chinese": "寓所，住宅；豪华住宅（区）",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 78,
+    "french": "une ~ secondaire",
+    "chinese": "第二寓所，别墅（通常在乡下或海边）",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 79,
+    "french": "retrouver",
+    "chinese": "又找到，又发现；重逢，再相见",
+    "part_of_speech": "v.t. / v.pr.",
+    "part_of_speech_full_chinese": "及物动词 / 代词式动词"
+  },
+  {
+    "id": 80,
+    "french": "rêver (+de)",
+    "chinese": "梦见；渴望，梦想",
+    "part_of_speech": "v.t.ind.",
+    "part_of_speech_full_chinese": "间接及物动词"
+  },
+  {
+    "id": 81,
+    "french": "ringard, e",
+    "chinese": "〈俗〉过时的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 82,
+    "french": "sous la main",
+    "chinese": "在手头，在手边",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 83,
+    "french": "stress",
+    "chinese": "压力，重压；紧张",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 84,
+    "french": "structuré, e",
+    "chinese": "有组织的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 85,
+    "french": "sur place",
+    "chinese": "原地，就地；现场",
+    "part_of_speech": "词组",
+    "part_of_speech_full_chinese": "词组"
+  },
+  {
+    "id": 86,
+    "french": "surveillance",
+    "chinese": "监视；监督",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 87,
+    "french": "témoignage",
+    "chinese": "证词，见证",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 88,
+    "french": "tente",
+    "chinese": "帐篷",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 89,
+    "french": "terrain",
+    "chinese": "场所，场地",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 90,
+    "french": "toile",
+    "chinese": "布",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 91,
+    "french": "tribu",
+    "chinese": "部落，宗族；一家老小，一大家子",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 92,
+    "french": "vaisselle",
+    "chinese": "餐具；刷洗碗碟",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 93,
+    "french": "vis - à - vis de",
+    "chinese": "和……面对面；关于，对于",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 94,
+    "french": "voire",
+    "chinese": "甚至，此外",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 95,
+    "french": "un centimètre carré (cm²)",
+    "chinese": "平方厘米",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 96,
+    "french": "un décimètre carré (dm²)",
+    "chinese": "平方分米",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 97,
+    "french": "un mètre carré (m²)",
+    "chinese": "平方米",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "计量单位"
+  },
+  {
+    "id": 98,
+    "french": "un are (a)",
+    "chinese": "公亩",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "计量单位"
+  }
+]

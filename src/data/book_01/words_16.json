@@ -1,0 +1,395 @@
+[
+  {
+    "id": 1,
+    "french": "agricole",
+    "chinese": "农业的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 2,
+    "french": "ancien, ne",
+    "chinese": "从前的；故旧的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 3,
+    "french": "attention",
+    "chinese": "注意",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 4,
+    "french": "avenir",
+    "chinese": "前途；未来",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 5,
+    "french": "bâtiment",
+    "chinese": "楼房",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 6,
+    "french": "colère",
+    "chinese": "愤怒",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 7,
+    "french": "être en colère",
+    "chinese": "发怒；发脾气",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定表达"
+  },
+  {
+    "id": 8,
+    "french": "comme ci comme ça",
+    "chinese": "马马虎虎；凑合",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 9,
+    "french": "défaut",
+    "chinese": "缺点；缺陷",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 10,
+    "french": "devoir",
+    "chinese": "应该；有义务；有责任",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 11,
+    "french": "devoir",
+    "chinese": "（学生的）作业；练习",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 12,
+    "french": "disco",
+    "chinese": "迪斯科（舞厅）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 13,
+    "french": "échouer",
+    "chinese": "失败",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 14,
+    "french": "économe",
+    "chinese": "节省的；节约的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 15,
+    "french": "écrit, e",
+    "chinese": "书写的；笔头的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 16,
+    "french": "effort",
+    "chinese": "努力",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 17,
+    "french": "emploi",
+    "chinese": "职业；工作",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 18,
+    "french": "en avoir assez de qch./qn",
+    "chinese": "对某事/某人感到厌烦",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定表达"
+  },
+  {
+    "id": 19,
+    "french": "espérer",
+    "chinese": "希望",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 20,
+    "french": "essayer",
+    "chinese": "试；努力",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 21,
+    "french": "exagérer",
+    "chinese": "夸大；夸张",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 22,
+    "french": "exemple",
+    "chinese": "榜样",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 23,
+    "french": "faire plaisir à qn",
+    "chinese": "使人高兴；讨人喜欢",
+    "part_of_speech": "loc.v.",
+    "part_of_speech_full_chinese": "动词短语"
+  },
+  {
+    "id": 24,
+    "french": "feuille",
+    "chinese": "纸张",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 25,
+    "french": "fois",
+    "chinese": "次；回",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 26,
+    "french": "hum",
+    "chinese": "嗯；呣（表示不耐烦、怀疑）",
+    "part_of_speech": "interj.",
+    "part_of_speech_full_chinese": "感叹词"
+  },
+  {
+    "id": 27,
+    "french": "IUT",
+    "chinese": "科技大学；工学院（institut universitaire de technologie）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 28,
+    "french": "jeu",
+    "chinese": "游戏",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 29,
+    "french": "jeu vidéo",
+    "chinese": "电子游戏",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+
+  {
+    "id": 30,
+    "french": "larme",
+    "chinese": "眼泪",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 31,
+    "french": "lendemain",
+    "chinese": "第二天",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 32,
+    "french": "ligne",
+    "chinese": "行；线",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 33,
+    "french": "maître, sse",
+    "chinese": "教师",
+    "part_of_speech": "n.",
+    "part_of_speech_full_chinese": "名词"
+  },
+  {
+    "id": 34,
+    "french": "marcher",
+    "chinese": "顺利进行",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 35,
+    "french": "montrer",
+    "chinese": "指出；演示",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 36,
+    "french": "mouton",
+    "chinese": "绵羊",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 37,
+    "french": "musique",
+    "chinese": "音乐",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 38,
+    "french": "Net",
+    "chinese": "互联网（Internet 的缩写）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 39,
+    "french": "optimisme",
+    "chinese": "乐观态度；乐观主义",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 40,
+    "french": "oral, e",
+    "chinese": "口头的；口语的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 41,
+    "french": "paresseux, se",
+    "chinese": "懒惰的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 42,
+    "french": "perle",
+    "chinese": "珍珠；十全十美的人",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 43,
+    "french": "pourtant",
+    "chinese": "可是；然而",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 44,
+    "french": "préparer",
+    "chinese": "准备；预备",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 45,
+    "french": "primaire",
+    "chinese": "初级的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 46,
+    "french": "principal, e",
+    "chinese": "主要的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 47,
+    "french": "qualité",
+    "chinese": "品质；优点",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 48,
+    "french": "recommencer",
+    "chinese": "重新开始",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 49,
+    "french": "rendre",
+    "chinese": "发还；归还",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 50,
+    "french": "retenir",
+    "chinese": "记住",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 51,
+    "french": "réussir",
+    "chinese": "成功",
+    "part_of_speech": "v.t., v.i.",
+    "part_of_speech_full_chinese": "及物动词；不及物动词"
+  },
+  {
+    "id": 52,
+    "french": "science",
+    "chinese": "科学",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 53,
+    "french": "sûr, e",
+    "chinese": "确信的；确实的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 54,
+    "french": "être sûr de qch./qn",
+    "chinese": "对某事/某人确信不疑",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "固定表达"
+  },
+  {
+    "id": 55,
+    "french": "vache",
+    "chinese": "奶牛；母牛",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 56,
+    "french": "visage",
+    "chinese": "脸；面孔",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  }
+]

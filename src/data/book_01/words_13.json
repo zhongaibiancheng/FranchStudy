@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1,
+    "french": "agréable",
+    "chinese": "惬意的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 2,
+    "french": "annoncer",
+    "chinese": "宣布；告诉",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 3,
+    "french": "arbre",
+    "chinese": "树",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 4,
+    "french": "asseoir (s')",
+    "chinese": "坐下；落座",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 5,
+    "french": "bain",
+    "chinese": "洗澡",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 6,
+    "french": "boulevard",
+    "chinese": "大街；林阴大道",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 7,
+    "french": "bout",
+    "chinese": "尽头；终点",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 8,
+    "french": "carré, e",
+    "chinese": "平方的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 9,
+    "french": "chaise",
+    "chinese": "椅子",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 10,
+    "french": "chance",
+    "chinese": "运气",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 11,
+    "french": "chaque",
+    "chinese": "每一个",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 12,
+    "french": "cher, chère",
+    "chinese": "亲爱的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 13,
+    "french": "cité",
+    "chinese": "居住地，聚居地，新城",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 14,
+    "french": "clair, e",
+    "chinese": "明亮的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 15,
+    "french": "commun, e",
+    "chinese": "公共的，共同的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 16,
+    "french": "confortable",
+    "chinese": "舒适的，舒服的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 17,
+    "french": "coucher (se)",
+    "chinese": "躺下；上床",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 18,
+    "french": "d'ailleurs",
+    "chinese": "另外，再者",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 19,
+    "french": "donner sur",
+    "chinese": "朝向",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 20,
+    "french": "douche",
+    "chinese": "淋浴（间）",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 21,
+    "french": "prendre une douche",
+    "chinese": "洗淋浴",
+    "part_of_speech": "expr.",
+    "part_of_speech_full_chinese": "表达方式"
+  },
+  {
+    "id": 22,
+    "french": "écrire",
+    "chinese": "写，记，书写",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 23,
+    "french": "électrique",
+    "chinese": "电的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 24,
+    "french": "embrasser",
+    "chinese": "拥抱；亲吻",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 25,
+    "french": "en plus de",
+    "chinese": "除去……之外，还",
+    "part_of_speech": "loc.prép.",
+    "part_of_speech_full_chinese": "介词短语"
+  },
+  {
+    "id": 26,
+    "french": "ennuyeux, se",
+    "chinese": "不方便的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 26,
+    "french": "étagère",
+    "chinese": "书架",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 27,
+    "french": "euro",
+    "chinese": "欧元（符号为€）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 28,
+    "french": "fauteuil",
+    "chinese": "扶手椅，安乐椅",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 29,
+    "french": "frapper",
+    "chinese": "敲；打；拍击",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 30,
+    "french": "gauche",
+    "chinese": "左边",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 31,
+    "french": "haut, e",
+    "chinese": "高的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 32,
+    "french": "largement",
+    "chinese": "足够地，绰绰有余地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 33,
+    "french": "logement",
+    "chinese": "住房，住宿处",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 34,
+    "french": "même",
+    "chinese": "甚至；还",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 35,
+    "french": "mesure",
+    "chinese": "度量",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 36,
+    "french": "mètre",
+    "chinese": "米，公尺",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 37,
+    "french": "placer",
+    "chinese": "放置",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 38,
+    "french": "meublé, e",
+    "chinese": "配备家具的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 39,
+    "french": "nouvelle",
+    "chinese": "新闻，消息",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 40,
+    "french": "pas du tout",
+    "chinese": "一点也不……",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 41,
+    "french": "placard",
+    "chinese": "壁橱",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 42,
+    "french": "pratique",
+    "chinese": "方便的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 43,
+    "french": "quelqu'un",
+    "chinese": "某人",
+    "part_of_speech": "pron.indéf.",
+    "part_of_speech_full_chinese": "泛指代词"
+  },
+  {
+    "id": 44,
+    "french": "raconter",
+    "chinese": "讲述",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 45,
+    "french": "rangé, e",
+    "chinese": "被整理的；整齐的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 46,
+    "french": "réchaud",
+    "chinese": "炉子",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 47,
+    "french": "seul, e",
+    "chinese": "单独的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 48,
+    "french": "suffisamment",
+    "chinese": "足够；足以",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 49,
+    "french": "surface",
+    "chinese": "面积",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 50,
+    "french": "table de nuit",
+    "chinese": "床头柜",
+    "part_of_speech": "loc.",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 51,
+    "french": "thé",
+    "chinese": "茶（叶）",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 52,
+    "french": "tout, e",
+    "chinese": "所有的，全部的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 53,
+    "french": "trop",
+    "chinese": "太；过于",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 54,
+    "french": "trouver",
+    "chinese": "找到",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 55,
+    "french": "se trouver",
+    "chinese": "位于",
+    "part_of_speech": "v.pr.",
+    "part_of_speech_full_chinese": "代动词"
+  },
+  {
+    "id": 56,
+    "french": "universitaire",
+    "chinese": "大学的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 57,
+    "french": "vue",
+    "chinese": "视野，景色",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  }
+]
