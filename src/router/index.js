@@ -9,6 +9,8 @@ const GrammarQuotes = () =>import('@/views/GrammarQuotes.vue')
 const Notes = () =>import('@/views/Notes.vue')
 const DictationPage = () =>import('@/views/DictationPage.vue')
 
+
+
 import LoginView from '../views/LoginView.vue'
 import RegisterView from '../views/RegisterView.vue'
 
@@ -72,6 +74,17 @@ const routes = [
     component: RegisterView,
     meta: { requiresAuth: false }
   },
+  {
+    path: '/register',
+    name: 'register',
+    component: RegisterView,
+    meta: { requiresAuth: false }
+  },
+  { path: "/reciteLesson", 
+    name: 'recite',
+    component: () => import("@/views/RecitePage.vue"),
+    meta: { requiresAuth: false }
+   }
 ]
 
 const router = createRouter({

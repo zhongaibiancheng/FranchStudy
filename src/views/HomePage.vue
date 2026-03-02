@@ -70,6 +70,11 @@ const spellingBee = ()=>{
     path:'/dictationPage'
   })
 }
+const spellingLesson=()=>{
+  router.push({
+    path:"/reciteLesson"
+  })
+}
 const goNotes =(lesson_id)=>{
   router.push({
     path:'/notes',
@@ -99,6 +104,7 @@ const goNotes =(lesson_id)=>{
           <div class="flex items-center justify-between mb-4">
             <h3>课程列表</h3>
             <button @click="spellingBee()" class="h-9 px-4 rounded-lg border border-gray-200 bg-white text-sm font-semibold hover:bg-gray-50">听写单词</button>
+            <button @click="spellingLesson()" class="h-9 px-4 rounded-lg border border-gray-200 bg-white text-sm font-semibold hover:bg-gray-50">课文听写</button>
           </div>
 
           <div class="lessons-list">
