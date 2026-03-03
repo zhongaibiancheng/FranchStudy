@@ -1,0 +1,23 @@
+[
+  { "id": 1, "french": "avoir", "chinese": "有", "part_of_speech": "v.t.", "part_of_speech_full_chinese": "及物动词" },
+  { "id": 2, "french": "Bernard", "chinese": "贝尔纳（男名）", "part_of_speech": "n.", "part_of_speech_full_chinese": "人名（专有名词）" },
+  { "id": 3, "french": "Catherine", "chinese": "卡特琳娜（女名）", "part_of_speech": "n.", "part_of_speech_full_chinese": "人名（专有名词）" },
+  { "id": 4, "french": "chinois", "chinese": "中文，汉语", "part_of_speech": "n.m.", "part_of_speech_full_chinese": "阳性名词" },
+  { "id": 5, "french": "Claire", "chinese": "克莱尔（女名）", "part_of_speech": "n.", "part_of_speech_full_chinese": "人名（专有名词）" },
+  { "id": 6, "french": "cours", "chinese": "课（程）", "part_of_speech": "n.m.", "part_of_speech_full_chinese": "阳性名词" },
+  { "id": 7, "french": "de", "chinese": "……的（表示所属、限定等）", "part_of_speech": "prép.", "part_of_speech_full_chinese": "介词" },
+  { "id": 8, "french": "déjà", "chinese": "已经", "part_of_speech": "adv.", "part_of_speech_full_chinese": "副词" },
+  { "id": 9, "french": "demi, e", "chinese": "一半的", "part_of_speech": "a.", "part_of_speech_full_chinese": "形容词" },
+  { "id": 10, "french": "dépêcher (se)", "chinese": "赶快", "part_of_speech": "v.pr.", "part_of_speech_full_chinese": "代动词" },
+  { "id": 11, "french": "école", "chinese": "学校", "part_of_speech": "n.f.", "part_of_speech_full_chinese": "阴性名词" },
+  { "id": 12, "french": "excuser", "chinese": "原谅", "part_of_speech": "v.", "part_of_speech_full_chinese": "动词" },
+  { "id": 13, "french": "heure", "chinese": "时间，钟点", "part_of_speech": "n.f.", "part_of_speech_full_chinese": "阴性名词" },
+  { "id": 14, "french": "juste", "chinese": "正好，恰巧", "part_of_speech": "adv.", "part_of_speech_full_chinese": "副词" },
+  { "id": 15, "french": "oh", "chinese": "啊，哎呦", "part_of_speech": "interj.", "part_of_speech_full_chinese": "叹词" },
+  { "id": 16, "french": "presque", "chinese": "几乎，差不多", "part_of_speech": "adv.", "part_of_speech_full_chinese": "副词" },
+  { "id": 17, "french": "pressé, e", "chinese": "着急，赶时间", "part_of_speech": "a.", "part_of_speech_full_chinese": "形容词" },
+  { "id": 18, "french": "quel, quelle", "chinese": "哪个", "part_of_speech": "a.interr.", "part_of_speech_full_chinese": "疑问形容词" },
+  { "id": 19, "french": "retard", "chinese": "迟到", "part_of_speech": "n.m.", "part_of_speech_full_chinese": "阳性名词" },
+  { "id": 20, "french": "un", "chinese": "一个（阳性不定冠词）", "part_of_speech": "art.indéf.m.", "part_of_speech_full_chinese": "不定冠词（阳性）" },
+  { "id": 21, "french": "vite", "chinese": "快，赶快", "part_of_speech": "adv.", "part_of_speech_full_chinese": "副词" }
+]

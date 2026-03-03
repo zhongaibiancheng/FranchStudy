@@ -20,48 +20,49 @@ app.config.from_object(BaseConfig)
 # ⭐ 只初始化一次
 init_db_pool(app.config)
 
-file_path = './database/data/lesson_05/words_01.json'
-book = 2
-lesson = 5
+for _ in range(10,19):
+    file_path = f'./database/data/book_01/words_{_}.json'
+    book = 1
+    lesson = _
 
-import json
+    import json
 
-with get_db() as conn:
-        with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                try:
-                    sql = """
-                            insert into words(
-                                book,
-                                lesson,
-                                french, 
-                                chinese, 
-                                part_of_speech, 
-                                part_of_speech_full_chinese)values(
-                                    %d,
-                                    %d,
-                                    '%s',
-                                    '%s',
-                                    '%s',
-                                    '%s'
-                                )
-                    """
-                    cnt = 0
-                    for d in data:
-                        # print(d)
-                        _sql = sql %(book,
-                                     lesson,
-                                     d['french'].replace("'","''"),
-                                     d['chinese'].replace("'","''"),
-                                     d['part_of_speech'].replace("'","''"),
-                                     d['part_of_speech_full_chinese'].replace("'","''"))
-                        # print(_sql)
-                        cur.execute(_sql)
-                        cnt = cnt+1
-                        print(cnt)
+    with get_db() as conn:
+            with conn.cursor(cursor_factory=RealDictCursor) as cur:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    try:
+                        sql = """
+                                insert into words(
+                                    book,
+                                    lesson,
+                                    french, 
+                                    chinese, 
+                                    part_of_speech, 
+                                    part_of_speech_full_chinese)values(
+                                        %d,
+                                        %d,
+                                        '%s',
+                                        '%s',
+                                        '%s',
+                                        '%s'
+                                    )
+                        """
+                        cnt = 0
+                        for d in data:
+                            # print(d)
+                            _sql = sql %(book,
+                                        lesson,
+                                        d['french'].replace("'","''"),
+                                        d['chinese'].replace("'","''"),
+                                        d['part_of_speech'].replace("'","''"),
+                                        d['part_of_speech_full_chinese'].replace("'","''"))
+                            # print(_sql)
+                            cur.execute(_sql)
+                            cnt = cnt+1
+                            print(cnt)
 
-                    conn.commit()
-                except Exception as e:
-                    print(f'出现错误了,{str(e)}')
-                    conn.rollback()
+                        conn.commit()
+                    except Exception as e:
+                        print(f'出现错误了,{str(e)}')
+                        conn.rollback()

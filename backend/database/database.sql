@@ -118,3 +118,8 @@ ALTER TABLE words
   ADD COLUMN IF NOT EXISTS gram_mood   text,
   ADD COLUMN IF NOT EXISTS gram_person text,
   ADD COLUMN IF NOT EXISTS gram_tense  text;
+
+
+--   delete from words;
+--   delete from exercise_words;
+--   delete from mistake_notebook;
