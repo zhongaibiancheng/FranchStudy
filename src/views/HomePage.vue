@@ -6,14 +6,16 @@ const router = useRouter()
 const book_01_lessons = [
   { id: 1, title: '第一课-第四课','notes':false,'word01':true },
   { id: 2, title: "第五课-第八课",'word01':true },
-  { id: 3, title: "第九课-第十一课",'word01':true },
-  { id: 4, title: "第十二课",'word01':true },
-  { id: 5, title: "第十三课",'word01':true },
-  { id: 6, title: "第十四课",'word01':true },
-  { id: 7, title: "第十五课",'word01':true },
-  { id: 8, title: "第十六课",'word01':true },
-  { id: 9, title: "第十七课",'word01':true },
-  { id: 10, title: "第十八课",'word01':true },
+  { id: 9, title: "第九课",'word01':true },
+  { id: 10, title: "第十课",'word01':true },
+  { id: 11, title: "第十一课",'word01':true },
+  { id: 12, title: "第十二课",'word01':true },
+  { id: 13, title: "第十三课",'word01':true },
+  { id: 14, title: "第十四课",'word01':true },
+  { id: 15, title: "第十五课",'word01':true },
+  { id: 16, title: "第十六课",'word01':true },
+  { id: 17, title: "第十七课",'word01':true },
+  { id: 18, title: "第十八课",'word01':true },
   // { id: 3, title: "Leçon 3 – Interview d'un personnage",'notes':true,'word01':true },
   // { id: 4, title: "Leçon 4 – Trois visages de l'aventure",'notes':false ,'word01':true},
   // { id: 5, title: "Leçon 5 – Trois visages de l'aventure",'notes':false ,'word01':true}
@@ -127,7 +129,7 @@ const goNotes =(lesson_id)=>{
                 <!-- <button @click="goLessonReader(index+1)">看课文</button>
                 <button @click="goGrammarQuotes(index+1)">背例句</button>
                 <button @click="goWordList(index+1)">背单词</button> -->
-                <button @click="goBook1Word01(index+1)" v-if="lesson.word01">背单词 01</button>
+                <button @click="goBook1Word01(lesson.id)" v-if="lesson.word01">背单词 01</button>
                 <button @click="goNotes(index+1)" v-if="lesson.notes">课文备注</button>
               </div>
 

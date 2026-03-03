@@ -8,9 +8,11 @@ import wordData_06 from '@/data/lesson_06/words_01.json'
 
 import book_01_wordData_01 from '@/data/book_01/words_01_04.json'
 import book_01_wordData_02 from '@/data/book_01/words_05_08.json'
-import book_01_wordData_03 from '@/data/book_01/words_09_11.json'
-import book_01_wordData_04 from '@/data/book_01/words_12.json'
-import book_01_wordData_05 from '@/data/book_01/words_13.json'
+import book_01_wordData_09 from '@/data/book_01/words_09.json'
+import book_01_wordData_10 from '@/data/book_01/words_10.json'
+import book_01_wordData_11 from '@/data/book_01/words_11.json'
+import book_01_wordData_12 from '@/data/book_01/words_12.json'
+import book_01_wordData_13 from '@/data/book_01/words_13.json'
 import book_01_wordData_14 from '@/data/book_01/words_14.json'
 import book_01_wordData_15 from '@/data/book_01/words_15.json'
 import book_01_wordData_16 from '@/data/book_01/words_16.json'
@@ -28,14 +30,17 @@ const wordDatas = {
 const wordDatasBook1 = {
   1: book_01_wordData_01,
   2: book_01_wordData_02,
-  3: book_01_wordData_03,
-  4: book_01_wordData_04,
-  5: book_01_wordData_05,
-  6: book_01_wordData_14,
-  7: book_01_wordData_15,
-  8: book_01_wordData_16,
-  9: book_01_wordData_17,
-  10: book_01_wordData_18
+  // 3: book_01_wordData_03,
+  9: book_01_wordData_09,
+  10: book_01_wordData_10,
+  11: book_01_wordData_11,
+  12: book_01_wordData_12,
+  13: book_01_wordData_13,
+  14: book_01_wordData_14,
+  15: book_01_wordData_15,
+  16: book_01_wordData_16,
+  17: book_01_wordData_17,
+  18: book_01_wordData_18
 }
 // 小工具函数：根据课号拿到对应的 wordData
 function getWordDataByLesson(lesson,book) {
