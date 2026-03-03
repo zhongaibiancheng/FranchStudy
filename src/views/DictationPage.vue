@@ -428,13 +428,11 @@ const books = [
 const lessonsByBook = {
   // "1": Array.from({ length: 12 }, (_, i) => ({ value: String(i + 1), label: `第 ${i + 1} 课` })),
   // "2": Array.from({ length: 12 }, (_, i) => ({ value: String(i + 1), label: `第 ${i + 1} 课` })),
-  "1":[
-    { value: String(1), label: `第 ${1} 课` },
-    { value: String(5), label: `第 ${5} 课` },
-    { value: String(9), label: `第 ${9} 课` },
-    { value: String(11), label: `第 ${11} 课` },
-    { value: String(13), label: `第 ${13} 课` }
-  ],
+  "1":
+    Array.from({ length: 18 }, (_, i) => ({
+  value: String(i + 1),
+  label: `第 ${i + 1} 课`
+})),
   "2":[
     { value: String(1), label: `第 ${1} 课` },
     { value: String(2), label: `第 ${2} 课` },
