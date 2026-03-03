@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "french": "alors",
+    "chinese": "那么；于是",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 2,
+    "french": "après",
+    "chinese": "在……之后",
+    "part_of_speech": "prép.",
+    "part_of_speech_full_chinese": "介词"
+  },
+  {
+    "id": 3,
+    "french": "beau (bel, belle)",
+    "chinese": "",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 4,
+    "french": "classe",
+    "chinese": "教室/班级",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 5,
+    "french": "d'accord",
+    "chinese": "同意，好的",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 6,
+    "french": "être d'accord",
+    "chinese": "同意，好的",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 7,
+    "french": "été",
+    "chinese": "夏天",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 8,
+    "french": "faire",
+    "chinese": "做；干",
+    "part_of_speech": "v.t.",
+    "part_of_speech_full_chinese": "及物动词"
+  },
+  {
+    "id": 9,
+    "french": "français, e",
+    "chinese": "法国的；法文的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 10,
+    "french": "Hélène",
+    "chinese": "埃莱娜（女名）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 11,
+    "french": "heureux, se",
+    "chinese": "高兴的；幸福的",
+    "part_of_speech": "a.",
+    "part_of_speech_full_chinese": "形容词"
+  },
+  {
+    "id": 12,
+    "french": "Jacqueline",
+    "chinese": "雅克琳娜（女名）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 13,
+    "french": "journal (pl. journaux)",
+    "chinese": "报纸",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 14,
+    "french": "Julie",
+    "chinese": "朱莉（女名）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 15,
+    "french": "Lebon",
+    "chinese": "勒邦（姓）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "姓氏（专有名词）"
+  },
+  {
+    "id": 16,
+    "french": "match",
+    "chinese": "比赛，竞赛",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 17,
+    "french": "Paris Match",
+    "chinese": "《巴黎竞赛画报》",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "专有名词"
+  },
+  {
+    "id": 18,
+    "french": "mini-dialogue",
+    "chinese": "小对话",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 19,
+    "french": "ne...pas",
+    "chinese": "不；没有",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  },
+  {
+    "id": 20,
+    "french": "non",
+    "chinese": "不",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 21,
+    "french": "palais",
+    "chinese": "宫殿",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 22,
+    "french": "le Palais d'été",
+    "chinese": "颐和园",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "专有名词"
+  },
+  {
+    "id": 23,
+    "french": "partir",
+    "chinese": "出发；动身",
+    "part_of_speech": "v.i.",
+    "part_of_speech_full_chinese": "不及物动词"
+  },
+  {
+    "id": 24,
+    "french": "Paul",
+    "chinese": "保罗（男名）",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "人名（专有名词）"
+  },
+  {
+    "id": 25,
+    "french": "petit-déjeuner",
+    "chinese": "早饭",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 26,
+    "french": "place",
+    "chinese": "广场",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 27,
+    "french": "plaisir",
+    "chinese": "愉快，快乐",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 28,
+    "french": "professeur",
+    "chinese": "老师；教授",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 29,
+    "french": "quand",
+    "chinese": "什么时候，何时",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 30,
+    "french": "raison",
+    "chinese": "理由；道理",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 31,
+    "french": "avoir raison",
+    "chinese": "有理；正确",
+    "part_of_speech": "",
+    "part_of_speech_full_chinese": "短语"
+  },
+  {
+    "id": 32,
+    "french": "revue",
+    "chinese": "杂志",
+    "part_of_speech": "n.f.",
+    "part_of_speech_full_chinese": "阴性名词"
+  },
+  {
+    "id": 33,
+    "french": "temps",
+    "chinese": "天气",
+    "part_of_speech": "n.m.",
+    "part_of_speech_full_chinese": "阳性名词"
+  },
+  {
+    "id": 34,
+    "french": "toujours",
+    "chinese": "总是；一直，永远",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 35,
+    "french": "tout",
+    "chinese": "十分地，非常，完全地",
+    "part_of_speech": "adv.",
+    "part_of_speech_full_chinese": "副词"
+  },
+  {
+    "id": 36,
+    "french": "tout de suite",
+    "chinese": "立即，马上",
+    "part_of_speech": "loc.adv.",
+    "part_of_speech_full_chinese": "副词短语"
+  }
+]

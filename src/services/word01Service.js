@@ -6,8 +6,14 @@ import wordData_04 from '@/data/lesson_04/words_01.json'
 import wordData_05 from '@/data/lesson_05/words_01.json'
 import wordData_06 from '@/data/lesson_06/words_01.json'
 
-import book_01_wordData_01 from '@/data/book_01/words_01_04.json'
-import book_01_wordData_02 from '@/data/book_01/words_05_08.json'
+import book_01_wordData_01 from '@/data/book_01/words_01.json'
+import book_01_wordData_02 from '@/data/book_01/words_02.json'
+import book_01_wordData_03 from '@/data/book_01/words_03.json'
+import book_01_wordData_04 from '@/data/book_01/words_04.json'
+import book_01_wordData_05 from '@/data/book_01/words_05.json'
+import book_01_wordData_06 from '@/data/book_01/words_06.json'
+import book_01_wordData_07 from '@/data/book_01/words_07.json'
+import book_01_wordData_08 from '@/data/book_01/words_08.json'
 import book_01_wordData_09 from '@/data/book_01/words_09.json'
 import book_01_wordData_10 from '@/data/book_01/words_10.json'
 import book_01_wordData_11 from '@/data/book_01/words_11.json'
@@ -30,7 +36,12 @@ const wordDatas = {
 const wordDatasBook1 = {
   1: book_01_wordData_01,
   2: book_01_wordData_02,
-  // 3: book_01_wordData_03,
+  3: book_01_wordData_03,
+  4: book_01_wordData_04,
+  5: book_01_wordData_05,
+  6: book_01_wordData_06,
+  7: book_01_wordData_07,
+  8: book_01_wordData_08,
   9: book_01_wordData_09,
   10: book_01_wordData_10,
   11: book_01_wordData_11,

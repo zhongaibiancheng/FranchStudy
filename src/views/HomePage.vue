@@ -4,8 +4,14 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 const book_01_lessons = [
-  { id: 1, title: '第一课-第四课','notes':false,'word01':true },
-  { id: 2, title: "第五课-第八课",'word01':true },
+{ id: 1, title: '第一课','notes':false,'word01':true },
+{ id: 2, title: '第二课','notes':false,'word01':true },
+{ id: 3, title: '第三课','notes':false,'word01':true },
+{ id: 4, title: '第四课','notes':false,'word01':true },
+  { id: 5, title: "第五课",'word01':true },
+  { id: 6, title: "第六课",'word01':true },
+  { id: 7, title: "第七课",'word01':true },
+  { id: 8, title: "第八课",'word01':true },
   { id: 9, title: "第九课",'word01':true },
   { id: 10, title: "第十课",'word01':true },
   { id: 11, title: "第十一课",'word01':true },
