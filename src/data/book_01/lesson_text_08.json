@@ -1,0 +1,39 @@
+[
+{
+"title": { "french_full": "Dialogue 1 Faire du rangement", "chinese": "对话一 整理房间" },
+"text": [
+    { "french_full": "(Fanny entre dans la chambre de Pierre.)", "chinese": "（范妮走进皮埃尔的房间。）" },
+    { "french_full": "Eh, Pierre, quel désordre ici !", "chinese": "哎，皮埃尔，这里真乱啊！" },
+    { "french_full": "Oui, un peu…", "chinese": "是啊，有点……" },
+    { "french_full": "Tu veux pas faire un peu de rangement ?", "chinese": "你不想稍微整理一下吗？" },
+    { "french_full": "Si, mais je travaille tard hier soir.", "chinese": "想啊，但我昨晚工作到很晚。" },
+    { "french_full": "Ce n’est pas une raison ! Sur ton bureau, qu’est-ce que c’est ?", "chinese": "那不是理由！在你的书桌上，那是什么？" },
+    { "french_full": "Ce sont mes cahiers et mes livres.", "chinese": "那是我的本子和书。" },
+    { "french_full": "Et là, sur ton lit ?", "chinese": "那儿，在你的床上呢？" },
+    { "french_full": "Oh, c’est mon sac.", "chinese": "哦，那是我的包。" },
+    { "french_full": "Et ça, c’est quoi ?", "chinese": "那这个是什么？" },
+    { "french_full": "Mon disque et mes revues chinoises. J’apprends le chinois, tu sais ?", "chinese": "我的唱片和中国杂志。你知道的，我在学中文。" },
+    { "french_full": "Non… Et sous la table, qu’est-ce que c’est ?", "chinese": "不是……那桌子下面是什么？" },
+    { "french_full": "Ce sont mes affaires.", "chinese": "那是我的东西。" },
+    { "french_full": "Regarde ça… des journaux, deux tasses, des cassettes, des papiers, des crayons, des stylos… et des chaussures. Il y a de tout !", "chinese": "看看这些……报纸、两个杯子、磁带、纸张、铅笔、钢笔……还有鞋子。什么都有！" },
+    { "french_full": "Je suis vraiment désolé. Je vais tout de suite ranger.", "chinese": "我真的很抱歉。我马上整理。" }
+]
+},
+{
+"title": { "french_full": "Dialogue 2 La chambre est propre", "chinese": "对话二 房间整理好了" },
+"text": [
+    { "french_full": "(Un peu plus tard)", "chinese": "（过了一会儿）" },
+    { "french_full": "La chambre est enfin propre. Tu vois, tu peux bien faire.", "chinese": "房间终于干净了。你看，你其实能做好。" },
+    { "french_full": "Merci. Tu veux un petit café ?", "chinese": "谢谢。你要喝点咖啡吗？" },
+    { "french_full": "Oui, avec plaisir.", "chinese": "好啊，很乐意。" },
+    { "french_full": "Tu as l’heure ?", "chinese": "你知道现在几点了吗？" },
+    { "french_full": "Il est midi et demi. Pourquoi ?", "chinese": "现在十二点半。为什么？" },
+    { "french_full": "J’ai un cours de langue à deux heures.", "chinese": "我两点有语言课。" },
+    { "french_full": "Ton cours de chinois ?", "chinese": "你的中文课吗？" },
+    { "french_full": "Oui, c’est ça. Mais je ne suis pas pressé.", "chinese": "是的，不过我不着急。" },
+    { "french_full": "Ta classe, c’est où ?", "chinese": "你的教室在哪里？" },
+    { "french_full": "C’est à dix minutes de marche. Ce n’est pas loin.", "chinese": "走路十分钟就到。不远。" },
+    { "french_full": "Alors, ça va.", "chinese": "那就没问题了。" }
+]
+}
+]

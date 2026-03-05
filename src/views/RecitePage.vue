@@ -5,7 +5,7 @@ import ReciteDictation from "@/components/ReciteDictation.vue"
 import book_01_lesson_11 from '@/data/book_01/lesson_text_11.json'
 import book_01_lesson_10 from '@/data/book_01/lesson_text_10.json'
 import book_01_lesson_09 from '@/data/book_01/lesson_text_09.json'
-
+import book_01_lesson_08 from '@/data/book_01/lesson_text_08.json'
 const booksData = ref([
   {
     bookId: "bfsy-french-1",
@@ -29,6 +29,11 @@ const booksData = ref([
             lessonId: "09",
             lessonName: "第 09 课",
             content: book_01_lesson_09
+          },
+          {
+            lessonId: "08",
+            lessonName: "第 08 课：Faire du rangement",
+            content: book_01_lesson_08
           }
         ]
       }
