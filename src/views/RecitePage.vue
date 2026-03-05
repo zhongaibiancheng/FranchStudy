@@ -2,6 +2,7 @@
 import { computed, ref, watch } from "vue"
 import ReciteDictation from "@/components/ReciteDictation.vue"
 
+import book_01_lesson_11 from '@/data/book_01/lesson_text_11.json'
 import book_01_lesson_10 from '@/data/book_01/lesson_text_10.json'
 import book_01_lesson_09 from '@/data/book_01/lesson_text_09.json'
 
@@ -14,6 +15,11 @@ const booksData = ref([
         volumeId: "v1",
         volumeName: "第 1 册",
         lessons: [
+          {
+            lessonId: "11",
+            lessonName: "第 11 课：La première classes",
+            content: book_01_lesson_11
+          },
           {
             lessonId: "10",
             lessonName: "第 10 课：Au téléphone / Prendre un rendez-vous",

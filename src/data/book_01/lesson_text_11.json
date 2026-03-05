@@ -1,0 +1,54 @@
+[
+{
+"title": { "french_full": "Dialogue 1 La première classe", "chinese": "对话一 第一堂课" },
+"text": [
+    { "french_full": "(À l’Université des langues, dans une classe, les étudiants sont assis. Il est presque huit heures du matin, le professeur entre.)", "chinese": "（在语言大学的一间教室里，学生们坐着。早上快八点了，教授走进教室。）" },
+    { "french_full": "Bonjour, mesdemoiselles et messieurs.", "chinese": "大家好，女士们先生们。" },
+    { "french_full": "(Tout le monde ensemble) Bonjour, monsieur.", "chinese": "（大家一起）您好，先生。" },
+    { "french_full": "Comment allez-vous ?", "chinese": "你们好吗？" },
+    { "french_full": "Très bien. Merci. Et vous ?", "chinese": "很好，谢谢。您呢？" },
+    { "french_full": "Moi aussi, merci. Bon, nous commençons.", "chinese": "我也很好，谢谢。那么我们开始。" },
+    { "french_full": "(À ce moment-là, le chef de classe lève la main.)", "chinese": "（这时，班长举起了手。）" },
+    { "french_full": "Oui, Monsieur le chef. Qu’est-ce qu’il y a ?", "chinese": "好的，班长先生。有什么事吗？" },
+    { "french_full": "Monsieur, nous avons un nouvel ami. Il s’appelle Didier Bontemps. Il vient de Paris.", "chinese": "先生，我们有一位新朋友。他叫迪迪埃·邦唐，来自巴黎。" },
+    { "french_full": "Enchanté, Monsieur Bontemps.", "chinese": "很高兴认识您，邦唐先生。" },
+    { "french_full": "Enchanté, Monsieur le professeur. Je suis très content de pouvoir suivre votre cours.", "chinese": "很高兴认识您，教授先生。我很高兴能够上您的课。" },
+    { "french_full": "Vous apprenez aussi le chinois, je suppose ?", "chinese": "我想您也学习中文吧？" },
+    { "french_full": "Oui, vous avez raison. J’apprends le chinois depuis un an à Paris IV.", "chinese": "是的，您说得对。我在巴黎第四大学学习中文已经一年了。" },
+    { "french_full": "Ah ! C’est une école comme… est-ce une langue difficile, le chinois ?", "chinese": "啊！那是一所学校……中文是一门困难的语言吗？" },
+    { "french_full": "Oui, assez difficile, mais très utile.", "chinese": "是的，相当难，但非常有用。" },
+    { "french_full": "Ça va, les études ?", "chinese": "学习还顺利吗？" },
+    { "french_full": "Oui, ça va bien, merci.", "chinese": "是的，很顺利，谢谢。" },
+    { "french_full": "C’est très bien. Si vous avez des questions, n’hésitez pas.", "chinese": "很好。如果你们有问题，不要犹豫。" },
+    { "french_full": "Merci beaucoup, monsieur.", "chinese": "非常感谢，先生。" },
+    { "french_full": "De rien. Maintenant, on commence.", "chinese": "不客气。现在我们开始。" }
+]
+},
+{
+"title": { "french_full": "Dialogue 2 La langue est difficile !", "chinese": "对话二 这门语言很难！" },
+"text": [
+    { "french_full": "(À midi, au restaurant de l’université, quelques étudiants mangent ensemble avec Didier Bontemps. Ils parlent de leur première classe.)", "chinese": "（中午，在大学餐厅里，一些学生和迪迪埃·邦唐一起吃饭。他们谈论第一堂课。）" },
+    { "french_full": "Didier, la première classe, ça va ?", "chinese": "迪迪埃，第一堂课怎么样？" },
+    { "french_full": "Oui. Le prof est très sympathique. Mais je ne comprends pas tout.", "chinese": "很好。老师非常友好，但我不是全部都能听懂。" },
+    { "french_full": "Pourquoi ? Il y a un problème ?", "chinese": "为什么？有什么问题吗？" },
+    { "french_full": "Non, pas vraiment. Seulement, pour moi, il parle un peu vite. Je comprends difficilement.", "chinese": "不，没有什么大问题。只是对我来说他说得有点快，我理解起来有些困难。" },
+    { "french_full": "Ah bon ? Mais c’est normal, tu sais. Puisque c’est ta première classe.", "chinese": "是吗？不过这是正常的，因为这是你的第一堂课。" },
+    { "french_full": "Oui, c’est cela. Mais la grammaire aussi est très compliquée.", "chinese": "是的，就是这样。不过语法也非常复杂。" },
+    { "french_full": "C’est vrai. La grammaire chinoise, c’est pas facile.", "chinese": "确实如此。中文语法不容易。" },
+    { "french_full": "Non… Et la prononciation non plus ! En chinois, il y a encore ces fameux quatre tons !", "chinese": "是啊……发音也不容易！中文还有著名的四个声调！" },
+    { "french_full": "Un mot devient donc facilement quatre !", "chinese": "一个词很容易就变成四种读音！" },
+    { "french_full": "Et alors, d’après vous, qu’est-ce qui est le plus difficile ?", "chinese": "那么依你看，什么最难？" },
+    { "french_full": "Le plus difficile, je crois, c’est l’écriture du chinois.", "chinese": "我觉得最难的是中文书写。" },
+    { "french_full": "Comment ça ?", "chinese": "为什么这么说？" },
+    { "french_full": "Vous savez, à mes yeux, le caractère chinois, ce n’est pas un mot, mais une image !", "chinese": "你知道，在我看来，汉字不是一个词，而是一幅图像。" },
+    { "french_full": "(Rires de tous…)", "chinese": "（大家都笑了……）" },
+    { "french_full": "Oui, oui, je dis la vérité. Vous ne croyez pas ?", "chinese": "是的，我说的是实话。你们不相信吗？" },
+    { "french_full": "Si, si, nous croyons bien. Mais tu viens ici pour apprendre le chinois. Et le premier pas coûte toujours.", "chinese": "相信，我们当然相信。不过你是来学习中文的，而第一步总是最困难的。" },
+    { "french_full": "Tout à fait ! Ça ne fait rien. Si je travaille bien, ça ira !", "chinese": "完全正确！没关系，如果我努力学习，一切都会好的。" },
+    { "french_full": "En français on dit : « Avec de la patience, on arrive à tout. »", "chinese": "法语里有句话：只要有耐心，一切都能做到。" },
+    { "french_full": "On dit encore : « Petit à petit, l’oiseau fait son nid. »", "chinese": "还有一句：一点一点，小鸟筑巢。" },
+    { "french_full": "Les petits ruisseaux font les grandes rivières.", "chinese": "小溪汇成大河。" },
+    { "french_full": "(Tout le monde éclate de rire…)", "chinese": "（大家都大笑起来……）" }
+]
+}
+]
