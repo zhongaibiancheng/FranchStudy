@@ -80,9 +80,15 @@ const routes = [
     component: RegisterView,
     meta: { requiresAuth: false }
   },
-  { path: "/reciteLesson", 
+   { path: "/reciteLesson", 
     name: 'recite',
     component: () => import("@/views/RecitePage.vue"),
+    meta: { requiresAuth: false }
+   },
+   {
+    path: "/conjugation",
+    name: "Conjugation",
+    component: () => import("@/views/ConjugationPractice.vue"),
     meta: { requiresAuth: false }
    }
 ]

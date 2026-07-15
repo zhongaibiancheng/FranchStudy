@@ -90,6 +90,9 @@ const spellingLesson = () => {
     path: "/reciteLesson"
   })
 }
+const goConjugation = () => {
+  router.push({ path: "/conjugation" })
+}
 const goNotes = (lesson_id) => {
   router.push({
     path: '/notes',
@@ -123,6 +126,8 @@ const goNotes = (lesson_id) => {
                 class="h-9 px-4 rounded-lg border border-gray-200 bg-white text-sm font-semibold hover:bg-gray-50">听写单词</button>
               <button @click="spellingLesson()"
                 class="h-9 px-4 rounded-lg border border-gray-200 bg-white text-sm font-semibold hover:bg-gray-50">课文听写</button>
+              <button @click="goConjugation()"
+                class="h-9 px-4 rounded-lg border border-gray-200 bg-white text-sm font-semibold hover:bg-gray-50">动词变位</button>
             </div>
 
           </div>
