@@ -1,0 +1,3321 @@
+{
+  "id": "verbs-a2-t",
+  "name": "A2 动词变位练习 T (42个)",
+  "title": "法语 A2：动词变位扩展默写",
+  "tenses": [
+    "现在时",
+    "复合过去时",
+    "简单将来时",
+    "未完成过去时"
+  ],
+  "subjects": [
+    "je",
+    "tu",
+    "il/elle",
+    "nous",
+    "vous",
+    "ils/elles"
+  ],
+  "verbs": [
+    {
+      "name": "parler",
+      "meaning": "说话",
+      "answer": [
+        [
+          "parle",
+          "ai parlé",
+          "parlerai",
+          "parlais"
+        ],
+        [
+          "parles",
+          "as parlé",
+          "parleras",
+          "parlais"
+        ],
+        [
+          "parle",
+          "a parlé",
+          "parlera",
+          "parlait"
+        ],
+        [
+          "parlons",
+          "avons parlé",
+          "parlerons",
+          "parlions"
+        ],
+        [
+          "parlez",
+          "avez parlé",
+          "parlerez",
+          "parliez"
+        ],
+        [
+          "parlent",
+          "ont parlé",
+          "parleront",
+          "parlaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "présenter",
+      "meaning": "介绍",
+      "answer": [
+        [
+          "présente",
+          "ai présenté",
+          "présenterai",
+          "présentais"
+        ],
+        [
+          "présentes",
+          "as présenté",
+          "présenteras",
+          "présentais"
+        ],
+        [
+          "présente",
+          "a présenté",
+          "présentera",
+          "présentait"
+        ],
+        [
+          "présentons",
+          "avons présenté",
+          "présenterons",
+          "présentions"
+        ],
+        [
+          "présentez",
+          "avez présenté",
+          "présenterez",
+          "présentiez"
+        ],
+        [
+          "présentent",
+          "ont présenté",
+          "présenteront",
+          "présentaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "s'approcher",
+      "meaning": "靠近",
+      "answer": [
+        [
+          "m'approche",
+          "me suis approché(e)",
+          "m'approcherai",
+          "m'approchais"
+        ],
+        [
+          "t'approches",
+          "t'es approché(e)",
+          "t'approcheras",
+          "t'approchais"
+        ],
+        [
+          "s'approche",
+          "s'est approché(e)",
+          "s'approchera",
+          "s'approchait"
+        ],
+        [
+          "nous approchons",
+          "nous sommes approché(e)s",
+          "nous approcherons",
+          "nous approchions"
+        ],
+        [
+          "vous approchez",
+          "vous êtes approché(e)(s)",
+          "vous approcherez",
+          "vous approchiez"
+        ],
+        [
+          "s'approchent",
+          "se sont approché(e)s",
+          "s'approcheront",
+          "s'approchaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "travailler",
+      "meaning": "工作",
+      "answer": [
+        [
+          "travaille",
+          "ai travaillé",
+          "travaillerai",
+          "travaillais"
+        ],
+        [
+          "travailles",
+          "as travaillé",
+          "travailleras",
+          "travaillais"
+        ],
+        [
+          "travaille",
+          "a travaillé",
+          "travaillera",
+          "travaillait"
+        ],
+        [
+          "travaillons",
+          "avons travaillé",
+          "travaillerons",
+          "travaillions"
+        ],
+        [
+          "travaillez",
+          "avez travaillé",
+          "travaillerez",
+          "travailliez"
+        ],
+        [
+          "travaillent",
+          "ont travaillé",
+          "travailleront",
+          "travaillaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "organiser",
+      "meaning": "组织",
+      "answer": [
+        [
+          "organise",
+          "ai organisé",
+          "organiserai",
+          "organisais"
+        ],
+        [
+          "organises",
+          "as organisé",
+          "organiseras",
+          "organisais"
+        ],
+        [
+          "organise",
+          "a organisé",
+          "organisera",
+          "organisait"
+        ],
+        [
+          "organisons",
+          "avons organisé",
+          "organiserons",
+          "organisions"
+        ],
+        [
+          "organisez",
+          "avez organisé",
+          "organiserez",
+          "organisiez"
+        ],
+        [
+          "organisent",
+          "ont organisé",
+          "organiseront",
+          "organisaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "voyager",
+      "meaning": "旅行",
+      "answer": [
+        [
+          "voyage",
+          "ai voyagé",
+          "voyagerai",
+          "voyageais"
+        ],
+        [
+          "voyages",
+          "as voyagé",
+          "voyageras",
+          "voyageais"
+        ],
+        [
+          "voyage",
+          "a voyagé",
+          "voyagera",
+          "voyageait"
+        ],
+        [
+          "voyageons",
+          "avons voyagé",
+          "voyagerons",
+          "voyagions"
+        ],
+        [
+          "voyagez",
+          "avez voyagé",
+          "voyagerez",
+          "voyagiez"
+        ],
+        [
+          "voyagent",
+          "ont voyagé",
+          "voyageront",
+          "voyageaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "passer",
+      "meaning": "经过/度过",
+      "answer": [
+        [
+          "passe",
+          "ai passé",
+          "passerai",
+          "passais"
+        ],
+        [
+          "passes",
+          "as passé",
+          "passeras",
+          "passais"
+        ],
+        [
+          "passe",
+          "a passé",
+          "passera",
+          "passait"
+        ],
+        [
+          "passons",
+          "avons passé",
+          "passerons",
+          "passions"
+        ],
+        [
+          "passez",
+          "avez passé",
+          "passerez",
+          "passiez"
+        ],
+        [
+          "passent",
+          "ont passé",
+          "passeront",
+          "passaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "se lever",
+      "meaning": "起床",
+      "answer": [
+        [
+          "me lève",
+          "me suis levé(e)",
+          "me lèverai",
+          "me levais"
+        ],
+        [
+          "te lèves",
+          "t'es levé(e)",
+          "te lèveras",
+          "te levais"
+        ],
+        [
+          "se lève",
+          "s'est levé(e)",
+          "se lèvera",
+          "se levait"
+        ],
+        [
+          "nous levons",
+          "nous sommes levé(e)s",
+          "nous lèverons",
+          "nous levions"
+        ],
+        [
+          "vous levez",
+          "vous êtes levé(e)(s)",
+          "vous lèverez",
+          "vous leviez"
+        ],
+        [
+          "se lèvent",
+          "se sont levé(e)s",
+          "se lèveront",
+          "se levaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "se réveiller",
+      "meaning": "醒来",
+      "answer": [
+        [
+          "me réveille",
+          "me suis réveillé(e)",
+          "me réveillerai",
+          "me réveillais"
+        ],
+        [
+          "te réveilles",
+          "t'es réveillé(e)",
+          "te réveilleras",
+          "te réveillais"
+        ],
+        [
+          "se réveille",
+          "s'est réveillé(e)",
+          "se réveillera",
+          "se réveillait"
+        ],
+        [
+          "nous réveillons",
+          "nous sommes réveillé(e)s",
+          "nous réveillerons",
+          "nous réveillions"
+        ],
+        [
+          "vous réveillez",
+          "vous êtes réveillé(e)(s)",
+          "vous réveillerez",
+          "vous réveilliez"
+        ],
+        [
+          "se réveillent",
+          "se sont réveillé(e)s",
+          "se réveilleront",
+          "se réveillaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "se coucher",
+      "meaning": "睡觉/上床",
+      "answer": [
+        [
+          "me couche",
+          "me suis couché(e)",
+          "me coucherai",
+          "me couchais"
+        ],
+        [
+          "te couches",
+          "t'es couché(e)",
+          "te coucheras",
+          "te couchais"
+        ],
+        [
+          "se couche",
+          "s'est couché(e)",
+          "se couchera",
+          "se couchait"
+        ],
+        [
+          "nous couchons",
+          "nous sommes couché(e)s",
+          "nous coucherons",
+          "nous couchions"
+        ],
+        [
+          "vous couchez",
+          "vous êtes couché(e)(s)",
+          "vous coucherez",
+          "vous couchiez"
+        ],
+        [
+          "se couchent",
+          "se sont couché(e)s",
+          "se coucheront",
+          "se couchaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "commencer",
+      "meaning": "开始",
+      "answer": [
+        [
+          "commence",
+          "ai commencé",
+          "commencerai",
+          "commençais"
+        ],
+        [
+          "commences",
+          "as commencé",
+          "commenceras",
+          "commençais"
+        ],
+        [
+          "commence",
+          "a commencé",
+          "commencera",
+          "commençait"
+        ],
+        [
+          "commençons",
+          "avons commencé",
+          "commencerons",
+          "commencions"
+        ],
+        [
+          "commencez",
+          "avez commencé",
+          "commencerez",
+          "commenciez"
+        ],
+        [
+          "commencent",
+          "ont commencé",
+          "commenceront",
+          "commençaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "ouvrir",
+      "meaning": "打开",
+      "answer": [
+        [
+          "ouvre",
+          "ai ouvert",
+          "ouvrirai",
+          "ouvrais"
+        ],
+        [
+          "ouvres",
+          "as ouvert",
+          "ouvriras",
+          "ouvrais"
+        ],
+        [
+          "ouvre",
+          "a ouvert",
+          "ouvrira",
+          "ouvrait"
+        ],
+        [
+          "ouvrons",
+          "avons ouvert",
+          "ouvrirons",
+          "ouvrions"
+        ],
+        [
+          "ouvrez",
+          "avez ouvert",
+          "ouvrirez",
+          "ouvriez"
+        ],
+        [
+          "ouvrent",
+          "ont ouvert",
+          "ouvriront",
+          "ouvraient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "courir",
+      "meaning": "跑",
+      "answer": [
+        [
+          "cours",
+          "ai couru",
+          "courrai",
+          "courais"
+        ],
+        [
+          "cours",
+          "as couru",
+          "courras",
+          "courais"
+        ],
+        [
+          "court",
+          "a couru",
+          "courra",
+          "courait"
+        ],
+        [
+          "courons",
+          "avons couru",
+          "courrons",
+          "courions"
+        ],
+        [
+          "courez",
+          "avez couru",
+          "courrez",
+          "couriez"
+        ],
+        [
+          "courent",
+          "ont couru",
+          "courront",
+          "couraient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "chercher",
+      "meaning": "找",
+      "answer": [
+        [
+          "cherche",
+          "ai cherché",
+          "chercherai",
+          "cherchais"
+        ],
+        [
+          "cherches",
+          "as cherché",
+          "chercheras",
+          "cherchais"
+        ],
+        [
+          "cherche",
+          "a cherché",
+          "cherchera",
+          "cherchait"
+        ],
+        [
+          "cherchons",
+          "avons cherché",
+          "chercherons",
+          "cherchions"
+        ],
+        [
+          "cherchez",
+          "avez cherché",
+          "chercherez",
+          "cherchiez"
+        ],
+        [
+          "cherchent",
+          "ont cherché",
+          "chercheront",
+          "cherchaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "choisir",
+      "meaning": "选择",
+      "answer": [
+        [
+          "choisis",
+          "ai choisi",
+          "choisirai",
+          "choisissais"
+        ],
+        [
+          "choisis",
+          "as choisi",
+          "choisiras",
+          "choisissais"
+        ],
+        [
+          "choisit",
+          "a choisi",
+          "choisira",
+          "choisissait"
+        ],
+        [
+          "choisissons",
+          "avons choisi",
+          "choisirons",
+          "choisissions"
+        ],
+        [
+          "choisissez",
+          "avez choisi",
+          "choisirez",
+          "choisissiez"
+        ],
+        [
+          "choisissent",
+          "ont choisi",
+          "choisiront",
+          "choisissaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "visiter",
+      "meaning": "参观",
+      "answer": [
+        [
+          "visite",
+          "ai visité",
+          "visiterai",
+          "visitais"
+        ],
+        [
+          "visites",
+          "as visité",
+          "visiteras",
+          "visitais"
+        ],
+        [
+          "visite",
+          "a visité",
+          "visitera",
+          "visitait"
+        ],
+        [
+          "visitons",
+          "avons visité",
+          "visiterons",
+          "visitions"
+        ],
+        [
+          "visitez",
+          "avez visité",
+          "visiterez",
+          "visitiez"
+        ],
+        [
+          "visitent",
+          "ont visité",
+          "visiteront",
+          "visitaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "dessiner",
+      "meaning": "画",
+      "answer": [
+        [
+          "dessine",
+          "ai dessiné",
+          "dessinerai",
+          "dessinais"
+        ],
+        [
+          "dessines",
+          "as dessiné",
+          "dessineras",
+          "dessinais"
+        ],
+        [
+          "dessine",
+          "a dessiné",
+          "dessinera",
+          "dessinait"
+        ],
+        [
+          "dessinons",
+          "avons dessiné",
+          "dessinerons",
+          "dessinions"
+        ],
+        [
+          "dessinez",
+          "avez dessiné",
+          "dessinerez",
+          "dessiniez"
+        ],
+        [
+          "dessinent",
+          "ont dessiné",
+          "dessineront",
+          "dessinaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "fermer",
+      "meaning": "关",
+      "answer": [
+        [
+          "ferme",
+          "ai fermé",
+          "fermerai",
+          "fermais"
+        ],
+        [
+          "fermes",
+          "as fermé",
+          "fermeras",
+          "fermais"
+        ],
+        [
+          "ferme",
+          "a fermé",
+          "fermera",
+          "fermait"
+        ],
+        [
+          "fermons",
+          "avons fermé",
+          "fermerons",
+          "fermions"
+        ],
+        [
+          "fermez",
+          "avez fermé",
+          "fermerez",
+          "fermiez"
+        ],
+        [
+          "ferment",
+          "ont fermé",
+          "fermeront",
+          "fermaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "bavarder",
+      "meaning": "聊天",
+      "answer": [
+        [
+          "bavarde",
+          "ai bavardé",
+          "bavarderai",
+          "bavardais"
+        ],
+        [
+          "bavardes",
+          "as bavardé",
+          "bavarderas",
+          "bavardais"
+        ],
+        [
+          "bavarde",
+          "a bavardé",
+          "bavardera",
+          "bavardait"
+        ],
+        [
+          "bavardons",
+          "avons bavardé",
+          "bavarderons",
+          "bavardions"
+        ],
+        [
+          "bavardez",
+          "avez bavardé",
+          "bavarderez",
+          "bavardiez"
+        ],
+        [
+          "bavardent",
+          "ont bavardé",
+          "bavarderont",
+          "bavardaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "rencontrer",
+      "meaning": "遇见",
+      "answer": [
+        [
+          "rencontre",
+          "ai rencontré",
+          "rencontrerai",
+          "rencontrais"
+        ],
+        [
+          "rencontres",
+          "as rencontré",
+          "rencontreras",
+          "rencontrais"
+        ],
+        [
+          "rencontre",
+          "a rencontré",
+          "rencontrera",
+          "rencontrait"
+        ],
+        [
+          "rencontrons",
+          "avons rencontré",
+          "rencontrerons",
+          "rencontrions"
+        ],
+        [
+          "rencontrez",
+          "avez rencontré",
+          "rencontrerez",
+          "rencontriez"
+        ],
+        [
+          "rencontrent",
+          "ont rencontré",
+          "rencontreront",
+          "rencontraient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "suivre",
+      "meaning": "跟随",
+      "answer": [
+        [
+          "suis",
+          "ai suivi",
+          "suivrai",
+          "suivais"
+        ],
+        [
+          "suis",
+          "as suivi",
+          "suivras",
+          "suivais"
+        ],
+        [
+          "suit",
+          "a suivi",
+          "suivra",
+          "suivait"
+        ],
+        [
+          "suivons",
+          "avons suivi",
+          "suivrons",
+          "suivions"
+        ],
+        [
+          "suivez",
+          "avez suivi",
+          "suivrez",
+          "suiviez"
+        ],
+        [
+          "suivent",
+          "ont suivi",
+          "suivront",
+          "suivaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "préférer",
+      "meaning": "更喜欢",
+      "answer": [
+        [
+          "préfère",
+          "ai préféré",
+          "préférerai",
+          "préférais"
+        ],
+        [
+          "préfères",
+          "as préféré",
+          "préféreras",
+          "préférais"
+        ],
+        [
+          "préfère",
+          "a préféré",
+          "préférera",
+          "préférait"
+        ],
+        [
+          "préférons",
+          "avons préféré",
+          "préférerons",
+          "préférions"
+        ],
+        [
+          "préférez",
+          "avez préféré",
+          "préférerez",
+          "préfériez"
+        ],
+        [
+          "préfèrent",
+          "ont préféré",
+          "préféreront",
+          "préféraient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "manger",
+      "meaning": "吃",
+      "answer": [
+        [
+          "mange",
+          "ai mangé",
+          "mangerai",
+          "mangeais"
+        ],
+        [
+          "manges",
+          "as mangé",
+          "mangeras",
+          "mangeais"
+        ],
+        [
+          "mange",
+          "a mangé",
+          "mangera",
+          "mangeait"
+        ],
+        [
+          "mangeons",
+          "avons mangé",
+          "mangerons",
+          "mangions"
+        ],
+        [
+          "mangez",
+          "avez mangé",
+          "mangerez",
+          "mangiez"
+        ],
+        [
+          "mangent",
+          "ont mangé",
+          "mangeront",
+          "mangeaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "boire",
+      "meaning": "喝",
+      "answer": [
+        [
+          "bois",
+          "ai bu",
+          "boirai",
+          "buvais"
+        ],
+        [
+          "bois",
+          "as bu",
+          "boiras",
+          "buvais"
+        ],
+        [
+          "boit",
+          "a bu",
+          "boira",
+          "buvait"
+        ],
+        [
+          "buvons",
+          "avons bu",
+          "boirons",
+          "buvions"
+        ],
+        [
+          "buvez",
+          "avez bu",
+          "boirez",
+          "buviez"
+        ],
+        [
+          "boivent",
+          "ont bu",
+          "boiront",
+          "buvaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "se trouver",
+      "meaning": "位于/觉得",
+      "answer": [
+        [
+          "me trouve",
+          "me suis trouvé(e)",
+          "me trouverai",
+          "me trouvais"
+        ],
+        [
+          "te trouves",
+          "t'es trouvé(e)",
+          "te trouveras",
+          "te trouvais"
+        ],
+        [
+          "se trouve",
+          "s'est trouvé(e)",
+          "se trouvera",
+          "se trouvait"
+        ],
+        [
+          "nous trouvons",
+          "nous sommes trouvé(e)s",
+          "nous trouverons",
+          "nous trouvions"
+        ],
+        [
+          "vous trouvez",
+          "vous êtes trouvé(e)(s)",
+          "vous trouverez",
+          "vous trouviez"
+        ],
+        [
+          "se trouvent",
+          "se sont trouvé(e)s",
+          "se trouveront",
+          "se trouvaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "sentir",
+      "meaning": "感觉/闻",
+      "answer": [
+        [
+          "sens",
+          "ai senti",
+          "sentirai",
+          "sentais"
+        ],
+        [
+          "sens",
+          "as senti",
+          "sentiras",
+          "sentais"
+        ],
+        [
+          "sent",
+          "a senti",
+          "sentira",
+          "sentait"
+        ],
+        [
+          "sentons",
+          "avons senti",
+          "sentirons",
+          "sentions"
+        ],
+        [
+          "sentez",
+          "avez senti",
+          "sentirez",
+          "sentiez"
+        ],
+        [
+          "sentent",
+          "ont senti",
+          "sentiront",
+          "sentaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "détester",
+      "meaning": "讨厌",
+      "answer": [
+        [
+          "déteste",
+          "ai détesté",
+          "détesterai",
+          "détestais"
+        ],
+        [
+          "détestes",
+          "as détesté",
+          "détesteras",
+          "détestais"
+        ],
+        [
+          "déteste",
+          "a détesté",
+          "détestera",
+          "détestait"
+        ],
+        [
+          "détestons",
+          "avons détesté",
+          "détesterons",
+          "détestions"
+        ],
+        [
+          "détestez",
+          "avez détesté",
+          "détesterez",
+          "détestiez"
+        ],
+        [
+          "détestent",
+          "ont détesté",
+          "détesteront",
+          "détestaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "coûter",
+      "meaning": "花费",
+      "answer": [
+        [
+          "coûte",
+          "ai coûté",
+          "coûterai",
+          "coûtais"
+        ],
+        [
+          "coûtes",
+          "as coûté",
+          "coûteras",
+          "coûtais"
+        ],
+        [
+          "coûte",
+          "a coûté",
+          "coûtera",
+          "coûtait"
+        ],
+        [
+          "coûtons",
+          "avons coûté",
+          "coûterons",
+          "coûtions"
+        ],
+        [
+          "coûtez",
+          "avez coûté",
+          "coûterez",
+          "coûtiez"
+        ],
+        [
+          "coûtent",
+          "ont coûté",
+          "coûteront",
+          "coûtaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "sortir",
+      "meaning": "出去",
+      "answer": [
+        [
+          "sors",
+          "suis sorti(e)",
+          "sortirai",
+          "sortais"
+        ],
+        [
+          "sors",
+          "es sorti(e)",
+          "sortiras",
+          "sortais"
+        ],
+        [
+          "sort",
+          "est sorti(e)",
+          "sortira",
+          "sortait"
+        ],
+        [
+          "sortons",
+          "sommes sorti(e)s",
+          "sortirons",
+          "sortions"
+        ],
+        [
+          "sortez",
+          "êtes sorti(e)(s)",
+          "sortirez",
+          "sortiez"
+        ],
+        [
+          "sortent",
+          "sont sorti(e)s",
+          "sortiront",
+          "sortaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "neiger",
+      "meaning": "下雪",
+      "answer": [
+        [
+          "neige",
+          "a neigé",
+          "neigera",
+          "neigeait"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "geler",
+      "meaning": "结冰",
+      "answer": [
+        [
+          "gèle",
+          "ai gelé",
+          "gèlerai",
+          "gelais"
+        ],
+        [
+          "gèles",
+          "as gelé",
+          "gèleras",
+          "gelais"
+        ],
+        [
+          "gèle",
+          "a gelé",
+          "gèlera",
+          "gelait"
+        ],
+        [
+          "gelons",
+          "avons gelé",
+          "gèlerons",
+          "gelions"
+        ],
+        [
+          "gelez",
+          "avez gelé",
+          "gèlerez",
+          "geliez"
+        ],
+        [
+          "gèlent",
+          "ont gelé",
+          "gèleront",
+          "gelaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "jaunir",
+      "meaning": "变黄",
+      "answer": [
+        [
+          "jaunis",
+          "ai jauni",
+          "jaunirai",
+          "jaunissais"
+        ],
+        [
+          "jaunis",
+          "as jauni",
+          "jauniras",
+          "jaunissais"
+        ],
+        [
+          "jaunit",
+          "a jauni",
+          "jaunira",
+          "jaunissait"
+        ],
+        [
+          "jaunissons",
+          "avons jauni",
+          "jaunirons",
+          "jaunissions"
+        ],
+        [
+          "jaunissez",
+          "avez jauni",
+          "jaunirez",
+          "jaunissiez"
+        ],
+        [
+          "jaunissent",
+          "ont jauni",
+          "jauniront",
+          "jaunissaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "tomber",
+      "meaning": "掉下",
+      "answer": [
+        [
+          "tombe",
+          "suis tombé(e)",
+          "tomberai",
+          "tombais"
+        ],
+        [
+          "tombes",
+          "es tombé(e)",
+          "tomberas",
+          "tombais"
+        ],
+        [
+          "tombe",
+          "est tombé(e)",
+          "tombera",
+          "tombait"
+        ],
+        [
+          "tombons",
+          "sommes tombé(e)s",
+          "tomberons",
+          "tombions"
+        ],
+        [
+          "tombez",
+          "êtes tombé(e)(s)",
+          "tomberez",
+          "tombiez"
+        ],
+        [
+          "tombent",
+          "sont tombé(e)s",
+          "tomberont",
+          "tombaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "rougir",
+      "meaning": "变红",
+      "answer": [
+        [
+          "rougis",
+          "ai rougi",
+          "rougirai",
+          "rougissais"
+        ],
+        [
+          "rougis",
+          "as rougi",
+          "rougiras",
+          "rougissais"
+        ],
+        [
+          "rougit",
+          "a rougi",
+          "rougira",
+          "rougissait"
+        ],
+        [
+          "rougissons",
+          "avons rougi",
+          "rougirons",
+          "rougissions"
+        ],
+        [
+          "rougissez",
+          "avez rougi",
+          "rougirez",
+          "rougissiez"
+        ],
+        [
+          "rougissent",
+          "ont rougi",
+          "rougiront",
+          "rougissaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "rêver",
+      "meaning": "做梦",
+      "answer": [
+        [
+          "rêve",
+          "ai rêvé",
+          "rêverai",
+          "rêvais"
+        ],
+        [
+          "rêves",
+          "as rêvé",
+          "rêveras",
+          "rêvais"
+        ],
+        [
+          "rêve",
+          "a rêvé",
+          "rêvera",
+          "rêvait"
+        ],
+        [
+          "rêvons",
+          "avons rêvé",
+          "rêverons",
+          "rêvions"
+        ],
+        [
+          "rêvez",
+          "avez rêvé",
+          "rêverez",
+          "rêviez"
+        ],
+        [
+          "rêvent",
+          "ont rêvé",
+          "rêveront",
+          "rêvaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "écouter",
+      "meaning": "听",
+      "answer": [
+        [
+          "écoute",
+          "ai écouté",
+          "écouterai",
+          "écoutais"
+        ],
+        [
+          "écoutes",
+          "as écouté",
+          "écouteras",
+          "écoutais"
+        ],
+        [
+          "écoute",
+          "a écouté",
+          "écoutera",
+          "écoutait"
+        ],
+        [
+          "écoutons",
+          "avons écouté",
+          "écouterons",
+          "écoutions"
+        ],
+        [
+          "écoutez",
+          "avez écouté",
+          "écouterez",
+          "écoutiez"
+        ],
+        [
+          "écoutent",
+          "ont écouté",
+          "écouteront",
+          "écoutaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "peser",
+      "meaning": "称重",
+      "answer": [
+        [
+          "pèse",
+          "ai pesé",
+          "pèserai",
+          "pesais"
+        ],
+        [
+          "pèses",
+          "as pesé",
+          "pèseras",
+          "pesais"
+        ],
+        [
+          "pèse",
+          "a pesé",
+          "pèsera",
+          "pesait"
+        ],
+        [
+          "pesons",
+          "avons pesé",
+          "pèserons",
+          "pesions"
+        ],
+        [
+          "pesez",
+          "avez pesé",
+          "pèserez",
+          "pesiez"
+        ],
+        [
+          "pèsent",
+          "ont pesé",
+          "pèseront",
+          "pesaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "se promener",
+      "meaning": "散步",
+      "answer": [
+        [
+          "me promène",
+          "me suis promené(e)",
+          "me promènerai",
+          "me promenais"
+        ],
+        [
+          "te promènes",
+          "t'es promené(e)",
+          "te promèneras",
+          "te promenais"
+        ],
+        [
+          "se promène",
+          "s'est promené(e)",
+          "se promènera",
+          "se promenait"
+        ],
+        [
+          "nous promenons",
+          "nous sommes promené(e)s",
+          "nous promènerons",
+          "nous promenions"
+        ],
+        [
+          "vous promenez",
+          "vous êtes promené(e)(s)",
+          "vous promènerez",
+          "vous promeniez"
+        ],
+        [
+          "se promènent",
+          "se sont promené(e)s",
+          "se promèneront",
+          "se promenaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "suffire",
+      "meaning": "足够",
+      "answer": [
+        [
+          "suffis",
+          "ai suffi",
+          "suffirai",
+          "suffisais"
+        ],
+        [
+          "suffis",
+          "as suffi",
+          "suffiras",
+          "suffisais"
+        ],
+        [
+          "suffit",
+          "a suffi",
+          "suffira",
+          "suffisait"
+        ],
+        [
+          "suffisons",
+          "avons suffi",
+          "suffirons",
+          "suffisions"
+        ],
+        [
+          "suffisez",
+          "avez suffi",
+          "suffirez",
+          "suffisiez"
+        ],
+        [
+          "suffisent",
+          "ont suffi",
+          "suffiront",
+          "suffisaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "mesurer",
+      "meaning": "测量",
+      "answer": [
+        [
+          "mesure",
+          "ai mesuré",
+          "mesurerai",
+          "mesurais"
+        ],
+        [
+          "mesures",
+          "as mesuré",
+          "mesureras",
+          "mesurais"
+        ],
+        [
+          "mesure",
+          "a mesuré",
+          "mesurera",
+          "mesurait"
+        ],
+        [
+          "mesurons",
+          "avons mesuré",
+          "mesurerons",
+          "mesurions"
+        ],
+        [
+          "mesurez",
+          "avez mesuré",
+          "mesurerez",
+          "mesuriez"
+        ],
+        [
+          "mesurent",
+          "ont mesuré",
+          "mesureront",
+          "mesuraient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "s'occuper de",
+      "meaning": "照顾/负责",
+      "answer": [
+        [
+          "m'occupe de",
+          "me suis occupé(e) de",
+          "m'occuperai de",
+          "m'occupais de"
+        ],
+        [
+          "t'occupes de",
+          "t'es occupé(e) de",
+          "t'occuperas de",
+          "t'occupais de"
+        ],
+        [
+          "s'occupe de",
+          "s'est occupé(e) de",
+          "s'occupera de",
+          "s'occupait de"
+        ],
+        [
+          "nous occupons de",
+          "nous sommes occupé(e)s de",
+          "nous occuperons de",
+          "nous occupions de"
+        ],
+        [
+          "vous occupez de",
+          "vous êtes occupé(e)(s) de",
+          "vous occuperez de",
+          "vous occupiez de"
+        ],
+        [
+          "s'occupent de",
+          "se sont occupé(e)s de",
+          "s'occuperont de",
+          "s'occupaient de"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "apprendre",
+      "meaning": "学习",
+      "answer": [
+        [
+          "apprends",
+          "ai appris",
+          "apprendrai",
+          "apprenais"
+        ],
+        [
+          "apprends",
+          "as appris",
+          "apprendras",
+          "apprenais"
+        ],
+        [
+          "apprend",
+          "a appris",
+          "apprendra",
+          "apprenait"
+        ],
+        [
+          "apprenons",
+          "avons appris",
+          "apprendrons",
+          "apprenions"
+        ],
+        [
+          "apprenez",
+          "avez appris",
+          "apprendrez",
+          "appreniez"
+        ],
+        [
+          "apprennent",
+          "ont appris",
+          "apprendront",
+          "apprenaient"
+        ]
+      ],
+      "practice": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

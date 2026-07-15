@@ -125,11 +125,13 @@
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import verbsA2 from '@/data/practice-sheets/verbs_a2.json'
+import verbsA2T from '@/data/practice-sheets/verbs_a2_t.json'
 
 const router = useRouter()
 
 const availableFiles = [
-  { id: 'verbs-a2', name: 'A2 动词变位默写 (31个)', data: verbsA2 }
+  { id: 'verbs-a2', name: 'A2 动词变位默写 (31个)', data: verbsA2 },
+  { id: 'verbs-a2-t', name: 'A2 动词变位默写 T (42个)', data: verbsA2T }
 ]
 
 const selectedFileId = ref('verbs-a2')
