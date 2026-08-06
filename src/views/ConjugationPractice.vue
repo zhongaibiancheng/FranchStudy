@@ -250,7 +250,7 @@ function buildPrintableHtml() {
 <title>${escapeHtml(data.title)} - ${modeLabel}</title>
 <style>
   * { box-sizing: border-box; }
-  @page { margin: 15mm 12mm 18mm 12mm; }
+  @page { margin: 22mm 12mm 20mm 12mm; }
   body {
     margin: 0;
     padding: 24px 20px 30px;
@@ -295,20 +295,39 @@ function buildPrintableHtml() {
     body { padding: 0; }
     .header { display: none; }
     .print-header {
-      display: flex; position: fixed; top: 0; left: 0; right: 0;
-      height: 10mm; padding: 0 12mm;
+      display: flex; position: fixed; top: -15mm; left: 0; right: 0;
+      height: 10mm; padding: 0;
       align-items: center; justify-content: space-between;
       font-size: 10px; color: #6b7280;
       border-bottom: 1px solid #e5e7eb; background: #fff;
     }
     .print-footer {
-      display: flex; position: fixed; bottom: 0; left: 0; right: 0;
-      height: 10mm; padding: 0 12mm;
+      display: flex; position: fixed; bottom: -14mm; left: 0; right: 0;
+      height: 10mm; padding: 0;
       align-items: center; justify-content: center;
       font-size: 10px; color: #6b7280;
       border-top: 1px solid #e5e7eb; background: #fff;
     }
     .print-footer::after { content: "第 " counter(page) " / " counter(pages) " 页"; }
+    .verb-block {
+      break-inside: avoid-page;
+      page-break-inside: avoid;
+      margin-bottom: 18px;
+    }
+    .verb-block h2 {
+      break-after: avoid-page;
+      page-break-after: avoid;
+    }
+    table {
+      break-inside: auto;
+      page-break-inside: auto;
+    }
+    thead { display: table-header-group; }
+    tbody { display: table-row-group; }
+    tr {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
   }
 </style>
 </head>
