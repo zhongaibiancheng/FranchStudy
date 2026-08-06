@@ -1,0 +1,4 @@
+logs/
+nohup.out
+*.log
+__pycache__/
