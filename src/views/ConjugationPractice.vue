@@ -310,21 +310,25 @@ function buildPrintableHtml() {
     }
     .print-footer::after { content: "第 " counter(page) " / " counter(pages) " 页"; }
     .verb-block {
-      break-inside: avoid-page;
+      break-inside: avoid;
       page-break-inside: avoid;
+      overflow: visible !important;
       margin-bottom: 18px;
     }
     .verb-block h2 {
-      break-after: avoid-page;
+      break-after: avoid;
       page-break-after: avoid;
+      overflow: visible !important;
+      margin-bottom: 2mm;
     }
-    table {
-      break-inside: auto;
-      page-break-inside: auto;
+    .verb-block table {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      overflow: visible !important;
     }
-    thead { display: table-header-group; }
-    tbody { display: table-row-group; }
-    tr {
+    .verb-block thead { display: table-header-group; }
+    .verb-block tbody { display: table-row-group; }
+    .verb-block tr {
       break-inside: avoid;
       page-break-inside: avoid;
     }
