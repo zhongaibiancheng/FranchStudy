@@ -13,9 +13,12 @@ def setup_logging(app):
         # 跨平台权限检查
         if hasattr(os, 'geteuid'):  # Linux/Unix系统
             import pwd, grp
-            appuser_uid = pwd.getpwnam('appuser').pw_uid
-            appuser_gid = grp.getgrnam('appuser').gr_gid
-            os.chown(base_path, appuser_uid, appuser_gid)
+            try:
+                appuser_uid = pwd.getpwnam('appuser').pw_uid
+                appuser_gid = grp.getgrnam('appuser').gr_gid
+                os.chown(base_path, appuser_uid, appuser_gid)
+            except KeyError:
+                pass
         else:  # Windows系统
             # Windows不需要改变所有权，使用默认权限即可
             pass

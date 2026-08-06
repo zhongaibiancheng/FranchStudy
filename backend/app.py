@@ -1,10 +1,9 @@
 
 import sys
 import os
-import subprocess
 from db import init_db_pool
 from flask_cors import CORS
-from flask import Flask, request
+from flask import Flask, request, send_from_directory
 
 # 添加当前目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -16,6 +15,9 @@ from logging_config import setup_logging
 # 导入蓝图
 from routes.spellingbee_routes import spellingbee_bp
 from routes.auth_routes import auth_bp
+
+# 前端构建产物路径
+FRONTEND_DIST = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'frontend', 'dist')
 
 def create_app(config_class=None):
     """创建应用，支持测试配置"""
@@ -30,20 +32,39 @@ def create_app(config_class=None):
     setup_logging(app)
 
     # 初始化数据库
-    # ⭐ 只初始化一次
     init_db_pool(app.config)
 
-    # 启用CORS，允许所有来源
-    CORS(app, resources={r"/api/*": {"origins": "*"}})
+    # 启用CORS
+    CORS(app, resources={r"/france/api/*": {"origins": "*"}})
 
-    # 一次性注册所有蓝图
+    # 注册API蓝图（带/france前缀）
     blueprints = [
-        (auth_bp, '/api/auth'),
-        (spellingbee_bp, '/api/spellingbee'),
+        (auth_bp, '/france/api/auth'),
+        (spellingbee_bp, '/france/api/spellingbee'),
     ]
     
     for blueprint, url_prefix in blueprints:
         app.register_blueprint(blueprint, url_prefix=url_prefix)
+    
+    # 健康检查
+    @app.route('/france/health', methods=['GET'])
+    def health_check():
+        return {'status': 'healthy', 'service': 'franchstudy'}
+    
+    # 前端静态文件
+    @app.route('/france/<path:path>')
+    def serve_frontend(path):
+        if path.startswith('api/') or path.startswith('health'):
+            # API路由已由蓝图中处理，不会到这里
+            return {'error': 'not found'}, 404
+        file_path = os.path.join(FRONTEND_DIST, path)
+        if os.path.isfile(file_path):
+            return send_from_directory(FRONTEND_DIST, path)
+        return send_from_directory(FRONTEND_DIST, 'index.html')
+    
+    @app.route('/france/')
+    def serve_index():
+        return send_from_directory(FRONTEND_DIST, 'index.html')
     
     # 添加请求日志
     @app.before_request
@@ -54,24 +75,15 @@ def create_app(config_class=None):
     def log_response_info(response):
         app.logger.info('响应: %s %s - %s', request.method, request.url, response.status)
         return response
-    
-    # 添加错误处理日志
-    # @user_bp.errorhandler(404)
 
-    
-    @app.errorhandler(Exception)
+    @app.errorhandler(404)
     def not_found(error):
-        print("请求的资源不存在请求的资源不存在请求的资源不存在请求的资源不存在")
         return {'error': '请求的资源不存在'}, 404
     
+    @app.errorhandler(Exception)
     def handle_exception(e):
         app.logger.error('未处理的异常: %s', str(e), exc_info=True)
         return {"error": "服务器内部错误"}, 500
-    
-    # 健康检查路由
-    @app.route('/health', methods=['GET'])
-    def health_check():
-        return {'status': 'healthy', 'service': 'quiz-platform-api'}
     
     return app
 
@@ -79,15 +91,12 @@ def create_app(config_class=None):
 app = create_app()
 
 if __name__ == '__main__':
-    # 获取主机和端口配置
     host = os.environ.get('HOST', '0.0.0.0')
     port = int(os.environ.get('PORT', 5000))
     debug = os.environ.get('DEBUG', 'True').lower() == 'true'
     
-    # 在调试模式下也启用日志
     if debug:
         app.logger.setLevel(logging.DEBUG)
-        app.logger.debug('应用在调试模式下启动')
 
     app.logger.info(f'启动应用: host={host}, port={port}, debug={debug}')
     app.run(host=host, port=port, debug=debug)
