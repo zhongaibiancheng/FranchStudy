@@ -60,6 +60,10 @@
           </button>
         </div>
 
+        <div class="print-tip">
+          提示：如需页码，请在 Chrome/Edge 打印设置中勾选“页眉和页脚”。
+        </div>
+
         <div class="section-head">
           <h2>动词列表</h2>
           <div class="meta">
@@ -250,7 +254,7 @@ function buildPrintableHtml() {
 <title>${escapeHtml(data.title)} - ${modeLabel}</title>
 <style>
   * { box-sizing: border-box; }
-  @page { margin: 22mm 12mm 20mm 12mm; }
+  @page { size: A4 portrait; margin: 22mm 12mm 15mm 12mm; }
   body {
     margin: 0;
     padding: 24px 20px 30px;
@@ -301,14 +305,7 @@ function buildPrintableHtml() {
       font-size: 10px; color: #6b7280;
       border-bottom: 1px solid #e5e7eb; background: #fff;
     }
-    .print-footer {
-      display: flex; position: fixed; bottom: -14mm; left: 0; right: 0;
-      height: 10mm; padding: 0;
-      align-items: center; justify-content: center;
-      font-size: 10px; color: #6b7280;
-      border-top: 1px solid #e5e7eb; background: #fff;
-    }
-    .print-footer::after { content: "第 " counter(page) " / " counter(pages) " 页"; }
+    .print-footer { display: none !important; }
     .verb-block {
       break-inside: avoid;
       page-break-inside: avoid;
@@ -336,11 +333,11 @@ function buildPrintableHtml() {
 </style>
 </head>
 <body>
+<!-- 提示：如需显示页码，请在 Chrome/Edge 打印设置中勾选“页眉和页脚”。 -->
 <div class="print-header">
   <div>${escapeHtml(data.title)} - ${modeLabel}</div>
   <div>${dateStr}</div>
 </div>
-<div class="print-footer"></div>
 <div class="header">
   <h1>${escapeHtml(data.title)} - ${modeLabel}</h1>
   <div class="sub">共 ${selected.length} 个动词 ｜ ${dateStr}</div>
@@ -495,6 +492,11 @@ select:focus, input:focus {
 .mini-actions .primary:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+}
+.print-tip {
+  font-size: 11px;
+  color: rgba(229,231,235,0.65);
+  margin-bottom: 10px;
 }
 .content {
   padding: 18px 22px 36px;
