@@ -58,6 +58,14 @@
           >
             印刷已选（{{ selectedCount }}）
           </button>
+          <button
+            type="button"
+            class="primary print-btn"
+            :disabled="selectedCount === 0"
+            @click="printSelected"
+          >
+            直接打印（{{ selectedCount }}）
+          </button>
         </div>
 
         <div class="print-tip">
@@ -368,6 +376,23 @@ function downloadPrintHtml() {
   URL.revokeObjectURL(url)
 }
 
+function printSelected() {
+  if (selectedCount.value === 0) return
+  const html = buildPrintableHtml()
+  const w = window.open('', '_blank')
+  if (!w) {
+    alert('浏览器拦截了弹窗，请允许弹窗后重试')
+    return
+  }
+  w.document.open()
+  w.document.write(html)
+  w.document.close()
+  w.onload = () => {
+    w.focus()
+    w.print()
+  }
+}
+
 function goBack() {
   if (window.history.length > 1) router.back()
   else router.push('/')
@@ -492,6 +517,10 @@ select:focus, input:focus {
 .mini-actions .primary:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+}
+.mini-actions .print-btn {
+  border: 1px solid rgba(16,185,129,0.35);
+  background: rgba(16,185,129,0.18);
 }
 .print-tip {
   font-size: 11px;
