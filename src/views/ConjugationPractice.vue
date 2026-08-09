@@ -52,7 +52,7 @@
           <button type="button" @click="invertSelection">反选</button>
           <button
             type="button"
-            class="primary"
+            class="primary push-right"
             :disabled="selectedCount === 0"
             @click="downloadPrintHtml"
           >
@@ -521,6 +521,9 @@ select:focus, input:focus {
 .mini-actions .print-btn {
   border: 1px solid rgba(16,185,129,0.35);
   background: rgba(16,185,129,0.18);
+}
+.mini-actions .push-right {
+  margin-left: auto;
 }
 .print-tip {
   font-size: 11px;
